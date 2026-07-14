@@ -1,0 +1,12 @@
+# Install BioEMMA from its released package, or replace this line with:
+#   -e C:\path\to\BioEMMA
+bioemma==0.2.0
+
+cobra==0.31.1
+escher==1.8.1
+requests>=2.31
+
+# Optional helpers for external-tool reproductions.
+matplotlib>=3.8
+networkx>=3.0
+sammi==0.1.7
