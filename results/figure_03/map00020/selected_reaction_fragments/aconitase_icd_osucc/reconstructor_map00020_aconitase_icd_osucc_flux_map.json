@@ -1,0 +1,386 @@
+[
+  {
+    "map_name": "figure_03_map00020_reconstructor_aconitase_icd_osucc",
+    "map_id": "map00020_reconstructor_aconitase_icd_osucc",
+    "map_description": "Reconstructor reconstruction mapped to KEGG rn00020; cropped to Aconitase / ICD / OSUCC fragment.",
+    "homepage": "https://escher.github.io",
+    "schema": "https://escher.github.io/escher/jsonschema/1-0-0#"
+  },
+  {
+    "nodes": {
+      "3": {
+        "node_type": "metabolite",
+        "bigg_id": "HC01434",
+        "name": "C05379",
+        "node_is_primary": true,
+        "x": 710.0,
+        "y": 785.8179058189085,
+        "label_x": 645.0,
+        "label_y": 760.8179058189085
+      },
+      "6": {
+        "node_type": "metabolite",
+        "bigg_id": "icit",
+        "name": "C00311",
+        "node_is_primary": true,
+        "x": 710.0,
+        "y": 240.81790581890846,
+        "label_x": 645.0,
+        "label_y": 215.81790581890846
+      },
+      "7": {
+        "node_type": "metabolite",
+        "bigg_id": "HC00342",
+        "name": "C00417",
+        "node_is_primary": true,
+        "x": 225.0,
+        "y": 240.81790581890846,
+        "label_x": 160.0,
+        "label_y": 215.81790581890846
+      },
+      "15": {
+        "node_type": "metabolite",
+        "bigg_id": "akg",
+        "name": "C00026",
+        "node_is_primary": true,
+        "x": 710.0,
+        "y": 1385.8179058189085,
+        "label_x": 645.0,
+        "label_y": 1360.8179058189085
+      },
+      "27": {
+        "node_type": "midmarker",
+        "x": 710.0,
+        "y": 1045.8179058189085
+      },
+      "29": {
+        "node_type": "midmarker",
+        "x": 710.0,
+        "y": 520.8179058189085
+      },
+      "32": {
+        "node_type": "midmarker",
+        "x": 470.0,
+        "y": 245.81790581890846
+      },
+      "56": {
+        "node_type": "multimarker",
+        "x": 710.0,
+        "y": 993.8179058189085
+      },
+      "85": {
+        "node_type": "multimarker",
+        "x": 710.0,
+        "y": 1113.8179058189085
+      },
+      "58": {
+        "node_type": "multimarker",
+        "x": 710.0,
+        "y": 464.81790581890846
+      },
+      "87": {
+        "node_type": "multimarker",
+        "x": 710.0,
+        "y": 573.8179058189085
+      },
+      "61": {
+        "node_type": "multimarker",
+        "x": 421.0,
+        "y": 245.81790581890846
+      },
+      "90": {
+        "node_type": "multimarker",
+        "x": 518.0,
+        "y": 245.81790581890846
+      },
+      "113": {
+        "node_type": "metabolite",
+        "bigg_id": "h",
+        "name": "H+",
+        "node_is_primary": false,
+        "x": 760.0,
+        "y": 918.8179058189085,
+        "label_x": 695.0,
+        "label_y": 893.8179058189085,
+        "compartment": "cytosol"
+      },
+      "114": {
+        "node_type": "metabolite",
+        "bigg_id": "co2",
+        "name": "Co2",
+        "node_is_primary": false,
+        "x": 660.0,
+        "y": 1188.8179058189085,
+        "label_x": 595.0,
+        "label_y": 1163.8179058189085,
+        "compartment": "cytosol"
+      },
+      "115": {
+        "node_type": "metabolite",
+        "bigg_id": "nadp",
+        "name": "Nadp",
+        "node_is_primary": false,
+        "x": 760.0,
+        "y": 389.81790581890846,
+        "label_x": 695.0,
+        "label_y": 364.81790581890846,
+        "compartment": "cytosol"
+      },
+      "116": {
+        "node_type": "metabolite",
+        "bigg_id": "nadph",
+        "name": "Nadph",
+        "node_is_primary": false,
+        "x": 760.0,
+        "y": 648.8179058189085,
+        "label_x": 695.0,
+        "label_y": 623.8179058189085,
+        "compartment": "cytosol"
+      },
+      "117": {
+        "node_type": "metabolite",
+        "bigg_id": "h",
+        "name": "H+",
+        "node_is_primary": false,
+        "x": 660.0,
+        "y": 648.8179058189085,
+        "label_x": 595.0,
+        "label_y": 623.8179058189085,
+        "compartment": "cytosol"
+      },
+      "119": {
+        "node_type": "metabolite",
+        "bigg_id": "h2o",
+        "name": "H2O",
+        "node_is_primary": false,
+        "x": 347.03580934836737,
+        "y": 194.2980212960474,
+        "label_x": 282.03580934836737,
+        "label_y": 169.2980212960474,
+        "compartment": "cytosol"
+      }
+    },
+    "reactions": {
+      "7": {
+        "name": "R00268",
+        "bigg_id": "OSUCCL",
+        "reversibility": true,
+        "gene_reaction_rule": "",
+        "genes": [],
+        "metabolites": [
+          {
+            "kegg_id": "C05379",
+            "bigg_id": "HC01434",
+            "seed_id": "cpd03187",
+            "coefficient": -1
+          },
+          {
+            "kegg_id": "C00026",
+            "bigg_id": "akg",
+            "seed_id": "cpd00024",
+            "coefficient": 1
+          },
+          {
+            "bigg_id": "h",
+            "coefficient": -1.0,
+            "compartment": "cytosol"
+          },
+          {
+            "bigg_id": "co2",
+            "coefficient": 1.0,
+            "compartment": "cytosol"
+          }
+        ],
+        "segments": {
+          "32": {
+            "from_node_id": 3,
+            "to_node_id": 56,
+            "b1": null,
+            "b2": null
+          },
+          "33": {
+            "from_node_id": 56,
+            "to_node_id": 27,
+            "b1": null,
+            "b2": null
+          },
+          "34": {
+            "from_node_id": 27,
+            "to_node_id": 85,
+            "b1": null,
+            "b2": null
+          },
+          "35": {
+            "from_node_id": 85,
+            "to_node_id": 15,
+            "b1": null,
+            "b2": null
+          },
+          "132": {
+            "from_node_id": 113,
+            "to_node_id": 56,
+            "b1": null,
+            "b2": null
+          },
+          "133": {
+            "from_node_id": 85,
+            "to_node_id": 114,
+            "b1": null,
+            "b2": null
+          }
+        },
+        "label_x": 735.0,
+        "label_y": 1070.8179058189085
+      },
+      "9": {
+        "name": "R01899",
+        "bigg_id": "ICITRED",
+        "reversibility": true,
+        "gene_reaction_rule": "",
+        "genes": [],
+        "metabolites": [
+          {
+            "kegg_id": "C00311",
+            "bigg_id": "icit",
+            "seed_id": "cpd00260",
+            "coefficient": -1
+          },
+          {
+            "kegg_id": "C05379",
+            "bigg_id": "HC01434",
+            "seed_id": "cpd03187",
+            "coefficient": 1
+          },
+          {
+            "bigg_id": "nadp",
+            "coefficient": -1.0,
+            "compartment": "cytosol"
+          },
+          {
+            "bigg_id": "nadph",
+            "coefficient": 1.0,
+            "compartment": "cytosol"
+          },
+          {
+            "bigg_id": "h",
+            "coefficient": 1.0,
+            "compartment": "cytosol"
+          }
+        ],
+        "segments": {
+          "40": {
+            "from_node_id": 6,
+            "to_node_id": 58,
+            "b1": null,
+            "b2": null
+          },
+          "41": {
+            "from_node_id": 58,
+            "to_node_id": 29,
+            "b1": null,
+            "b2": null
+          },
+          "42": {
+            "from_node_id": 29,
+            "to_node_id": 87,
+            "b1": null,
+            "b2": null
+          },
+          "43": {
+            "from_node_id": 87,
+            "to_node_id": 3,
+            "b1": null,
+            "b2": null
+          },
+          "134": {
+            "from_node_id": 115,
+            "to_node_id": 58,
+            "b1": null,
+            "b2": null
+          },
+          "135": {
+            "from_node_id": 87,
+            "to_node_id": 116,
+            "b1": null,
+            "b2": null
+          },
+          "136": {
+            "from_node_id": 87,
+            "to_node_id": 117,
+            "b1": null,
+            "b2": null
+          }
+        },
+        "label_x": 735.0,
+        "label_y": 545.8179058189085
+      },
+      "12": {
+        "name": "R01900",
+        "bigg_id": "ACN_b_m",
+        "reversibility": true,
+        "gene_reaction_rule": "",
+        "genes": [],
+        "metabolites": [
+          {
+            "kegg_id": "C00417",
+            "bigg_id": "HC00342",
+            "seed_id": "cpd00331",
+            "coefficient": -1
+          },
+          {
+            "kegg_id": "C00311",
+            "bigg_id": "icit",
+            "seed_id": "cpd00260",
+            "coefficient": 1
+          },
+          {
+            "bigg_id": "h2o",
+            "coefficient": -1.0,
+            "compartment": "cytosol"
+          }
+        ],
+        "segments": {
+          "53": {
+            "from_node_id": 7,
+            "to_node_id": 61,
+            "b1": null,
+            "b2": null
+          },
+          "54": {
+            "from_node_id": 61,
+            "to_node_id": 32,
+            "b1": null,
+            "b2": null
+          },
+          "55": {
+            "from_node_id": 32,
+            "to_node_id": 90,
+            "b1": null,
+            "b2": null
+          },
+          "56": {
+            "from_node_id": 90,
+            "to_node_id": 6,
+            "b1": null,
+            "b2": null
+          },
+          "138": {
+            "from_node_id": 119,
+            "to_node_id": 61,
+            "b1": null,
+            "b2": null
+          }
+        },
+        "label_x": 495.0,
+        "label_y": 270.81790581890846
+      }
+    },
+    "text_labels": {},
+    "canvas": {
+      "x": 0,
+      "y": 0,
+      "width": 1385.0,
+      "height": 1545.8179058189085
+    }
+  }
+]
