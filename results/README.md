@@ -12,7 +12,7 @@ git; this `results/` directory is the tracked publication bundle.
 - `figure_02/naviflux_full_reference/` - Figure 2 NAViFLuX reference images as PNG only; JSON, SVG, model, and table inputs were removed from the publication bundle.
 - `figure_03/map00020/` - latest Figure 3 `map00020` citrate-cycle maps and selected reaction fragments from `.temp_models_check/outputs/map00020`; `rn00010` outputs and old-model comparison files were removed.
 - `figure_03/map00020/source_models/` - latest reconstructed source models used for the Figure 3 `map00020` run.
-- `table_01/` - generated Table 1 TSV, rendered Markdown table, and detailed reaction lists.
+- `table_01/` - generated Table 1 TSV, rendered Markdown table, detailed reaction lists, and KEGG-to-SEED/BiGG mapping split.
 - `supplementary/` - supplementary full `rn00010` map materials; see `supplementary/README.md`.
 - `external_tool_comparison/` - prepared external-tool comparison artifacts. Flux/flow files and the duplicate CSV table were removed.
 

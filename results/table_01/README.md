@@ -11,6 +11,17 @@
 | Reactions shared by all three models | 16 | 11 | 20 |
 | Model-specific reactions | 12 | 9 | 14 |
 
+## KEGG-to-database mapping split
+
+| Row | map00010 | map00020 | map00030 |
+|---|---:|---:|---:|
+| KEGG reactions in map | 56 | 29 | 59 |
+| Matched to SEED | 47 | 21 | 55 |
+| Matched to BiGG | 30 | 20 | 26 |
+| Matched to both SEED and BiGG | 30 | 20 | 26 |
+| Matched to either SEED or BiGG | 47 | 21 | 55 |
+| Unmatched to SEED or BiGG | 9 | 8 | 4 |
+
 Notes:
 
 - Mapped reactions are KEGG map reactions for which BioEMMA/MetaNetX provides at least one supported BiGG or SEED identifier.
@@ -18,3 +29,4 @@ Notes:
 - BioEMMA normalizes `map00010` to `rn00010` internally; the table keeps the user-facing `map00010` label.
 - KGML for `map00030` contains one reaction without coordinates (`R06837`). It is counted in KEGG and mapped totals but cannot be retained on a drawable BioEMMA map.
 - Detailed shared and model-specific reaction lists are written to `table_01_reaction_details.txt` and `table_01_reaction_details.json`.
+- The KEGG-to-database split is written to `kegg_mapping_by_database.tsv` and `kegg_mapping_by_database.json`.
