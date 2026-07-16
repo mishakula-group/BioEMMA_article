@@ -5,7 +5,7 @@ Full-map drafts for supplementary materials.
 Build the full rn00010 maps from the repository root:
 
 ```powershell
-.\.venv\Scripts\python.exe figures\supplementary_figures\build_supplementary_rn00010.py
+.\.venv\Scripts\python.exe figures_scripts\supplementary_figures\build_supplementary_rn00010.py
 ```
 
 Outputs are written under `outputs/rn00010/`.
@@ -15,7 +15,7 @@ Outputs are written under `outputs/rn00010/`.
 Build the supplementary comparison figure for the non-NAViFluX tools:
 
 ```powershell
-.\.venv\Scripts\python.exe figures\supplementary_figures\build_supplementary_tool_workflows.py
+.\.venv\Scripts\python.exe figures_scripts\supplementary_figures\build_supplementary_tool_workflows.py
 ```
 
 Outputs are written under `outputs/tool_workflows/`:

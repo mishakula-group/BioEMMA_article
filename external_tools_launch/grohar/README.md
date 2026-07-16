@@ -17,4 +17,4 @@ Input model for reproducing the article comparison:
 data/e_coli_core.xml
 ```
 
-The supplementary workflow notes in `figures/supplementary_figures/supplementary_tool_workflows.md` describe the fallback NetworkX route used when the GUI workflow is inconvenient.
+The supplementary workflow notes in `figures_scripts/supplementary_figures/supplementary_tool_workflows.md` describe the fallback NetworkX route used when the GUI workflow is inconvenient.

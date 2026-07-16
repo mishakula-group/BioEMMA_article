@@ -9,7 +9,7 @@ Put source notebooks, scripts, intermediate data, and generated figure exports f
 Build the cropped rn00010 drafts from the repository root:
 
 ```powershell
-.\.venv\Scripts\python.exe figures\figure_01\build_figure_01_maps.py
+.\.venv\Scripts\python.exe figures_scripts\figure_01\build_figure_01_maps.py
 ```
 
 The script keeps the Figure 1 settings at the top of the file, builds full intermediate BioEMMA maps under `outputs/_full/`, then prepares a reproducible lower-glycolysis fragment for the article draft.

@@ -1,0 +1,120 @@
+{
+  "model": "results\\figure_03\\map00020\\source_models\\SRR13921546_ecoli_M9_vit_aa_ModelSEED.sbml",
+  "source_map": "results\\figure_03\\map00020\\modelseed\\modelseed_map00020_map.json",
+  "solution_status": "optimal",
+  "objective_value": 0.27526073954662356,
+  "reaction_data": {
+    "R_r0163": 0.0,
+    "R_SUCLm": 0.039073127419084835,
+    "OSUCCL": 0.0,
+    "ICITRED": 0.0,
+    "FUM": 0.013659654353478712,
+    "ACN_b_m": -0.7812775080776039,
+    "ACN_a_m": 0.7812775080776038,
+    "CS": 0.0,
+    "MDH": 0.0,
+    "ACLSa": 0.0,
+    "PPCK": 0.0
+  },
+  "matches": [
+    {
+      "map_reaction_ids": [
+        "R00621",
+        "R_r0163"
+      ],
+      "map_reaction_id": "R_r0163",
+      "model_reaction_id": "rxn00441_c0",
+      "flux": 0.0
+    },
+    {
+      "map_reaction_ids": [
+        "R00405",
+        "R_SUCLm"
+      ],
+      "map_reaction_id": "R_SUCLm",
+      "model_reaction_id": "rxn00285_c0",
+      "flux": 0.039073127419084835
+    },
+    {
+      "map_reaction_ids": [
+        "OSUCCL",
+        "R00268"
+      ],
+      "map_reaction_id": "OSUCCL",
+      "model_reaction_id": "rxn00199_c0",
+      "flux": 0.0
+    },
+    {
+      "map_reaction_ids": [
+        "ICITRED",
+        "R01899"
+      ],
+      "map_reaction_id": "ICITRED",
+      "model_reaction_id": "rxn01387_c0",
+      "flux": 0.0
+    },
+    {
+      "map_reaction_ids": [
+        "FUM",
+        "R01082"
+      ],
+      "map_reaction_id": "FUM",
+      "model_reaction_id": "rxn00799_c0",
+      "flux": 0.013659654353478712
+    },
+    {
+      "map_reaction_ids": [
+        "ACN_b_m",
+        "R01900"
+      ],
+      "map_reaction_id": "ACN_b_m",
+      "model_reaction_id": "rxn01388_c0",
+      "flux": -0.7812775080776039
+    },
+    {
+      "map_reaction_ids": [
+        "ACN_a_m",
+        "R01325"
+      ],
+      "map_reaction_id": "ACN_a_m",
+      "model_reaction_id": "rxn00974_c0",
+      "flux": 0.7812775080776038
+    },
+    {
+      "map_reaction_ids": [
+        "CS",
+        "R00351"
+      ],
+      "map_reaction_id": "CS",
+      "model_reaction_id": "rxn00256_c0",
+      "flux": 0.0
+    },
+    {
+      "map_reaction_ids": [
+        "MDH",
+        "R00342"
+      ],
+      "map_reaction_id": "MDH",
+      "model_reaction_id": "rxn00248_c0",
+      "flux": 0.0
+    },
+    {
+      "map_reaction_ids": [
+        "ACLSa",
+        "R00014"
+      ],
+      "map_reaction_id": "ACLSa",
+      "model_reaction_id": "rxn00011_c0",
+      "flux": 0.0
+    },
+    {
+      "map_reaction_ids": [
+        "PPCK",
+        "R00341"
+      ],
+      "map_reaction_id": "PPCK",
+      "model_reaction_id": "rxn00247_c0",
+      "flux": 0.0
+    }
+  ]
+}
