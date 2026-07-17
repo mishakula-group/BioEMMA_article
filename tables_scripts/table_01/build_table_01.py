@@ -261,6 +261,41 @@ def build_rows(results: dict[str, dict]) -> list[list[str]]:
                 for pathway in PATHWAYS
             ],
         ],
+        [
+            "Matched to SEED",
+            *[
+                str(len(results[pathway]["database_mapping"]["seed_mapped"]))
+                for pathway in PATHWAYS
+            ],
+        ],
+        [
+            "Matched to BiGG",
+            *[
+                str(len(results[pathway]["database_mapping"]["bigg_mapped"]))
+                for pathway in PATHWAYS
+            ],
+        ],
+        [
+            "Matched to both SEED and BiGG",
+            *[
+                str(len(results[pathway]["database_mapping"]["both_bigg_and_seed"]))
+                for pathway in PATHWAYS
+            ],
+        ],
+        [
+            "Matched to either SEED or BiGG",
+            *[
+                str(len(results[pathway]["database_mapping"]["either_bigg_or_seed"]))
+                for pathway in PATHWAYS
+            ],
+        ],
+        [
+            "Unmatched to SEED or BiGG",
+            *[
+                str(len(results[pathway]["database_mapping"]["unmapped_to_bigg_or_seed"]))
+                for pathway in PATHWAYS
+            ],
+        ],
     ]
 
 
