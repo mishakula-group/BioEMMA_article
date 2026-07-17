@@ -14,7 +14,7 @@ this `results/` directory is the tracked publication bundle.
 - `figure_03/map00020/` - latest Figure 3 `map00020` citrate-cycle maps, selected reaction fragments, and full-map flux overlays; see `figure_03/map00020/README.md`.
 - `figure_03/map00020/source_models/` - latest reconstructed source models used for the Figure 3 `map00020` run.
 - `table_01/` - generated Table 1 TSV, rendered Markdown table, detailed reaction lists, and KEGG-to-SEED/BiGG mapping split.
-- `table_02_kegg_database_mapping/` - KEGG-to-SEED/BiGG mapping counts for all 464 KEGG maps listed in `data/kegg_pathways.tsv`; this table uses the reaction lists from that file and does not download KGML from KEGG.
+- `table_02_kegg_database_mapping/` - KEGG-to-SEED/BiGG mapping counts for the 153 KEGG maps in `data/kegg_pathways.tsv` that contain at least one KEGG reaction; this table uses the reaction lists from that file and does not download KGML from KEGG.
 - `supplementary/` - supplementary full `rn00010` map materials; see `supplementary/README.md`.
 - `external_tool_comparison/` - prepared external-tool comparison artifacts. Flux/flow files and the duplicate CSV table were removed.
 

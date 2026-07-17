@@ -1,8 +1,9 @@
 # Table 2. KEGG reaction mappings to SEED and BiGG
 
-Builds a reader-facing table that counts, for every KEGG pathway listed in
-`data/kegg_pathways.tsv`, how many KEGG reactions have BioEMMA/MetaNetX mappings
-to SEED, BiGG, either database, or neither database.
+Builds a reader-facing table that counts, for every KEGG pathway in
+`data/kegg_pathways.tsv` that contains at least one KEGG reaction, how many KEGG
+reactions have BioEMMA/MetaNetX mappings to SEED, BiGG, either database, or
+neither database.
 
 The script uses the reaction lists already present in `data/kegg_pathways.tsv`.
 It does not download KGML files from KEGG.

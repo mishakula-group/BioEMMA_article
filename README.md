@@ -25,7 +25,7 @@ that should be visible to readers are copied into `results/`.
 - `results/figure_02/naviflux_full_reference/` - Figure 2 NAViFLuX reference PNG images.
 - `results/figure_03/map00020/` - Figure 3 `map00020` full maps, selected reaction fragments, source models, and full-map flux overlays.
 - `results/table_01/` - Table 1 reaction-retention statistics for `map00010`, `map00020`, and `map00030`.
-- `results/table_02_kegg_database_mapping/` - KEGG-to-SEED/BiGG mapping counts for every pathway listed in `data/kegg_pathways.tsv`.
+- `results/table_02_kegg_database_mapping/` - KEGG-to-SEED/BiGG mapping counts for pathways from `data/kegg_pathways.tsv` that contain at least one KEGG reaction.
 - `results/supplementary/` - supplementary full `rn00010` map materials.
 - `results/external_tool_comparison/` - selected external-tool comparison artifacts.
 

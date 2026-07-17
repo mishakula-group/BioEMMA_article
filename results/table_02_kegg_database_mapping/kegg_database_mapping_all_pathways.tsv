@@ -13,12 +13,8 @@ map00072	Synthesis and degradation of ketone bodies	Metabolism; Lipid metabolism
 map00073	Cutin, suberine and wax biosynthesis	Metabolism; Lipid metabolism	26	13	1	1	13	13	50.0%	3.8%	50.0%
 map00100	Steroid biosynthesis	Metabolism; Lipid metabolism	55	30	15	15	30	25	54.5%	27.3%	54.5%
 map00120	Primary bile acid biosynthesis	Metabolism; Lipid metabolism	53	40	21	21	40	13	75.5%	39.6%	75.5%
-map00121	Secondary bile acid biosynthesis	Metabolism; Lipid metabolism	0	0	0	0	0	0	0.0%	0.0%	0.0%
 map00130	Ubiquinone and other terpenoid-quinone biosynthesis	Metabolism; Metabolism of cofactors and vitamins	83	42	15	15	42	41	50.6%	18.1%	50.6%
 map00140	Steroid hormone biosynthesis	Metabolism; Lipid metabolism	139	103	39	39	103	36	74.1%	28.1%	74.1%
-map00190	Oxidative phosphorylation	Metabolism; Energy metabolism	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map00195	Photosynthesis	Metabolism; Energy metabolism	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map00196	Photosynthesis - antenna proteins	Metabolism; Energy metabolism	0	0	0	0	0	0	0.0%	0.0%	0.0%
 map00230	Purine metabolism	Metabolism; Nucleotide metabolism	151	138	114	114	138	13	91.4%	75.5%	91.4%
 map00231	Puromycin biosynthesis	Metabolism; Biosynthesis of other secondary metabolites	10	9	0	0	9	1	90.0%	0.0%	90.0%
 map00232	Caffeine metabolism	Metabolism; Biosynthesis of other secondary metabolites	41	35	0	0	35	6	85.4%	0.0%	85.4%
@@ -34,7 +30,6 @@ map00290	Valine, leucine and isoleucine biosynthesis	Metabolism; Amino acid meta
 map00300	Lysine biosynthesis	Metabolism; Amino acid metabolism	39	39	22	22	39	0	100.0%	56.4%	100.0%
 map00310	Lysine degradation	Metabolism; Amino acid metabolism	63	53	30	30	53	10	84.1%	47.6%	84.1%
 map00311	Penicillin and cephalosporin biosynthesis	Metabolism; Biosynthesis of other secondary metabolites	17	14	0	0	14	3	82.4%	0.0%	82.4%
-map00312	beta-Lactam resistance	Human Diseases; Drug resistance	0	0	0	0	0	0	0.0%	0.0%	0.0%
 map00330	Arginine and proline metabolism	Metabolism; Amino acid metabolism	128	118	85	85	118	10	92.2%	66.4%	92.2%
 map00331	Clavulanic acid biosynthesis	Metabolism; Biosynthesis of other secondary metabolites	8	8	0	0	8	0	100.0%	0.0%	100.0%
 map00340	Histidine metabolism	Metabolism; Amino acid metabolism	50	46	18	18	46	4	92.0%	36.0%	92.0%
@@ -62,7 +57,6 @@ map00473	D-Alanine metabolism	Metabolism; Metabolism of other amino acids	6	3	3	
 map00480	Glutathione metabolism	Metabolism; Metabolism of other amino acids	53	43	22	22	43	10	81.1%	41.5%	81.1%
 map00500	Starch and sucrose metabolism	Metabolism; Carbohydrate metabolism	82	48	18	18	48	34	58.5%	22.0%	58.5%
 map00510	N-Glycan biosynthesis	Metabolism; Glycan biosynthesis and metabolism	35	4	0	0	4	31	11.4%	0.0%	11.4%
-map00511	Other glycan degradation	Metabolism; Glycan biosynthesis and metabolism	0	0	0	0	0	0	0.0%	0.0%	0.0%
 map00512	Mucin type O-Glycan biosynthesis	Metabolism; Glycan biosynthesis and metabolism	10	0	0	0	0	10	0.0%	0.0%	0.0%
 map00513	Various types of N-glycan biosynthesis	Metabolism; Glycan biosynthesis and metabolism	25	0	0	0	0	25	0.0%	0.0%	0.0%
 map00514	Other types of O-glycan biosynthesis	Metabolism; Glycan biosynthesis and metabolism	18	1	0	0	1	17	5.6%	0.0%	5.6%
@@ -73,7 +67,6 @@ map00523	Polyketide sugar unit biosynthesis	Metabolism; Metabolism of terpenoids
 map00524	Butirosin and neomycin biosynthesis	Metabolism; Biosynthesis of other secondary metabolites	30	25	3	3	25	5	83.3%	10.0%	83.3%
 map00531	Glycosaminoglycan degradation	Metabolism; Glycan biosynthesis and metabolism	21	2	0	0	2	19	9.5%	0.0%	9.5%
 map00532	Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate	Metabolism; Glycan biosynthesis and metabolism	8	0	0	0	0	8	0.0%	0.0%	0.0%
-map00533	Glycosaminoglycan biosynthesis - keratan sulfate	Metabolism; Glycan biosynthesis and metabolism	0	0	0	0	0	0	0.0%	0.0%	0.0%
 map00534	Glycosaminoglycan biosynthesis - heparan sulfate / heparin	Metabolism; Glycan biosynthesis and metabolism	9	0	0	0	0	9	0.0%	0.0%	0.0%
 map00540	Lipopolysaccharide biosynthesis	Metabolism; Glycan biosynthesis and metabolism	26	17	2	2	17	9	65.4%	7.7%	65.4%
 map00550	Peptidoglycan biosynthesis	Metabolism; Glycan biosynthesis and metabolism	23	10	8	8	10	13	43.5%	34.8%	43.5%
@@ -147,319 +140,15 @@ map00981	Insect hormone biosynthesis	Metabolism; Metabolism of terpenoids and po
 map00982	Drug metabolism - cytochrome P450	Metabolism; Xenobiotics biodegradation and metabolism	84	80	7	7	80	4	95.2%	8.3%	95.2%
 map00983	Drug metabolism - other enzymes	Metabolism; Xenobiotics biodegradation and metabolism	38	30	4	4	30	8	78.9%	10.5%	78.9%
 map00984	Steroid degradation	Metabolism; Xenobiotics biodegradation and metabolism	16	9	3	3	9	7	56.2%	18.8%	56.2%
-map01010	Overview of biosynthetic pathways		0	0	0	0	0	0	0.0%	0.0%	0.0%
 map01040	Biosynthesis of unsaturated fatty acids	Metabolism; Lipid metabolism	41	31	26	26	31	10	75.6%	63.4%	75.6%
 map01051	Biosynthesis of ansamycins	Metabolism; Metabolism of terpenoids and polyketides	30	25	0	0	25	5	83.3%	0.0%	83.3%
-map01052	Type I polyketide structures	Metabolism; Metabolism of terpenoids and polyketides	0	0	0	0	0	0	0.0%	0.0%	0.0%
 map01053	Biosynthesis of siderophore group nonribosomal peptides	Metabolism; Metabolism of terpenoids and polyketides	4	4	2	2	4	0	100.0%	50.0%	100.0%
-map01054	Nonribosomal peptide structures	Metabolism; Metabolism of terpenoids and polyketides	0	0	0	0	0	0	0.0%	0.0%	0.0%
 map01055	Biosynthesis of vancomycin group antibiotics	Metabolism; Metabolism of terpenoids and polyketides	13	13	1	1	13	0	100.0%	7.7%	100.0%
 map01056	Biosynthesis of type II polyketide backbone	Metabolism; Metabolism of terpenoids and polyketides	20	13	0	0	13	7	65.0%	0.0%	65.0%
 map01057	Biosynthesis of type II polyketide products	Metabolism; Metabolism of terpenoids and polyketides	123	86	1	1	86	37	69.9%	0.8%	69.9%
 map01058	Acridone alkaloid biosynthesis	Metabolism; Biosynthesis of other secondary metabolites	3	3	0	0	3	0	100.0%	0.0%	100.0%
-map01060	Biosynthesis of plant secondary metabolites		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map01061	Biosynthesis of phenylpropanoids		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map01062	Biosynthesis of terpenoids and steroids		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map01063	Biosynthesis of alkaloids derived from shikimate pathway		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map01064	Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map01065	Biosynthesis of alkaloids derived from histidine and purine		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map01066	Biosynthesis of alkaloids derived from terpenoid and polyketide		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map01070	Biosynthesis of plant hormones		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map01100	Metabolic pathways		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map01110	Biosynthesis of secondary metabolites		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map01120	Microbial metabolism in diverse environments		0	0	0	0	0	0	0.0%	0.0%	0.0%
 map01200	Carbon metabolism	Metabolism; Overview	174	158	106	105	159	15	90.8%	60.9%	91.4%
 map01210	2-Oxocarboxylic acid metabolism	Metabolism; Overview	126	100	38	38	100	26	79.4%	30.2%	79.4%
 map01212	Fatty acid metabolism	Metabolism; Overview	98	53	48	45	56	42	54.1%	49.0%	57.1%
 map01220	Degradation of aromatic compounds	Metabolism; Overview	247	186	19	18	187	60	75.3%	7.7%	75.7%
 map01230	Biosynthesis of amino acids	Metabolism; Overview	156	156	115	115	156	0	100.0%	73.7%	100.0%
-map02010	ABC transporters	Environmental Information Processing; Membrane transport	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map02020	Two-component system	Environmental Information Processing; Signal transduction	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map02030	Bacterial chemotaxis	Cellular Processes; Cell motility	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map02040	Flagellar assembly	Cellular Processes; Cell motility	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map02060	Phosphotransferase system (PTS)	Environmental Information Processing; Membrane transport	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map03008	Ribosome biogenesis in eukaryotes	Genetic Information Processing; Translation	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map03010	Ribosome	Genetic Information Processing; Translation	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map03013	RNA transport	Genetic Information Processing; Translation	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map03015	mRNA surveillance pathway	Genetic Information Processing; Translation	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map03018	RNA degradation	Genetic Information Processing; Folding, sorting and degradation	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map03020	RNA polymerase	Genetic Information Processing; Transcription	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map03022	Basal transcription factors	Genetic Information Processing; Transcription	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map03030	DNA replication	Genetic Information Processing; Replication and repair	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map03040	Spliceosome	Genetic Information Processing; Transcription	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map03050	Proteasome	Genetic Information Processing; Folding, sorting and degradation	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map03060	Protein export	Genetic Information Processing; Folding, sorting and degradation	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map03070	Bacterial secretion system	Environmental Information Processing; Membrane transport	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map03320	PPAR signaling pathway	Organismal Systems; Endocrine system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map03410	Base excision repair	Genetic Information Processing; Replication and repair	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map03420	Nucleotide excision repair	Genetic Information Processing; Replication and repair	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map03430	Mismatch repair	Genetic Information Processing; Replication and repair	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map03440	Homologous recombination	Genetic Information Processing; Replication and repair	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map03450	Non-homologous end-joining	Genetic Information Processing; Replication and repair	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map03460	Fanconi anemia pathway	Genetic Information Processing; Replication and repair	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04010	MAPK signaling pathway	Environmental Information Processing; Signal transduction	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04011	MAPK signaling pathway - yeast	Environmental Information Processing; Signal transduction	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04012	ErbB signaling pathway	Environmental Information Processing; Signal transduction	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04013	MAPK signaling pathway - fly	Environmental Information Processing; Signal transduction	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04014	Ras signaling pathway	Environmental Information Processing; Signal transduction	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04015	Rap1 signaling pathway	Environmental Information Processing; Signal transduction	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04020	Calcium signaling pathway	Environmental Information Processing; Signal transduction	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04022	cGMP-PKG signaling pathway	Environmental Information Processing; Signal transduction	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04024	cAMP signaling pathway	Environmental Information Processing; Signal transduction	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04060	Cytokine-cytokine receptor interaction	Environmental Information Processing; Signaling molecules and interaction	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04062	Chemokine signaling pathway	Organismal Systems; Immune system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04064	NF-kappa B signaling pathway	Environmental Information Processing; Signal transduction	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04066	HIF-1 signaling pathway	Environmental Information Processing; Signal transduction	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04068	FoxO signaling pathway	Environmental Information Processing; Signal transduction	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04070	Phosphatidylinositol signaling system	Environmental Information Processing; Signal transduction	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04075	Plant hormone signal transduction	Environmental Information Processing; Signal transduction	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04080	Neuroactive ligand-receptor interaction	Environmental Information Processing; Signaling molecules and interaction	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04110	Cell cycle	Cellular Processes; Cell growth and death	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04111	Cell cycle - yeast	Cellular Processes; Cell growth and death	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04112	Cell cycle - Caulobacter	Cellular Processes; Cell growth and death	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04113	Meiosis - yeast	Cellular Processes; Cell growth and death	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04114	Oocyte meiosis	Cellular Processes; Cell growth and death	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04115	p53 signaling pathway	Cellular Processes; Cell growth and death	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04120	Ubiquitin mediated proteolysis	Genetic Information Processing; Folding, sorting and degradation	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04122	Sulfur relay system	Genetic Information Processing; Folding, sorting and degradation	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04130	SNARE interactions in vesicular transport	Genetic Information Processing; Folding, sorting and degradation	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04140	Regulation of autophagy	Cellular Processes; Transport and catabolism	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04141	Protein processing in endoplasmic reticulum	Genetic Information Processing; Folding, sorting and degradation	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04142	Lysosome	Cellular Processes; Transport and catabolism	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04144	Endocytosis	Cellular Processes; Transport and catabolism	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04145	Phagosome	Cellular Processes; Transport and catabolism	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04146	Peroxisome	Cellular Processes; Transport and catabolism	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04150	mTOR signaling pathway	Environmental Information Processing; Signal transduction	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04151	PI3K-Akt signaling pathway	Environmental Information Processing; Signal transduction	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04152	AMPK signaling pathway	Environmental Information Processing; Signal transduction	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04210	Apoptosis	Cellular Processes; Cell growth and death	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04260	Cardiac muscle contraction	Organismal Systems; Circulatory system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04261	Adrenergic signaling in cardiomyocytes	Organismal Systems; Circulatory system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04270	Vascular smooth muscle contraction	Organismal Systems; Circulatory system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04310	Wnt signaling pathway	Environmental Information Processing; Signal transduction	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04320	Dorso-ventral axis formation	Organismal Systems; Development	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04330	Notch signaling pathway	Environmental Information Processing; Signal transduction	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04340	Hedgehog signaling pathway	Environmental Information Processing; Signal transduction	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04350	TGF-beta signaling pathway	Environmental Information Processing; Signal transduction	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04360	Axon guidance	Organismal Systems; Development	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04370	VEGF signaling pathway	Environmental Information Processing; Signal transduction	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04380	Osteoclast differentiation	Organismal Systems; Development	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04390	Hippo signaling pathway	Environmental Information Processing; Signal transduction	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04391	Hippo signaling pathway - fly	Environmental Information Processing; Signal transduction	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04510	Focal adhesion	Cellular Processes; Cellular commiunity	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04512	ECM-receptor interaction	Environmental Information Processing; Signaling molecules and interaction	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04514	Cell adhesion molecules (CAMs)	Environmental Information Processing; Signaling molecules and interaction	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04520	Adherens junction	Cellular Processes; Cellular commiunity	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04530	Tight junction	Cellular Processes; Cellular commiunity	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04540	Gap junction	Cellular Processes; Cellular commiunity	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04550	Signaling pathways regulating pluripotency of stem cells	Cellular Processes; Cellular commiunity	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04610	Complement and coagulation cascades	Organismal Systems; Immune system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04611	Platelet activation	Organismal Systems; Immune system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04612	Antigen processing and presentation	Organismal Systems; Immune system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04614	Renin-angiotensin system	Organismal Systems; Endocrine system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04620	Toll-like receptor signaling pathway	Organismal Systems; Immune system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04621	NOD-like receptor signaling pathway	Organismal Systems; Immune system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04622	RIG-I-like receptor signaling pathway	Organismal Systems; Immune system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04623	Cytosolic DNA-sensing pathway	Organismal Systems; Immune system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04626	Plant-pathogen interaction	Organismal Systems; Environmental adaptation	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04630	Jak-STAT signaling pathway	Environmental Information Processing; Signal transduction	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04640	Hematopoietic cell lineage	Organismal Systems; Immune system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04650	Natural killer cell mediated cytotoxicity	Organismal Systems; Immune system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04660	T cell receptor signaling pathway	Organismal Systems; Immune system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04662	B cell receptor signaling pathway	Organismal Systems; Immune system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04664	Fc epsilon RI signaling pathway	Organismal Systems; Immune system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04666	Fc gamma R-mediated phagocytosis	Organismal Systems; Immune system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04668	TNF signaling pathway	Environmental Information Processing; Signal transduction	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04670	Leukocyte transendothelial migration	Organismal Systems; Immune system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04672	Intestinal immune network for IgA production	Organismal Systems; Immune system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04710	Circadian rhythm	Organismal Systems; Environmental adaptation	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04711	Circadian rhythm - fly	Organismal Systems; Environmental adaptation	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04712	Circadian rhythm - plant	Organismal Systems; Environmental adaptation	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04713	Circadian entrainment	Organismal Systems; Environmental adaptation	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04720	Long-term potentiation	Organismal Systems; Nervous system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04721	Synaptic vesicle cycle	Organismal Systems; Nervous system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04722	Neurotrophin signaling pathway	Organismal Systems; Nervous system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04723	Retrograde endocannabinoid signaling	Organismal Systems; Nervous system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04724	Glutamatergic synapse	Organismal Systems; Nervous system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04725	Cholinergic synapse	Organismal Systems; Nervous system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04726	Serotonergic synapse	Organismal Systems; Nervous system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04727	GABAergic synapse	Organismal Systems; Nervous system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04728	Dopaminergic synapse	Organismal Systems; Nervous system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04730	Long-term depression	Organismal Systems; Nervous system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04740	Olfactory transduction	Organismal Systems; Sensory system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04742	Taste transduction	Organismal Systems; Sensory system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04744	Phototransduction	Organismal Systems; Sensory system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04745	Phototransduction - fly	Organismal Systems; Sensory system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04750	Inflammatory mediator regulation of TRP channels	Organismal Systems; Sensory system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04810	Regulation of actin cytoskeleton	Cellular Processes; Cell motility	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04910	Insulin signaling pathway	Organismal Systems; Endocrine system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04911	Insulin secretion	Organismal Systems; Endocrine system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04912	GnRH signaling pathway	Organismal Systems; Endocrine system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04913	Ovarian steroidogenesis	Organismal Systems; Endocrine system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04914	Progesterone-mediated oocyte maturation	Organismal Systems; Endocrine system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04915	Estrogen signaling pathway	Organismal Systems; Endocrine system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04916	Melanogenesis	Organismal Systems; Endocrine system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04917	Prolactin signaling pathway	Organismal Systems; Endocrine system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04918	Thyroid hormone synthesis	Organismal Systems; Endocrine system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04919	Thyroid hormone signaling pathway	Organismal Systems; Endocrine system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04920	Adipocytokine signaling pathway	Organismal Systems; Endocrine system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04921	Oxytocin signaling pathway	Organismal Systems; Endocrine system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04930	Type II diabetes mellitus	Human Diseases; Endocrine and metabolic diseases	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04932	Non-alcoholic fatty liver disease (NAFLD)	Human Diseases; Endocrine and metabolic diseases	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04940	Type I diabetes mellitus	Human Diseases; Endocrine and metabolic diseases	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04950	Maturity onset diabetes of the young	Human Diseases; Endocrine and metabolic diseases	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04960	Aldosterone-regulated sodium reabsorption	Organismal Systems; Excretory system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04961	Endocrine and other factor-regulated calcium reabsorption	Organismal Systems; Excretory system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04962	Vasopressin-regulated water reabsorption	Organismal Systems; Excretory system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04964	Proximal tubule bicarbonate reclamation	Organismal Systems; Excretory system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04966	Collecting duct acid secretion	Organismal Systems; Excretory system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04970	Salivary secretion	Organismal Systems; Digestive system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04971	Gastric acid secretion	Organismal Systems; Digestive system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04972	Pancreatic secretion	Organismal Systems; Digestive system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04973	Carbohydrate digestion and absorption	Organismal Systems; Digestive system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04974	Protein digestion and absorption	Organismal Systems; Digestive system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04975	Fat digestion and absorption	Organismal Systems; Digestive system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04976	Bile secretion	Organismal Systems; Digestive system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04977	Vitamin digestion and absorption	Organismal Systems; Digestive system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map04978	Mineral absorption	Organismal Systems; Digestive system	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05010	Alzheimer's disease	Human Diseases; Neurodegenerative diseases	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05012	Parkinson's disease	Human Diseases; Neurodegenerative diseases	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05014	Amyotrophic lateral sclerosis (ALS)	Human Diseases; Neurodegenerative diseases	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05016	Huntington's disease	Human Diseases; Neurodegenerative diseases	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05020	Prion diseases	Human Diseases; Neurodegenerative diseases	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05030	Cocaine addiction	Human Diseases; Substance dependence	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05031	Amphetamine addiction	Human Diseases; Substance dependence	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05032	Morphine addiction	Human Diseases; Substance dependence	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05033	Nicotine addiction	Human Diseases; Substance dependence	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05034	Alcoholism	Human Diseases; Substance dependence	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05100	Bacterial invasion of epithelial cells	Human Diseases; Infectious diseases	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05110	Vibrio cholerae infection	Human Diseases; Infectious diseases	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05111	Vibrio cholerae pathogenic cycle	Human Diseases; Infectious diseases	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05120	Epithelial cell signaling in Helicobacter pylori infection	Human Diseases; Infectious diseases	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05130	Pathogenic Escherichia coli infection	Human Diseases; Infectious diseases	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05131	Shigellosis	Human Diseases; Infectious diseases	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05132	Salmonella infection	Human Diseases; Infectious diseases	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05133	Pertussis	Human Diseases; Infectious diseases	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05134	Legionellosis	Human Diseases; Infectious diseases	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05140	Leishmaniasis	Human Diseases; Infectious diseases	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05142	Chagas disease (American trypanosomiasis)	Human Diseases; Infectious diseases	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05143	African trypanosomiasis	Human Diseases; Infectious diseases	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05144	Malaria	Human Diseases; Infectious diseases	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05145	Toxoplasmosis	Human Diseases; Infectious diseases	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05146	Amoebiasis	Human Diseases; Infectious diseases	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05150	Staphylococcus aureus infection	Human Diseases; Infectious diseases	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05152	Tuberculosis	Human Diseases; Infectious diseases	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05160	Hepatitis C	Human Diseases; Infectious diseases	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05161	Hepatitis B	Human Diseases; Infectious diseases	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05162	Measles	Human Diseases; Infectious diseases	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05164	Influenza A	Human Diseases; Infectious diseases	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05166	HTLV-I infection	Human Diseases; Infectious diseases	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05168	Herpes simplex infection	Human Diseases; Infectious diseases	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05169	Epstein-Barr virus infection	Human Diseases; Infectious diseases	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05200	Pathways in cancer	Human Diseases; Cancers	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05202	Transcriptional misregulation in cancer	Human Diseases; Cancers	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05203	Viral carcinogenesis	Human Diseases; Cancers	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05204	Chemical carcinogenesis	Human Diseases; Cancers	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05205	Proteoglycans in cancer	Human Diseases; Cancers	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05206	MicroRNAs in cancer	Human Diseases; Cancers	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05210	Colorectal cancer	Human Diseases; Cancers	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05211	Renal cell carcinoma	Human Diseases; Cancers	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05212	Pancreatic cancer	Human Diseases; Cancers	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05213	Endometrial cancer	Human Diseases; Cancers	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05214	Glioma	Human Diseases; Cancers	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05215	Prostate cancer	Human Diseases; Cancers	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05216	Thyroid cancer	Human Diseases; Cancers	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05217	Basal cell carcinoma	Human Diseases; Cancers	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05218	Melanoma	Human Diseases; Cancers	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05219	Bladder cancer	Human Diseases; Cancers	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05220	Chronic myeloid leukemia	Human Diseases; Cancers	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05221	Acute myeloid leukemia	Human Diseases; Cancers	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05222	Small cell lung cancer	Human Diseases; Cancers	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05223	Non-small cell lung cancer	Human Diseases; Cancers	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05310	Asthma	Human Diseases; Immune diseases	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05320	Autoimmune thyroid disease	Human Diseases; Immune diseases	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05321	Inflammatory bowel disease (IBD)	Human Diseases; Immune diseases	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05322	Systemic lupus erythematosus	Human Diseases; Immune diseases	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05323	Rheumatoid arthritis	Human Diseases; Immune diseases	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05330	Allograft rejection	Human Diseases; Immune diseases	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05332	Graft-versus-host disease	Human Diseases; Immune diseases	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05340	Primary immunodeficiency	Human Diseases; Immune diseases	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05410	Hypertrophic cardiomyopathy (HCM)	Human Diseases; Cardiovascular diseases	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05412	Arrhythmogenic right ventricular cardiomyopathy (ARVC)	Human Diseases; Cardiovascular diseases	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05414	Dilated cardiomyopathy	Human Diseases; Cardiovascular diseases	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map05416	Viral myocarditis	Human Diseases; Cardiovascular diseases	0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07011	Penicillins		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07012	Cephalosporins - parenteral agents		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07013	Cephalosporins - oral agents		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07014	Quinolones		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07015	Local analgesics		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07016	Sulfonamide derivatives - sulfa drugs		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07017	Sulfonamide derivatives - diuretics		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07018	Sulfonamide derivatives - hypoglycemic agents		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07019	Tetracyclines		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07020	Macrolides and ketolides		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07021	Aminoglycosides		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07023	Rifamycins		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07024	HMG-CoA reductase inhibitors		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07025	Quinolines		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07026	Antifungal agents		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07027	Antidepressants		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07028	Antipsychotics		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07029	Phenothiazines		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07030	Anxiolytics		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07031	Butyrophenones		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07032	Hypnotics		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07033	Anticonvulsants		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07034	Eicosanoids		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07035	Prostaglandins		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07036	Calcium channel blocking drugs		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07037	Antiarrhythmic drugs		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07038	Antiulcer drugs		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07039	Opioid analgesics		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07040	Antineoplastics - alkylating agents		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07041	Antineoplastics - antimetabolic agents		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07042	Antineoplastics - agents from natural products		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07043	Antineoplastics - hormones		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07044	Antiviral agents		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07045	Antineoplastics - protein kinases inhibitors		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07046	Immunosuppressive agents		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07047	Osteoporosis drugs		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07048	Antimigraines		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07049	Antithrombosis agents		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07050	Antirheumatics - DMARDs and biological agents		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07051	Antidiabetics		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07052	Antidyslipidemic agents		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07053	Anti-HIV agents		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07054	Antiglaucoma agents		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07055	Sulfonamide derivatives - overview		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07056	Agents for Alzheimer-type dementia		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07057	Antiparkinsonian agents		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07110	Benzoic acid family		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07112	1,2-Diphenyl substitution family		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07114	Naphthalene family		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07117	Benzodiazepine family		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07211	Serotonin receptor agonists/antagonists		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07212	Histamine H1 receptor antagonists		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07213	Dopamine receptor agonists/antagonists		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07214	beta-Adrenergic receptor agonists/antagonists		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07215	alpha-Adrenergic receptor agonists/antagonists		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07216	Catecholamine transferase inhibitors		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07217	Renin-angiotensin system inhibitors		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07218	HIV protease inhibitors		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07219	Cyclooxygenase inhibitors		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07220	Cholinergic and anticholinergic drugs		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07221	Nicotinic cholinergic receptor antagonists		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07222	Peroxisome proliferator-activated receptor (PPAR) agonists		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07223	Retinoic acid receptor (RAR) and retinoid X receptor (RXR) agonists/antagonists		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07224	Opioid receptor agonists/antagonists		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07225	Glucocorticoid and meneralocorticoid receptor agonists/antagonists		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07226	Progesterone, androgen and estrogen receptor agonists/antagonists		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07227	Histamine H2/H3 receptor agonists/antagonists		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07228	Eicosanoid receptor agonists/antagonists		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07229	Angiotensin receptor and endothelin receptor antagonists		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07230	GABA-A receptor agonists/antagonists		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07231	Sodium channel blocking drugs		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07232	Potassium channel blocking and opening drugs		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07233	Ion transporter inhibitors		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07234	Neurotransmitter transporter inhibitors		0	0	0	0	0	0	0.0%	0.0%	0.0%
-map07235	N-Metyl-D-aspartic acid receptor antagonists		0	0	0	0	0	0	0.0%	0.0%	0.0%

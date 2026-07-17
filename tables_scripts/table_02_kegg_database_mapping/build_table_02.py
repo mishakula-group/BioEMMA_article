@@ -157,6 +157,7 @@ def main() -> None:
             for row in csv.DictReader(file, delimiter="\t")
             if row.get("Source ID", "").startswith("map")
         ]
+    rows = [row for row in rows if row["kegg_reactions"] > 0]
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     write_tsv(OUTPUT_DIR / "kegg_database_mapping_all_pathways.tsv", rows)
