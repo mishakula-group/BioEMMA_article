@@ -16,4 +16,6 @@ dist/
 .DS_Store
 Thumbs.db
 
-.temp*
+.temp
+
+**.fq.gz
