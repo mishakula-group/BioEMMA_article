@@ -12,7 +12,7 @@ import numpy as np
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-OUTPUT_DIR = REPO_ROOT / "outputs" / "tool_comparison"
+OUTPUT_DIR = REPO_ROOT / "results" / "external_tool_comparison"
 OUTPUT_PATH = OUTPUT_DIR / "tool_comparison_matrix.png"
 
 TOOLS = [
@@ -21,10 +21,8 @@ TOOLS = [
     "Grohar",
     "Fluxer",
     "MetExplore V2",
-    "FLUXestimator",
     "ModelExplorer",
     "SAMMI",
-    "IMFLer",
     "Escher",
     "NAViFluX",
     "BioEMMA",
@@ -34,31 +32,38 @@ FEATURES = [
     "Standard model format input\n(SBML / JSON)",
     "Pathway / subsystem-level\nvisualization",
     "Flux data overlay",
-    "Interactive browser-based\nvisualization",
-    "Publication-ready\nvector export",
+    "Web-browser\nmap interface",
+    "Static map export\n(SVG / PNG / PDF)",
     "Offline / local execution",
-    "Programmatic access\n(Python API)",
+    "Programmatic access",
     "Automatic map generation",
-    "Canonical pathway-consistent\nlayout",
-    "KEGG-guided automatic\nlayout synthesis",
     "Native Escher-compatible\nJSON output",
 ]
 
 # 0 = no support, 1 = full support, 2 = limited support.
+# Columns follow TOOLS order.
 MATRIX = np.array(
     [
-        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
-        [1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1],
-        [0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1],
-        [0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1],
-        [0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1],
-        [1, 0, 1, 0, 0, 1, 1, 1, 0, 1, 1, 1],
-        [0, 0, 0, 0, 2, 1, 0, 1, 0, 1, 1, 1],
-        [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1],
-        [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1],
-        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
-        [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1],
-    ]
+        # Standard model format input (SBML / JSON)
+        [1, 1, 1, 1, 1, 2, 1, 1, 1, 1],
+        # Pathway / subsystem-level visualization
+        [1, 1, 1, 2, 1, 0, 1, 1, 1, 1],
+        # Flux data overlay
+        [2, 1, 1, 1, 1, 2, 1, 1, 1, 1],
+        # Web-browser map interface
+        [0, 1, 0, 1, 1, 0, 1, 1, 1, 2],
+        # Static map export (SVG / PNG / PDF)
+        [2, 1, 2, 1, 1, 0, 1, 1, 1, 2],
+        # Offline / local execution
+        [2, 0, 1, 0, 0, 1, 2, 1, 1, 1],
+        # Programmatic access
+        [0, 0, 0, 0, 1, 0, 2, 2, 2, 1],
+        # Automatic map generation
+        [2, 1, 1, 1, 1, 1, 1, 0, 1, 1],
+        # Native Escher-compatible JSON output
+        [0, 0, 0, 0, 0, 0, 1, 1, 0, 1],
+    ],
+    dtype=int,
 )
 
 FULL = "#68B740"
@@ -73,14 +78,20 @@ def main() -> None:
     n_tools = len(TOOLS)
     n_features = len(FEATURES)
 
+    if MATRIX.shape != (n_features, n_tools):
+        raise ValueError(
+            f"Matrix shape {MATRIX.shape} does not match "
+            f"{n_features} features x {n_tools} tools"
+        )
+
     cell_w = 0.62
     cell_h = 0.55
     label_w = 1.8
     top_pad = 2.8
-    bottom_pad = 0.5
+    bottom_pad = 0.9
 
     fig_w = label_w + n_tools * cell_w + 0.4
-    fig_h = top_pad + n_features * cell_h + bottom_pad - 2.5
+    fig_h = top_pad + n_features * cell_h + bottom_pad - 2.1
 
     fig, ax = plt.subplots(figsize=(fig_w, fig_h))
     ax.set_xlim(0, fig_w)
@@ -146,14 +157,15 @@ def main() -> None:
             mpatches.Patch(facecolor=FULL, edgecolor=GRID, label="Full Support"),
             mpatches.Patch(facecolor=LIMITED, edgecolor=GRID, label="Limited Support"),
         ],
-        loc="lower left",
-        bbox_to_anchor=((x0 + 2) / fig_w, (y0 - 0.18) / fig_h),
-        bbox_transform=fig.transFigure,
+        loc="upper center",
+        bbox_to_anchor=(x0 + n_tools * cell_w / 2, y0 - 0.22),
+        bbox_transform=ax.transData,
         frameon=False,
         ncol=2,
-        fontsize=14,
+        fontsize=10.5,
         handlelength=1.2,
         handleheight=0.9,
+        columnspacing=1.8,
     )
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
