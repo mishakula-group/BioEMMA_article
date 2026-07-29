@@ -1,9 +1,10 @@
 # NAViFluX
 
-This repository does not vendor NAViFluX. Install or clone NAViFluX separately, then build the Figure 2 inputs:
+This repository does not vendor NAViFLuX. Install or clone NAViFLuX separately,
+then build the Figure 4 inputs:
 
 ```powershell
-.\.venv\Scripts\python.exe figures_scripts\figure_02\build_figure_02_naviflux_inputs.py
+.\.venv\Scripts\python.exe figures_scripts\fig4_naviflux\build_naviflux_inputs.py
 ```
 
 Start NAViFluX on Windows:
@@ -16,9 +17,9 @@ The wrapper uses `npm.cmd` instead of `npm` to avoid PowerShell execution-policy
 
 After launch, upload:
 
-- `figures_scripts/figure_02/outputs/naviflux/e_coli_core_figure_01_reactions.xml`
-- `figures_scripts/figure_02/outputs/naviflux/naviflux_reaction_weights_figure_01_reactions.csv`
-- `figures_scripts/figure_02/outputs/naviflux/naviflux_flux_weights_figure_01_reactions.csv`
+- `figures_scripts/fig4_naviflux/outputs/naviflux/e_coli_core_map00010_reactions.xml`
+- `figures_scripts/fig4_naviflux/outputs/naviflux/naviflux_reaction_weights_map00010_reactions.csv`
+- `figures_scripts/fig4_naviflux/outputs/naviflux/naviflux_flux_weights_map00010_reactions.csv`
 
 Optional API smoke check:
 

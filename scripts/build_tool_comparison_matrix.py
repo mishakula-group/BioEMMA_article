@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import html
 from pathlib import Path
 
 import matplotlib
@@ -12,8 +13,9 @@ import numpy as np
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-OUTPUT_DIR = REPO_ROOT / "results" / "external_tool_comparison"
+OUTPUT_DIR = REPO_ROOT / "results" / "fig5_tool_comparison"
 OUTPUT_PATH = OUTPUT_DIR / "tool_comparison_matrix.png"
+HTML_OUTPUT_PATH = OUTPUT_DIR / "tool_comparison.html"
 
 TOOLS = [
     "CytoSEED",
@@ -72,6 +74,99 @@ NONE = "#FFFFFF"
 GRID = "#CCCCCC"
 BIOEMMA_COLUMN = "#E8F4F8"
 BIOEMMA_HEADER = "#68B740"
+
+
+def support_label(value: int) -> str:
+    return {0: "No support", 1: "Full support", 2: "Limited support"}[int(value)]
+
+
+def support_class(value: int) -> str:
+    return {0: "none", 1: "full", 2: "limited"}[int(value)]
+
+
+def write_html_table(path: Path) -> None:
+    rows = []
+    rows.append("<table>")
+    rows.append("  <thead>")
+    rows.append("    <tr>")
+    rows.append("      <th>Feature</th>")
+    for tool in TOOLS:
+        classes = "tool bioemma" if tool == "BioEMMA" else "tool"
+        rows.append(f"      <th class=\"{classes}\">{html.escape(tool)}</th>")
+    rows.append("    </tr>")
+    rows.append("  </thead>")
+    rows.append("  <tbody>")
+
+    for feature, values in zip(FEATURES, MATRIX, strict=True):
+        rows.append("    <tr>")
+        rows.append(
+            "      <th class=\"feature\">"
+            + html.escape(feature).replace("\n", "<br>")
+            + "</th>"
+        )
+        for value in values:
+            label = support_label(int(value))
+            rows.append(
+                f"      <td class=\"{support_class(int(value))}\">{html.escape(label)}</td>"
+            )
+        rows.append("    </tr>")
+
+    rows.append("  </tbody>")
+    rows.append("</table>")
+
+    document = """<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Tool comparison matrix</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 24px;
+      color: #222;
+      background: #fff;
+    }
+    table {
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+    th, td {
+      border: 1px solid #cccccc;
+      padding: 8px 10px;
+      text-align: center;
+      vertical-align: middle;
+    }
+    th.feature {
+      text-align: right;
+      white-space: nowrap;
+      font-weight: 600;
+    }
+    th.tool {
+      font-weight: 600;
+    }
+    th.bioemma {
+      color: #3f8f2c;
+      background: #e8f4f8;
+    }
+    td.full {
+      background: #68b740;
+    }
+    td.limited {
+      background: #f3de3d;
+    }
+    td.none {
+      background: #ffffff;
+    }
+  </style>
+</head>
+<body>
+"""
+    document += "\n".join(rows)
+    document += """
+</body>
+</html>
+"""
+    path.write_text(document, encoding="utf-8")
 
 
 def main() -> None:
@@ -171,7 +266,9 @@ def main() -> None:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     plt.tight_layout(pad=0)
     plt.savefig(OUTPUT_PATH, dpi=220, bbox_inches="tight", facecolor="white")
+    write_html_table(HTML_OUTPUT_PATH)
     print(f"Wrote {OUTPUT_PATH}")
+    print(f"Wrote {HTML_OUTPUT_PATH}")
 
 
 if __name__ == "__main__":

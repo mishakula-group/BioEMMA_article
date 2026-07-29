@@ -1,7 +1,10 @@
-# Figure 3 map00020 results
+# map00020 reconstruction-comparison results
 
-This directory contains the publication materials for Figure 3 on KEGG `map00020`
-(citrate cycle / TCA cycle).
+This directory contains the publication materials for KEGG `map00020` (citrate
+cycle / TCA cycle). The `figure_03` parent folder is kept because the article
+cites this path directly.
+
+These files support Figure 6 and Supplementary Figures S10-S13.
 
 ## Full maps
 
@@ -22,6 +25,14 @@ model-specific flux distributions:
 
 The accompanying `*_full_fluxes.json` files contain the optimized flux values and
 reaction matching details used for each overlay.
+
+## Supplementary mapping
+
+- S10: `kegg_source_reconstruction.json` in each model folder records the KEGG
+  source reconstruction used for the `map00020` reference geometry.
+- S11: `gapseq/`.
+- S12: `modelseed/`.
+- S13: `reconstructor/`.
 
 ## Selected reaction fragments
 
