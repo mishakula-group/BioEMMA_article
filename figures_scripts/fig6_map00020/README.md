@@ -1,4 +1,4 @@
-# Figure 6 and Supplementary S10-S13 scripts
+# Figure 6 and Supplementary S11-S14 scripts
 
 Full map drafts for comparing `map00020` reconstruction across gapseq,
 ModelSEEDpy, and Reconstructor.

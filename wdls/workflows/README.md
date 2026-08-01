@@ -2,6 +2,9 @@
 
 The workflows are grouped by input type:
 
+For the BioUML pipeline context, see the
+[BioUML Flux Modeling documentation](https://biouml-flux-modeling.readthedocs.io/en/latest/index.html).
+
 - `*_from_sequences.wdl` starts from raw FASTQ reads and runs QC, trimming,
   assembly, annotation, reconstruction, MEMOTE, and BioEMMA.
 - `*_from_annotation.wdl` starts from an existing annotation/protein FASTA and

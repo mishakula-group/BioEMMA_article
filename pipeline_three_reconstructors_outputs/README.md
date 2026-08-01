@@ -43,7 +43,7 @@ java -jar cromwell.jar run wdls\workflows\gapseq_modelseed_reconstructor_from_se
 - `08_modelseed_model/` - ModelSEEDpy reconstructed model.
 - `09_reconstructor_model/` - Reconstructor reconstructed model.
 - `10_memote_reports/` - MEMOTE reports for the three reconstructed models and
-  the comparison report used as Supplementary Figure S9.
+  the comparison report used as Supplementary Figure S10.
 - `11_bioemma_maps/` - note about the raw WDL map archive from this run. The
   publication maps are stored under `../results/figure_03/map00020/`.
 - `12_final_models/` - renamed final models for direct use.
@@ -56,5 +56,5 @@ The curated BioEMMA maps and flux overlays used for the article are in:
 - `../results/figure_03/map00020/`
 - `../results/table2_reaction_retention/`
 
-The source model copies used for the Figure 6 and Supplementary S10-S13 maps are
+The source model copies used for the Figure 6 and Supplementary S11-S14 maps are
 also stored under `../results/figure_03/map00020/source_models/`.
