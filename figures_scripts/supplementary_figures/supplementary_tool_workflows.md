@@ -1,7 +1,7 @@
 # Supplementary Tool Workflows
 
 This note collects the non-NAViFluX tool workflows used for the article
-comparison. NAViFluX is documented with Figure 2 and in `external_tools_launch/naviflux/`;
+comparison. NAViFLuX is documented with Figure 4 and in `external_tools_launch/naviflux/`;
 the tools below remain in supplementary materials.
 
 ## SAMMI

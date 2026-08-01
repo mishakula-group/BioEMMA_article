@@ -1,5 +1,5 @@
 {
-  "model": "C:\\Users\\HONOR\\Desktop\\sirius_repo\\bioemma_article_materials\\article_materials_repo\\.temp_models_check\\models\\SRR13921546_ecoli_M9_vit_aa_gapseq.xml",
+  "model": "results/figure_03/map00020/source_models/SRR13921546_ecoli_M9_vit_aa_gapseq.xml",
   "solution_status": "optimal",
   "objective_value": 0.36441784289723095,
   "reaction_data": {

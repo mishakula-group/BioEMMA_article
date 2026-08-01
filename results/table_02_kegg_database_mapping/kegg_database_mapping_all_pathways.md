@@ -1,4 +1,4 @@
-# Table 2. KEGG reaction mappings to SEED and BiGG
+# KEGG reaction mappings to SEED and BiGG
 
 Counts are based on the reaction lists in `data/kegg_pathways.tsv` and BioEMMA/MetaNetX reaction mappings.
 No KEGG downloads are performed by this table build.

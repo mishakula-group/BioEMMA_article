@@ -9,16 +9,16 @@ import requests
 REPO_ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_MODEL = (
     REPO_ROOT
-    / "figures"
-    / "figure_02"
+    / "figures_scripts"
+    / "fig4_naviflux"
     / "outputs"
     / "naviflux"
-    / "e_coli_core_figure_01_reactions.xml"
+    / "e_coli_core_map00010_reactions.xml"
 )
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Upload the Figure 2 model to NAViFluX.")
+    parser = argparse.ArgumentParser(description="Upload the Figure 4 model to NAViFluX.")
     parser.add_argument("--api", default="http://127.0.0.1:5000")
     parser.add_argument("--model", type=Path, default=DEFAULT_MODEL)
     return parser.parse_args()

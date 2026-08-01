@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Tool comparison matrix</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 24px;
+      color: #222;
+      background: #fff;
+    }
+    table {
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+    th, td {
+      border: 1px solid #cccccc;
+      padding: 8px 10px;
+      text-align: center;
+      vertical-align: middle;
+    }
+    th.feature {
+      text-align: right;
+      white-space: nowrap;
+      font-weight: 600;
+    }
+    th.tool {
+      font-weight: 600;
+    }
+    th.bioemma {
+      color: #3f8f2c;
+      background: #e8f4f8;
+    }
+    td.full {
+      background: #68b740;
+    }
+    td.limited {
+      background: #f3de3d;
+    }
+    td.none {
+      background: #ffffff;
+    }
+  </style>
+</head>
+<body>
+<table>
+  <thead>
+    <tr>
+      <th>Feature</th>
+      <th class="tool">CytoSEED</th>
+      <th class="tool">CAVE</th>
+      <th class="tool">Grohar</th>
+      <th class="tool">Fluxer</th>
+      <th class="tool">MetExplore V2</th>
+      <th class="tool">ModelExplorer</th>
+      <th class="tool">SAMMI</th>
+      <th class="tool">Escher</th>
+      <th class="tool">NAViFluX</th>
+      <th class="tool bioemma">BioEMMA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th class="feature">Standard model format input<br>(SBML / JSON)</th>
+      <td class="full">Full support</td>
+      <td class="full">Full support</td>
+      <td class="full">Full support</td>
+      <td class="full">Full support</td>
+      <td class="full">Full support</td>
+      <td class="limited">Limited support</td>
+      <td class="full">Full support</td>
+      <td class="full">Full support</td>
+      <td class="full">Full support</td>
+      <td class="full">Full support</td>
+    </tr>
+    <tr>
+      <th class="feature">Pathway / subsystem-level<br>visualization</th>
+      <td class="full">Full support</td>
+      <td class="full">Full support</td>
+      <td class="full">Full support</td>
+      <td class="limited">Limited support</td>
+      <td class="full">Full support</td>
+      <td class="none">No support</td>
+      <td class="full">Full support</td>
+      <td class="full">Full support</td>
+      <td class="full">Full support</td>
+      <td class="full">Full support</td>
+    </tr>
+    <tr>
+      <th class="feature">Flux data overlay</th>
+      <td class="limited">Limited support</td>
+      <td class="full">Full support</td>
+      <td class="full">Full support</td>
+      <td class="full">Full support</td>
+      <td class="full">Full support</td>
+      <td class="limited">Limited support</td>
+      <td class="full">Full support</td>
+      <td class="full">Full support</td>
+      <td class="full">Full support</td>
+      <td class="full">Full support</td>
+    </tr>
+    <tr>
+      <th class="feature">Web-browser<br>map interface</th>
+      <td class="none">No support</td>
+      <td class="full">Full support</td>
+      <td class="none">No support</td>
+      <td class="full">Full support</td>
+      <td class="full">Full support</td>
+      <td class="none">No support</td>
+      <td class="full">Full support</td>
+      <td class="full">Full support</td>
+      <td class="full">Full support</td>
+      <td class="limited">Limited support</td>
+    </tr>
+    <tr>
+      <th class="feature">Static map export<br>(SVG / PNG / PDF)</th>
+      <td class="limited">Limited support</td>
+      <td class="full">Full support</td>
+      <td class="limited">Limited support</td>
+      <td class="full">Full support</td>
+      <td class="full">Full support</td>
+      <td class="none">No support</td>
+      <td class="full">Full support</td>
+      <td class="full">Full support</td>
+      <td class="full">Full support</td>
+      <td class="limited">Limited support</td>
+    </tr>
+    <tr>
+      <th class="feature">Offline / local execution</th>
+      <td class="limited">Limited support</td>
+      <td class="none">No support</td>
+      <td class="full">Full support</td>
+      <td class="none">No support</td>
+      <td class="none">No support</td>
+      <td class="full">Full support</td>
+      <td class="limited">Limited support</td>
+      <td class="full">Full support</td>
+      <td class="full">Full support</td>
+      <td class="full">Full support</td>
+    </tr>
+    <tr>
+      <th class="feature">Programmatic access</th>
+      <td class="none">No support</td>
+      <td class="none">No support</td>
+      <td class="none">No support</td>
+      <td class="none">No support</td>
+      <td class="full">Full support</td>
+      <td class="none">No support</td>
+      <td class="limited">Limited support</td>
+      <td class="limited">Limited support</td>
+      <td class="limited">Limited support</td>
+      <td class="full">Full support</td>
+    </tr>
+    <tr>
+      <th class="feature">Automatic map generation</th>
+      <td class="limited">Limited support</td>
+      <td class="full">Full support</td>
+      <td class="full">Full support</td>
+      <td class="full">Full support</td>
+      <td class="full">Full support</td>
+      <td class="full">Full support</td>
+      <td class="full">Full support</td>
+      <td class="none">No support</td>
+      <td class="full">Full support</td>
+      <td class="full">Full support</td>
+    </tr>
+    <tr>
+      <th class="feature">Native Escher-compatible<br>JSON output</th>
+      <td class="none">No support</td>
+      <td class="none">No support</td>
+      <td class="none">No support</td>
+      <td class="none">No support</td>
+      <td class="none">No support</td>
+      <td class="none">No support</td>
+      <td class="full">Full support</td>
+      <td class="full">Full support</td>
+      <td class="none">No support</td>
+      <td class="full">Full support</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

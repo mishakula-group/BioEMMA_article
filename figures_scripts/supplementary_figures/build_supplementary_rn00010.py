@@ -21,7 +21,7 @@ RUN_FBA_IF_FLUX_MISSING = True
 OUTPUT_DIR = FIGURE_DIR / "outputs"
 COBRA_CACHE_DIR = FIGURE_DIR / ".cobra_cache"
 
-# Same BioEMMA layout knobs as Figure 1.
+# Same BioEMMA layout knobs as Figure 3.
 VISUALIZATION_OPTIONS = {
     "scaling_factor": 5.0,
     "axis_epsilon": 2.0,

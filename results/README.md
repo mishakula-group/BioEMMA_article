@@ -1,27 +1,41 @@
 # Publication results
 
-This directory contains the trimmed publication-ready outputs collected for the BioEMMA article repository.
+This directory contains the curated publication-ready outputs collected for the
+BioEMMA article repository. Generated working directories named `outputs/` are
+ignored by git; files kept here are the visible article bundle.
 
 The source scripts and reproducible inputs remain in `figures_scripts/`,
-`tables_scripts/`, `scripts/`, `data/`, and `external_tools_launch/`.
-Generated working directories named `outputs/` are intentionally ignored by git;
-this `results/` directory is the tracked publication bundle.
+`tables_scripts/`, `scripts/`, `data/`, `wdls/`, and `external_tools_launch/`.
 
 ## Contents
 
-- `figure_01/fragment/` - cropped KEGG and BioEMMA Figure 1 map panels as Escher HTML/JSON, plus the retained Figure 1 flux-overlay panel.
-- `figure_02/naviflux_full_reference/` - Figure 2 NAViFLuX reference images as PNG only; JSON, SVG, model, and table inputs were removed from the publication bundle.
-- `figure_03/map00020/` - latest Figure 3 `map00020` citrate-cycle maps, selected reaction fragments, and full-map flux overlays; see `figure_03/map00020/README.md`.
-- `figure_03/map00020/source_models/` - latest reconstructed source models used for the Figure 3 `map00020` run.
-- `table_01/` - generated Table 1 TSV, rendered Markdown table, detailed reaction lists, and KEGG-to-SEED/BiGG mapping split.
-- `table_02_kegg_database_mapping/` - KEGG-to-SEED/BiGG mapping counts for the 153 KEGG maps in `data/kegg_pathways.tsv` that contain at least one KEGG reaction; this table uses the reaction lists from that file and does not download KGML from KEGG.
-- `supplementary/` - supplementary full `rn00010` map materials; see `supplementary/README.md`.
-- `external_tool_comparison/` - prepared external-tool comparison artifacts for SAMMI, CAVE, MetExplore V2, NetworkX/Grohar baselines, and the Fluxer input model; see `external_tool_comparison/README.md`. Flux/flow files and the duplicate CSV table were removed.
-
-Summary files were removed from the publication bundle.
+- `fig3_map00010/` - cropped KEGG and BioEMMA `map00010` panels as Escher
+  HTML/JSON, including the flux-overlay panel. These materials support Figure 3
+  and part of Figure 4.
+- `fig4_naviflux/` - NAViFLuX reference images as PNG files for Figure 4.
+- `figure_03/map00020/` - Figure 6 and Supplementary S11-S14 materials: latest
+  `map00020` citrate-cycle maps, selected reaction fragments, full-map flux
+  overlays, and source model copies. This path is kept because it is cited
+  directly in the article.
+- `table2_reaction_retention/` - generated Table 2 TSV, rendered Markdown
+  table, detailed reaction lists, and KEGG-to-SEED/BiGG mapping split.
+- `table_02_kegg_database_mapping/` - all-pathway KEGG-to-SEED/BiGG mapping
+  counts for the 153 reaction-containing KEGG maps in
+  `data/kegg_pathways.tsv`; this path is kept because it is cited directly in
+  the article.
+- `supplementary/` - Supplementary S1-S14 crosswalk and full `rn00010` map
+  materials for S1-S4.
+- `fig5_tool_comparison/` - Figure 5 and Supplementary S5-S9 comparison
+  artifacts for SAMMI, Fluxer, CAVE, MetExplore V2, NetworkX/Grohar baselines,
+  and the Fluxer input model.
 
 ## Provenance
 
-- Figure 1, Figure 2, Table 1, and supplementary outputs were regenerated in `BioEMMA_article` on 2026-07-14 using the repository scripts.
-- Figure 3 models and `map00020` outputs were copied from `article_materials_repo/.temp_models_check`, which contains the latest model run.
-- Existing repository files outside `results/` were not rewritten for this publication bundle.
+- The KEGG/BioEMMA map panels, NAViFLuX reference images, reaction-retention
+  table, all-pathway mapping table, and Supplementary S1-S4 were regenerated
+  with the repository scripts.
+- Figure 6 and Supplementary S11-S14 were prepared from the final gapseq,
+  ModelSEEDpy, and Reconstructor models stored in
+  `figure_03/map00020/source_models/`.
+- The three-reconstructor pipeline run parameters and retained intermediate
+  outputs are stored in `../pipeline_three_reconstructors_outputs/`.
