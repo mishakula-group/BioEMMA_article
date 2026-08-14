@@ -26,6 +26,10 @@ Build the selected-reaction `map00020` crop fragments:
 ```
 
 Crop outputs are written under `outputs/map00020/selected_reaction_fragments/`.
+When curated full-map flux files are present under
+`results/figure_03/map00020/`, the crop script reuses those flux matches for the
+fragment overlays so the selected panels stay consistent with the publication
+full-map overlays.
 
 Build the publication full-map flux overlays for the latest `map00020` source
 models:
