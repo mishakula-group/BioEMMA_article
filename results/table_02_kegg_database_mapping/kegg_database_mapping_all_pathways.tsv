@@ -1,154 +1,154 @@
 pathway_id	pathway_name	category	kegg_reactions	seed_mapped	bigg_mapped	both_bigg_and_seed	either_bigg_or_seed	unmapped_to_bigg_or_seed	seed_mapped_percent	bigg_mapped_percent	either_mapped_percent
-map00010	Glycolysis / Gluconeogenesis	Metabolism; Carbohydrate metabolism	52	44	28	28	44	8	84.6%	53.8%	84.6%
-map00020	Citrate cycle (TCA cycle)	Metabolism; Carbohydrate metabolism	28	21	20	20	21	7	75.0%	71.4%	75.0%
-map00030	Pentose phosphate pathway	Metabolism; Carbohydrate metabolism	51	48	24	24	48	3	94.1%	47.1%	94.1%
-map00040	Pentose and glucuronate interconversions	Metabolism; Carbohydrate metabolism	72	62	26	25	63	9	86.1%	36.1%	87.5%
-map00051	Fructose and mannose metabolism	Metabolism; Carbohydrate metabolism	75	62	24	24	62	13	82.7%	32.0%	82.7%
-map00052	Galactose metabolism	Metabolism; Carbohydrate metabolism	57	51	13	12	52	5	89.5%	22.8%	91.2%
-map00053	Ascorbate and aldarate metabolism	Metabolism; Carbohydrate metabolism	57	49	25	25	49	8	86.0%	43.9%	86.0%
-map00061	Fatty acid biosynthesis	Metabolism; Lipid metabolism	57	8	7	4	11	46	14.0%	12.3%	19.3%
-map00062	Fatty acid elongation	Metabolism; Lipid metabolism	34	25	25	25	25	9	73.5%	73.5%	73.5%
-map00071	Fatty acid degradation	Metabolism; Lipid metabolism	47	36	35	35	36	11	76.6%	74.5%	76.6%
+map00010	Glycolysis / Gluconeogenesis	Metabolism; Carbohydrate metabolism	52	49	43	43	49	3	94.2%	82.7%	94.2%
+map00020	Citrate cycle (TCA cycle)	Metabolism; Carbohydrate metabolism	28	28	28	28	28	0	100.0%	100.0%	100.0%
+map00030	Pentose phosphate pathway	Metabolism; Carbohydrate metabolism	51	51	38	38	51	0	100.0%	74.5%	100.0%
+map00040	Pentose and glucuronate interconversions	Metabolism; Carbohydrate metabolism	72	67	52	51	68	4	93.1%	72.2%	94.4%
+map00051	Fructose and mannose metabolism	Metabolism; Carbohydrate metabolism	75	65	39	39	65	10	86.7%	52.0%	86.7%
+map00052	Galactose metabolism	Metabolism; Carbohydrate metabolism	57	54	46	46	54	3	94.7%	80.7%	94.7%
+map00053	Ascorbate and aldarate metabolism	Metabolism; Carbohydrate metabolism	57	54	38	38	54	3	94.7%	66.7%	94.7%
+map00061	Fatty acid biosynthesis	Metabolism; Lipid metabolism	57	45	46	39	52	5	78.9%	80.7%	91.2%
+map00062	Fatty acid elongation	Metabolism; Lipid metabolism	34	34	33	33	34	0	100.0%	97.1%	100.0%
+map00071	Fatty acid degradation	Metabolism; Lipid metabolism	47	41	39	39	41	6	87.2%	83.0%	87.2%
 map00072	Synthesis and degradation of ketone bodies	Metabolism; Lipid metabolism	6	6	6	6	6	0	100.0%	100.0%	100.0%
-map00073	Cutin, suberine and wax biosynthesis	Metabolism; Lipid metabolism	26	13	1	1	13	13	50.0%	3.8%	50.0%
-map00100	Steroid biosynthesis	Metabolism; Lipid metabolism	55	30	15	15	30	25	54.5%	27.3%	54.5%
-map00120	Primary bile acid biosynthesis	Metabolism; Lipid metabolism	53	40	21	21	40	13	75.5%	39.6%	75.5%
-map00130	Ubiquinone and other terpenoid-quinone biosynthesis	Metabolism; Metabolism of cofactors and vitamins	83	42	15	15	42	41	50.6%	18.1%	50.6%
-map00140	Steroid hormone biosynthesis	Metabolism; Lipid metabolism	139	103	39	39	103	36	74.1%	28.1%	74.1%
-map00230	Purine metabolism	Metabolism; Nucleotide metabolism	151	138	114	114	138	13	91.4%	75.5%	91.4%
-map00231	Puromycin biosynthesis	Metabolism; Biosynthesis of other secondary metabolites	10	9	0	0	9	1	90.0%	0.0%	90.0%
-map00232	Caffeine metabolism	Metabolism; Biosynthesis of other secondary metabolites	41	35	0	0	35	6	85.4%	0.0%	85.4%
-map00240	Pyrimidine metabolism	Metabolism; Nucleotide metabolism	119	74	74	63	85	34	62.2%	62.2%	71.4%
-map00250	Alanine, aspartate and glutamate metabolism	Metabolism; Amino acid metabolism	47	46	38	38	46	1	97.9%	80.9%	97.9%
-map00253	Tetracycline biosynthesis	Metabolism; Metabolism of terpenoids and polyketides	22	14	1	1	14	8	63.6%	4.5%	63.6%
-map00254	Aflatoxin biosynthesis	Metabolism; Biosynthesis of other secondary metabolites	29	24	1	1	24	5	82.8%	3.4%	82.8%
-map00260	Glycine, serine and threonine metabolism	Metabolism; Amino acid metabolism	66	58	44	44	58	8	87.9%	66.7%	87.9%
-map00270	Cysteine and methionine metabolism	Metabolism; Amino acid metabolism	80	70	51	49	72	8	87.5%	63.7%	90.0%
-map00280	Valine, leucine and isoleucine degradation	Metabolism; Amino acid metabolism	45	35	24	24	35	10	77.8%	53.3%	77.8%
-map00281	Geraniol degradation	Metabolism; Metabolism of terpenoids and polyketides	22	16	0	0	16	6	72.7%	0.0%	72.7%
-map00290	Valine, leucine and isoleucine biosynthesis	Metabolism; Amino acid metabolism	25	25	14	14	25	0	100.0%	56.0%	100.0%
-map00300	Lysine biosynthesis	Metabolism; Amino acid metabolism	39	39	22	22	39	0	100.0%	56.4%	100.0%
-map00310	Lysine degradation	Metabolism; Amino acid metabolism	63	53	30	30	53	10	84.1%	47.6%	84.1%
-map00311	Penicillin and cephalosporin biosynthesis	Metabolism; Biosynthesis of other secondary metabolites	17	14	0	0	14	3	82.4%	0.0%	82.4%
-map00330	Arginine and proline metabolism	Metabolism; Amino acid metabolism	128	118	85	85	118	10	92.2%	66.4%	92.2%
+map00073	Cutin, suberine and wax biosynthesis	Metabolism; Lipid metabolism	26	21	6	6	21	5	80.8%	23.1%	80.8%
+map00100	Steroid biosynthesis	Metabolism; Lipid metabolism	55	40	31	31	40	15	72.7%	56.4%	72.7%
+map00120	Primary bile acid biosynthesis	Metabolism; Lipid metabolism	53	50	35	35	50	3	94.3%	66.0%	94.3%
+map00130	Ubiquinone and other terpenoid-quinone biosynthesis	Metabolism; Metabolism of cofactors and vitamins	83	56	34	33	57	26	67.5%	41.0%	68.7%
+map00140	Steroid hormone biosynthesis	Metabolism; Lipid metabolism	139	124	104	104	124	15	89.2%	74.8%	89.2%
+map00230	Purine metabolism	Metabolism; Nucleotide metabolism	151	144	126	126	144	7	95.4%	83.4%	95.4%
+map00231	Puromycin biosynthesis	Metabolism; Biosynthesis of other secondary metabolites	10	9	1	1	9	1	90.0%	10.0%	90.0%
+map00232	Caffeine metabolism	Metabolism; Biosynthesis of other secondary metabolites	41	40	6	6	40	1	97.6%	14.6%	97.6%
+map00240	Pyrimidine metabolism	Metabolism; Nucleotide metabolism	119	97	85	85	97	22	81.5%	71.4%	81.5%
+map00250	Alanine, aspartate and glutamate metabolism	Metabolism; Amino acid metabolism	47	47	41	41	47	0	100.0%	87.2%	100.0%
+map00253	Tetracycline biosynthesis	Metabolism; Metabolism of terpenoids and polyketides	22	17	8	8	17	5	77.3%	36.4%	77.3%
+map00254	Aflatoxin biosynthesis	Metabolism; Biosynthesis of other secondary metabolites	29	29	1	1	29	0	100.0%	3.4%	100.0%
+map00260	Glycine, serine and threonine metabolism	Metabolism; Amino acid metabolism	66	64	55	55	64	2	97.0%	83.3%	97.0%
+map00270	Cysteine and methionine metabolism	Metabolism; Amino acid metabolism	80	77	69	68	78	2	96.2%	86.2%	97.5%
+map00280	Valine, leucine and isoleucine degradation	Metabolism; Amino acid metabolism	45	44	34	34	44	1	97.8%	75.6%	97.8%
+map00281	Geraniol degradation	Metabolism; Metabolism of terpenoids and polyketides	22	21	11	11	21	1	95.5%	50.0%	95.5%
+map00290	Valine, leucine and isoleucine biosynthesis	Metabolism; Amino acid metabolism	25	25	23	23	25	0	100.0%	92.0%	100.0%
+map00300	Lysine biosynthesis	Metabolism; Amino acid metabolism	39	39	31	31	39	0	100.0%	79.5%	100.0%
+map00310	Lysine degradation	Metabolism; Amino acid metabolism	63	62	42	42	62	1	98.4%	66.7%	98.4%
+map00311	Penicillin and cephalosporin biosynthesis	Metabolism; Biosynthesis of other secondary metabolites	17	17	3	3	17	0	100.0%	17.6%	100.0%
+map00330	Arginine and proline metabolism	Metabolism; Amino acid metabolism	128	125	102	102	125	3	97.7%	79.7%	97.7%
 map00331	Clavulanic acid biosynthesis	Metabolism; Biosynthesis of other secondary metabolites	8	8	0	0	8	0	100.0%	0.0%	100.0%
-map00340	Histidine metabolism	Metabolism; Amino acid metabolism	50	46	18	18	46	4	92.0%	36.0%	92.0%
-map00350	Tyrosine metabolism	Metabolism; Amino acid metabolism	105	83	55	52	86	19	79.0%	52.4%	81.9%
-map00351	DDT degradation	Metabolism; Xenobiotics biodegradation and metabolism	24	19	0	0	19	5	79.2%	0.0%	79.2%
-map00360	Phenylalanine metabolism	Metabolism; Amino acid metabolism	85	68	23	22	69	16	80.0%	27.1%	81.2%
-map00361	Chlorocyclohexane and chlorobenzene degradation	Metabolism; Xenobiotics biodegradation and metabolism	86	68	0	0	68	18	79.1%	0.0%	79.1%
-map00362	Benzoate degradation	Metabolism; Xenobiotics biodegradation and metabolism	84	60	14	13	61	23	71.4%	16.7%	72.6%
-map00363	Bisphenol degradation	Metabolism; Xenobiotics biodegradation and metabolism	23	23	0	0	23	0	100.0%	0.0%	100.0%
-map00364	Fluorobenzoate degradation	Metabolism; Xenobiotics biodegradation and metabolism	35	32	0	0	32	3	91.4%	0.0%	91.4%
-map00365	Furfural degradation	Metabolism; Xenobiotics biodegradation and metabolism	11	6	0	0	6	5	54.5%	0.0%	54.5%
-map00380	Tryptophan metabolism	Metabolism; Amino acid metabolism	94	75	34	34	75	19	79.8%	36.2%	79.8%
-map00400	Phenylalanine, tyrosine and tryptophan biosynthesis	Metabolism; Amino acid metabolism	49	48	32	32	48	1	98.0%	65.3%	98.0%
-map00401	Novobiocin biosynthesis	Metabolism; Biosynthesis of other secondary metabolites	31	25	2	2	25	6	80.6%	6.5%	80.6%
-map00402	Benzoxazinoid biosynthesis	Metabolism; Biosynthesis of other secondary metabolites	8	4	0	0	4	4	50.0%	0.0%	50.0%
-map00403	Indole diterpene alkaloid biosynthesis	Metabolism; Biosynthesis of other secondary metabolites	37	37	0	0	37	0	100.0%	0.0%	100.0%
-map00410	beta-Alanine metabolism	Metabolism; Metabolism of other amino acids	36	33	22	20	35	1	91.7%	61.1%	97.2%
-map00430	Taurine and hypotaurine metabolism	Metabolism; Metabolism of other amino acids	23	19	10	10	19	4	82.6%	43.5%	82.6%
-map00440	Phosphonate and phosphinate metabolism	Metabolism; Metabolism of other amino acids	52	43	4	4	43	9	82.7%	7.7%	82.7%
-map00450	Selenocompound metabolism	Metabolism; Metabolism of other amino acids	24	18	6	6	18	6	75.0%	25.0%	75.0%
-map00460	Cyanoamino acid metabolism	Metabolism; Metabolism of other amino acids	51	41	5	5	41	10	80.4%	9.8%	80.4%
-map00471	D-Glutamine and D-glutamate metabolism	Metabolism; Metabolism of other amino acids	11	10	6	6	10	1	90.9%	54.5%	90.9%
-map00472	D-Arginine and D-ornithine metabolism	Metabolism; Metabolism of other amino acids	10	8	4	4	8	2	80.0%	40.0%	80.0%
-map00473	D-Alanine metabolism	Metabolism; Metabolism of other amino acids	6	3	3	3	3	3	50.0%	50.0%	50.0%
-map00480	Glutathione metabolism	Metabolism; Metabolism of other amino acids	53	43	22	22	43	10	81.1%	41.5%	81.1%
-map00500	Starch and sucrose metabolism	Metabolism; Carbohydrate metabolism	82	48	18	18	48	34	58.5%	22.0%	58.5%
-map00510	N-Glycan biosynthesis	Metabolism; Glycan biosynthesis and metabolism	35	4	0	0	4	31	11.4%	0.0%	11.4%
+map00340	Histidine metabolism	Metabolism; Amino acid metabolism	50	49	31	31	49	1	98.0%	62.0%	98.0%
+map00350	Tyrosine metabolism	Metabolism; Amino acid metabolism	105	97	68	68	97	8	92.4%	64.8%	92.4%
+map00351	DDT degradation	Metabolism; Xenobiotics biodegradation and metabolism	24	22	2	2	22	2	91.7%	8.3%	91.7%
+map00360	Phenylalanine metabolism	Metabolism; Amino acid metabolism	85	82	45	45	82	3	96.5%	52.9%	96.5%
+map00361	Chlorocyclohexane and chlorobenzene degradation	Metabolism; Xenobiotics biodegradation and metabolism	86	83	11	11	83	3	96.5%	12.8%	96.5%
+map00362	Benzoate degradation	Metabolism; Xenobiotics biodegradation and metabolism	84	82	33	33	82	2	97.6%	39.3%	97.6%
+map00363	Bisphenol degradation	Metabolism; Xenobiotics biodegradation and metabolism	23	23	3	3	23	0	100.0%	13.0%	100.0%
+map00364	Fluorobenzoate degradation	Metabolism; Xenobiotics biodegradation and metabolism	35	35	14	14	35	0	100.0%	40.0%	100.0%
+map00365	Furfural degradation	Metabolism; Xenobiotics biodegradation and metabolism	11	9	4	4	9	2	81.8%	36.4%	81.8%
+map00380	Tryptophan metabolism	Metabolism; Amino acid metabolism	94	91	58	58	91	3	96.8%	61.7%	96.8%
+map00400	Phenylalanine, tyrosine and tryptophan biosynthesis	Metabolism; Amino acid metabolism	49	48	43	43	48	1	98.0%	87.8%	98.0%
+map00401	Novobiocin biosynthesis	Metabolism; Biosynthesis of other secondary metabolites	31	26	2	2	26	5	83.9%	6.5%	83.9%
+map00402	Benzoxazinoid biosynthesis	Metabolism; Biosynthesis of other secondary metabolites	8	8	1	1	8	0	100.0%	12.5%	100.0%
+map00403	Indole diterpene alkaloid biosynthesis	Metabolism; Biosynthesis of other secondary metabolites	37	37	15	15	37	0	100.0%	40.5%	100.0%
+map00410	beta-Alanine metabolism	Metabolism; Metabolism of other amino acids	36	35	28	28	35	1	97.2%	77.8%	97.2%
+map00430	Taurine and hypotaurine metabolism	Metabolism; Metabolism of other amino acids	23	22	12	12	22	1	95.7%	52.2%	95.7%
+map00440	Phosphonate and phosphinate metabolism	Metabolism; Metabolism of other amino acids	52	47	8	8	47	5	90.4%	15.4%	90.4%
+map00450	Selenocompound metabolism	Metabolism; Metabolism of other amino acids	24	24	15	15	24	0	100.0%	62.5%	100.0%
+map00460	Cyanoamino acid metabolism	Metabolism; Metabolism of other amino acids	51	48	12	12	48	3	94.1%	23.5%	94.1%
+map00471	D-Glutamine and D-glutamate metabolism	Metabolism; Metabolism of other amino acids	11	11	8	8	11	0	100.0%	72.7%	100.0%
+map00472	D-Arginine and D-ornithine metabolism	Metabolism; Metabolism of other amino acids	10	10	4	4	10	0	100.0%	40.0%	100.0%
+map00473	D-Alanine metabolism	Metabolism; Metabolism of other amino acids	6	6	4	4	6	0	100.0%	66.7%	100.0%
+map00480	Glutathione metabolism	Metabolism; Metabolism of other amino acids	53	50	35	35	50	3	94.3%	66.0%	94.3%
+map00500	Starch and sucrose metabolism	Metabolism; Carbohydrate metabolism	82	55	37	37	55	27	67.1%	45.1%	67.1%
+map00510	N-Glycan biosynthesis	Metabolism; Glycan biosynthesis and metabolism	35	14	0	0	14	21	40.0%	0.0%	40.0%
 map00512	Mucin type O-Glycan biosynthesis	Metabolism; Glycan biosynthesis and metabolism	10	0	0	0	0	10	0.0%	0.0%	0.0%
-map00513	Various types of N-glycan biosynthesis	Metabolism; Glycan biosynthesis and metabolism	25	0	0	0	0	25	0.0%	0.0%	0.0%
-map00514	Other types of O-glycan biosynthesis	Metabolism; Glycan biosynthesis and metabolism	18	1	0	0	1	17	5.6%	0.0%	5.6%
-map00520	Amino sugar and nucleotide sugar metabolism	Metabolism; Carbohydrate metabolism	133	116	40	40	116	17	87.2%	30.1%	87.2%
-map00521	Streptomycin biosynthesis	Metabolism; Biosynthesis of other secondary metabolites	24	22	6	6	22	2	91.7%	25.0%	91.7%
-map00522	Biosynthesis of 12-, 14- and 16-membered macrolides	Metabolism; Metabolism of terpenoids and polyketides	65	50	0	0	50	15	76.9%	0.0%	76.9%
-map00523	Polyketide sugar unit biosynthesis	Metabolism; Metabolism of terpenoids and polyketides	42	28	3	3	28	14	66.7%	7.1%	66.7%
-map00524	Butirosin and neomycin biosynthesis	Metabolism; Biosynthesis of other secondary metabolites	30	25	3	3	25	5	83.3%	10.0%	83.3%
-map00531	Glycosaminoglycan degradation	Metabolism; Glycan biosynthesis and metabolism	21	2	0	0	2	19	9.5%	0.0%	9.5%
+map00513	Various types of N-glycan biosynthesis	Metabolism; Glycan biosynthesis and metabolism	25	3	1	1	3	22	12.0%	4.0%	12.0%
+map00514	Other types of O-glycan biosynthesis	Metabolism; Glycan biosynthesis and metabolism	18	3	0	0	3	15	16.7%	0.0%	16.7%
+map00520	Amino sugar and nucleotide sugar metabolism	Metabolism; Carbohydrate metabolism	133	119	71	71	119	14	89.5%	53.4%	89.5%
+map00521	Streptomycin biosynthesis	Metabolism; Biosynthesis of other secondary metabolites	24	22	10	10	22	2	91.7%	41.7%	91.7%
+map00522	Biosynthesis of 12-, 14- and 16-membered macrolides	Metabolism; Metabolism of terpenoids and polyketides	65	62	8	8	62	3	95.4%	12.3%	95.4%
+map00523	Polyketide sugar unit biosynthesis	Metabolism; Metabolism of terpenoids and polyketides	42	30	11	11	30	12	71.4%	26.2%	71.4%
+map00524	Butirosin and neomycin biosynthesis	Metabolism; Biosynthesis of other secondary metabolites	30	30	12	12	30	0	100.0%	40.0%	100.0%
+map00531	Glycosaminoglycan degradation	Metabolism; Glycan biosynthesis and metabolism	21	17	1	1	17	4	81.0%	4.8%	81.0%
 map00532	Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate	Metabolism; Glycan biosynthesis and metabolism	8	0	0	0	0	8	0.0%	0.0%	0.0%
 map00534	Glycosaminoglycan biosynthesis - heparan sulfate / heparin	Metabolism; Glycan biosynthesis and metabolism	9	0	0	0	0	9	0.0%	0.0%	0.0%
-map00540	Lipopolysaccharide biosynthesis	Metabolism; Glycan biosynthesis and metabolism	26	17	2	2	17	9	65.4%	7.7%	65.4%
-map00550	Peptidoglycan biosynthesis	Metabolism; Glycan biosynthesis and metabolism	23	10	8	8	10	13	43.5%	34.8%	43.5%
-map00561	Glycerolipid metabolism	Metabolism; Lipid metabolism	37	12	12	12	12	25	32.4%	32.4%	32.4%
-map00562	Inositol phosphate metabolism	Metabolism; Carbohydrate metabolism	56	39	21	21	39	17	69.6%	37.5%	69.6%
-map00563	Glycosylphosphatidylinositol(GPI)-anchor biosynthesis	Metabolism; Glycan biosynthesis and metabolism	11	4	0	0	4	7	36.4%	0.0%	36.4%
-map00564	Glycerophospholipid metabolism	Metabolism; Lipid metabolism	87	36	21	21	36	51	41.4%	24.1%	41.4%
-map00565	Ether lipid metabolism	Metabolism; Lipid metabolism	30	8	0	0	8	22	26.7%	0.0%	26.7%
-map00590	Arachidonic acid metabolism	Metabolism; Lipid metabolism	62	52	29	29	52	10	83.9%	46.8%	83.9%
-map00591	Linoleic acid metabolism	Metabolism; Lipid metabolism	16	13	6	6	13	3	81.2%	37.5%	81.2%
-map00592	alpha-Linolenic acid metabolism	Metabolism; Lipid metabolism	29	26	0	0	26	3	89.7%	0.0%	89.7%
-map00600	Sphingolipid metabolism	Metabolism; Lipid metabolism	40	11	5	5	11	29	27.5%	12.5%	27.5%
-map00601	Glycosphingolipid biosynthesis - lacto and neolacto series	Metabolism; Glycan biosynthesis and metabolism	55	0	0	0	0	55	0.0%	0.0%	0.0%
-map00603	Glycosphingolipid biosynthesis - globo series	Metabolism; Glycan biosynthesis and metabolism	12	0	0	0	0	12	0.0%	0.0%	0.0%
-map00604	Glycosphingolipid biosynthesis - ganglio series	Metabolism; Glycan biosynthesis and metabolism	25	0	0	0	0	25	0.0%	0.0%	0.0%
-map00620	Pyruvate metabolism	Metabolism; Carbohydrate metabolism	70	60	47	47	60	10	85.7%	67.1%	85.7%
-map00621	Dioxin degradation	Metabolism; Xenobiotics biodegradation and metabolism	27	14	3	2	15	12	51.9%	11.1%	55.6%
-map00622	Xylene degradation	Metabolism; Xenobiotics biodegradation and metabolism	38	23	9	8	24	14	60.5%	23.7%	63.2%
-map00623	Toluene degradation	Metabolism; Xenobiotics biodegradation and metabolism	46	40	3	3	40	6	87.0%	6.5%	87.0%
-map00624	Polycyclic aromatic hydrocarbon degradation	Metabolism; Xenobiotics biodegradation and metabolism	117	108	2	2	108	9	92.3%	1.7%	92.3%
-map00625	Chloroalkane and chloroalkene degradation	Metabolism; Xenobiotics biodegradation and metabolism	45	41	3	3	41	4	91.1%	6.7%	91.1%
-map00626	Naphthalene degradation	Metabolism; Xenobiotics biodegradation and metabolism	59	59	1	1	59	0	100.0%	1.7%	100.0%
-map00627	Aminobenzoate degradation	Metabolism; Xenobiotics biodegradation and metabolism	106	89	12	12	89	17	84.0%	11.3%	84.0%
-map00630	Glyoxylate and dicarboxylate metabolism	Metabolism; Carbohydrate metabolism	78	70	43	43	70	8	89.7%	55.1%	89.7%
-map00633	Nitrotoluene degradation	Metabolism; Xenobiotics biodegradation and metabolism	38	33	0	0	33	5	86.8%	0.0%	86.8%
-map00640	Propanoate metabolism	Metabolism; Carbohydrate metabolism	64	62	38	38	62	2	96.9%	59.4%	96.9%
-map00642	Ethylbenzene degradation	Metabolism; Xenobiotics biodegradation and metabolism	13	10	0	0	10	3	76.9%	0.0%	76.9%
-map00643	Styrene degradation	Metabolism; Xenobiotics biodegradation and metabolism	23	19	7	7	19	4	82.6%	30.4%	82.6%
-map00650	Butanoate metabolism	Metabolism; Carbohydrate metabolism	63	55	44	42	57	6	87.3%	69.8%	90.5%
-map00660	C5-Branched dibasic acid metabolism	Metabolism; Carbohydrate metabolism	33	29	5	5	29	4	87.9%	15.2%	87.9%
-map00670	One carbon pool by folate	Metabolism; Metabolism of cofactors and vitamins	33	31	24	24	31	2	93.9%	72.7%	93.9%
-map00680	Methane metabolism	Metabolism; Energy metabolism	89	76	39	38	77	12	85.4%	43.8%	86.5%
-map00710	Carbon fixation in photosynthetic organisms	Metabolism; Energy metabolism	26	26	16	16	26	0	100.0%	61.5%	100.0%
-map00720	Carbon fixation pathways in prokaryotes	Metabolism; Energy metabolism	51	47	37	36	48	3	92.2%	72.5%	94.1%
-map00730	Thiamine metabolism	Metabolism; Metabolism of cofactors and vitamins	28	21	13	12	22	6	75.0%	46.4%	78.6%
-map00740	Riboflavin metabolism	Metabolism; Metabolism of cofactors and vitamins	24	15	11	7	19	5	62.5%	45.8%	79.2%
-map00750	Vitamin B6 metabolism	Metabolism; Metabolism of cofactors and vitamins	40	39	20	20	39	1	97.5%	50.0%	97.5%
-map00760	Nicotinate and nicotinamide metabolism	Metabolism; Metabolism of cofactors and vitamins	68	51	28	28	51	17	75.0%	41.2%	75.0%
-map00770	Pantothenate and CoA biosynthesis	Metabolism; Metabolism of cofactors and vitamins	32	27	23	21	29	3	84.4%	71.9%	90.6%
-map00780	Biotin metabolism	Metabolism; Metabolism of cofactors and vitamins	23	14	6	6	14	9	60.9%	26.1%	60.9%
-map00785	Lipoic acid metabolism	Metabolism; Metabolism of cofactors and vitamins	6	1	0	0	1	5	16.7%	0.0%	16.7%
-map00790	Folate biosynthesis	Metabolism; Metabolism of cofactors and vitamins	38	26	24	20	30	8	68.4%	63.2%	78.9%
+map00540	Lipopolysaccharide biosynthesis	Metabolism; Glycan biosynthesis and metabolism	26	26	16	16	26	0	100.0%	61.5%	100.0%
+map00550	Peptidoglycan biosynthesis	Metabolism; Glycan biosynthesis and metabolism	23	15	13	12	16	7	65.2%	56.5%	69.6%
+map00561	Glycerolipid metabolism	Metabolism; Lipid metabolism	37	24	16	16	24	13	64.9%	43.2%	64.9%
+map00562	Inositol phosphate metabolism	Metabolism; Carbohydrate metabolism	56	51	32	32	51	5	91.1%	57.1%	91.1%
+map00563	Glycosylphosphatidylinositol(GPI)-anchor biosynthesis	Metabolism; Glycan biosynthesis and metabolism	11	6	1	1	6	5	54.5%	9.1%	54.5%
+map00564	Glycerophospholipid metabolism	Metabolism; Lipid metabolism	87	70	33	33	70	17	80.5%	37.9%	80.5%
+map00565	Ether lipid metabolism	Metabolism; Lipid metabolism	30	26	4	4	26	4	86.7%	13.3%	86.7%
+map00590	Arachidonic acid metabolism	Metabolism; Lipid metabolism	62	59	41	41	59	3	95.2%	66.1%	95.2%
+map00591	Linoleic acid metabolism	Metabolism; Lipid metabolism	16	15	7	7	15	1	93.8%	43.8%	93.8%
+map00592	alpha-Linolenic acid metabolism	Metabolism; Lipid metabolism	29	29	10	10	29	0	100.0%	34.5%	100.0%
+map00600	Sphingolipid metabolism	Metabolism; Lipid metabolism	40	36	16	16	36	4	90.0%	40.0%	90.0%
+map00601	Glycosphingolipid biosynthesis - lacto and neolacto series	Metabolism; Glycan biosynthesis and metabolism	55	1	1	0	2	53	1.8%	1.8%	3.6%
+map00603	Glycosphingolipid biosynthesis - globo series	Metabolism; Glycan biosynthesis and metabolism	12	1	0	0	1	11	8.3%	0.0%	8.3%
+map00604	Glycosphingolipid biosynthesis - ganglio series	Metabolism; Glycan biosynthesis and metabolism	25	4	1	1	4	21	16.0%	4.0%	16.0%
+map00620	Pyruvate metabolism	Metabolism; Carbohydrate metabolism	70	70	58	58	70	0	100.0%	82.9%	100.0%
+map00621	Dioxin degradation	Metabolism; Xenobiotics biodegradation and metabolism	27	27	7	7	27	0	100.0%	25.9%	100.0%
+map00622	Xylene degradation	Metabolism; Xenobiotics biodegradation and metabolism	38	32	26	25	33	5	84.2%	68.4%	86.8%
+map00623	Toluene degradation	Metabolism; Xenobiotics biodegradation and metabolism	46	46	18	18	46	0	100.0%	39.1%	100.0%
+map00624	Polycyclic aromatic hydrocarbon degradation	Metabolism; Xenobiotics biodegradation and metabolism	117	113	25	25	113	4	96.6%	21.4%	96.6%
+map00625	Chloroalkane and chloroalkene degradation	Metabolism; Xenobiotics biodegradation and metabolism	45	43	9	9	43	2	95.6%	20.0%	95.6%
+map00626	Naphthalene degradation	Metabolism; Xenobiotics biodegradation and metabolism	59	59	17	17	59	0	100.0%	28.8%	100.0%
+map00627	Aminobenzoate degradation	Metabolism; Xenobiotics biodegradation and metabolism	106	99	27	27	99	7	93.4%	25.5%	93.4%
+map00630	Glyoxylate and dicarboxylate metabolism	Metabolism; Carbohydrate metabolism	78	77	52	52	77	1	98.7%	66.7%	98.7%
+map00633	Nitrotoluene degradation	Metabolism; Xenobiotics biodegradation and metabolism	38	35	5	5	35	3	92.1%	13.2%	92.1%
+map00640	Propanoate metabolism	Metabolism; Carbohydrate metabolism	64	64	51	51	64	0	100.0%	79.7%	100.0%
+map00642	Ethylbenzene degradation	Metabolism; Xenobiotics biodegradation and metabolism	13	13	3	3	13	0	100.0%	23.1%	100.0%
+map00643	Styrene degradation	Metabolism; Xenobiotics biodegradation and metabolism	23	23	9	9	23	0	100.0%	39.1%	100.0%
+map00650	Butanoate metabolism	Metabolism; Carbohydrate metabolism	63	60	51	51	60	3	95.2%	81.0%	95.2%
+map00660	C5-Branched dibasic acid metabolism	Metabolism; Carbohydrate metabolism	33	31	9	9	31	2	93.9%	27.3%	93.9%
+map00670	One carbon pool by folate	Metabolism; Metabolism of cofactors and vitamins	33	33	29	29	33	0	100.0%	87.9%	100.0%
+map00680	Methane metabolism	Metabolism; Energy metabolism	89	84	49	49	84	5	94.4%	55.1%	94.4%
+map00710	Carbon fixation in photosynthetic organisms	Metabolism; Energy metabolism	26	26	25	25	26	0	100.0%	96.2%	100.0%
+map00720	Carbon fixation pathways in prokaryotes	Metabolism; Energy metabolism	51	50	41	41	50	1	98.0%	80.4%	98.0%
+map00730	Thiamine metabolism	Metabolism; Metabolism of cofactors and vitamins	28	27	17	17	27	1	96.4%	60.7%	96.4%
+map00740	Riboflavin metabolism	Metabolism; Metabolism of cofactors and vitamins	24	23	16	16	23	1	95.8%	66.7%	95.8%
+map00750	Vitamin B6 metabolism	Metabolism; Metabolism of cofactors and vitamins	40	40	25	25	40	0	100.0%	62.5%	100.0%
+map00760	Nicotinate and nicotinamide metabolism	Metabolism; Metabolism of cofactors and vitamins	68	63	36	36	63	5	92.6%	52.9%	92.6%
+map00770	Pantothenate and CoA biosynthesis	Metabolism; Metabolism of cofactors and vitamins	32	31	25	25	31	1	96.9%	78.1%	96.9%
+map00780	Biotin metabolism	Metabolism; Metabolism of cofactors and vitamins	23	20	14	14	20	3	87.0%	60.9%	87.0%
+map00785	Lipoic acid metabolism	Metabolism; Metabolism of cofactors and vitamins	6	2	1	1	2	4	33.3%	16.7%	33.3%
+map00790	Folate biosynthesis	Metabolism; Metabolism of cofactors and vitamins	38	34	31	31	34	4	89.5%	81.6%	89.5%
 map00791	Atrazine degradation	Metabolism; Xenobiotics biodegradation and metabolism	23	22	2	2	22	1	95.7%	8.7%	95.7%
-map00830	Retinol metabolism	Metabolism; Metabolism of cofactors and vitamins	31	17	11	11	17	14	54.8%	35.5%	54.8%
-map00860	Porphyrin and chlorophyll metabolism	Metabolism; Metabolism of cofactors and vitamins	141	74	32	28	78	63	52.5%	22.7%	55.3%
-map00900	Terpenoid backbone biosynthesis	Metabolism; Metabolism of terpenoids and polyketides	52	35	12	12	35	17	67.3%	23.1%	67.3%
-map00901	Indole alkaloid biosynthesis	Metabolism; Biosynthesis of other secondary metabolites	46	16	1	1	16	30	34.8%	2.2%	34.8%
-map00902	Monoterpenoid biosynthesis	Metabolism; Metabolism of terpenoids and polyketides	53	34	0	0	34	19	64.2%	0.0%	64.2%
-map00903	Limonene and pinene degradation	Metabolism; Metabolism of terpenoids and polyketides	67	55	3	3	55	12	82.1%	4.5%	82.1%
-map00904	Diterpenoid biosynthesis	Metabolism; Metabolism of terpenoids and polyketides	111	82	0	0	82	29	73.9%	0.0%	73.9%
-map00905	Brassinosteroid biosynthesis	Metabolism; Metabolism of terpenoids and polyketides	40	5	0	0	5	35	12.5%	0.0%	12.5%
-map00906	Carotenoid biosynthesis	Metabolism; Metabolism of terpenoids and polyketides	134	73	3	3	73	61	54.5%	2.2%	54.5%
-map00908	Zeatin biosynthesis	Metabolism; Metabolism of terpenoids and polyketides	34	23	0	0	23	11	67.6%	0.0%	67.6%
-map00909	Sesquiterpenoid and triterpenoid biosynthesis	Metabolism; Metabolism of terpenoids and polyketides	86	65	0	0	65	21	75.6%	0.0%	75.6%
-map00910	Nitrogen metabolism	Metabolism; Energy metabolism	42	21	16	16	21	21	50.0%	38.1%	50.0%
-map00920	Sulfur metabolism	Metabolism; Energy metabolism	47	33	16	16	33	14	70.2%	34.0%	70.2%
-map00930	Caprolactam degradation	Metabolism; Xenobiotics biodegradation and metabolism	22	20	1	1	20	2	90.9%	4.5%	90.9%
-map00940	Phenylpropanoid biosynthesis	Metabolism; Biosynthesis of other secondary metabolites	87	80	3	3	80	7	92.0%	3.4%	92.0%
-map00941	Flavonoid biosynthesis	Metabolism; Biosynthesis of other secondary metabolites	86	64	0	0	64	22	74.4%	0.0%	74.4%
-map00942	Anthocyanin biosynthesis	Metabolism; Biosynthesis of other secondary metabolites	71	1	0	0	1	70	1.4%	0.0%	1.4%
-map00943	Isoflavonoid biosynthesis	Metabolism; Biosynthesis of other secondary metabolites	68	52	0	0	52	16	76.5%	0.0%	76.5%
-map00944	Flavone and flavonol biosynthesis	Metabolism; Biosynthesis of other secondary metabolites	48	38	0	0	38	10	79.2%	0.0%	79.2%
-map00945	Stilbenoid, diarylheptanoid and gingerol biosynthesis	Metabolism; Biosynthesis of other secondary metabolites	33	15	0	0	15	18	45.5%	0.0%	45.5%
-map00950	Isoquinoline alkaloid biosynthesis	Metabolism; Biosynthesis of other secondary metabolites	100	72	8	8	72	28	72.0%	8.0%	72.0%
-map00960	Tropane, piperidine and pyridine alkaloid biosynthesis	Metabolism; Biosynthesis of other secondary metabolites	68	48	12	12	48	20	70.6%	17.6%	70.6%
-map00965	Betalain biosynthesis	Metabolism; Biosynthesis of other secondary metabolites	27	14	6	6	14	13	51.9%	22.2%	51.9%
-map00966	Glucosinolate biosynthesis	Metabolism; Biosynthesis of other secondary metabolites	59	35	2	2	35	24	59.3%	3.4%	59.3%
-map00970	Aminoacyl-tRNA biosynthesis	Genetic Information Processing; Translation	32	1	0	0	1	31	3.1%	0.0%	3.1%
-map00980	Metabolism of xenobiotics by cytochrome P450	Metabolism; Xenobiotics biodegradation and metabolism	121	116	5	5	116	5	95.9%	4.1%	95.9%
-map00981	Insect hormone biosynthesis	Metabolism; Metabolism of terpenoids and polyketides	29	23	1	1	23	6	79.3%	3.4%	79.3%
-map00982	Drug metabolism - cytochrome P450	Metabolism; Xenobiotics biodegradation and metabolism	84	80	7	7	80	4	95.2%	8.3%	95.2%
-map00983	Drug metabolism - other enzymes	Metabolism; Xenobiotics biodegradation and metabolism	38	30	4	4	30	8	78.9%	10.5%	78.9%
-map00984	Steroid degradation	Metabolism; Xenobiotics biodegradation and metabolism	16	9	3	3	9	7	56.2%	18.8%	56.2%
-map01040	Biosynthesis of unsaturated fatty acids	Metabolism; Lipid metabolism	41	31	26	26	31	10	75.6%	63.4%	75.6%
-map01051	Biosynthesis of ansamycins	Metabolism; Metabolism of terpenoids and polyketides	30	25	0	0	25	5	83.3%	0.0%	83.3%
-map01053	Biosynthesis of siderophore group nonribosomal peptides	Metabolism; Metabolism of terpenoids and polyketides	4	4	2	2	4	0	100.0%	50.0%	100.0%
-map01055	Biosynthesis of vancomycin group antibiotics	Metabolism; Metabolism of terpenoids and polyketides	13	13	1	1	13	0	100.0%	7.7%	100.0%
-map01056	Biosynthesis of type II polyketide backbone	Metabolism; Metabolism of terpenoids and polyketides	20	13	0	0	13	7	65.0%	0.0%	65.0%
-map01057	Biosynthesis of type II polyketide products	Metabolism; Metabolism of terpenoids and polyketides	123	86	1	1	86	37	69.9%	0.8%	69.9%
-map01058	Acridone alkaloid biosynthesis	Metabolism; Biosynthesis of other secondary metabolites	3	3	0	0	3	0	100.0%	0.0%	100.0%
-map01200	Carbon metabolism	Metabolism; Overview	174	158	106	105	159	15	90.8%	60.9%	91.4%
-map01210	2-Oxocarboxylic acid metabolism	Metabolism; Overview	126	100	38	38	100	26	79.4%	30.2%	79.4%
-map01212	Fatty acid metabolism	Metabolism; Overview	98	53	48	45	56	42	54.1%	49.0%	57.1%
-map01220	Degradation of aromatic compounds	Metabolism; Overview	247	186	19	18	187	60	75.3%	7.7%	75.7%
-map01230	Biosynthesis of amino acids	Metabolism; Overview	156	156	115	115	156	0	100.0%	73.7%	100.0%
+map00830	Retinol metabolism	Metabolism; Metabolism of cofactors and vitamins	31	23	19	19	23	8	74.2%	61.3%	74.2%
+map00860	Porphyrin and chlorophyll metabolism	Metabolism; Metabolism of cofactors and vitamins	141	112	56	55	113	28	79.4%	39.7%	80.1%
+map00900	Terpenoid backbone biosynthesis	Metabolism; Metabolism of terpenoids and polyketides	52	43	21	21	43	9	82.7%	40.4%	82.7%
+map00901	Indole alkaloid biosynthesis	Metabolism; Biosynthesis of other secondary metabolites	46	25	2	2	25	21	54.3%	4.3%	54.3%
+map00902	Monoterpenoid biosynthesis	Metabolism; Metabolism of terpenoids and polyketides	53	45	3	3	45	8	84.9%	5.7%	84.9%
+map00903	Limonene and pinene degradation	Metabolism; Metabolism of terpenoids and polyketides	67	66	13	13	66	1	98.5%	19.4%	98.5%
+map00904	Diterpenoid biosynthesis	Metabolism; Metabolism of terpenoids and polyketides	111	100	7	7	100	11	90.1%	6.3%	90.1%
+map00905	Brassinosteroid biosynthesis	Metabolism; Metabolism of terpenoids and polyketides	40	11	7	7	11	29	27.5%	17.5%	27.5%
+map00906	Carotenoid biosynthesis	Metabolism; Metabolism of terpenoids and polyketides	134	119	16	16	119	15	88.8%	11.9%	88.8%
+map00908	Zeatin biosynthesis	Metabolism; Metabolism of terpenoids and polyketides	34	27	0	0	27	7	79.4%	0.0%	79.4%
+map00909	Sesquiterpenoid and triterpenoid biosynthesis	Metabolism; Metabolism of terpenoids and polyketides	86	80	5	5	80	6	93.0%	5.8%	93.0%
+map00910	Nitrogen metabolism	Metabolism; Energy metabolism	42	40	24	24	40	2	95.2%	57.1%	95.2%
+map00920	Sulfur metabolism	Metabolism; Energy metabolism	47	40	21	21	40	7	85.1%	44.7%	85.1%
+map00930	Caprolactam degradation	Metabolism; Xenobiotics biodegradation and metabolism	22	22	9	9	22	0	100.0%	40.9%	100.0%
+map00940	Phenylpropanoid biosynthesis	Metabolism; Biosynthesis of other secondary metabolites	87	83	21	21	83	4	95.4%	24.1%	95.4%
+map00941	Flavonoid biosynthesis	Metabolism; Biosynthesis of other secondary metabolites	86	76	5	5	76	10	88.4%	5.8%	88.4%
+map00942	Anthocyanin biosynthesis	Metabolism; Biosynthesis of other secondary metabolites	71	47	3	3	47	24	66.2%	4.2%	66.2%
+map00943	Isoflavonoid biosynthesis	Metabolism; Biosynthesis of other secondary metabolites	68	60	2	2	60	8	88.2%	2.9%	88.2%
+map00944	Flavone and flavonol biosynthesis	Metabolism; Biosynthesis of other secondary metabolites	48	45	0	0	45	3	93.8%	0.0%	93.8%
+map00945	Stilbenoid, diarylheptanoid and gingerol biosynthesis	Metabolism; Biosynthesis of other secondary metabolites	33	22	4	4	22	11	66.7%	12.1%	66.7%
+map00950	Isoquinoline alkaloid biosynthesis	Metabolism; Biosynthesis of other secondary metabolites	100	88	17	17	88	12	88.0%	17.0%	88.0%
+map00960	Tropane, piperidine and pyridine alkaloid biosynthesis	Metabolism; Biosynthesis of other secondary metabolites	68	56	16	16	56	12	82.4%	23.5%	82.4%
+map00965	Betalain biosynthesis	Metabolism; Biosynthesis of other secondary metabolites	27	20	7	7	20	7	74.1%	25.9%	74.1%
+map00966	Glucosinolate biosynthesis	Metabolism; Biosynthesis of other secondary metabolites	59	53	15	15	53	6	89.8%	25.4%	89.8%
+map00970	Aminoacyl-tRNA biosynthesis	Genetic Information Processing; Translation	32	32	27	27	32	0	100.0%	84.4%	100.0%
+map00980	Metabolism of xenobiotics by cytochrome P450	Metabolism; Xenobiotics biodegradation and metabolism	121	117	41	41	117	4	96.7%	33.9%	96.7%
+map00981	Insect hormone biosynthesis	Metabolism; Metabolism of terpenoids and polyketides	29	27	7	7	27	2	93.1%	24.1%	93.1%
+map00982	Drug metabolism - cytochrome P450	Metabolism; Xenobiotics biodegradation and metabolism	84	82	30	30	82	2	97.6%	35.7%	97.6%
+map00983	Drug metabolism - other enzymes	Metabolism; Xenobiotics biodegradation and metabolism	38	35	17	17	35	3	92.1%	44.7%	92.1%
+map00984	Steroid degradation	Metabolism; Xenobiotics biodegradation and metabolism	16	12	6	6	12	4	75.0%	37.5%	75.0%
+map01040	Biosynthesis of unsaturated fatty acids	Metabolism; Lipid metabolism	41	39	36	35	40	1	95.1%	87.8%	97.6%
+map01051	Biosynthesis of ansamycins	Metabolism; Metabolism of terpenoids and polyketides	30	25	3	3	25	5	83.3%	10.0%	83.3%
+map01053	Biosynthesis of siderophore group nonribosomal peptides	Metabolism; Metabolism of terpenoids and polyketides	4	4	4	4	4	0	100.0%	100.0%	100.0%
+map01055	Biosynthesis of vancomycin group antibiotics	Metabolism; Metabolism of terpenoids and polyketides	13	13	3	3	13	0	100.0%	23.1%	100.0%
+map01056	Biosynthesis of type II polyketide backbone	Metabolism; Metabolism of terpenoids and polyketides	20	20	11	11	20	0	100.0%	55.0%	100.0%
+map01057	Biosynthesis of type II polyketide products	Metabolism; Metabolism of terpenoids and polyketides	123	102	16	16	102	21	82.9%	13.0%	82.9%
+map01058	Acridone alkaloid biosynthesis	Metabolism; Biosynthesis of other secondary metabolites	3	3	1	1	3	0	100.0%	33.3%	100.0%
+map01200	Carbon metabolism	Metabolism; Overview	174	168	136	136	168	6	96.6%	78.2%	96.6%
+map01210	2-Oxocarboxylic acid metabolism	Metabolism; Overview	126	118	73	73	118	8	93.7%	57.9%	93.7%
+map01212	Fatty acid metabolism	Metabolism; Overview	98	88	86	81	93	5	89.8%	87.8%	94.9%
+map01220	Degradation of aromatic compounds	Metabolism; Overview	247	235	111	110	236	11	95.1%	44.9%	95.5%
+map01230	Biosynthesis of amino acids	Metabolism; Overview	156	156	146	146	156	0	100.0%	93.6%	100.0%

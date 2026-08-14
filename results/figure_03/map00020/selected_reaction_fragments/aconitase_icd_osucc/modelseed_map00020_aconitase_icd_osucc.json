@@ -229,7 +229,7 @@
     "reactions": {
       "7": {
         "name": "R00268",
-        "bigg_id": "OSUCCL",
+        "bigg_id": "rxn00199_c0",
         "reversibility": true,
         "gene_reaction_rule": "",
         "genes": [],
@@ -322,7 +322,7 @@
       },
       "9": {
         "name": "R01899",
-        "bigg_id": "ICITRED",
+        "bigg_id": "rxn01387_c0",
         "reversibility": true,
         "gene_reaction_rule": "",
         "genes": [],
@@ -426,7 +426,7 @@
       },
       "12": {
         "name": "R01900",
-        "bigg_id": "ACN_b_m",
+        "bigg_id": "rxn01388_c0",
         "reversibility": true,
         "gene_reaction_rule": "",
         "genes": [],
@@ -511,7 +511,7 @@
     "canvas": {
       "x": 0,
       "y": 0,
-      "width": 1385.0,
+      "width": 1427.3841040554785,
       "height": 1545.8179058189085
     }
   }
