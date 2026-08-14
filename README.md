@@ -23,6 +23,8 @@ The list below follows the article numbering.
   `results/fig5_tool_comparison/tool_comparison.html`.
 - Figure 6 and Supplementary Figures S11-S14: `results/figure_03/map00020/`.
   This path is kept because it is cited directly in the article.
+- Additional model-diversity and fallback-validation materials:
+  `results/jaccard/`, `results/compartments/`, and `results/fallback/`.
 - Table 2: `results/table2_reaction_retention/`.
 - Pathway-wide KEGG mapping data discussed in the limitations:
   `results/table_02_kegg_database_mapping/`. This path is kept because the
@@ -45,7 +47,9 @@ The full supplementary-material mapping is listed in
 - `pipeline_three_reconstructors_outputs/` - retained outputs from the Scenario III
   run on SRR13921546 using gapseq, ModelSEEDpy, and Reconstructor.
 - `external_tools_launch/` - launch notes for external visualization tools.
-- `scripts/` - small helper scripts for external-tool input preparation and comparison-matrix generation.
+- `scripts/` - helper scripts for external-tool input preparation,
+  comparison-matrix generation, prokaryotic-map reproducibility, fallback
+  summaries, and compartment-map generation.
 
 Generated working folders named `outputs/` are intentionally ignored by git. Curated outputs
 that should be visible to readers are copied into `results/`.

@@ -28,6 +28,12 @@ The source scripts and reproducible inputs remain in `figures_scripts/`,
 - `fig5_tool_comparison/` - Figure 5 and Supplementary S5-S9 comparison
   artifacts for SAMMI, Fluxer, CAVE, MetExplore V2, NetworkX/Grohar baselines,
   and the Fluxer input model.
+- `fallback/` - BioEMMA 0.4.2 BiGG and ModelSEED/SEED EC-fallback validation,
+  resource coverage, and article-map no-change evidence.
+- `jaccard/` - prokaryotic model reproducibility and pairwise Jaccard metrics
+  for E. coli and broader BiGG prokaryotic model sets.
+- `compartments/` - compartment-specific eukaryotic maps and timing summaries
+  for `iMM904`, `iMM1415`, and `Recon3D`.
 
 ## Provenance
 
@@ -39,3 +45,5 @@ The source scripts and reproducible inputs remain in `figures_scripts/`,
   `figure_03/map00020/source_models/`.
 - The three-reconstructor pipeline run parameters and retained intermediate
   outputs are stored in `../pipeline_three_reconstructors_outputs/`.
+- The fallback, Jaccard, and compartment-map materials support the additional
+  model-diversity evaluation added during revision.

@@ -1,0 +1,85 @@
+# KEGG all-pathway mapping: BiGG fallback vs SEED fallback
+
+Compared current resources with BiGG EC fallback against temporary resources with BiGG EC fallback + SEED EC fallback.
+
+## Aggregate pathway-reaction entries
+
+| Metric | BiGG fallback | SEED fallback | Delta |
+|---|---:|---:|---:|
+| Pathways | 153 | 153 | +0 |
+| Pathway-reaction entries | 8012 | 8012 | +0 |
+| SEED mapped entries | 5919 | 7139 | +1220 |
+| BiGG mapped entries | 3779 | 3779 | +0 |
+| Both SEED and BiGG | 3327 | 3758 | +431 |
+| Either SEED or BiGG | 6371 | 7160 | +789 |
+| Unmapped entries | 1641 | 852 | -789 |
+| SEED mapped percent | 73.9% | 89.1% | +15.2 pp |
+| Either mapped percent | 79.5% | 89.4% | +9.8 pp |
+
+## Aggregate unique KEGG reactions
+
+| Metric | BiGG fallback | SEED fallback | Delta |
+|---|---:|---:|---:|
+| Unique KEGG reactions | 6547 | 6547 | +0 |
+| Unique SEED mapped | 4709 | 5751 | +1042 |
+| Unique BiGG mapped | 2711 | 2711 | +0 |
+| Unique both | 2354 | 2697 | +343 |
+| Unique either | 5066 | 5765 | +699 |
+| Unique unmapped | 1481 | 782 | -699 |
+
+## Changed pathway counts
+
+| Metric changed | Pathways |
+|---|---:|
+| SEED mapped | 133 / 153 |
+| BiGG mapped | 0 / 153 |
+| Both | 88 / 153 |
+| Either | 126 / 153 |
+| Unmapped | 126 / 153 |
+
+## Top pathway increases in Either mapped
+
+| Pathway | Name | KEGG reactions | Either delta | SEED delta | Added either reactions |
+|---|---|---:|---:|---:|---|
+| map00942 | Anthocyanin biosynthesis | 71 | +43 | +46 | R06534, R06536, R06544, R06545, R06546, R06547, R06799, R06800, R06802, R06803, R06818, R06819, R07874, R07875, R07877, R07878, R07879, R07880, R07901, R07903 |
+| map00906 | Carotenoid biosynthesis | 134 | +39 | +46 | R04218, R04786, R04787, R04798, R04800, R05345, R06946, R06947, R07202, R07518, R07520, R07525, R07526, R07533, R07537, R07538, R07541, R07554, R07557, R07562 |
+| map01220 | Degradation of aromatic compounds | 247 | +31 | +49 | R01295, R01306, R02253, R02602, R02604, R02606, R03462, R03966, R04419, R04597, R05245, R05248, R05266, R05355, R05359, R05360, R05362, R05364, R05365, R05366 |
+| map00564 | Glycerophospholipid metabolism | 87 | +25 | +34 | R01013, R01310, R01312, R01321, R01801, R01802, R02027, R02051, R02052, R02053, R02054, R02055, R02746, R02747, R02756, R03416, R03417, R04480, R04864, R05794 |
+| map00860 | Porphyrin and chlorophyll metabolism | 141 | +23 | +38 | R02999, R03845, R03948, R04979, R05177, R05180, R05217, R05224, R05809, R05817, R06268, R06269, R06270, R06282, R06286, R06896, R07411, R08974, R09033, R09061 |
+| map00600 | Sphingolipid metabolism | 40 | +18 | +25 | R01494, R01496, R01500, R01891, R02541, R02542, R02543, R03354, R03355, R03617, R04018, R04019, R04921, R06517, R06518, R06525, R06527, R06528 |
+| map00904 | Diterpenoid biosynthesis | 111 | +18 | +18 | R03809, R06291, R06293, R06294, R06297, R06308, R06309, R06313, R06344, R06351, R06354, R08173, R09122, R09861, R09865, R09866, R09921, R10562 |
+| map00565 | Ether lipid metabolism | 30 | +17 | +18 | R02745, R03109, R03437, R03454, R03455, R04126, R04321, R04360, R04361, R04363, R04413, R04452, R07379, R07380, R07382, R07388, R07389 |
+| map00966 | Glucosinolate biosynthesis | 59 | +17 | +18 | R08160, R08167, R08621, R08622, R08626, R08630, R08638, R08643, R08647, R08663, R08668, R08669, R08670, R08671, R09403, R09578, R10671 |
+| map01210 | 2-Oxocarboxylic acid metabolism | 126 | +17 | +18 | R08160, R08167, R08621, R08622, R08626, R08630, R08638, R08643, R08647, R08663, R08668, R08669, R08670, R08671, R09403, R09578, R10671 |
+| map00950 | Isoquinoline alkaloid biosynthesis | 100 | +16 | +16 | R03833, R03834, R03842, R04400, R04690, R04694, R04696, R04699, R04702, R04708, R05213, R05215, R05732, R08787, R08788, R08790 |
+| map00361 | Chlorocyclohexane and chlorobenzene degradation | 86 | +15 | +15 | R03891, R03893, R05236, R05246, R05355, R05388, R05392, R05393, R05399, R05406, R05446, R05447, R06838, R06840, R07827 |
+| map00362 | Benzoate degradation | 84 | +15 | +22 | R01295, R01306, R01507, R01508, R01632, R02602, R02604, R02988, R02989, R03966, R04223, R04488, R05078, R05579, R05619 |
+| map00910 | Nitrogen metabolism | 42 | +15 | +19 | R00025, R00148, R00294, R00783, R00785, R00792, R02804, R03071, R05186, R05712, R07174, R09799, R10164, R10388, R10389 |
+| map00531 | Glycosaminoglycan degradation | 21 | +14 | +15 | R07806, R07807, R07808, R07812, R07813, R07814, R07815, R07817, R07818, R07821, R07822, R07823, R07824, R07825 |
+
+## Top pathway increases in SEED mapped
+
+| Pathway | Name | KEGG reactions | SEED delta | Either delta | Added SEED reactions |
+|---|---|---:|---:|---:|---|
+| map01220 | Degradation of aromatic compounds | 247 | +49 | +31 | R00750, R00816, R01295, R01306, R02253, R02550, R02601, R02602, R02603, R02604, R02606, R02762, R03303, R03462, R03966, R04089, R04376, R04418, R04419, R04597 |
+| map00906 | Carotenoid biosynthesis | 134 | +46 | +39 | R00702, R02065, R04218, R04786, R04787, R04798, R04800, R05345, R06946, R06947, R07202, R07270, R07518, R07520, R07525, R07526, R07533, R07537, R07538, R07541 |
+| map00942 | Anthocyanin biosynthesis | 71 | +46 | +43 | R06534, R06536, R06544, R06545, R06546, R06547, R06799, R06800, R06802, R06803, R06818, R06819, R07874, R07875, R07877, R07878, R07879, R07880, R07884, R07885 |
+| map00860 | Porphyrin and chlorophyll metabolism | 141 | +38 | +23 | R00310, R02999, R03194, R03222, R03845, R03877, R03947, R03948, R04109, R04979, R05150, R05177, R05180, R05181, R05217, R05219, R05224, R05227, R05578, R05809 |
+| map00061 | Fatty acid biosynthesis | 57 | +37 | +4 | R01624, R01626, R01706, R02814, R03370, R04014, R04429, R04430, R04534, R04535, R04536, R04537, R04543, R04566, R04568, R04724, R04725, R04953, R04955, R04956 |
+| map01212 | Fatty acid metabolism | 98 | +35 | +5 | R01624, R01626, R01706, R02222, R03370, R03814, R04429, R04430, R04534, R04535, R04536, R04537, R04543, R04566, R04568, R04724, R04725, R04953, R04955, R04956 |
+| map00564 | Glycerophospholipid metabolism | 87 | +34 | +25 | R00851, R01013, R01310, R01312, R01320, R01321, R01797, R01799, R01800, R01801, R01802, R02027, R02029, R02051, R02052, R02053, R02054, R02055, R02057, R02239 |
+| map00970 | Aminoacyl-tRNA biosynthesis | 32 | +31 | +5 | R02918, R03038, R03646, R03647, R03648, R03650, R03651, R03652, R03654, R03655, R03656, R03657, R03658, R03659, R03660, R03661, R03662, R03663, R03664, R03665 |
+| map00600 | Sphingolipid metabolism | 40 | +25 | +18 | R01494, R01495, R01496, R01497, R01498, R01500, R01891, R02541, R02542, R02543, R03354, R03355, R03617, R04016, R04017, R04018, R04019, R04856, R04921, R06517 |
+| map00240 | Pyrimidine metabolism | 119 | +23 | +4 | R00966, R00974, R00977, R00978, R01055, R01080, R01411, R01413, R01414, R01415, R01570, R01868, R01876, R02016, R02018, R02022, R02023, R02024, R02139, R02484 |
+| map00362 | Benzoate degradation | 84 | +22 | +15 | R00750, R00816, R01295, R01306, R01507, R01508, R01632, R02601, R02602, R02604, R02762, R02763, R02988, R02989, R03966, R04223, R04488, R05078, R05579, R05582 |
+| map00140 | Steroid hormone biosynthesis | 139 | +21 | +12 | R01833, R01840, R01842, R02211, R02214, R02215, R02218, R02501, R02503, R02725, R02843, R03086, R03087, R03262, R03329, R03783, R03851, R04676, R04759, R04850 |
+| map00910 | Nitrogen metabolism | 42 | +19 | +15 | R00025, R00148, R00294, R00540, R00783, R00785, R00791, R00792, R00794, R00796, R02804, R03071, R05186, R05712, R07174, R09799, R10164, R10388, R10389 |
+| map00565 | Ether lipid metabolism | 30 | +18 | +17 | R02745, R03109, R03437, R03454, R03455, R04126, R04321, R04360, R04361, R04363, R04413, R04452, R06364, R07379, R07380, R07382, R07388, R07389 |
+| map00904 | Diterpenoid biosynthesis | 111 | +18 | +18 | R03809, R06291, R06293, R06294, R06297, R06308, R06309, R06313, R06344, R06351, R06354, R08173, R09122, R09861, R09865, R09866, R09921, R10562 |
+
+## Category aggregate
+
+| Category | Pathways | KEGG entries | SEED delta | Either delta | Unmapped delta |
+|---|---:|---:|---:|---:|---:|
+| Metabolism | 152 | 7980 | +1189 | +784 | -784 |
+| Genetic Information Processing | 1 | 32 | +31 | +5 | -5 |

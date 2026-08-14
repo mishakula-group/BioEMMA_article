@@ -1,6 +1,6 @@
 # Install BioEMMA from its released package, or replace this line with:
 #   -e C:\path\to\BioEMMA
-bioemma==0.3.1
+bioemma==0.4.2
 
 cobra==0.31.1
 escher==1.8.1

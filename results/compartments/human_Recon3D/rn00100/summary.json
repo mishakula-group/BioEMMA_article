@@ -1,0 +1,359 @@
+{
+  "organism": "Homo sapiens",
+  "model_id": "Recon3D",
+  "pathway": "rn00100",
+  "title": "Steroid biosynthesis",
+  "bioemma_version": "0.4.1",
+  "kgml": "data\\compartment_models\\recon3d_probe\\kgml\\rn00100.xml",
+  "compartments": [
+    [
+      "c",
+      "cytosol"
+    ],
+    [
+      "r",
+      "endoplasmic reticulum"
+    ],
+    [
+      "m",
+      "mitochondria"
+    ]
+  ],
+  "reaction_counts": {
+    "c": 20,
+    "r": 19,
+    "m": 3
+  },
+  "compartment_summaries": {
+    "c": {
+      "label": "cytosol",
+      "reaction_count": 20,
+      "nodes": 157,
+      "segments": 146,
+      "build_sec": 4.618205999999191
+    },
+    "r": {
+      "label": "endoplasmic reticulum",
+      "reaction_count": 19,
+      "nodes": 143,
+      "segments": 135,
+      "build_sec": 3.399207499998738
+    },
+    "m": {
+      "label": "mitochondria",
+      "reaction_count": 3,
+      "nodes": 30,
+      "segments": 27,
+      "build_sec": 3.672375300004205
+    }
+  },
+  "alignment": {
+    "reference_compartment": "c",
+    "translations": {
+      "c": {
+        "dx": 0.0,
+        "dy": 0.0,
+        "anchors": 20
+      },
+      "r": {
+        "dx": 185.60913301661117,
+        "dy": 0.0,
+        "anchors": 14
+      },
+      "m": {
+        "dx": 0.0,
+        "dy": 880.2000000000003,
+        "anchors": 3
+      }
+    },
+    "max_shared_y_delta_after_alignment": 0.0,
+    "reaction_counts": {
+      "c": 20,
+      "r": 19,
+      "m": 3
+    },
+    "canvas": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 10509.831691820758,
+      "height": 4695.6
+    }
+  },
+  "flux_summary": {
+    "by_compartment": {
+      "c": {
+        "mapped": 20,
+        "with_flux": 20,
+        "nonzero_flux": 2
+      },
+      "r": {
+        "mapped": 19,
+        "with_flux": 19,
+        "nonzero_flux": 0
+      },
+      "m": {
+        "mapped": 3,
+        "with_flux": 3,
+        "nonzero_flux": 0
+      }
+    },
+    "rows": [
+      {
+        "compartment": "c",
+        "kegg": "R00702",
+        "bigg_id": "HMR_1465",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01456",
+        "bigg_id": "HMR_1565",
+        "flux": 15.402820600449077
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01457",
+        "bigg_id": "DSMSTOLR",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R02872",
+        "bigg_id": "HMR_1467",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R02874",
+        "bigg_id": "SMO",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R03199",
+        "bigg_id": "LNSTLS",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R03353",
+        "bigg_id": "CHLSTD78I",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R03610",
+        "bigg_id": "25HVITD3c",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R03611",
+        "bigg_id": "CYP2R1",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R03689",
+        "bigg_id": "RE2407C",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R04804",
+        "bigg_id": "CHLSTI_1",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R05639",
+        "bigg_id": "C14STR",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R07487",
+        "bigg_id": "RE2410C",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R07488",
+        "bigg_id": "RE0568C",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R07494",
+        "bigg_id": "HMR_1495",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R07495",
+        "bigg_id": "HMR_1500",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R09516",
+        "bigg_id": "RE2240C",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R12371",
+        "bigg_id": "C3STDH1",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R12399",
+        "bigg_id": "ALR2",
+        "flux": 330.4115763455362
+      },
+      {
+        "compartment": "c",
+        "kegg": "R12405",
+        "bigg_id": "HMR_1509",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R03610",
+        "bigg_id": "25VITD3Hm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R09516",
+        "bigg_id": "24_25VITD3Hm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R12399",
+        "bigg_id": "RE3476M",
+        "flux": 0.0
+      },
+      {
+        "compartment": "r",
+        "kegg": "R00702",
+        "bigg_id": "SQLSr",
+        "flux": 0.0
+      },
+      {
+        "compartment": "r",
+        "kegg": "R01456",
+        "bigg_id": "DHCR72r",
+        "flux": 0.0
+      },
+      {
+        "compartment": "r",
+        "kegg": "R01457",
+        "bigg_id": "DSREDUCr",
+        "flux": 0.0
+      },
+      {
+        "compartment": "r",
+        "kegg": "R01461",
+        "bigg_id": "r1164",
+        "flux": 0.0
+      },
+      {
+        "compartment": "r",
+        "kegg": "R01462",
+        "bigg_id": "r1177",
+        "flux": 0.0
+      },
+      {
+        "compartment": "r",
+        "kegg": "R02874",
+        "bigg_id": "SQLEr",
+        "flux": 0.0
+      },
+      {
+        "compartment": "r",
+        "kegg": "R03199",
+        "bigg_id": "LNSTLSr",
+        "flux": 0.0
+      },
+      {
+        "compartment": "r",
+        "kegg": "R03353",
+        "bigg_id": "EBP2r",
+        "flux": 0.0
+      },
+      {
+        "compartment": "r",
+        "kegg": "R04804",
+        "bigg_id": "EBP1r",
+        "flux": 0.0
+      },
+      {
+        "compartment": "r",
+        "kegg": "R05639",
+        "bigg_id": "C14STRr",
+        "flux": 0.0
+      },
+      {
+        "compartment": "r",
+        "kegg": "R05703",
+        "bigg_id": "r0783",
+        "flux": 0.0
+      },
+      {
+        "compartment": "r",
+        "kegg": "R07487",
+        "bigg_id": "DHCR71r",
+        "flux": 0.0
+      },
+      {
+        "compartment": "r",
+        "kegg": "R07488",
+        "bigg_id": "SR5AR2r",
+        "flux": 0.0
+      },
+      {
+        "compartment": "r",
+        "kegg": "R07494",
+        "bigg_id": "C3STDH1Pr",
+        "flux": 0.0
+      },
+      {
+        "compartment": "r",
+        "kegg": "R07495",
+        "bigg_id": "r1135",
+        "flux": 0.0
+      },
+      {
+        "compartment": "r",
+        "kegg": "R07498",
+        "bigg_id": "r1380",
+        "flux": 0.0
+      },
+      {
+        "compartment": "r",
+        "kegg": "R12371",
+        "bigg_id": "C3STDH1r",
+        "flux": 0.0
+      },
+      {
+        "compartment": "r",
+        "kegg": "R12400",
+        "bigg_id": "HSD17B7r",
+        "flux": 0.0
+      },
+      {
+        "compartment": "r",
+        "kegg": "R12405",
+        "bigg_id": "C3STKR2r",
+        "flux": 0.0
+      }
+    ]
+  },
+  "html": "results\\compartments\\human_Recon3D\\rn00100\\Recon3D_rn00100_compartments.html",
+  "map_json": "results\\compartments\\human_Recon3D\\rn00100\\Recon3D_rn00100_compartments.json",
+  "flux_tsv": "results\\compartments\\human_Recon3D\\rn00100\\Recon3D_rn00100_flux.tsv",
+  "summary_json": "results\\compartments\\human_Recon3D\\rn00100\\summary.json"
+}

@@ -1,0 +1,2836 @@
+{
+  "source": {
+    "direct_rows": 7363,
+    "direct_rows_with_ec": 6575,
+    "evaluated_rows": 6549,
+    "compound_mapping": {
+      "kegg_compounds": 28610,
+      "unmapped_compounds": 3341,
+      "ambiguous_compounds": 0,
+      "missing_mnx_participants": 14,
+      "missing_equation": 12
+    },
+    "reaction_xref": "BioEMMA resource build input: metanetx_fresh/reac_xref.tsv",
+    "reaction_prop": "BioEMMA resource build input: metanetx_fresh/reac_prop.tsv",
+    "compound_xref": "BioEMMA resource build input: metanetx_data/chem_xref.tsv"
+  },
+  "results": [
+    {
+      "mode": "kegg_formula_inclusive_all",
+      "exclude_source_mnx": false,
+      "prediction_policy": "all",
+      "threshold": 0.5,
+      "sources": 6549,
+      "reaction_level": {
+        "exact": 2412,
+        "clean_hit": 0,
+        "mixed_hit": 4135,
+        "wrong_only": 0,
+        "miss": 2,
+        "recovered_any": 6547,
+        "recovered_any_rate": 0.9996946098641014,
+        "wrong_only_rate": 0.0,
+        "miss_rate": 0.00030539013589861045
+      },
+      "label_level_confusion_matrix": {
+        "tp": 9978,
+        "fp": 112841,
+        "fn": 2,
+        "tn": 191690840
+      },
+      "label_level_metrics": {
+        "precision": 0.08124150172204626,
+        "recall": 0.9997995991983968,
+        "specificity": 0.9994116849092172,
+        "f1": 0.15027221590524026
+      },
+      "prediction_size": {
+        "min": 0,
+        "median": 3,
+        "p90": 51,
+        "max": 1057
+      },
+      "true_size": {
+        "min": 1,
+        "median": 1,
+        "p90": 3,
+        "max": 11
+      },
+      "examples": {
+        "exact": [
+          {
+            "kegg": "R03409",
+            "mnx_id": "MNXR100099",
+            "equation": "C04494 + C00001 <=> C01228 + C00009",
+            "source_compounds": [
+              "C00001",
+              "C00009",
+              "C01228",
+              "C04494"
+            ],
+            "source_mnx_participants": [
+              "MNXM1189",
+              "MNXM1561"
+            ],
+            "ec": "3.6.1.11|3.6.1.40",
+            "true_seed": [
+              "rxn02449",
+              "rxn33412"
+            ],
+            "predicted_seed": [
+              "rxn02449",
+              "rxn33412"
+            ],
+            "tp": [
+              "rxn02449",
+              "rxn33412"
+            ],
+            "fp_count": 0,
+            "fn_count": 0
+          },
+          {
+            "kegg": "R07419",
+            "mnx_id": "MNXR100114",
+            "equation": "C15767 + C00001 <=> C00334 + C00025",
+            "source_compounds": [
+              "C00001",
+              "C00025",
+              "C00334",
+              "C15767"
+            ],
+            "source_mnx_participants": [
+              "MNXM1406",
+              "MNXM192",
+              "MNXM741173"
+            ],
+            "ec": "3.5.1.94",
+            "true_seed": [
+              "rxn05128"
+            ],
+            "predicted_seed": [
+              "rxn05128"
+            ],
+            "tp": [
+              "rxn05128"
+            ],
+            "fp_count": 0,
+            "fn_count": 0
+          },
+          {
+            "kegg": "R00260",
+            "mnx_id": "MNXR100288",
+            "equation": "C00025 <=> C00217",
+            "source_compounds": [
+              "C00025",
+              "C00217"
+            ],
+            "source_mnx_participants": [
+              "MNXM331",
+              "MNXM741173"
+            ],
+            "ec": "5.1.1.3",
+            "true_seed": [
+              "rxn00193"
+            ],
+            "predicted_seed": [
+              "rxn00193"
+            ],
+            "tp": [
+              "rxn00193"
+            ],
+            "fp_count": 0,
+            "fn_count": 0
+          },
+          {
+            "kegg": "R01047",
+            "mnx_id": "MNXR100324",
+            "equation": "C00116 <=> C00969 + C00001",
+            "source_compounds": [
+              "C00001",
+              "C00116",
+              "C00969"
+            ],
+            "source_mnx_participants": [
+              "MNXM1526"
+            ],
+            "ec": "4.2.1.30",
+            "true_seed": [
+              "rxn00768"
+            ],
+            "predicted_seed": [
+              "rxn00768"
+            ],
+            "tp": [
+              "rxn00768"
+            ],
+            "fp_count": 0,
+            "fn_count": 0
+          },
+          {
+            "kegg": "R00847",
+            "mnx_id": "MNXR100348",
+            "equation": "C00002 + C00116 <=> C00008 + C00093",
+            "source_compounds": [
+              "C00002",
+              "C00008",
+              "C00093",
+              "C00116"
+            ],
+            "source_mnx_participants": [
+              "MNXM3",
+              "MNXM40333",
+              "MNXM66"
+            ],
+            "ec": "2.7.1.30",
+            "true_seed": [
+              "rxn00615"
+            ],
+            "predicted_seed": [
+              "rxn00615"
+            ],
+            "tp": [
+              "rxn00615"
+            ],
+            "fp_count": 0,
+            "fn_count": 0
+          }
+        ],
+        "clean_hit": [],
+        "mixed_hit": [
+          {
+            "kegg": "R00253",
+            "mnx_id": "MNXR100024",
+            "equation": "C00002 + C00025 + C00014 <=> C00008 + C00009 + C00064",
+            "source_compounds": [
+              "C00002",
+              "C00008",
+              "C00009",
+              "C00014",
+              "C00025",
+              "C00064"
+            ],
+            "source_mnx_participants": [
+              "MNXM3",
+              "MNXM37",
+              "MNXM40333",
+              "MNXM729302",
+              "MNXM741173"
+            ],
+            "ec": "6.3.1.2",
+            "true_seed": [
+              "rxn00187",
+              "rxn19835",
+              "rxn19836",
+              "rxn30022",
+              "rxn33952",
+              "rxn33953",
+              "rxn34791",
+              "rxn34792"
+            ],
+            "predicted_seed": [
+              "rxn00187",
+              "rxn19835",
+              "rxn19836",
+              "rxn30022",
+              "rxn33952",
+              "rxn33953",
+              "rxn34791",
+              "rxn34792",
+              "rxn01159",
+              "rxn02096",
+              "rxn03406",
+              "rxn03409",
+              "rxn31278",
+              "rxn31279"
+            ],
+            "tp": [
+              "rxn00187",
+              "rxn19835",
+              "rxn19836",
+              "rxn30022",
+              "rxn33952",
+              "rxn33953",
+              "rxn34791",
+              "rxn34792"
+            ],
+            "fp_count": 6,
+            "fn_count": 0
+          },
+          {
+            "kegg": "R00256",
+            "mnx_id": "MNXR100030",
+            "equation": "C00064 + C00001 <=> C00025 + C00014",
+            "source_compounds": [
+              "C00001",
+              "C00014",
+              "C00025",
+              "C00064"
+            ],
+            "source_mnx_participants": [
+              "MNXM37",
+              "MNXM729302",
+              "MNXM741173"
+            ],
+            "ec": "1.4.1.13|1.4.1.14|1.4.7.1|2.4.2|2.4.2.14|2.6.1.85|3.5.1.2|3.5.1.38|4.3.1|4.3.3.6|6.3.4.2|6.3.5.2|6.3.5.4|6.3.5.5|6.3.5.7",
+            "true_seed": [
+              "rxn00189",
+              "rxn19831",
+              "rxn29962",
+              "rxn30024",
+              "rxn30680",
+              "rxn34787"
+            ],
+            "predicted_seed": [
+              "rxn00189",
+              "rxn19831",
+              "rxn29962",
+              "rxn30024",
+              "rxn30680",
+              "rxn34787",
+              "rxn00069",
+              "rxn00085",
+              "rxn00182",
+              "rxn00184",
+              "rxn00412",
+              "rxn00414",
+              "rxn00416",
+              "rxn00790",
+              "rxn00917",
+              "rxn01257",
+              "rxn03135",
+              "rxn05144",
+              "rxn05760",
+              "rxn06520",
+              "rxn10534",
+              "rxn11276",
+              "rxn11772",
+              "rxn12822",
+              "rxn12881",
+              "rxn13801",
+              "rxn13982",
+              "rxn19014",
+              "rxn19827",
+              "rxn19828"
+            ],
+            "tp": [
+              "rxn00189",
+              "rxn19831",
+              "rxn29962",
+              "rxn30024",
+              "rxn30680",
+              "rxn34787"
+            ],
+            "fp_count": 62,
+            "fn_count": 0
+          },
+          {
+            "kegg": "R01333",
+            "mnx_id": "MNXR100060",
+            "equation": "C00266 + C00003 + C00001 <=> C00160 + C00004 + C00080",
+            "source_compounds": [
+              "C00001",
+              "C00003",
+              "C00004",
+              "C00080",
+              "C00160",
+              "C00266"
+            ],
+            "source_mnx_participants": [
+              "MNXM1",
+              "MNXM10",
+              "MNXM222",
+              "MNXM734590",
+              "MNXM8"
+            ],
+            "ec": "1.2.1|1.2.1.19|1.2.1.21|1.2.1.3|1.2.1.4|1.2.1.5|1.2.1.69",
+            "true_seed": [
+              "rxn00979",
+              "rxn31785"
+            ],
+            "predicted_seed": [
+              "rxn00979",
+              "rxn31785",
+              "rxn00149",
+              "rxn00183",
+              "rxn00429",
+              "rxn00503",
+              "rxn00506",
+              "rxn00508",
+              "rxn00653",
+              "rxn01032",
+              "rxn01053",
+              "rxn01247",
+              "rxn01273",
+              "rxn01286",
+              "rxn01710",
+              "rxn01840",
+              "rxn01851",
+              "rxn01867",
+              "rxn01937",
+              "rxn01943",
+              "rxn02106",
+              "rxn02107",
+              "rxn02122",
+              "rxn02273",
+              "rxn02350",
+              "rxn02364",
+              "rxn02729",
+              "rxn02853",
+              "rxn03106",
+              "rxn03335"
+            ],
+            "tp": [
+              "rxn00979",
+              "rxn31785"
+            ],
+            "fp_count": 164,
+            "fn_count": 0
+          },
+          {
+            "kegg": "R03824",
+            "mnx_id": "MNXR100063",
+            "equation": "C05435 <=> C02094",
+            "source_compounds": [
+              "C02094",
+              "C05435"
+            ],
+            "source_mnx_participants": [
+              "MNXM1048",
+              "MNXM1108250"
+            ],
+            "ec": "5.5.1.19",
+            "true_seed": [
+              "rxn11574",
+              "rxn26506"
+            ],
+            "predicted_seed": [
+              "rxn11574",
+              "rxn26506",
+              "rxn03646",
+              "rxn26505"
+            ],
+            "tp": [
+              "rxn11574",
+              "rxn26506"
+            ],
+            "fp_count": 2,
+            "fn_count": 0
+          },
+          {
+            "kegg": "R01698",
+            "mnx_id": "MNXR100066",
+            "equation": "C00579 + C00003 <=> C00248 + C00004 + C00080",
+            "source_compounds": [
+              "C00003",
+              "C00004",
+              "C00080",
+              "C00248",
+              "C00579"
+            ],
+            "source_mnx_participants": [
+              "MNXM1",
+              "MNXM10",
+              "MNXM1024",
+              "MNXM1277",
+              "MNXM8"
+            ],
+            "ec": "1.6.2.6|1.8.1|1.8.1.4",
+            "true_seed": [
+              "rxn01241",
+              "rxn27791",
+              "rxn27792",
+              "rxn38078"
+            ],
+            "predicted_seed": [
+              "rxn01241",
+              "rxn27791",
+              "rxn27792",
+              "rxn38078",
+              "rxn31657",
+              "rxn05773",
+              "rxn24411",
+              "rxn24412",
+              "rxn25042",
+              "rxn25043",
+              "rxn25977",
+              "rxn28360",
+              "rxn28361",
+              "rxn28362",
+              "rxn28363",
+              "rxn28405",
+              "rxn28546",
+              "rxn28547",
+              "rxn28548",
+              "rxn28549",
+              "rxn28550",
+              "rxn37652",
+              "rxn37653",
+              "rxn37654",
+              "rxn37656",
+              "rxn37896",
+              "rxn37901",
+              "rxn38435",
+              "rxn38436",
+              "rxn38458"
+            ],
+            "tp": [
+              "rxn01241",
+              "rxn27791",
+              "rxn27792",
+              "rxn38078"
+            ],
+            "fp_count": 30,
+            "fn_count": 0
+          }
+        ],
+        "wrong_only": [],
+        "miss": [
+          {
+            "kegg": "R08134",
+            "mnx_id": "MNXR111712",
+            "equation": "C16494 + C00007 + 2 C00662 + 2 C00080 <=> C16495 + 2 C00667 + C00001",
+            "source_compounds": [
+              "C00001",
+              "C00007",
+              "C00080",
+              "C00662",
+              "C00667",
+              "C16494",
+              "C16495"
+            ],
+            "source_mnx_participants": [
+              "MNXM1",
+              "MNXM1195",
+              "MNXM6852",
+              "MNXM735438",
+              "MNXM739339",
+              "MNXM804"
+            ],
+            "ec": "1.14.-.-",
+            "true_seed": [
+              "rxn11520"
+            ],
+            "predicted_seed": [],
+            "tp": [],
+            "fp_count": 0,
+            "fn_count": 1
+          },
+          {
+            "kegg": "R08138",
+            "mnx_id": "MNXR111716",
+            "equation": "C16498 + C00007 + 2 C00662 + 2 C00080 <=> C16497 + 2 C00667 + C00001",
+            "source_compounds": [
+              "C00001",
+              "C00007",
+              "C00080",
+              "C00662",
+              "C00667",
+              "C16497",
+              "C16498"
+            ],
+            "source_mnx_participants": [
+              "MNXM1",
+              "MNXM1195",
+              "MNXM6664",
+              "MNXM6790",
+              "MNXM735438",
+              "MNXM804"
+            ],
+            "ec": "1.14.-.-",
+            "true_seed": [
+              "rxn11524"
+            ],
+            "predicted_seed": [],
+            "tp": [],
+            "fp_count": 0,
+            "fn_count": 1
+          }
+        ]
+      }
+    },
+    {
+      "mode": "kegg_formula_inclusive_best_ties",
+      "exclude_source_mnx": false,
+      "prediction_policy": "best_ties",
+      "threshold": 0.5,
+      "sources": 6549,
+      "reaction_level": {
+        "exact": 6258,
+        "clean_hit": 0,
+        "mixed_hit": 286,
+        "wrong_only": 3,
+        "miss": 2,
+        "recovered_any": 6544,
+        "recovered_any_rate": 0.9992365246602535,
+        "wrong_only_rate": 0.0004580852038479157,
+        "miss_rate": 0.00030539013589861045
+      },
+      "label_level_confusion_matrix": {
+        "tp": 9975,
+        "fp": 3195,
+        "fn": 5,
+        "tn": 191800486
+      },
+      "label_level_metrics": {
+        "precision": 0.7574031890660592,
+        "recall": 0.999498997995992,
+        "specificity": 0.9999833423426321,
+        "f1": 0.8617710583153347
+      },
+      "prediction_size": {
+        "min": 0,
+        "median": 1,
+        "p90": 3,
+        "max": 1045
+      },
+      "true_size": {
+        "min": 1,
+        "median": 1,
+        "p90": 3,
+        "max": 11
+      },
+      "examples": {
+        "exact": [
+          {
+            "kegg": "R00253",
+            "mnx_id": "MNXR100024",
+            "equation": "C00002 + C00025 + C00014 <=> C00008 + C00009 + C00064",
+            "source_compounds": [
+              "C00002",
+              "C00008",
+              "C00009",
+              "C00014",
+              "C00025",
+              "C00064"
+            ],
+            "source_mnx_participants": [
+              "MNXM3",
+              "MNXM37",
+              "MNXM40333",
+              "MNXM729302",
+              "MNXM741173"
+            ],
+            "ec": "6.3.1.2",
+            "true_seed": [
+              "rxn00187",
+              "rxn19835",
+              "rxn19836",
+              "rxn30022",
+              "rxn33952",
+              "rxn33953",
+              "rxn34791",
+              "rxn34792"
+            ],
+            "predicted_seed": [
+              "rxn00187",
+              "rxn19835",
+              "rxn19836",
+              "rxn30022",
+              "rxn33952",
+              "rxn33953",
+              "rxn34791",
+              "rxn34792"
+            ],
+            "tp": [
+              "rxn00187",
+              "rxn19835",
+              "rxn19836",
+              "rxn30022",
+              "rxn33952",
+              "rxn33953",
+              "rxn34791",
+              "rxn34792"
+            ],
+            "fp_count": 0,
+            "fn_count": 0
+          },
+          {
+            "kegg": "R00256",
+            "mnx_id": "MNXR100030",
+            "equation": "C00064 + C00001 <=> C00025 + C00014",
+            "source_compounds": [
+              "C00001",
+              "C00014",
+              "C00025",
+              "C00064"
+            ],
+            "source_mnx_participants": [
+              "MNXM37",
+              "MNXM729302",
+              "MNXM741173"
+            ],
+            "ec": "1.4.1.13|1.4.1.14|1.4.7.1|2.4.2|2.4.2.14|2.6.1.85|3.5.1.2|3.5.1.38|4.3.1|4.3.3.6|6.3.4.2|6.3.5.2|6.3.5.4|6.3.5.5|6.3.5.7",
+            "true_seed": [
+              "rxn00189",
+              "rxn19831",
+              "rxn29962",
+              "rxn30024",
+              "rxn30680",
+              "rxn34787"
+            ],
+            "predicted_seed": [
+              "rxn00189",
+              "rxn19831",
+              "rxn29962",
+              "rxn30024",
+              "rxn30680",
+              "rxn34787"
+            ],
+            "tp": [
+              "rxn00189",
+              "rxn19831",
+              "rxn29962",
+              "rxn30024",
+              "rxn30680",
+              "rxn34787"
+            ],
+            "fp_count": 0,
+            "fn_count": 0
+          },
+          {
+            "kegg": "R01333",
+            "mnx_id": "MNXR100060",
+            "equation": "C00266 + C00003 + C00001 <=> C00160 + C00004 + C00080",
+            "source_compounds": [
+              "C00001",
+              "C00003",
+              "C00004",
+              "C00080",
+              "C00160",
+              "C00266"
+            ],
+            "source_mnx_participants": [
+              "MNXM1",
+              "MNXM10",
+              "MNXM222",
+              "MNXM734590",
+              "MNXM8"
+            ],
+            "ec": "1.2.1|1.2.1.19|1.2.1.21|1.2.1.3|1.2.1.4|1.2.1.5|1.2.1.69",
+            "true_seed": [
+              "rxn00979",
+              "rxn31785"
+            ],
+            "predicted_seed": [
+              "rxn00979",
+              "rxn31785"
+            ],
+            "tp": [
+              "rxn00979",
+              "rxn31785"
+            ],
+            "fp_count": 0,
+            "fn_count": 0
+          },
+          {
+            "kegg": "R03824",
+            "mnx_id": "MNXR100063",
+            "equation": "C05435 <=> C02094",
+            "source_compounds": [
+              "C02094",
+              "C05435"
+            ],
+            "source_mnx_participants": [
+              "MNXM1048",
+              "MNXM1108250"
+            ],
+            "ec": "5.5.1.19",
+            "true_seed": [
+              "rxn11574",
+              "rxn26506"
+            ],
+            "predicted_seed": [
+              "rxn11574",
+              "rxn26506"
+            ],
+            "tp": [
+              "rxn11574",
+              "rxn26506"
+            ],
+            "fp_count": 0,
+            "fn_count": 0
+          },
+          {
+            "kegg": "R01698",
+            "mnx_id": "MNXR100066",
+            "equation": "C00579 + C00003 <=> C00248 + C00004 + C00080",
+            "source_compounds": [
+              "C00003",
+              "C00004",
+              "C00080",
+              "C00248",
+              "C00579"
+            ],
+            "source_mnx_participants": [
+              "MNXM1",
+              "MNXM10",
+              "MNXM1024",
+              "MNXM1277",
+              "MNXM8"
+            ],
+            "ec": "1.6.2.6|1.8.1|1.8.1.4",
+            "true_seed": [
+              "rxn01241",
+              "rxn27791",
+              "rxn27792",
+              "rxn38078"
+            ],
+            "predicted_seed": [
+              "rxn01241",
+              "rxn27791",
+              "rxn27792",
+              "rxn38078"
+            ],
+            "tp": [
+              "rxn01241",
+              "rxn27791",
+              "rxn27792",
+              "rxn38078"
+            ],
+            "fp_count": 0,
+            "fn_count": 0
+          }
+        ],
+        "clean_hit": [],
+        "mixed_hit": [
+          {
+            "kegg": "R03284",
+            "mnx_id": "MNXR100143",
+            "equation": "C01149 + C00037 <=> C01259",
+            "source_compounds": [
+              "C00037",
+              "C01149",
+              "C01259"
+            ],
+            "source_mnx_participants": [
+              "MNXM29"
+            ],
+            "ec": "4.1.2.-",
+            "true_seed": [
+              "rxn02351"
+            ],
+            "predicted_seed": [
+              "rxn02351",
+              "rxn26435",
+              "rxn28676",
+              "rxn28677"
+            ],
+            "tp": [
+              "rxn02351"
+            ],
+            "fp_count": 3,
+            "fn_count": 0
+          },
+          {
+            "kegg": "R06601",
+            "mnx_id": "MNXR100652",
+            "equation": "C11821 + C00001 <=> C12248",
+            "source_compounds": [
+              "C00001",
+              "C11821",
+              "C12248"
+            ],
+            "source_mnx_participants": [
+              "MNXM1137",
+              "MNXM1805"
+            ],
+            "ec": "3.5.2.17",
+            "true_seed": [
+              "rxn04453",
+              "rxn18179",
+              "rxn31747",
+              "rxn35444"
+            ],
+            "predicted_seed": [
+              "rxn04453",
+              "rxn18179",
+              "rxn30586",
+              "rxn31747",
+              "rxn35444"
+            ],
+            "tp": [
+              "rxn04453",
+              "rxn18179",
+              "rxn31747",
+              "rxn35444"
+            ],
+            "fp_count": 1,
+            "fn_count": 0
+          },
+          {
+            "kegg": "R00709",
+            "mnx_id": "MNXR100782",
+            "equation": "C00311 + C00003 <=> C00026 + C00011 + C00004 + C00080",
+            "source_compounds": [
+              "C00003",
+              "C00004",
+              "C00011",
+              "C00026",
+              "C00080",
+              "C00311"
+            ],
+            "source_mnx_participants": [
+              "MNXM1",
+              "MNXM10",
+              "MNXM13",
+              "MNXM1368744",
+              "MNXM8"
+            ],
+            "ec": "1.1.1.286|1.1.1.41|1.1.1.42|1.1.1.87",
+            "true_seed": [
+              "rxn00505",
+              "rxn30141"
+            ],
+            "predicted_seed": [
+              "rxn00505",
+              "rxn15056",
+              "rxn15057",
+              "rxn27954",
+              "rxn27955",
+              "rxn30141"
+            ],
+            "tp": [
+              "rxn00505",
+              "rxn30141"
+            ],
+            "fp_count": 4,
+            "fn_count": 0
+          },
+          {
+            "kegg": "R02527",
+            "mnx_id": "MNXR101008",
+            "equation": "C00937 + C00003 <=> C00546 + C00004 + C00080",
+            "source_compounds": [
+              "C00003",
+              "C00004",
+              "C00080",
+              "C00546",
+              "C00937"
+            ],
+            "source_mnx_participants": [
+              "MNXM1",
+              "MNXM10",
+              "MNXM310",
+              "MNXM8"
+            ],
+            "ec": "1.1.1.21|1.1.1.78|1.1.1.79",
+            "true_seed": [
+              "rxn01831",
+              "rxn33207"
+            ],
+            "predicted_seed": [
+              "rxn01831",
+              "rxn01835",
+              "rxn15341",
+              "rxn26144",
+              "rxn33207"
+            ],
+            "tp": [
+              "rxn01831",
+              "rxn33207"
+            ],
+            "fp_count": 3,
+            "fn_count": 0
+          },
+          {
+            "kegg": "R00935",
+            "mnx_id": "MNXR101667",
+            "equation": "C06002 + C00010 + C00003 <=> C00100 + C00011 + C00004 + C00080",
+            "source_compounds": [
+              "C00003",
+              "C00004",
+              "C00010",
+              "C00011",
+              "C00080",
+              "C00100",
+              "C06002"
+            ],
+            "source_mnx_participants": [
+              "MNXM1",
+              "MNXM10",
+              "MNXM1105058",
+              "MNXM13",
+              "MNXM1364266",
+              "MNXM727276",
+              "MNXM8"
+            ],
+            "ec": "1.2.1.27",
+            "true_seed": [
+              "rxn15094",
+              "rxn35548"
+            ],
+            "predicted_seed": [
+              "rxn15094",
+              "rxn17201",
+              "rxn35548"
+            ],
+            "tp": [
+              "rxn15094",
+              "rxn35548"
+            ],
+            "fp_count": 1,
+            "fn_count": 0
+          }
+        ],
+        "wrong_only": [
+          {
+            "kegg": "R09306",
+            "mnx_id": "MNXR112737",
+            "equation": "C18353 + C00005 + C00080 <=> C18354 + C00006",
+            "source_compounds": [
+              "C00005",
+              "C00006",
+              "C00080",
+              "C18353",
+              "C18354"
+            ],
+            "source_mnx_participants": [
+              "MNXM1",
+              "MNXM5",
+              "MNXM6562",
+              "MNXM738702"
+            ],
+            "ec": "1.1.1.-",
+            "true_seed": [
+              "rxn16155"
+            ],
+            "predicted_seed": [
+              "rxn26494"
+            ],
+            "tp": [],
+            "fp_count": 1,
+            "fn_count": 1
+          },
+          {
+            "kegg": "R09309",
+            "mnx_id": "MNXR112740",
+            "equation": "C18353 + C00005 + C00080 <=> C18355 + C00006",
+            "source_compounds": [
+              "C00005",
+              "C00006",
+              "C00080",
+              "C18353",
+              "C18355"
+            ],
+            "source_mnx_participants": [
+              "MNXM1",
+              "MNXM5",
+              "MNXM738702"
+            ],
+            "ec": "1.1.1.-",
+            "true_seed": [
+              "rxn16158"
+            ],
+            "predicted_seed": [
+              "rxn01291",
+              "rxn01832",
+              "rxn02035",
+              "rxn02049",
+              "rxn02233",
+              "rxn02313",
+              "rxn02528",
+              "rxn02735",
+              "rxn03368",
+              "rxn04296",
+              "rxn04298",
+              "rxn07491",
+              "rxn07573",
+              "rxn08347",
+              "rxn11890",
+              "rxn11891",
+              "rxn11894",
+              "rxn12088",
+              "rxn12191",
+              "rxn13226",
+              "rxn13972",
+              "rxn13999",
+              "rxn14275",
+              "rxn14378",
+              "rxn14389",
+              "rxn15278",
+              "rxn15697",
+              "rxn15835",
+              "rxn15874",
+              "rxn16141"
+            ],
+            "tp": [],
+            "fp_count": 101,
+            "fn_count": 1
+          },
+          {
+            "kegg": "R00067",
+            "mnx_id": "MNXR192057",
+            "equation": "2 C05359 + 2 C00080 <=> C00282",
+            "source_compounds": [
+              "C00080",
+              "C00282",
+              "C05359"
+            ],
+            "source_mnx_participants": [
+              "MNXM1",
+              "MNXM1108018"
+            ],
+            "ec": "1.18.6.1",
+            "true_seed": [
+              "rxn05767"
+            ],
+            "predicted_seed": [
+              "rxn06874",
+              "rxn20289",
+              "rxn38183",
+              "rxn48185"
+            ],
+            "tp": [],
+            "fp_count": 4,
+            "fn_count": 1
+          }
+        ],
+        "miss": [
+          {
+            "kegg": "R08134",
+            "mnx_id": "MNXR111712",
+            "equation": "C16494 + C00007 + 2 C00662 + 2 C00080 <=> C16495 + 2 C00667 + C00001",
+            "source_compounds": [
+              "C00001",
+              "C00007",
+              "C00080",
+              "C00662",
+              "C00667",
+              "C16494",
+              "C16495"
+            ],
+            "source_mnx_participants": [
+              "MNXM1",
+              "MNXM1195",
+              "MNXM6852",
+              "MNXM735438",
+              "MNXM739339",
+              "MNXM804"
+            ],
+            "ec": "1.14.-.-",
+            "true_seed": [
+              "rxn11520"
+            ],
+            "predicted_seed": [],
+            "tp": [],
+            "fp_count": 0,
+            "fn_count": 1
+          },
+          {
+            "kegg": "R08138",
+            "mnx_id": "MNXR111716",
+            "equation": "C16498 + C00007 + 2 C00662 + 2 C00080 <=> C16497 + 2 C00667 + C00001",
+            "source_compounds": [
+              "C00001",
+              "C00007",
+              "C00080",
+              "C00662",
+              "C00667",
+              "C16497",
+              "C16498"
+            ],
+            "source_mnx_participants": [
+              "MNXM1",
+              "MNXM1195",
+              "MNXM6664",
+              "MNXM6790",
+              "MNXM735438",
+              "MNXM804"
+            ],
+            "ec": "1.14.-.-",
+            "true_seed": [
+              "rxn11524"
+            ],
+            "predicted_seed": [],
+            "tp": [],
+            "fp_count": 0,
+            "fn_count": 1
+          }
+        ]
+      }
+    },
+    {
+      "mode": "kegg_formula_inclusive_top1",
+      "exclude_source_mnx": false,
+      "prediction_policy": "top1",
+      "threshold": 0.5,
+      "sources": 6549,
+      "reaction_level": {
+        "exact": 4476,
+        "clean_hit": 1959,
+        "mixed_hit": 0,
+        "wrong_only": 112,
+        "miss": 2,
+        "recovered_any": 6435,
+        "recovered_any_rate": 0.9825927622537792,
+        "wrong_only_rate": 0.017101847610322185,
+        "miss_rate": 0.00030539013589861045
+      },
+      "label_level_confusion_matrix": {
+        "tp": 6435,
+        "fp": 112,
+        "fn": 3545,
+        "tn": 191803569
+      },
+      "label_level_metrics": {
+        "precision": 0.9828929280586528,
+        "recall": 0.6447895791583166,
+        "specificity": 0.9999994160696009,
+        "f1": 0.7787257215465602
+      },
+      "prediction_size": {
+        "min": 0,
+        "median": 1,
+        "p90": 1,
+        "max": 1
+      },
+      "true_size": {
+        "min": 1,
+        "median": 1,
+        "p90": 3,
+        "max": 11
+      },
+      "examples": {
+        "exact": [
+          {
+            "kegg": "R03177",
+            "mnx_id": "MNXR100083",
+            "equation": "C02647 + C00003 + C00001 <=> C01035 + C00004 + C00080",
+            "source_compounds": [
+              "C00001",
+              "C00003",
+              "C00004",
+              "C00080",
+              "C01035",
+              "C02647"
+            ],
+            "source_mnx_participants": [
+              "MNXM1",
+              "MNXM10",
+              "MNXM1312",
+              "MNXM1895",
+              "MNXM8"
+            ],
+            "ec": "1.2.1.3|1.2.1.54",
+            "true_seed": [
+              "rxn02273"
+            ],
+            "predicted_seed": [
+              "rxn02273"
+            ],
+            "tp": [
+              "rxn02273"
+            ],
+            "fp_count": 0,
+            "fn_count": 0
+          },
+          {
+            "kegg": "R07418",
+            "mnx_id": "MNXR100113",
+            "equation": "C15700 + C00006 + C00001 <=> C15767 + C00005 + C00080",
+            "source_compounds": [
+              "C00001",
+              "C00005",
+              "C00006",
+              "C00080",
+              "C15700",
+              "C15767"
+            ],
+            "source_mnx_participants": [
+              "MNXM1",
+              "MNXM1378",
+              "MNXM1406",
+              "MNXM5",
+              "MNXM738702"
+            ],
+            "ec": "1.2.1.-|1.2.1.99",
+            "true_seed": [
+              "rxn05127"
+            ],
+            "predicted_seed": [
+              "rxn05127"
+            ],
+            "tp": [
+              "rxn05127"
+            ],
+            "fp_count": 0,
+            "fn_count": 0
+          },
+          {
+            "kegg": "R07419",
+            "mnx_id": "MNXR100114",
+            "equation": "C15767 + C00001 <=> C00334 + C00025",
+            "source_compounds": [
+              "C00001",
+              "C00025",
+              "C00334",
+              "C15767"
+            ],
+            "source_mnx_participants": [
+              "MNXM1406",
+              "MNXM192",
+              "MNXM741173"
+            ],
+            "ec": "3.5.1.94",
+            "true_seed": [
+              "rxn05128"
+            ],
+            "predicted_seed": [
+              "rxn05128"
+            ],
+            "tp": [
+              "rxn05128"
+            ],
+            "fp_count": 0,
+            "fn_count": 0
+          },
+          {
+            "kegg": "R09875",
+            "mnx_id": "MNXR100134",
+            "equation": "C02166 + C00001 <=> C05951 + C00025",
+            "source_compounds": [
+              "C00001",
+              "C00025",
+              "C02166",
+              "C05951"
+            ],
+            "source_mnx_participants": [
+              "MNXM1371560",
+              "MNXM162546",
+              "MNXM741173"
+            ],
+            "ec": "2.3.2.2|3.4.19.14",
+            "true_seed": [
+              "rxn02727"
+            ],
+            "predicted_seed": [
+              "rxn02727"
+            ],
+            "tp": [
+              "rxn02727"
+            ],
+            "fp_count": 0,
+            "fn_count": 0
+          },
+          {
+            "kegg": "R03284",
+            "mnx_id": "MNXR100143",
+            "equation": "C01149 + C00037 <=> C01259",
+            "source_compounds": [
+              "C00037",
+              "C01149",
+              "C01259"
+            ],
+            "source_mnx_participants": [
+              "MNXM29"
+            ],
+            "ec": "4.1.2.-",
+            "true_seed": [
+              "rxn02351"
+            ],
+            "predicted_seed": [
+              "rxn02351"
+            ],
+            "tp": [
+              "rxn02351"
+            ],
+            "fp_count": 0,
+            "fn_count": 0
+          }
+        ],
+        "clean_hit": [
+          {
+            "kegg": "R00253",
+            "mnx_id": "MNXR100024",
+            "equation": "C00002 + C00025 + C00014 <=> C00008 + C00009 + C00064",
+            "source_compounds": [
+              "C00002",
+              "C00008",
+              "C00009",
+              "C00014",
+              "C00025",
+              "C00064"
+            ],
+            "source_mnx_participants": [
+              "MNXM3",
+              "MNXM37",
+              "MNXM40333",
+              "MNXM729302",
+              "MNXM741173"
+            ],
+            "ec": "6.3.1.2",
+            "true_seed": [
+              "rxn00187",
+              "rxn19835",
+              "rxn19836",
+              "rxn30022",
+              "rxn33952",
+              "rxn33953",
+              "rxn34791",
+              "rxn34792"
+            ],
+            "predicted_seed": [
+              "rxn00187"
+            ],
+            "tp": [
+              "rxn00187"
+            ],
+            "fp_count": 0,
+            "fn_count": 7
+          },
+          {
+            "kegg": "R00256",
+            "mnx_id": "MNXR100030",
+            "equation": "C00064 + C00001 <=> C00025 + C00014",
+            "source_compounds": [
+              "C00001",
+              "C00014",
+              "C00025",
+              "C00064"
+            ],
+            "source_mnx_participants": [
+              "MNXM37",
+              "MNXM729302",
+              "MNXM741173"
+            ],
+            "ec": "1.4.1.13|1.4.1.14|1.4.7.1|2.4.2|2.4.2.14|2.6.1.85|3.5.1.2|3.5.1.38|4.3.1|4.3.3.6|6.3.4.2|6.3.5.2|6.3.5.4|6.3.5.5|6.3.5.7",
+            "true_seed": [
+              "rxn00189",
+              "rxn19831",
+              "rxn29962",
+              "rxn30024",
+              "rxn30680",
+              "rxn34787"
+            ],
+            "predicted_seed": [
+              "rxn00189"
+            ],
+            "tp": [
+              "rxn00189"
+            ],
+            "fp_count": 0,
+            "fn_count": 5
+          },
+          {
+            "kegg": "R01333",
+            "mnx_id": "MNXR100060",
+            "equation": "C00266 + C00003 + C00001 <=> C00160 + C00004 + C00080",
+            "source_compounds": [
+              "C00001",
+              "C00003",
+              "C00004",
+              "C00080",
+              "C00160",
+              "C00266"
+            ],
+            "source_mnx_participants": [
+              "MNXM1",
+              "MNXM10",
+              "MNXM222",
+              "MNXM734590",
+              "MNXM8"
+            ],
+            "ec": "1.2.1|1.2.1.19|1.2.1.21|1.2.1.3|1.2.1.4|1.2.1.5|1.2.1.69",
+            "true_seed": [
+              "rxn00979",
+              "rxn31785"
+            ],
+            "predicted_seed": [
+              "rxn00979"
+            ],
+            "tp": [
+              "rxn00979"
+            ],
+            "fp_count": 0,
+            "fn_count": 1
+          },
+          {
+            "kegg": "R03824",
+            "mnx_id": "MNXR100063",
+            "equation": "C05435 <=> C02094",
+            "source_compounds": [
+              "C02094",
+              "C05435"
+            ],
+            "source_mnx_participants": [
+              "MNXM1048",
+              "MNXM1108250"
+            ],
+            "ec": "5.5.1.19",
+            "true_seed": [
+              "rxn11574",
+              "rxn26506"
+            ],
+            "predicted_seed": [
+              "rxn11574"
+            ],
+            "tp": [
+              "rxn11574"
+            ],
+            "fp_count": 0,
+            "fn_count": 1
+          },
+          {
+            "kegg": "R01698",
+            "mnx_id": "MNXR100066",
+            "equation": "C00579 + C00003 <=> C00248 + C00004 + C00080",
+            "source_compounds": [
+              "C00003",
+              "C00004",
+              "C00080",
+              "C00248",
+              "C00579"
+            ],
+            "source_mnx_participants": [
+              "MNXM1",
+              "MNXM10",
+              "MNXM1024",
+              "MNXM1277",
+              "MNXM8"
+            ],
+            "ec": "1.6.2.6|1.8.1|1.8.1.4",
+            "true_seed": [
+              "rxn01241",
+              "rxn27791",
+              "rxn27792",
+              "rxn38078"
+            ],
+            "predicted_seed": [
+              "rxn01241"
+            ],
+            "tp": [
+              "rxn01241"
+            ],
+            "fp_count": 0,
+            "fn_count": 3
+          }
+        ],
+        "mixed_hit": [],
+        "wrong_only": [
+          {
+            "kegg": "R00002",
+            "mnx_id": "MNXR106334",
+            "equation": "16 C00002 + 16 C00001 + 8 C00138 <=> 8 C05359 + 16 C00009 + 16 C00008 + 8 C00139",
+            "source_compounds": [
+              "C00001",
+              "C00002",
+              "C00008",
+              "C00009",
+              "C00138",
+              "C00139",
+              "C05359"
+            ],
+            "source_mnx_participants": [
+              "MNXM169",
+              "MNXM178",
+              "MNXM3",
+              "MNXM40333"
+            ],
+            "ec": "1.18.6.1",
+            "true_seed": [
+              "rxn11947"
+            ],
+            "predicted_seed": [
+              "rxn06874"
+            ],
+            "tp": [],
+            "fp_count": 1,
+            "fn_count": 1
+          },
+          {
+            "kegg": "R00076",
+            "mnx_id": "MNXR106377",
+            "equation": "4 C00002 + 2 C02308 <=> 4 C00008 + C02307",
+            "source_compounds": [
+              "C00002",
+              "C00008",
+              "C02307",
+              "C02308"
+            ],
+            "source_mnx_participants": [
+              "MNXM3",
+              "MNXM40333",
+              "MNXM4083",
+              "MNXM5276"
+            ],
+            "ec": "2.7.11.19",
+            "true_seed": [
+              "rxn14392"
+            ],
+            "predicted_seed": [
+              "rxn05769"
+            ],
+            "tp": [],
+            "fp_count": 1,
+            "fn_count": 1
+          },
+          {
+            "kegg": "R00153",
+            "mnx_id": "MNXR106412",
+            "equation": "C05361 + 2 C05359 + 2 C00080 <=> 2 C00014",
+            "source_compounds": [
+              "C00014",
+              "C00080",
+              "C05359",
+              "C05361"
+            ],
+            "source_mnx_participants": [
+              "MNXM1",
+              "MNXM728383",
+              "MNXM729302"
+            ],
+            "ec": "1.18.6.1",
+            "true_seed": [
+              "rxn11949"
+            ],
+            "predicted_seed": [
+              "rxn05780"
+            ],
+            "tp": [],
+            "fp_count": 1,
+            "fn_count": 1
+          },
+          {
+            "kegg": "R00731",
+            "mnx_id": "MNXR106657",
+            "equation": "C00082 + C00007 <=> C00355 + C00001",
+            "source_compounds": [
+              "C00001",
+              "C00007",
+              "C00082",
+              "C00355"
+            ],
+            "source_mnx_participants": [
+              "MNXM279",
+              "MNXM735438",
+              "MNXM76"
+            ],
+            "ec": "1.14.18.1",
+            "true_seed": [
+              "rxn00524"
+            ],
+            "predicted_seed": [
+              "rxn00024"
+            ],
+            "tp": [],
+            "fp_count": 1,
+            "fn_count": 1
+          },
+          {
+            "kegg": "R01078",
+            "mnx_id": "MNXR106816",
+            "equation": "C01909 + C17023 + 2 C00019 + 2 C05359 + 2 C00080 <=> C00120 + 2 C00073 + 2 C05198",
+            "source_compounds": [
+              "C00019",
+              "C00073",
+              "C00080",
+              "C00120",
+              "C01909",
+              "C05198",
+              "C05359",
+              "C17023"
+            ],
+            "source_mnx_participants": [
+              "MNXM1",
+              "MNXM1020",
+              "MNXM1103313",
+              "MNXM1363767",
+              "MNXM304",
+              "MNXM4111",
+              "MNXM738804"
+            ],
+            "ec": "2.8.1.6",
+            "true_seed": [
+              "rxn39281"
+            ],
+            "predicted_seed": [
+              "rxn08180"
+            ],
+            "tp": [],
+            "fp_count": 1,
+            "fn_count": 1
+          }
+        ],
+        "miss": [
+          {
+            "kegg": "R08134",
+            "mnx_id": "MNXR111712",
+            "equation": "C16494 + C00007 + 2 C00662 + 2 C00080 <=> C16495 + 2 C00667 + C00001",
+            "source_compounds": [
+              "C00001",
+              "C00007",
+              "C00080",
+              "C00662",
+              "C00667",
+              "C16494",
+              "C16495"
+            ],
+            "source_mnx_participants": [
+              "MNXM1",
+              "MNXM1195",
+              "MNXM6852",
+              "MNXM735438",
+              "MNXM739339",
+              "MNXM804"
+            ],
+            "ec": "1.14.-.-",
+            "true_seed": [
+              "rxn11520"
+            ],
+            "predicted_seed": [],
+            "tp": [],
+            "fp_count": 0,
+            "fn_count": 1
+          },
+          {
+            "kegg": "R08138",
+            "mnx_id": "MNXR111716",
+            "equation": "C16498 + C00007 + 2 C00662 + 2 C00080 <=> C16497 + 2 C00667 + C00001",
+            "source_compounds": [
+              "C00001",
+              "C00007",
+              "C00080",
+              "C00662",
+              "C00667",
+              "C16497",
+              "C16498"
+            ],
+            "source_mnx_participants": [
+              "MNXM1",
+              "MNXM1195",
+              "MNXM6664",
+              "MNXM6790",
+              "MNXM735438",
+              "MNXM804"
+            ],
+            "ec": "1.14.-.-",
+            "true_seed": [
+              "rxn11524"
+            ],
+            "predicted_seed": [],
+            "tp": [],
+            "fp_count": 0,
+            "fn_count": 1
+          }
+        ]
+      }
+    },
+    {
+      "mode": "kegg_formula_leave_one_mnx_out_all",
+      "exclude_source_mnx": true,
+      "prediction_policy": "all",
+      "threshold": 0.5,
+      "sources": 6549,
+      "reaction_level": {
+        "exact": 0,
+        "clean_hit": 0,
+        "mixed_hit": 0,
+        "wrong_only": 4135,
+        "miss": 2414,
+        "recovered_any": 0,
+        "recovered_any_rate": 0.0,
+        "wrong_only_rate": 0.6313941059703772,
+        "miss_rate": 0.36860589402962285
+      },
+      "label_level_confusion_matrix": {
+        "tp": 0,
+        "fp": 112841,
+        "fn": 9980,
+        "tn": 191690840
+      },
+      "label_level_metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "specificity": 0.9994116849092172,
+        "f1": 0.0
+      },
+      "prediction_size": {
+        "min": 0,
+        "median": 2,
+        "p90": 50,
+        "max": 1047
+      },
+      "true_size": {
+        "min": 1,
+        "median": 1,
+        "p90": 3,
+        "max": 11
+      },
+      "examples": {
+        "exact": [],
+        "clean_hit": [],
+        "mixed_hit": [],
+        "wrong_only": [
+          {
+            "kegg": "R00253",
+            "mnx_id": "MNXR100024",
+            "equation": "C00002 + C00025 + C00014 <=> C00008 + C00009 + C00064",
+            "source_compounds": [
+              "C00002",
+              "C00008",
+              "C00009",
+              "C00014",
+              "C00025",
+              "C00064"
+            ],
+            "source_mnx_participants": [
+              "MNXM3",
+              "MNXM37",
+              "MNXM40333",
+              "MNXM729302",
+              "MNXM741173"
+            ],
+            "ec": "6.3.1.2",
+            "true_seed": [
+              "rxn00187",
+              "rxn19835",
+              "rxn19836",
+              "rxn30022",
+              "rxn33952",
+              "rxn33953",
+              "rxn34791",
+              "rxn34792"
+            ],
+            "predicted_seed": [
+              "rxn01159",
+              "rxn02096",
+              "rxn03406",
+              "rxn03409",
+              "rxn31278",
+              "rxn31279"
+            ],
+            "tp": [],
+            "fp_count": 6,
+            "fn_count": 8
+          },
+          {
+            "kegg": "R00256",
+            "mnx_id": "MNXR100030",
+            "equation": "C00064 + C00001 <=> C00025 + C00014",
+            "source_compounds": [
+              "C00001",
+              "C00014",
+              "C00025",
+              "C00064"
+            ],
+            "source_mnx_participants": [
+              "MNXM37",
+              "MNXM729302",
+              "MNXM741173"
+            ],
+            "ec": "1.4.1.13|1.4.1.14|1.4.7.1|2.4.2|2.4.2.14|2.6.1.85|3.5.1.2|3.5.1.38|4.3.1|4.3.3.6|6.3.4.2|6.3.5.2|6.3.5.4|6.3.5.5|6.3.5.7",
+            "true_seed": [
+              "rxn00189",
+              "rxn19831",
+              "rxn29962",
+              "rxn30024",
+              "rxn30680",
+              "rxn34787"
+            ],
+            "predicted_seed": [
+              "rxn00069",
+              "rxn00085",
+              "rxn00182",
+              "rxn00184",
+              "rxn00412",
+              "rxn00414",
+              "rxn00416",
+              "rxn00790",
+              "rxn00917",
+              "rxn01257",
+              "rxn03135",
+              "rxn05144",
+              "rxn05760",
+              "rxn06520",
+              "rxn10534",
+              "rxn11276",
+              "rxn11772",
+              "rxn12822",
+              "rxn12881",
+              "rxn13801",
+              "rxn13982",
+              "rxn19014",
+              "rxn19827",
+              "rxn19828",
+              "rxn19829",
+              "rxn19830",
+              "rxn20498",
+              "rxn20499",
+              "rxn21635",
+              "rxn27743"
+            ],
+            "tp": [],
+            "fp_count": 62,
+            "fn_count": 6
+          },
+          {
+            "kegg": "R01333",
+            "mnx_id": "MNXR100060",
+            "equation": "C00266 + C00003 + C00001 <=> C00160 + C00004 + C00080",
+            "source_compounds": [
+              "C00001",
+              "C00003",
+              "C00004",
+              "C00080",
+              "C00160",
+              "C00266"
+            ],
+            "source_mnx_participants": [
+              "MNXM1",
+              "MNXM10",
+              "MNXM222",
+              "MNXM734590",
+              "MNXM8"
+            ],
+            "ec": "1.2.1|1.2.1.19|1.2.1.21|1.2.1.3|1.2.1.4|1.2.1.5|1.2.1.69",
+            "true_seed": [
+              "rxn00979",
+              "rxn31785"
+            ],
+            "predicted_seed": [
+              "rxn00149",
+              "rxn00183",
+              "rxn00429",
+              "rxn00503",
+              "rxn00506",
+              "rxn00508",
+              "rxn00653",
+              "rxn01032",
+              "rxn01053",
+              "rxn01247",
+              "rxn01273",
+              "rxn01286",
+              "rxn01710",
+              "rxn01840",
+              "rxn01851",
+              "rxn01867",
+              "rxn01937",
+              "rxn01943",
+              "rxn02106",
+              "rxn02107",
+              "rxn02122",
+              "rxn02273",
+              "rxn02350",
+              "rxn02364",
+              "rxn02729",
+              "rxn02853",
+              "rxn03106",
+              "rxn03335",
+              "rxn03340",
+              "rxn03343"
+            ],
+            "tp": [],
+            "fp_count": 164,
+            "fn_count": 2
+          },
+          {
+            "kegg": "R03824",
+            "mnx_id": "MNXR100063",
+            "equation": "C05435 <=> C02094",
+            "source_compounds": [
+              "C02094",
+              "C05435"
+            ],
+            "source_mnx_participants": [
+              "MNXM1048",
+              "MNXM1108250"
+            ],
+            "ec": "5.5.1.19",
+            "true_seed": [
+              "rxn11574",
+              "rxn26506"
+            ],
+            "predicted_seed": [
+              "rxn03646",
+              "rxn26505"
+            ],
+            "tp": [],
+            "fp_count": 2,
+            "fn_count": 2
+          },
+          {
+            "kegg": "R01698",
+            "mnx_id": "MNXR100066",
+            "equation": "C00579 + C00003 <=> C00248 + C00004 + C00080",
+            "source_compounds": [
+              "C00003",
+              "C00004",
+              "C00080",
+              "C00248",
+              "C00579"
+            ],
+            "source_mnx_participants": [
+              "MNXM1",
+              "MNXM10",
+              "MNXM1024",
+              "MNXM1277",
+              "MNXM8"
+            ],
+            "ec": "1.6.2.6|1.8.1|1.8.1.4",
+            "true_seed": [
+              "rxn01241",
+              "rxn27791",
+              "rxn27792",
+              "rxn38078"
+            ],
+            "predicted_seed": [
+              "rxn31657",
+              "rxn05773",
+              "rxn24411",
+              "rxn24412",
+              "rxn25042",
+              "rxn25043",
+              "rxn25977",
+              "rxn28360",
+              "rxn28361",
+              "rxn28362",
+              "rxn28363",
+              "rxn28405",
+              "rxn28546",
+              "rxn28547",
+              "rxn28548",
+              "rxn28549",
+              "rxn28550",
+              "rxn37652",
+              "rxn37653",
+              "rxn37654",
+              "rxn37656",
+              "rxn37896",
+              "rxn37901",
+              "rxn38435",
+              "rxn38436",
+              "rxn38458",
+              "rxn38513",
+              "rxn40984",
+              "rxn45532",
+              "rxn47309"
+            ],
+            "tp": [],
+            "fp_count": 30,
+            "fn_count": 4
+          }
+        ],
+        "miss": [
+          {
+            "kegg": "R03409",
+            "mnx_id": "MNXR100099",
+            "equation": "C04494 + C00001 <=> C01228 + C00009",
+            "source_compounds": [
+              "C00001",
+              "C00009",
+              "C01228",
+              "C04494"
+            ],
+            "source_mnx_participants": [
+              "MNXM1189",
+              "MNXM1561"
+            ],
+            "ec": "3.6.1.11|3.6.1.40",
+            "true_seed": [
+              "rxn02449",
+              "rxn33412"
+            ],
+            "predicted_seed": [],
+            "tp": [],
+            "fp_count": 0,
+            "fn_count": 2
+          },
+          {
+            "kegg": "R07419",
+            "mnx_id": "MNXR100114",
+            "equation": "C15767 + C00001 <=> C00334 + C00025",
+            "source_compounds": [
+              "C00001",
+              "C00025",
+              "C00334",
+              "C15767"
+            ],
+            "source_mnx_participants": [
+              "MNXM1406",
+              "MNXM192",
+              "MNXM741173"
+            ],
+            "ec": "3.5.1.94",
+            "true_seed": [
+              "rxn05128"
+            ],
+            "predicted_seed": [],
+            "tp": [],
+            "fp_count": 0,
+            "fn_count": 1
+          },
+          {
+            "kegg": "R00260",
+            "mnx_id": "MNXR100288",
+            "equation": "C00025 <=> C00217",
+            "source_compounds": [
+              "C00025",
+              "C00217"
+            ],
+            "source_mnx_participants": [
+              "MNXM331",
+              "MNXM741173"
+            ],
+            "ec": "5.1.1.3",
+            "true_seed": [
+              "rxn00193"
+            ],
+            "predicted_seed": [],
+            "tp": [],
+            "fp_count": 0,
+            "fn_count": 1
+          },
+          {
+            "kegg": "R01047",
+            "mnx_id": "MNXR100324",
+            "equation": "C00116 <=> C00969 + C00001",
+            "source_compounds": [
+              "C00001",
+              "C00116",
+              "C00969"
+            ],
+            "source_mnx_participants": [
+              "MNXM1526"
+            ],
+            "ec": "4.2.1.30",
+            "true_seed": [
+              "rxn00768"
+            ],
+            "predicted_seed": [],
+            "tp": [],
+            "fp_count": 0,
+            "fn_count": 1
+          },
+          {
+            "kegg": "R00847",
+            "mnx_id": "MNXR100348",
+            "equation": "C00002 + C00116 <=> C00008 + C00093",
+            "source_compounds": [
+              "C00002",
+              "C00008",
+              "C00093",
+              "C00116"
+            ],
+            "source_mnx_participants": [
+              "MNXM3",
+              "MNXM40333",
+              "MNXM66"
+            ],
+            "ec": "2.7.1.30",
+            "true_seed": [
+              "rxn00615"
+            ],
+            "predicted_seed": [],
+            "tp": [],
+            "fp_count": 0,
+            "fn_count": 1
+          }
+        ]
+      }
+    },
+    {
+      "mode": "kegg_formula_leave_one_mnx_out_best_ties",
+      "exclude_source_mnx": true,
+      "prediction_policy": "best_ties",
+      "threshold": 0.5,
+      "sources": 6549,
+      "reaction_level": {
+        "exact": 0,
+        "clean_hit": 0,
+        "mixed_hit": 0,
+        "wrong_only": 4135,
+        "miss": 2414,
+        "recovered_any": 0,
+        "recovered_any_rate": 0.0,
+        "wrong_only_rate": 0.6313941059703772,
+        "miss_rate": 0.36860589402962285
+      },
+      "label_level_confusion_matrix": {
+        "tp": 0,
+        "fp": 67682,
+        "fn": 9980,
+        "tn": 191735999
+      },
+      "label_level_metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "specificity": 0.9996471287743429,
+        "f1": 0.0
+      },
+      "prediction_size": {
+        "min": 0,
+        "median": 1,
+        "p90": 18,
+        "max": 1035
+      },
+      "true_size": {
+        "min": 1,
+        "median": 1,
+        "p90": 3,
+        "max": 11
+      },
+      "examples": {
+        "exact": [],
+        "clean_hit": [],
+        "mixed_hit": [],
+        "wrong_only": [
+          {
+            "kegg": "R00253",
+            "mnx_id": "MNXR100024",
+            "equation": "C00002 + C00025 + C00014 <=> C00008 + C00009 + C00064",
+            "source_compounds": [
+              "C00002",
+              "C00008",
+              "C00009",
+              "C00014",
+              "C00025",
+              "C00064"
+            ],
+            "source_mnx_participants": [
+              "MNXM3",
+              "MNXM37",
+              "MNXM40333",
+              "MNXM729302",
+              "MNXM741173"
+            ],
+            "ec": "6.3.1.2",
+            "true_seed": [
+              "rxn00187",
+              "rxn19835",
+              "rxn19836",
+              "rxn30022",
+              "rxn33952",
+              "rxn33953",
+              "rxn34791",
+              "rxn34792"
+            ],
+            "predicted_seed": [
+              "rxn01159",
+              "rxn02096",
+              "rxn03406",
+              "rxn03409",
+              "rxn31278",
+              "rxn31279"
+            ],
+            "tp": [],
+            "fp_count": 6,
+            "fn_count": 8
+          },
+          {
+            "kegg": "R00256",
+            "mnx_id": "MNXR100030",
+            "equation": "C00064 + C00001 <=> C00025 + C00014",
+            "source_compounds": [
+              "C00001",
+              "C00014",
+              "C00025",
+              "C00064"
+            ],
+            "source_mnx_participants": [
+              "MNXM37",
+              "MNXM729302",
+              "MNXM741173"
+            ],
+            "ec": "1.4.1.13|1.4.1.14|1.4.7.1|2.4.2|2.4.2.14|2.6.1.85|3.5.1.2|3.5.1.38|4.3.1|4.3.3.6|6.3.4.2|6.3.5.2|6.3.5.4|6.3.5.5|6.3.5.7",
+            "true_seed": [
+              "rxn00189",
+              "rxn19831",
+              "rxn29962",
+              "rxn30024",
+              "rxn30680",
+              "rxn34787"
+            ],
+            "predicted_seed": [
+              "rxn00069",
+              "rxn00085",
+              "rxn00182",
+              "rxn00184",
+              "rxn00412",
+              "rxn00414",
+              "rxn00416",
+              "rxn00790",
+              "rxn00917",
+              "rxn01257",
+              "rxn03135",
+              "rxn05144",
+              "rxn05760",
+              "rxn06520",
+              "rxn10534",
+              "rxn11276",
+              "rxn11772",
+              "rxn12822",
+              "rxn12881",
+              "rxn13801",
+              "rxn13982",
+              "rxn19014",
+              "rxn19827",
+              "rxn19828",
+              "rxn19829",
+              "rxn19830",
+              "rxn20498",
+              "rxn20499",
+              "rxn21635",
+              "rxn27743"
+            ],
+            "tp": [],
+            "fp_count": 62,
+            "fn_count": 6
+          },
+          {
+            "kegg": "R01333",
+            "mnx_id": "MNXR100060",
+            "equation": "C00266 + C00003 + C00001 <=> C00160 + C00004 + C00080",
+            "source_compounds": [
+              "C00001",
+              "C00003",
+              "C00004",
+              "C00080",
+              "C00160",
+              "C00266"
+            ],
+            "source_mnx_participants": [
+              "MNXM1",
+              "MNXM10",
+              "MNXM222",
+              "MNXM734590",
+              "MNXM8"
+            ],
+            "ec": "1.2.1|1.2.1.19|1.2.1.21|1.2.1.3|1.2.1.4|1.2.1.5|1.2.1.69",
+            "true_seed": [
+              "rxn00979",
+              "rxn31785"
+            ],
+            "predicted_seed": [
+              "rxn00149",
+              "rxn00183",
+              "rxn00429",
+              "rxn00503",
+              "rxn00506",
+              "rxn00508",
+              "rxn00653",
+              "rxn01032",
+              "rxn01053",
+              "rxn01247",
+              "rxn01273",
+              "rxn01286",
+              "rxn01710",
+              "rxn01840",
+              "rxn01851",
+              "rxn01867",
+              "rxn01937",
+              "rxn01943",
+              "rxn02106",
+              "rxn02107",
+              "rxn02122",
+              "rxn02273",
+              "rxn02350",
+              "rxn02364",
+              "rxn02729",
+              "rxn02853",
+              "rxn03106",
+              "rxn03335",
+              "rxn03340",
+              "rxn03343"
+            ],
+            "tp": [],
+            "fp_count": 164,
+            "fn_count": 2
+          },
+          {
+            "kegg": "R03824",
+            "mnx_id": "MNXR100063",
+            "equation": "C05435 <=> C02094",
+            "source_compounds": [
+              "C02094",
+              "C05435"
+            ],
+            "source_mnx_participants": [
+              "MNXM1048",
+              "MNXM1108250"
+            ],
+            "ec": "5.5.1.19",
+            "true_seed": [
+              "rxn11574",
+              "rxn26506"
+            ],
+            "predicted_seed": [
+              "rxn03646",
+              "rxn26505"
+            ],
+            "tp": [],
+            "fp_count": 2,
+            "fn_count": 2
+          },
+          {
+            "kegg": "R01698",
+            "mnx_id": "MNXR100066",
+            "equation": "C00579 + C00003 <=> C00248 + C00004 + C00080",
+            "source_compounds": [
+              "C00003",
+              "C00004",
+              "C00080",
+              "C00248",
+              "C00579"
+            ],
+            "source_mnx_participants": [
+              "MNXM1",
+              "MNXM10",
+              "MNXM1024",
+              "MNXM1277",
+              "MNXM8"
+            ],
+            "ec": "1.6.2.6|1.8.1|1.8.1.4",
+            "true_seed": [
+              "rxn01241",
+              "rxn27791",
+              "rxn27792",
+              "rxn38078"
+            ],
+            "predicted_seed": [
+              "rxn31657"
+            ],
+            "tp": [],
+            "fp_count": 1,
+            "fn_count": 4
+          }
+        ],
+        "miss": [
+          {
+            "kegg": "R03409",
+            "mnx_id": "MNXR100099",
+            "equation": "C04494 + C00001 <=> C01228 + C00009",
+            "source_compounds": [
+              "C00001",
+              "C00009",
+              "C01228",
+              "C04494"
+            ],
+            "source_mnx_participants": [
+              "MNXM1189",
+              "MNXM1561"
+            ],
+            "ec": "3.6.1.11|3.6.1.40",
+            "true_seed": [
+              "rxn02449",
+              "rxn33412"
+            ],
+            "predicted_seed": [],
+            "tp": [],
+            "fp_count": 0,
+            "fn_count": 2
+          },
+          {
+            "kegg": "R07419",
+            "mnx_id": "MNXR100114",
+            "equation": "C15767 + C00001 <=> C00334 + C00025",
+            "source_compounds": [
+              "C00001",
+              "C00025",
+              "C00334",
+              "C15767"
+            ],
+            "source_mnx_participants": [
+              "MNXM1406",
+              "MNXM192",
+              "MNXM741173"
+            ],
+            "ec": "3.5.1.94",
+            "true_seed": [
+              "rxn05128"
+            ],
+            "predicted_seed": [],
+            "tp": [],
+            "fp_count": 0,
+            "fn_count": 1
+          },
+          {
+            "kegg": "R00260",
+            "mnx_id": "MNXR100288",
+            "equation": "C00025 <=> C00217",
+            "source_compounds": [
+              "C00025",
+              "C00217"
+            ],
+            "source_mnx_participants": [
+              "MNXM331",
+              "MNXM741173"
+            ],
+            "ec": "5.1.1.3",
+            "true_seed": [
+              "rxn00193"
+            ],
+            "predicted_seed": [],
+            "tp": [],
+            "fp_count": 0,
+            "fn_count": 1
+          },
+          {
+            "kegg": "R01047",
+            "mnx_id": "MNXR100324",
+            "equation": "C00116 <=> C00969 + C00001",
+            "source_compounds": [
+              "C00001",
+              "C00116",
+              "C00969"
+            ],
+            "source_mnx_participants": [
+              "MNXM1526"
+            ],
+            "ec": "4.2.1.30",
+            "true_seed": [
+              "rxn00768"
+            ],
+            "predicted_seed": [],
+            "tp": [],
+            "fp_count": 0,
+            "fn_count": 1
+          },
+          {
+            "kegg": "R00847",
+            "mnx_id": "MNXR100348",
+            "equation": "C00002 + C00116 <=> C00008 + C00093",
+            "source_compounds": [
+              "C00002",
+              "C00008",
+              "C00093",
+              "C00116"
+            ],
+            "source_mnx_participants": [
+              "MNXM3",
+              "MNXM40333",
+              "MNXM66"
+            ],
+            "ec": "2.7.1.30",
+            "true_seed": [
+              "rxn00615"
+            ],
+            "predicted_seed": [],
+            "tp": [],
+            "fp_count": 0,
+            "fn_count": 1
+          }
+        ]
+      }
+    },
+    {
+      "mode": "kegg_formula_leave_one_mnx_out_top1",
+      "exclude_source_mnx": true,
+      "prediction_policy": "top1",
+      "threshold": 0.5,
+      "sources": 6549,
+      "reaction_level": {
+        "exact": 0,
+        "clean_hit": 0,
+        "mixed_hit": 0,
+        "wrong_only": 4135,
+        "miss": 2414,
+        "recovered_any": 0,
+        "recovered_any_rate": 0.0,
+        "wrong_only_rate": 0.6313941059703772,
+        "miss_rate": 0.36860589402962285
+      },
+      "label_level_confusion_matrix": {
+        "tp": 0,
+        "fp": 4135,
+        "fn": 9980,
+        "tn": 191799546
+      },
+      "label_level_metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "specificity": 0.9999784414982109,
+        "f1": 0.0
+      },
+      "prediction_size": {
+        "min": 0,
+        "median": 1,
+        "p90": 1,
+        "max": 1
+      },
+      "true_size": {
+        "min": 1,
+        "median": 1,
+        "p90": 3,
+        "max": 11
+      },
+      "examples": {
+        "exact": [],
+        "clean_hit": [],
+        "mixed_hit": [],
+        "wrong_only": [
+          {
+            "kegg": "R00253",
+            "mnx_id": "MNXR100024",
+            "equation": "C00002 + C00025 + C00014 <=> C00008 + C00009 + C00064",
+            "source_compounds": [
+              "C00002",
+              "C00008",
+              "C00009",
+              "C00014",
+              "C00025",
+              "C00064"
+            ],
+            "source_mnx_participants": [
+              "MNXM3",
+              "MNXM37",
+              "MNXM40333",
+              "MNXM729302",
+              "MNXM741173"
+            ],
+            "ec": "6.3.1.2",
+            "true_seed": [
+              "rxn00187",
+              "rxn19835",
+              "rxn19836",
+              "rxn30022",
+              "rxn33952",
+              "rxn33953",
+              "rxn34791",
+              "rxn34792"
+            ],
+            "predicted_seed": [
+              "rxn01159"
+            ],
+            "tp": [],
+            "fp_count": 1,
+            "fn_count": 8
+          },
+          {
+            "kegg": "R00256",
+            "mnx_id": "MNXR100030",
+            "equation": "C00064 + C00001 <=> C00025 + C00014",
+            "source_compounds": [
+              "C00001",
+              "C00014",
+              "C00025",
+              "C00064"
+            ],
+            "source_mnx_participants": [
+              "MNXM37",
+              "MNXM729302",
+              "MNXM741173"
+            ],
+            "ec": "1.4.1.13|1.4.1.14|1.4.7.1|2.4.2|2.4.2.14|2.6.1.85|3.5.1.2|3.5.1.38|4.3.1|4.3.3.6|6.3.4.2|6.3.5.2|6.3.5.4|6.3.5.5|6.3.5.7",
+            "true_seed": [
+              "rxn00189",
+              "rxn19831",
+              "rxn29962",
+              "rxn30024",
+              "rxn30680",
+              "rxn34787"
+            ],
+            "predicted_seed": [
+              "rxn00069"
+            ],
+            "tp": [],
+            "fp_count": 1,
+            "fn_count": 6
+          },
+          {
+            "kegg": "R01333",
+            "mnx_id": "MNXR100060",
+            "equation": "C00266 + C00003 + C00001 <=> C00160 + C00004 + C00080",
+            "source_compounds": [
+              "C00001",
+              "C00003",
+              "C00004",
+              "C00080",
+              "C00160",
+              "C00266"
+            ],
+            "source_mnx_participants": [
+              "MNXM1",
+              "MNXM10",
+              "MNXM222",
+              "MNXM734590",
+              "MNXM8"
+            ],
+            "ec": "1.2.1|1.2.1.19|1.2.1.21|1.2.1.3|1.2.1.4|1.2.1.5|1.2.1.69",
+            "true_seed": [
+              "rxn00979",
+              "rxn31785"
+            ],
+            "predicted_seed": [
+              "rxn00149"
+            ],
+            "tp": [],
+            "fp_count": 1,
+            "fn_count": 2
+          },
+          {
+            "kegg": "R03824",
+            "mnx_id": "MNXR100063",
+            "equation": "C05435 <=> C02094",
+            "source_compounds": [
+              "C02094",
+              "C05435"
+            ],
+            "source_mnx_participants": [
+              "MNXM1048",
+              "MNXM1108250"
+            ],
+            "ec": "5.5.1.19",
+            "true_seed": [
+              "rxn11574",
+              "rxn26506"
+            ],
+            "predicted_seed": [
+              "rxn03646"
+            ],
+            "tp": [],
+            "fp_count": 1,
+            "fn_count": 2
+          },
+          {
+            "kegg": "R01698",
+            "mnx_id": "MNXR100066",
+            "equation": "C00579 + C00003 <=> C00248 + C00004 + C00080",
+            "source_compounds": [
+              "C00003",
+              "C00004",
+              "C00080",
+              "C00248",
+              "C00579"
+            ],
+            "source_mnx_participants": [
+              "MNXM1",
+              "MNXM10",
+              "MNXM1024",
+              "MNXM1277",
+              "MNXM8"
+            ],
+            "ec": "1.6.2.6|1.8.1|1.8.1.4",
+            "true_seed": [
+              "rxn01241",
+              "rxn27791",
+              "rxn27792",
+              "rxn38078"
+            ],
+            "predicted_seed": [
+              "rxn31657"
+            ],
+            "tp": [],
+            "fp_count": 1,
+            "fn_count": 4
+          }
+        ],
+        "miss": [
+          {
+            "kegg": "R03409",
+            "mnx_id": "MNXR100099",
+            "equation": "C04494 + C00001 <=> C01228 + C00009",
+            "source_compounds": [
+              "C00001",
+              "C00009",
+              "C01228",
+              "C04494"
+            ],
+            "source_mnx_participants": [
+              "MNXM1189",
+              "MNXM1561"
+            ],
+            "ec": "3.6.1.11|3.6.1.40",
+            "true_seed": [
+              "rxn02449",
+              "rxn33412"
+            ],
+            "predicted_seed": [],
+            "tp": [],
+            "fp_count": 0,
+            "fn_count": 2
+          },
+          {
+            "kegg": "R07419",
+            "mnx_id": "MNXR100114",
+            "equation": "C15767 + C00001 <=> C00334 + C00025",
+            "source_compounds": [
+              "C00001",
+              "C00025",
+              "C00334",
+              "C15767"
+            ],
+            "source_mnx_participants": [
+              "MNXM1406",
+              "MNXM192",
+              "MNXM741173"
+            ],
+            "ec": "3.5.1.94",
+            "true_seed": [
+              "rxn05128"
+            ],
+            "predicted_seed": [],
+            "tp": [],
+            "fp_count": 0,
+            "fn_count": 1
+          },
+          {
+            "kegg": "R00260",
+            "mnx_id": "MNXR100288",
+            "equation": "C00025 <=> C00217",
+            "source_compounds": [
+              "C00025",
+              "C00217"
+            ],
+            "source_mnx_participants": [
+              "MNXM331",
+              "MNXM741173"
+            ],
+            "ec": "5.1.1.3",
+            "true_seed": [
+              "rxn00193"
+            ],
+            "predicted_seed": [],
+            "tp": [],
+            "fp_count": 0,
+            "fn_count": 1
+          },
+          {
+            "kegg": "R01047",
+            "mnx_id": "MNXR100324",
+            "equation": "C00116 <=> C00969 + C00001",
+            "source_compounds": [
+              "C00001",
+              "C00116",
+              "C00969"
+            ],
+            "source_mnx_participants": [
+              "MNXM1526"
+            ],
+            "ec": "4.2.1.30",
+            "true_seed": [
+              "rxn00768"
+            ],
+            "predicted_seed": [],
+            "tp": [],
+            "fp_count": 0,
+            "fn_count": 1
+          },
+          {
+            "kegg": "R00847",
+            "mnx_id": "MNXR100348",
+            "equation": "C00002 + C00116 <=> C00008 + C00093",
+            "source_compounds": [
+              "C00002",
+              "C00008",
+              "C00093",
+              "C00116"
+            ],
+            "source_mnx_participants": [
+              "MNXM3",
+              "MNXM40333",
+              "MNXM66"
+            ],
+            "ec": "2.7.1.30",
+            "true_seed": [
+              "rxn00615"
+            ],
+            "predicted_seed": [],
+            "tp": [],
+            "fp_count": 0,
+            "fn_count": 1
+          }
+        ]
+      }
+    }
+  ]
+}

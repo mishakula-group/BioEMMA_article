@@ -1,0 +1,220 @@
+[
+  {
+    "map_name": "test",
+    "map_id": "default",
+    "map_description": "",
+    "homepage": "https://escher.github.io",
+    "schema": "https://escher.github.io/escher/jsonschema/1-0-0#"
+  },
+  {
+    "nodes": {
+      "0": {
+        "node_type": "metabolite",
+        "bigg_id": "ac_x",
+        "name": "C00033",
+        "node_is_primary": true,
+        "x": 472.0,
+        "y": 2440.0,
+        "label_x": 512.0,
+        "label_y": 2480.0,
+        "compartment": "x"
+      },
+      "16": {
+        "node_type": "metabolite",
+        "bigg_id": "pyr_x",
+        "name": "C00022",
+        "node_is_primary": true,
+        "x": 1820.0,
+        "y": 2080.0,
+        "label_x": 1860.0,
+        "label_y": 2120.0,
+        "compartment": "x"
+      },
+      "18": {
+        "node_type": "metabolite",
+        "bigg_id": "accoa_x",
+        "name": "C00024",
+        "node_is_primary": true,
+        "x": 472.0,
+        "y": 2080.0,
+        "label_x": 512.0,
+        "label_y": 2120.0,
+        "compartment": "x"
+      },
+      "27": {
+        "node_type": "metabolite",
+        "bigg_id": "oaa_x",
+        "name": "C00036",
+        "node_is_primary": true,
+        "x": 472.0,
+        "y": 1552.0,
+        "label_x": 512.0,
+        "label_y": 1592.0,
+        "compartment": "x"
+      },
+      "76": {
+        "node_type": "midmarker",
+        "x": 272.0,
+        "y": 2272.0
+      },
+      "132": {
+        "node_type": "multimarker",
+        "x": 272.0,
+        "y": 2322.4
+      },
+      "188": {
+        "node_type": "multimarker",
+        "x": 272.0,
+        "y": 2214.4
+      },
+      "199": {
+        "node_type": "metabolite",
+        "bigg_id": "atp_x",
+        "name": "ATP C10H12N5O13P3",
+        "node_is_primary": false,
+        "x": 371.8479143685653,
+        "y": 2327.9130750264853,
+        "label_x": 411.8479143685653,
+        "label_y": 2367.9130750264853,
+        "compartment": "x"
+      },
+      "200": {
+        "node_type": "metabolite",
+        "bigg_id": "coa_x",
+        "name": "Coenzyme A",
+        "node_is_primary": false,
+        "x": 294.6648639977725,
+        "y": 2419.7976588012384,
+        "label_x": 334.6648639977725,
+        "label_y": 2459.7976588012384,
+        "compartment": "x"
+      },
+      "201": {
+        "node_type": "metabolite",
+        "bigg_id": "amp_x",
+        "name": "AMP C10H12N5O7P",
+        "node_is_primary": false,
+        "x": 288.1590759910933,
+        "y": 2115.714214482966,
+        "label_x": 328.1590759910933,
+        "label_y": 2155.714214482966,
+        "compartment": "x"
+      },
+      "202": {
+        "node_type": "metabolite",
+        "bigg_id": "ppi_x",
+        "name": "Diphosphate",
+        "node_is_primary": false,
+        "x": 371.26289537385895,
+        "y": 2202.28069300668,
+        "label_x": 411.262895373859,
+        "label_y": 2242.28069300668,
+        "compartment": "x"
+      }
+    },
+    "reactions": {
+      "45": {
+        "name": "R00235",
+        "bigg_id": "ACSp",
+        "reversibility": false,
+        "gene_reaction_rule": "",
+        "genes": [],
+        "metabolites": [
+          {
+            "kegg_id": "C00033",
+            "bigg_id": "ac_x",
+            "seed_id": "cpd00029",
+            "coefficient": -1,
+            "compartment": "x"
+          },
+          {
+            "kegg_id": "C00024",
+            "bigg_id": "accoa_x",
+            "seed_id": "cpd00022",
+            "coefficient": 1,
+            "compartment": "x"
+          },
+          {
+            "bigg_id": "atp_x",
+            "coefficient": -1.0,
+            "compartment": "x"
+          },
+          {
+            "bigg_id": "coa_x",
+            "coefficient": -1.0,
+            "compartment": "x"
+          },
+          {
+            "bigg_id": "amp_x",
+            "coefficient": 1.0,
+            "compartment": "x"
+          },
+          {
+            "bigg_id": "ppi_x",
+            "coefficient": 1.0,
+            "compartment": "x"
+          }
+        ],
+        "segments": {
+          "185": {
+            "from_node_id": 0,
+            "to_node_id": 132,
+            "b1": null,
+            "b2": null
+          },
+          "186": {
+            "from_node_id": 132,
+            "to_node_id": 76,
+            "b1": null,
+            "b2": null
+          },
+          "187": {
+            "from_node_id": 76,
+            "to_node_id": 188,
+            "b1": null,
+            "b2": null
+          },
+          "188": {
+            "from_node_id": 188,
+            "to_node_id": 18,
+            "b1": null,
+            "b2": null
+          },
+          "229": {
+            "from_node_id": 199,
+            "to_node_id": 132,
+            "b1": null,
+            "b2": null
+          },
+          "230": {
+            "from_node_id": 200,
+            "to_node_id": 132,
+            "b1": null,
+            "b2": null
+          },
+          "231": {
+            "from_node_id": 188,
+            "to_node_id": 201,
+            "b1": null,
+            "b2": null
+          },
+          "232": {
+            "from_node_id": 188,
+            "to_node_id": 202,
+            "b1": null,
+            "b2": null
+          }
+        },
+        "label_x": 312.0,
+        "label_y": 2312.0
+      }
+    },
+    "text_labels": {},
+    "canvas": {
+      "x": 0,
+      "y": 0,
+      "width": 2092.0,
+      "height": 3992.0
+    }
+  }
+]

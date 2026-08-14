@@ -1,0 +1,974 @@
+{
+  "source_output_root": "outputs\\bigg_prokaryote_bioemma",
+  "output_dir": "outputs\\bigg_prokaryote_bioemma\\stats\\all_models_reaction_reproducibility",
+  "scope": "all-prokaryotes",
+  "excluded_models": [
+    "e_coli_core"
+  ],
+  "model_count": 87,
+  "models": {
+    "STM_v1_0": {
+      "bigg_id": "STM_v1_0",
+      "organism": "Salmonella enterica subsp. enterica serovar Typhimurium str. LT2",
+      "reaction_count": "2545",
+      "metabolite_count": "1802",
+      "gene_count": "1271",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iAF1260": {
+      "bigg_id": "iAF1260",
+      "organism": "Escherichia coli str. K-12 substr. MG1655",
+      "reaction_count": "2382",
+      "metabolite_count": "1668",
+      "gene_count": "1261",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iAF1260b": {
+      "bigg_id": "iAF1260b",
+      "organism": "Escherichia coli str. K-12 substr. MG1655",
+      "reaction_count": "2388",
+      "metabolite_count": "1668",
+      "gene_count": "1261",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iAF692": {
+      "bigg_id": "iAF692",
+      "organism": "Methanosarcina barkeri str. Fusaro",
+      "reaction_count": "690",
+      "metabolite_count": "628",
+      "gene_count": "692",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iAF987": {
+      "bigg_id": "iAF987",
+      "organism": "Geobacter metallireducens GS-15",
+      "reaction_count": "1285",
+      "metabolite_count": "1109",
+      "gene_count": "987",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iAPECO1_1312": {
+      "bigg_id": "iAPECO1_1312",
+      "organism": "Escherichia coli APEC O1",
+      "reaction_count": "2735",
+      "metabolite_count": "1942",
+      "gene_count": "1313",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iB21_1397": {
+      "bigg_id": "iB21_1397",
+      "organism": "Escherichia coli BL21(DE3)",
+      "reaction_count": "2741",
+      "metabolite_count": "1943",
+      "gene_count": "1337",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iBWG_1329": {
+      "bigg_id": "iBWG_1329",
+      "organism": "Escherichia coli BW2952",
+      "reaction_count": "2741",
+      "metabolite_count": "1949",
+      "gene_count": "1329",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iCN718": {
+      "bigg_id": "iCN718",
+      "organism": "Acinetobacter baumannii AYE",
+      "reaction_count": "1015",
+      "metabolite_count": "888",
+      "gene_count": "709",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iCN900": {
+      "bigg_id": "iCN900",
+      "organism": "Clostridioides difficile 630",
+      "reaction_count": "1229",
+      "metabolite_count": "885",
+      "gene_count": "900",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iE2348C_1286": {
+      "bigg_id": "iE2348C_1286",
+      "organism": "Escherichia coli O127:H6 str. E2348/69",
+      "reaction_count": "2703",
+      "metabolite_count": "1919",
+      "gene_count": "1287",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iEC042_1314": {
+      "bigg_id": "iEC042_1314",
+      "organism": "Escherichia coli 042",
+      "reaction_count": "2714",
+      "metabolite_count": "1926",
+      "gene_count": "1314",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iEC1344_C": {
+      "bigg_id": "iEC1344_C",
+      "organism": "Escherichia coli C",
+      "reaction_count": "2726",
+      "metabolite_count": "1934",
+      "gene_count": "1344",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iEC1349_Crooks": {
+      "bigg_id": "iEC1349_Crooks",
+      "organism": "Escherichia coli ATCC 8739",
+      "reaction_count": "2756",
+      "metabolite_count": "1946",
+      "gene_count": "1349",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iEC1356_Bl21DE3": {
+      "bigg_id": "iEC1356_Bl21DE3",
+      "organism": "Escherichia coli BL21(DE3)",
+      "reaction_count": "2740",
+      "metabolite_count": "1918",
+      "gene_count": "1356",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iEC1364_W": {
+      "bigg_id": "iEC1364_W",
+      "organism": "Escherichia coli W",
+      "reaction_count": "2764",
+      "metabolite_count": "1927",
+      "gene_count": "1364",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iEC1368_DH5a": {
+      "bigg_id": "iEC1368_DH5a",
+      "organism": "Escherichia coli DH5[alpha]",
+      "reaction_count": "2779",
+      "metabolite_count": "1951",
+      "gene_count": "1368",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iEC1372_W3110": {
+      "bigg_id": "iEC1372_W3110",
+      "organism": "Escherichia coli str. K-12 substr. W3110",
+      "reaction_count": "2758",
+      "metabolite_count": "1918",
+      "gene_count": "1372",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iEC55989_1330": {
+      "bigg_id": "iEC55989_1330",
+      "organism": "Escherichia coli 55989",
+      "reaction_count": "2756",
+      "metabolite_count": "1953",
+      "gene_count": "1330",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iECABU_c1320": {
+      "bigg_id": "iECABU_c1320",
+      "organism": "Escherichia coli ABU 83972",
+      "reaction_count": "2731",
+      "metabolite_count": "1942",
+      "gene_count": "1320",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iECBD_1354": {
+      "bigg_id": "iECBD_1354",
+      "organism": "Escherichia coli 'BL21-Gold(DE3)pLysS AG'",
+      "reaction_count": "2748",
+      "metabolite_count": "1952",
+      "gene_count": "1354",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iECB_1328": {
+      "bigg_id": "iECB_1328",
+      "organism": "Escherichia coli B str. REL606",
+      "reaction_count": "2748",
+      "metabolite_count": "1951",
+      "gene_count": "1329",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iECDH10B_1368": {
+      "bigg_id": "iECDH10B_1368",
+      "organism": "Escherichia coli str. K-12 substr. DH10B",
+      "reaction_count": "2742",
+      "metabolite_count": "1947",
+      "gene_count": "1327",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iECDH1ME8569_1439": {
+      "bigg_id": "iECDH1ME8569_1439",
+      "organism": "Escherichia coli DH1",
+      "reaction_count": "2755",
+      "metabolite_count": "1950",
+      "gene_count": "1439",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iECD_1391": {
+      "bigg_id": "iECD_1391",
+      "organism": "Escherichia coli BL21(DE3)",
+      "reaction_count": "2741",
+      "metabolite_count": "1943",
+      "gene_count": "1333",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iECED1_1282": {
+      "bigg_id": "iECED1_1282",
+      "organism": "Escherichia coli ED1a",
+      "reaction_count": "2706",
+      "metabolite_count": "1929",
+      "gene_count": "1279",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iECH74115_1262": {
+      "bigg_id": "iECH74115_1262",
+      "organism": "Escherichia coli O157:H7 str. EC4115",
+      "reaction_count": "2694",
+      "metabolite_count": "1918",
+      "gene_count": "1262",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iECIAI1_1343": {
+      "bigg_id": "iECIAI1_1343",
+      "organism": "Escherichia coli IAI1",
+      "reaction_count": "2765",
+      "metabolite_count": "1968",
+      "gene_count": "1343",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iECIAI39_1322": {
+      "bigg_id": "iECIAI39_1322",
+      "organism": "Escherichia coli IAI39",
+      "reaction_count": "2721",
+      "metabolite_count": "1953",
+      "gene_count": "1321",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iECNA114_1301": {
+      "bigg_id": "iECNA114_1301",
+      "organism": "Escherichia coli NA114",
+      "reaction_count": "2718",
+      "metabolite_count": "1927",
+      "gene_count": "1301",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iECO103_1326": {
+      "bigg_id": "iECO103_1326",
+      "organism": "Escherichia coli O103:H2 str. 12009",
+      "reaction_count": "2758",
+      "metabolite_count": "1958",
+      "gene_count": "1327",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iECO111_1330": {
+      "bigg_id": "iECO111_1330",
+      "organism": "Escherichia coli O111:H- str. 11128",
+      "reaction_count": "2760",
+      "metabolite_count": "1959",
+      "gene_count": "1328",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iECO26_1355": {
+      "bigg_id": "iECO26_1355",
+      "organism": "Escherichia coli O26:H11 str. 11368",
+      "reaction_count": "2780",
+      "metabolite_count": "1965",
+      "gene_count": "1355",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iECOK1_1307": {
+      "bigg_id": "iECOK1_1307",
+      "organism": "Escherichia coli IHE3034",
+      "reaction_count": "2729",
+      "metabolite_count": "1941",
+      "gene_count": "1304",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iECP_1309": {
+      "bigg_id": "iECP_1309",
+      "organism": "Escherichia coli 536",
+      "reaction_count": "2739",
+      "metabolite_count": "1941",
+      "gene_count": "1309",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iECS88_1305": {
+      "bigg_id": "iECS88_1305",
+      "organism": "Escherichia coli S88",
+      "reaction_count": "2729",
+      "metabolite_count": "1942",
+      "gene_count": "1305",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iECSE_1348": {
+      "bigg_id": "iECSE_1348",
+      "organism": "Escherichia coli SE11",
+      "reaction_count": "2768",
+      "metabolite_count": "1957",
+      "gene_count": "1348",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iECSF_1327": {
+      "bigg_id": "iECSF_1327",
+      "organism": "Escherichia coli SE15",
+      "reaction_count": "2742",
+      "metabolite_count": "1951",
+      "gene_count": "1327",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iECSP_1301": {
+      "bigg_id": "iECSP_1301",
+      "organism": "Escherichia coli O157:H7 str. TW14359",
+      "reaction_count": "2712",
+      "metabolite_count": "1920",
+      "gene_count": "1299",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iECUMN_1333": {
+      "bigg_id": "iECUMN_1333",
+      "organism": "Escherichia coli UMN026",
+      "reaction_count": "2740",
+      "metabolite_count": "1935",
+      "gene_count": "1332",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iECW_1372": {
+      "bigg_id": "iECW_1372",
+      "organism": "Escherichia coli W",
+      "reaction_count": "2782",
+      "metabolite_count": "1973",
+      "gene_count": "1372",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iECs_1301": {
+      "bigg_id": "iECs_1301",
+      "organism": "Escherichia coli O157:H7 str. Sakai",
+      "reaction_count": "2720",
+      "metabolite_count": "1923",
+      "gene_count": "1301",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iEK1008": {
+      "bigg_id": "iEK1008",
+      "organism": "Mycobacterium tuberculosis H37Rv",
+      "reaction_count": "1226",
+      "metabolite_count": "998",
+      "gene_count": "1008",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iEKO11_1354": {
+      "bigg_id": "iEKO11_1354",
+      "organism": "Escherichia coli KO11FL",
+      "reaction_count": "2778",
+      "metabolite_count": "1972",
+      "gene_count": "1354",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iETEC_1333": {
+      "bigg_id": "iETEC_1333",
+      "organism": "Escherichia coli ETEC H10407",
+      "reaction_count": "2756",
+      "metabolite_count": "1962",
+      "gene_count": "1333",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iEcDH1_1363": {
+      "bigg_id": "iEcDH1_1363",
+      "organism": "Escherichia coli DH1",
+      "reaction_count": "2750",
+      "metabolite_count": "1949",
+      "gene_count": "1363",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iEcE24377_1341": {
+      "bigg_id": "iEcE24377_1341",
+      "organism": "Escherichia coli O139:H28 str. E24377A",
+      "reaction_count": "2763",
+      "metabolite_count": "1972",
+      "gene_count": "1341",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iEcHS_1320": {
+      "bigg_id": "iEcHS_1320",
+      "organism": "Escherichia coli HS",
+      "reaction_count": "2753",
+      "metabolite_count": "1963",
+      "gene_count": "1321",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iEcSMS35_1347": {
+      "bigg_id": "iEcSMS35_1347",
+      "organism": "Escherichia coli SMS-3-5",
+      "reaction_count": "2746",
+      "metabolite_count": "1947",
+      "gene_count": "1347",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iEcolC_1368": {
+      "bigg_id": "iEcolC_1368",
+      "organism": "Escherichia coli ATCC 8739",
+      "reaction_count": "2768",
+      "metabolite_count": "1969",
+      "gene_count": "1368",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iG2583_1286": {
+      "bigg_id": "iG2583_1286",
+      "organism": "Escherichia coli O55:H7 str. CB9615",
+      "reaction_count": "2704",
+      "metabolite_count": "1919",
+      "gene_count": "1283",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iHN637": {
+      "bigg_id": "iHN637",
+      "organism": "Clostridium ljungdahlii DSM 13528",
+      "reaction_count": "785",
+      "metabolite_count": "698",
+      "gene_count": "637",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iIT341": {
+      "bigg_id": "iIT341",
+      "organism": "Helicobacter pylori 26695",
+      "reaction_count": "554",
+      "metabolite_count": "485",
+      "gene_count": "339",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iJB785": {
+      "bigg_id": "iJB785",
+      "organism": "Synechococcus elongatus PCC 7942",
+      "reaction_count": "849",
+      "metabolite_count": "768",
+      "gene_count": "785",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iJN1463": {
+      "bigg_id": "iJN1463",
+      "organism": "Pseudomonas putida KT2440",
+      "reaction_count": "2927",
+      "metabolite_count": "2153",
+      "gene_count": "1462",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iJN678": {
+      "bigg_id": "iJN678",
+      "organism": "Synechocystis sp. PCC 6803",
+      "reaction_count": "863",
+      "metabolite_count": "795",
+      "gene_count": "622",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iJN746": {
+      "bigg_id": "iJN746",
+      "organism": "Pseudomonas putida KT2440",
+      "reaction_count": "1054",
+      "metabolite_count": "907",
+      "gene_count": "746",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iJO1366": {
+      "bigg_id": "iJO1366",
+      "organism": "Escherichia coli str. K-12 substr. MG1655",
+      "reaction_count": "2583",
+      "metabolite_count": "1805",
+      "gene_count": "1367",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iJR904": {
+      "bigg_id": "iJR904",
+      "organism": "Escherichia coli str. K-12 substr. MG1655",
+      "reaction_count": "1075",
+      "metabolite_count": "761",
+      "gene_count": "904",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iLF82_1304": {
+      "bigg_id": "iLF82_1304",
+      "organism": "Escherichia coli LF82",
+      "reaction_count": "2726",
+      "metabolite_count": "1938",
+      "gene_count": "1302",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iLJ478": {
+      "bigg_id": "iLJ478",
+      "organism": "Thermotoga maritima MSB8",
+      "reaction_count": "652",
+      "metabolite_count": "570",
+      "gene_count": "482",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iML1515": {
+      "bigg_id": "iML1515",
+      "organism": "Escherichia coli str. K-12 substr. MG1655",
+      "reaction_count": "2712",
+      "metabolite_count": "1877",
+      "gene_count": "1516",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iNF517": {
+      "bigg_id": "iNF517",
+      "organism": "Lactococcus lactis subsp. cremoris MG1363",
+      "reaction_count": "754",
+      "metabolite_count": "650",
+      "gene_count": "516",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iNJ661": {
+      "bigg_id": "iNJ661",
+      "organism": "Mycobacterium tuberculosis H37Rv",
+      "reaction_count": "1025",
+      "metabolite_count": "825",
+      "gene_count": "661",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iNRG857_1313": {
+      "bigg_id": "iNRG857_1313",
+      "organism": "Escherichia coli O83:H1 str. NRG 857C",
+      "reaction_count": "2735",
+      "metabolite_count": "1943",
+      "gene_count": "1311",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iPC815": {
+      "bigg_id": "iPC815",
+      "organism": "Yersinia pestis CO92",
+      "reaction_count": "1961",
+      "metabolite_count": "1552",
+      "gene_count": "815",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iSB619": {
+      "bigg_id": "iSB619",
+      "organism": "Staphylococcus aureus subsp. aureus N315",
+      "reaction_count": "743",
+      "metabolite_count": "655",
+      "gene_count": "619",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iSBO_1134": {
+      "bigg_id": "iSBO_1134",
+      "organism": "Shigella boydii Sb227",
+      "reaction_count": "2591",
+      "metabolite_count": "1908",
+      "gene_count": "1134",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iSDY_1059": {
+      "bigg_id": "iSDY_1059",
+      "organism": "Shigella dysenteriae Sd197",
+      "reaction_count": "2539",
+      "metabolite_count": "1888",
+      "gene_count": "1059",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iSFV_1184": {
+      "bigg_id": "iSFV_1184",
+      "organism": "Shigella flexneri 5 str. 8401",
+      "reaction_count": "2621",
+      "metabolite_count": "1917",
+      "gene_count": "1184",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iSF_1195": {
+      "bigg_id": "iSF_1195",
+      "organism": "Shigella flexneri 2a str. 301",
+      "reaction_count": "2630",
+      "metabolite_count": "1917",
+      "gene_count": "1195",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iSFxv_1172": {
+      "bigg_id": "iSFxv_1172",
+      "organism": "Shigella flexneri 2002017",
+      "reaction_count": "2638",
+      "metabolite_count": "1918",
+      "gene_count": "1169",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iSSON_1240": {
+      "bigg_id": "iSSON_1240",
+      "organism": "Shigella sonnei Ss046",
+      "reaction_count": "2693",
+      "metabolite_count": "1936",
+      "gene_count": "1240",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iS_1188": {
+      "bigg_id": "iS_1188",
+      "organism": "Shigella flexneri 2a str. 2457T",
+      "reaction_count": "2619",
+      "metabolite_count": "1914",
+      "gene_count": "1188",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iSbBS512_1146": {
+      "bigg_id": "iSbBS512_1146",
+      "organism": "Shigella boydii CDC 3083-94",
+      "reaction_count": "2591",
+      "metabolite_count": "1910",
+      "gene_count": "1147",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iSynCJ816": {
+      "bigg_id": "iSynCJ816",
+      "organism": "Synechocystis sp. PCC 6803",
+      "reaction_count": "1044",
+      "metabolite_count": "928",
+      "gene_count": "816",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iUMN146_1321": {
+      "bigg_id": "iUMN146_1321",
+      "organism": "Escherichia coli UM146",
+      "reaction_count": "2735",
+      "metabolite_count": "1942",
+      "gene_count": "1319",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iUMNK88_1353": {
+      "bigg_id": "iUMNK88_1353",
+      "organism": "Escherichia coli UMNK88",
+      "reaction_count": "2777",
+      "metabolite_count": "1969",
+      "gene_count": "1353",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iUTI89_1310": {
+      "bigg_id": "iUTI89_1310",
+      "organism": "Escherichia coli UTI89",
+      "reaction_count": "2725",
+      "metabolite_count": "1940",
+      "gene_count": "1310",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iWFL_1372": {
+      "bigg_id": "iWFL_1372",
+      "organism": "Escherichia coli W",
+      "reaction_count": "2782",
+      "metabolite_count": "1973",
+      "gene_count": "1372",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iY75_1357": {
+      "bigg_id": "iY75_1357",
+      "organism": "Escherichia coli str. K-12 substr. W3110",
+      "reaction_count": "2759",
+      "metabolite_count": "1953",
+      "gene_count": "1358",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iYL1228": {
+      "bigg_id": "iYL1228",
+      "organism": "Klebsiella pneumoniae subsp. pneumoniae MGH 78578",
+      "reaction_count": "2262",
+      "metabolite_count": "1658",
+      "gene_count": "1229",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iYO844": {
+      "bigg_id": "iYO844",
+      "organism": "Bacillus subtilis subsp. subtilis str. 168",
+      "reaction_count": "1250",
+      "metabolite_count": "990",
+      "gene_count": "844",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iYS1720": {
+      "bigg_id": "iYS1720",
+      "organism": "Salmonella pan-reactome",
+      "reaction_count": "3357",
+      "metabolite_count": "2436",
+      "gene_count": "1707",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iYS854": {
+      "bigg_id": "iYS854",
+      "organism": "Staphylococcus aureus subsp. aureus USA300_TCH1516",
+      "reaction_count": "1455",
+      "metabolite_count": "1335",
+      "gene_count": "866",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "iZ_1308": {
+      "bigg_id": "iZ_1308",
+      "organism": "Escherichia coli O157:H7 str. EDL933",
+      "reaction_count": "2721",
+      "metabolite_count": "1923",
+      "gene_count": "1308",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    },
+    "ic_1306": {
+      "bigg_id": "ic_1306",
+      "organism": "Escherichia coli CFT073",
+      "reaction_count": "2726",
+      "metabolite_count": "1936",
+      "gene_count": "1307",
+      "domain_classification": "prokaryote_selected",
+      "classification_reason": "not in known eukaryotic BiGG taxa"
+    }
+  },
+  "pathways": {
+    "map00010": {
+      "pathway": "map00010",
+      "pathway_rn": "rn00010",
+      "pathway_label": "Glycolysis / gluconeogenesis"
+    },
+    "map00020": {
+      "pathway": "map00020",
+      "pathway_rn": "rn00020",
+      "pathway_label": "Citrate cycle (TCA cycle)"
+    },
+    "map00030": {
+      "pathway": "map00030",
+      "pathway_rn": "rn00030",
+      "pathway_label": "Pentose phosphate pathway"
+    },
+    "map00680": {
+      "pathway": "map00680",
+      "pathway_rn": "rn00680",
+      "pathway_label": "Methane metabolism / C1 metabolism"
+    }
+  },
+  "jaccard_summary_by_pathway": [
+    {
+      "pathway": "map00010",
+      "pathway_rn": "rn00010",
+      "pathway_label": "Glycolysis / gluconeogenesis",
+      "model_count": 87,
+      "pair_count": 3741,
+      "identical_pair_count": 1301,
+      "identical_pair_percent": 34.78,
+      "mean_jaccard": "0.8847",
+      "median_jaccard": "0.9512",
+      "min_jaccard": "0.5217",
+      "max_jaccard": "1.0",
+      "mean_reaction_count": "38.72",
+      "median_reaction_count": "41.0",
+      "min_reaction_count": 24,
+      "max_reaction_count": 42,
+      "union_reaction_count": 49,
+      "core_reaction_count": 16,
+      "variable_reaction_count": 33,
+      "core_reactions": "R00014|R00199|R00658|R00746|R00762|R00959|R01015|R01061|R01063|R01068|R01512|R01516|R01518|R01662|R02739|R13199",
+      "variable_reactions": "R00200|R00206|R00229|R00235|R00341|R00431|R00703|R00710|R00711|R00726|R00754|R00755|R00756|R00764|R00947|R01058|R01196|R01600|R01602|R01786|R01788|R02569|R03270|R04394|R05132|R05133|R05134|R05198|R05805|R07618|R09085|R09086|R10860"
+    },
+    {
+      "pathway": "map00020",
+      "pathway_rn": "rn00020",
+      "pathway_label": "Citrate cycle (TCA cycle)",
+      "model_count": 87,
+      "pair_count": 3741,
+      "identical_pair_count": 1446,
+      "identical_pair_percent": 38.65,
+      "mean_jaccard": "0.8655",
+      "median_jaccard": "0.9565",
+      "min_jaccard": "0.3182",
+      "max_jaccard": "1.0",
+      "mean_reaction_count": "21.66",
+      "median_reaction_count": "23.0",
+      "min_reaction_count": 9,
+      "max_reaction_count": 23,
+      "union_reaction_count": 26,
+      "core_reaction_count": 4,
+      "variable_reaction_count": 22,
+      "core_reactions": "R00014|R00351|R01325|R01900",
+      "variable_reactions": "R00268|R00341|R00342|R00344|R00352|R00361|R00405|R00431|R00621|R00709|R00726|R01082|R01196|R01197|R01899|R02164|R02569|R02570|R03270|R03316|R07618|R10343"
+    },
+    {
+      "pathway": "map00030",
+      "pathway_rn": "rn00030",
+      "pathway_label": "Pentose phosphate pathway",
+      "model_count": 87,
+      "pair_count": 3741,
+      "identical_pair_count": 1072,
+      "identical_pair_percent": 28.66,
+      "mean_jaccard": "0.8782",
+      "median_jaccard": "0.9412",
+      "min_jaccard": "0.3421",
+      "max_jaccard": "1.0",
+      "mean_reaction_count": "31.98",
+      "median_reaction_count": "34.0",
+      "min_reaction_count": 17,
+      "max_reaction_count": 34,
+      "union_reaction_count": 45,
+      "core_reaction_count": 10,
+      "variable_reaction_count": 35,
+      "core_reactions": "R00762|R01049|R01056|R01057|R01067|R01068|R01529|R01641|R02739|R13199",
+      "variable_reactions": "R00756|R00764|R01051|R01058|R01066|R01520|R01521|R01528|R01538|R01541|R01621|R01737|R01739|R01741|R02032|R02034|R02035|R02036|R02658|R02736|R02749|R02750|R05605|R05805|R06836|R07147|R08570|R08572|R08575|R10221|R10555|R10615|R10860|R10907|R13089"
+    },
+    {
+      "pathway": "map00680",
+      "pathway_rn": "rn00680",
+      "pathway_label": "Methane metabolism / C1 metabolism",
+      "model_count": 87,
+      "pair_count": 3741,
+      "identical_pair_count": 1091,
+      "identical_pair_percent": 29.16,
+      "mean_jaccard": "0.8849",
+      "median_jaccard": "0.9375",
+      "min_jaccard": "0.3636",
+      "max_jaccard": "1.0",
+      "mean_reaction_count": "30.99",
+      "median_reaction_count": "32.0",
+      "min_reaction_count": 17,
+      "max_reaction_count": 43,
+      "union_reaction_count": 57,
+      "core_reaction_count": 12,
+      "variable_reaction_count": 45,
+      "core_reactions": "R00199|R00315|R00582|R00658|R00762|R00945|R01068|R01440|R01513|R01518|R06983|R09099",
+      "variable_reactions": "R00134|R00230|R00235|R00342|R00345|R00519|R00527|R00588|R00604|R00605|R00614|R00736|R00756|R01011|R01196|R01388|R03464|R04173|R05774|R05805|R06982|R07136|R07157|R08059|R08214|R08215|R08217|R08331|R08332|R08572|R09098|R09124|R09397|R09398|R09399|R09400|R09998|R09999|R10392|R10393|R10395|R10396|R12646|R12648|R12754"
+    }
+  ],
+  "mapping_metric_summary_by_pathway": [
+    {
+      "pathway": "map00010",
+      "pathway_rn": "rn00010",
+      "pathway_label": "Glycolysis / gluconeogenesis",
+      "model_count": 87,
+      "mean_matched_reactions": "38.72",
+      "median_matched_reactions": "41.0",
+      "min_matched_reactions": 24,
+      "max_matched_reactions": 42,
+      "mean_reaction_retention_percent": "69.15",
+      "median_reaction_retention_percent": "73.21",
+      "min_reaction_retention_percent": "42.86",
+      "max_reaction_retention_percent": "75.0"
+    },
+    {
+      "pathway": "map00020",
+      "pathway_rn": "rn00020",
+      "pathway_label": "Citrate cycle (TCA cycle)",
+      "model_count": 87,
+      "mean_matched_reactions": "21.66",
+      "median_matched_reactions": "23.0",
+      "min_matched_reactions": 9,
+      "max_matched_reactions": 23,
+      "mean_reaction_retention_percent": "74.67",
+      "median_reaction_retention_percent": "79.31",
+      "min_reaction_retention_percent": "31.03",
+      "max_reaction_retention_percent": "79.31"
+    },
+    {
+      "pathway": "map00030",
+      "pathway_rn": "rn00030",
+      "pathway_label": "Pentose phosphate pathway",
+      "model_count": 87,
+      "mean_matched_reactions": "31.98",
+      "median_matched_reactions": "34.0",
+      "min_matched_reactions": 17,
+      "max_matched_reactions": 34,
+      "mean_reaction_retention_percent": "55.13",
+      "median_reaction_retention_percent": "58.62",
+      "min_reaction_retention_percent": "29.31",
+      "max_reaction_retention_percent": "58.62"
+    },
+    {
+      "pathway": "map00680",
+      "pathway_rn": "rn00680",
+      "pathway_label": "Methane metabolism / C1 metabolism",
+      "model_count": 87,
+      "mean_matched_reactions": "30.99",
+      "median_matched_reactions": "32.0",
+      "min_matched_reactions": 17,
+      "max_matched_reactions": 43,
+      "mean_reaction_retention_percent": "29.8",
+      "median_reaction_retention_percent": "30.77",
+      "min_reaction_retention_percent": "16.35",
+      "max_reaction_retention_percent": "41.35"
+    }
+  ],
+  "files": [
+    "all_models_jaccard_summary_by_pathway.tsv",
+    "all_models_map_reaction_counts.tsv",
+    "all_models_map_reactions_long.tsv",
+    "all_models_mapping_metric_summary_by_pathway.tsv",
+    "all_models_mapping_metrics_by_model_pathway.tsv",
+    "all_models_pairwise_jaccard.tsv",
+    "all_models_pairwise_reaction_differences.tsv",
+    "all_models_reaction_frequency_by_pathway.tsv"
+  ]
+}

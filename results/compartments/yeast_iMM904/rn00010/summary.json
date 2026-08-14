@@ -1,0 +1,293 @@
+{
+  "organism": "Saccharomyces cerevisiae",
+  "model_id": "iMM904",
+  "pathway": "rn00010",
+  "title": "Glycolysis / Gluconeogenesis",
+  "bioemma_version": "0.4.1",
+  "kgml": "data\\compartment_models\\recon3d_probe\\kgml\\rn00010.xml",
+  "compartments": [
+    [
+      "c",
+      "cytosol"
+    ],
+    [
+      "m",
+      "mitochondria"
+    ],
+    [
+      "x",
+      "peroxisome/glyoxysome"
+    ]
+  ],
+  "reaction_counts": {
+    "c": 21,
+    "m": 9,
+    "x": 1
+  },
+  "compartment_summaries": {
+    "c": {
+      "label": "cytosol",
+      "reaction_count": 21,
+      "nodes": 142,
+      "segments": 142,
+      "build_sec": 1.3336905000032857
+    },
+    "m": {
+      "label": "mitochondria",
+      "reaction_count": 9,
+      "nodes": 84,
+      "segments": 79,
+      "build_sec": 1.199020299995027
+    },
+    "x": {
+      "label": "peroxisome/glyoxysome",
+      "reaction_count": 1,
+      "nodes": 11,
+      "segments": 8,
+      "build_sec": 1.1340972000034526
+    }
+  },
+  "alignment": {
+    "reference_compartment": "c",
+    "translations": {
+      "c": {
+        "dx": 0.0,
+        "dy": 0.0,
+        "anchors": 21
+      },
+      "m": {
+        "dx": 0.0,
+        "dy": 610.0,
+        "anchors": 6
+      },
+      "x": {
+        "dx": 0.0,
+        "dy": 1186.0,
+        "anchors": 1
+      }
+    },
+    "max_shared_y_delta_after_alignment": 0.0,
+    "reaction_counts": {
+      "c": 21,
+      "m": 9,
+      "x": 1
+    },
+    "canvas": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 7212.0,
+      "height": 3808.407321841776
+    }
+  },
+  "flux_summary": {
+    "by_compartment": {
+      "c": {
+        "mapped": 21,
+        "with_flux": 20,
+        "nonzero_flux": 9
+      },
+      "m": {
+        "mapped": 9,
+        "with_flux": 9,
+        "nonzero_flux": 2
+      },
+      "x": {
+        "mapped": 1,
+        "with_flux": 1,
+        "nonzero_flux": 0
+      }
+    },
+    "rows": [
+      {
+        "compartment": "c",
+        "kegg": "R00014",
+        "bigg_id": "4MOPDC",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00200",
+        "bigg_id": "PYK",
+        "flux": 17.721989707312286
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00235",
+        "bigg_id": "ACS",
+        "flux": 0.1470705880223831
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00341",
+        "bigg_id": "PPCK",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00658",
+        "bigg_id": "ENO",
+        "flux": 17.87415551829023
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00703",
+        "bigg_id": "2HBO",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00711",
+        "bigg_id": "ALDD2y",
+        "flux": 0.13057588320014218
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00746",
+        "bigg_id": "ALCD19y",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00754",
+        "bigg_id": "ALCD2x",
+        "flux": null
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00756",
+        "bigg_id": "PFK",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00762",
+        "bigg_id": "FBP",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00959",
+        "bigg_id": "PPM",
+        "flux": 1.6573133734794688e-20
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01015",
+        "bigg_id": "TPI",
+        "flux": 8.917769447213562
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01061",
+        "bigg_id": "GAPD",
+        "flux": 18.03820442551705
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01068",
+        "bigg_id": "FBA",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01512",
+        "bigg_id": "PGK",
+        "flux": -18.03820442551705
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01518",
+        "bigg_id": "PGM",
+        "flux": -17.87415551829023
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01600",
+        "bigg_id": "GLUK",
+        "flux": 8.706603802182075
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01662",
+        "bigg_id": "DPGM",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R02739",
+        "bigg_id": "G6PI",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R10860",
+        "bigg_id": "ALDD19xr",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00014",
+        "bigg_id": "ACHBSm",
+        "flux": 0.055471721103764374
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00235",
+        "bigg_id": "ACSm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00710",
+        "bigg_id": "ALDD2xm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00711",
+        "bigg_id": "ALDD2ym",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00746",
+        "bigg_id": "ALCD22xim",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00754",
+        "bigg_id": "ALCD2irm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R02569",
+        "bigg_id": "PDHm",
+        "flux": 0.7083890427218412
+      },
+      {
+        "compartment": "m",
+        "kegg": "R07618",
+        "bigg_id": "GLYCLm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R10860",
+        "bigg_id": "ALDD20xm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "x",
+        "kegg": "R00235",
+        "bigg_id": "ACSp",
+        "flux": 0.0
+      }
+    ]
+  },
+  "html": "results\\compartments\\yeast_iMM904\\rn00010\\iMM904_rn00010_compartments.html",
+  "map_json": "results\\compartments\\yeast_iMM904\\rn00010\\iMM904_rn00010_compartments.json",
+  "flux_tsv": "results\\compartments\\yeast_iMM904\\rn00010\\iMM904_rn00010_flux.tsv",
+  "summary_json": "results\\compartments\\yeast_iMM904\\rn00010\\summary.json"
+}

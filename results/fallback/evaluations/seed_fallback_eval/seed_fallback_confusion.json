@@ -1,0 +1,2936 @@
+[
+  {
+    "mode": "inclusive_all",
+    "exclude_source_mnx": false,
+    "prediction_policy": "all",
+    "threshold": 0.5,
+    "sources": 6575,
+    "reaction_level": {
+      "exact": 2039,
+      "clean_hit": 0,
+      "mixed_hit": 4536,
+      "wrong_only": 0,
+      "miss": 0,
+      "recovered_any": 6575,
+      "recovered_any_rate": 1.0,
+      "wrong_only_rate": 0.0,
+      "miss_rate": 0.0
+    },
+    "label_level_confusion_matrix": {
+      "tp": 10018,
+      "fp": 125102,
+      "fn": 0,
+      "tn": 192440055
+    },
+    "label_level_metrics": {
+      "precision": 0.07414150384843102,
+      "recall": 1.0,
+      "specificity": 0.9993503393762975,
+      "f1": 0.13804792680070002
+    },
+    "prediction_size": {
+      "min": 1,
+      "median": 4,
+      "p90": 58,
+      "max": 1174
+    },
+    "true_size": {
+      "min": 1,
+      "median": 1,
+      "p90": 3,
+      "max": 11
+    },
+    "examples": {
+      "exact": [
+        {
+          "kegg": "R03409",
+          "mnx_id": "MNXR100099",
+          "ec": "3.6.1.11|3.6.1.40",
+          "true_seed": [
+            "rxn02449",
+            "rxn33412"
+          ],
+          "predicted_seed": [
+            "rxn02449",
+            "rxn33412"
+          ],
+          "tp": [
+            "rxn02449",
+            "rxn33412"
+          ],
+          "fp_count": 0,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R07419",
+          "mnx_id": "MNXR100114",
+          "ec": "3.5.1.94",
+          "true_seed": [
+            "rxn05128"
+          ],
+          "predicted_seed": [
+            "rxn05128"
+          ],
+          "tp": [
+            "rxn05128"
+          ],
+          "fp_count": 0,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R03284",
+          "mnx_id": "MNXR100143",
+          "ec": "4.1.2.-",
+          "true_seed": [
+            "rxn02351"
+          ],
+          "predicted_seed": [
+            "rxn02351"
+          ],
+          "tp": [
+            "rxn02351"
+          ],
+          "fp_count": 0,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R03189",
+          "mnx_id": "MNXR100282",
+          "ec": "2.1.2.5",
+          "true_seed": [
+            "rxn02283"
+          ],
+          "predicted_seed": [
+            "rxn02283"
+          ],
+          "tp": [
+            "rxn02283"
+          ],
+          "fp_count": 0,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R00260",
+          "mnx_id": "MNXR100288",
+          "ec": "5.1.1.3",
+          "true_seed": [
+            "rxn00193"
+          ],
+          "predicted_seed": [
+            "rxn00193"
+          ],
+          "tp": [
+            "rxn00193"
+          ],
+          "fp_count": 0,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R00847",
+          "mnx_id": "MNXR100348",
+          "ec": "2.7.1.30",
+          "true_seed": [
+            "rxn00615"
+          ],
+          "predicted_seed": [
+            "rxn00615"
+          ],
+          "tp": [
+            "rxn00615"
+          ],
+          "fp_count": 0,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R09796",
+          "mnx_id": "MNXR100354",
+          "ec": "4.2.1.130",
+          "true_seed": [
+            "rxn08659"
+          ],
+          "predicted_seed": [
+            "rxn08659"
+          ],
+          "tp": [
+            "rxn08659"
+          ],
+          "fp_count": 0,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R02530",
+          "mnx_id": "MNXR100355",
+          "ec": "4.4.1.5",
+          "true_seed": [
+            "rxn01834",
+            "rxn33394",
+            "rxn38131",
+            "rxn38132"
+          ],
+          "predicted_seed": [
+            "rxn01834",
+            "rxn33394",
+            "rxn38131",
+            "rxn38132"
+          ],
+          "tp": [
+            "rxn01834",
+            "rxn33394",
+            "rxn38131",
+            "rxn38132"
+          ],
+          "fp_count": 0,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R01737",
+          "mnx_id": "MNXR100390",
+          "ec": "2.7.1.12",
+          "true_seed": [
+            "rxn01275",
+            "rxn34226"
+          ],
+          "predicted_seed": [
+            "rxn01275",
+            "rxn34226"
+          ],
+          "tp": [
+            "rxn01275",
+            "rxn34226"
+          ],
+          "fp_count": 0,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R00132",
+          "mnx_id": "MNXR100482",
+          "ec": "4.2.1.1",
+          "true_seed": [
+            "rxn00102",
+            "rxn26146",
+            "rxn27740",
+            "rxn27741",
+            "rxn30392",
+            "rxn37640"
+          ],
+          "predicted_seed": [
+            "rxn00102",
+            "rxn26146",
+            "rxn27740",
+            "rxn27741",
+            "rxn30392",
+            "rxn37640"
+          ],
+          "tp": [
+            "rxn00102",
+            "rxn26146",
+            "rxn27740",
+            "rxn27741",
+            "rxn30392",
+            "rxn37640"
+          ],
+          "fp_count": 0,
+          "fn_count": 0
+        }
+      ],
+      "clean_hit": [],
+      "mixed_hit": [
+        {
+          "kegg": "R00253",
+          "mnx_id": "MNXR100024",
+          "ec": "6.3.1.2",
+          "true_seed": [
+            "rxn00187",
+            "rxn19835",
+            "rxn19836",
+            "rxn30022",
+            "rxn33952",
+            "rxn33953",
+            "rxn34791",
+            "rxn34792"
+          ],
+          "predicted_seed": [
+            "rxn00187",
+            "rxn19835",
+            "rxn19836",
+            "rxn30022",
+            "rxn33952",
+            "rxn33953",
+            "rxn34791",
+            "rxn34792",
+            "rxn01159",
+            "rxn02096",
+            "rxn03406",
+            "rxn03409",
+            "rxn31278",
+            "rxn31279"
+          ],
+          "tp": [
+            "rxn00187",
+            "rxn19835",
+            "rxn19836",
+            "rxn30022",
+            "rxn33952",
+            "rxn33953",
+            "rxn34791",
+            "rxn34792"
+          ],
+          "fp_count": 6,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R00256",
+          "mnx_id": "MNXR100030",
+          "ec": "1.4.1.13|1.4.1.14|1.4.7.1|2.4.2|2.4.2.14|2.6.1.85|3.5.1.2|3.5.1.38|4.3.1|4.3.3.6|6.3.4.2|6.3.5.2|6.3.5.4|6.3.5.5|6.3.5.7",
+          "true_seed": [
+            "rxn00189",
+            "rxn19831",
+            "rxn29962",
+            "rxn30024",
+            "rxn30680",
+            "rxn34787"
+          ],
+          "predicted_seed": [
+            "rxn00189",
+            "rxn19831",
+            "rxn29962",
+            "rxn30024",
+            "rxn30680",
+            "rxn34787",
+            "rxn00182",
+            "rxn00184",
+            "rxn00412",
+            "rxn00414",
+            "rxn00416",
+            "rxn00790",
+            "rxn00917",
+            "rxn05144",
+            "rxn10534",
+            "rxn11276",
+            "rxn11772",
+            "rxn12881",
+            "rxn19827",
+            "rxn21635",
+            "rxn27743",
+            "rxn27771",
+            "rxn27887",
+            "rxn27918",
+            "rxn28100",
+            "rxn30023",
+            "rxn30075",
+            "rxn30627",
+            "rxn31216",
+            "rxn32227"
+          ],
+          "tp": [
+            "rxn00189",
+            "rxn19831",
+            "rxn29962",
+            "rxn30024",
+            "rxn30680",
+            "rxn34787"
+          ],
+          "fp_count": 86,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R01333",
+          "mnx_id": "MNXR100060",
+          "ec": "1.2.1|1.2.1.19|1.2.1.21|1.2.1.3|1.2.1.4|1.2.1.5|1.2.1.69",
+          "true_seed": [
+            "rxn00979",
+            "rxn31785"
+          ],
+          "predicted_seed": [
+            "rxn00979",
+            "rxn31785",
+            "rxn00149",
+            "rxn00183",
+            "rxn00429",
+            "rxn00503",
+            "rxn00506",
+            "rxn00508",
+            "rxn00653",
+            "rxn01032",
+            "rxn01053",
+            "rxn01247",
+            "rxn01273",
+            "rxn01286",
+            "rxn01840",
+            "rxn01851",
+            "rxn01867",
+            "rxn01937",
+            "rxn01943",
+            "rxn02106",
+            "rxn02107",
+            "rxn02122",
+            "rxn02273",
+            "rxn02350",
+            "rxn02364",
+            "rxn02729",
+            "rxn02853",
+            "rxn03106",
+            "rxn03335",
+            "rxn03340"
+          ],
+          "tp": [
+            "rxn00979",
+            "rxn31785"
+          ],
+          "fp_count": 311,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R03824",
+          "mnx_id": "MNXR100063",
+          "ec": "5.5.1.19",
+          "true_seed": [
+            "rxn11574",
+            "rxn26506"
+          ],
+          "predicted_seed": [
+            "rxn11574",
+            "rxn26506",
+            "rxn03646",
+            "rxn26505"
+          ],
+          "tp": [
+            "rxn11574",
+            "rxn26506"
+          ],
+          "fp_count": 2,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R01698",
+          "mnx_id": "MNXR100066",
+          "ec": "1.6.2.6|1.8.1|1.8.1.4",
+          "true_seed": [
+            "rxn01241",
+            "rxn27791",
+            "rxn27792",
+            "rxn38078"
+          ],
+          "predicted_seed": [
+            "rxn01241",
+            "rxn27791",
+            "rxn27792",
+            "rxn38078",
+            "rxn31657",
+            "rxn05773",
+            "rxn24411",
+            "rxn24412",
+            "rxn25042",
+            "rxn25043",
+            "rxn25977",
+            "rxn28360",
+            "rxn28361",
+            "rxn28362",
+            "rxn28363",
+            "rxn28405",
+            "rxn28546",
+            "rxn28547",
+            "rxn28548",
+            "rxn28549",
+            "rxn28550",
+            "rxn37652",
+            "rxn37653",
+            "rxn37654",
+            "rxn37656",
+            "rxn37896",
+            "rxn37901",
+            "rxn38435",
+            "rxn38436",
+            "rxn38458"
+          ],
+          "tp": [
+            "rxn01241",
+            "rxn27791",
+            "rxn27792",
+            "rxn38078"
+          ],
+          "fp_count": 30,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R00894",
+          "mnx_id": "MNXR100074",
+          "ec": "6.3.2.2",
+          "true_seed": [
+            "rxn00646",
+            "rxn27893"
+          ],
+          "predicted_seed": [
+            "rxn00646",
+            "rxn27893",
+            "rxn34002"
+          ],
+          "tp": [
+            "rxn00646",
+            "rxn27893"
+          ],
+          "fp_count": 1,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R03177",
+          "mnx_id": "MNXR100083",
+          "ec": "1.2.1.3|1.2.1.54",
+          "true_seed": [
+            "rxn02273"
+          ],
+          "predicted_seed": [
+            "rxn02273",
+            "rxn00149",
+            "rxn00429",
+            "rxn00503",
+            "rxn00506",
+            "rxn00508",
+            "rxn00653",
+            "rxn00979",
+            "rxn01032",
+            "rxn01053",
+            "rxn01247",
+            "rxn01273",
+            "rxn01286",
+            "rxn01851",
+            "rxn01867",
+            "rxn01937",
+            "rxn02106",
+            "rxn02107",
+            "rxn02122",
+            "rxn02350",
+            "rxn02364",
+            "rxn02729",
+            "rxn02853",
+            "rxn03106",
+            "rxn03335",
+            "rxn03343",
+            "rxn03354",
+            "rxn03423",
+            "rxn03468",
+            "rxn03598"
+          ],
+          "tp": [
+            "rxn02273"
+          ],
+          "fp_count": 128,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R00248",
+          "mnx_id": "MNXR100086",
+          "ec": "1.4.1.13|1.4.1.3|1.4.1.4",
+          "true_seed": [
+            "rxn00184",
+            "rxn27887",
+            "rxn30023",
+            "rxn33943",
+            "rxn34794"
+          ],
+          "predicted_seed": [
+            "rxn00184",
+            "rxn27887",
+            "rxn30023",
+            "rxn33943",
+            "rxn34794",
+            "rxn00085",
+            "rxn00182",
+            "rxn19827",
+            "rxn27889",
+            "rxn30075",
+            "rxn30679",
+            "rxn33967",
+            "rxn34790",
+            "rxn34793",
+            "rxn05779",
+            "rxn19826",
+            "rxn27885",
+            "rxn27886",
+            "rxn47423"
+          ],
+          "tp": [
+            "rxn00184",
+            "rxn27887",
+            "rxn30023",
+            "rxn33943",
+            "rxn34794"
+          ],
+          "fp_count": 14,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R00094",
+          "mnx_id": "MNXR100097",
+          "ec": "1.8.1.7",
+          "true_seed": [
+            "rxn00070",
+            "rxn34788",
+            "rxn34789"
+          ],
+          "predicted_seed": [
+            "rxn00070",
+            "rxn34788",
+            "rxn34789",
+            "rxn00086",
+            "rxn19841",
+            "rxn19842",
+            "rxn32133"
+          ],
+          "tp": [
+            "rxn00070",
+            "rxn34788",
+            "rxn34789"
+          ],
+          "fp_count": 4,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R00115",
+          "mnx_id": "MNXR100098",
+          "ec": "1.6.4.2|1.8.1.7|1.8.4.2",
+          "true_seed": [
+            "rxn00086",
+            "rxn19841",
+            "rxn19842",
+            "rxn32133"
+          ],
+          "predicted_seed": [
+            "rxn00086",
+            "rxn19841",
+            "rxn19842",
+            "rxn32133",
+            "rxn03980",
+            "rxn00070",
+            "rxn04960",
+            "rxn05910",
+            "rxn20612",
+            "rxn20613",
+            "rxn34788",
+            "rxn34789",
+            "rxn41730"
+          ],
+          "tp": [
+            "rxn00086",
+            "rxn19841",
+            "rxn19842",
+            "rxn32133"
+          ],
+          "fp_count": 9,
+          "fn_count": 0
+        }
+      ],
+      "wrong_only": [],
+      "miss": []
+    }
+  },
+  {
+    "mode": "inclusive_best_ties",
+    "exclude_source_mnx": false,
+    "prediction_policy": "best_ties",
+    "threshold": 0.5,
+    "sources": 6575,
+    "reaction_level": {
+      "exact": 6521,
+      "clean_hit": 0,
+      "mixed_hit": 54,
+      "wrong_only": 0,
+      "miss": 0,
+      "recovered_any": 6575,
+      "recovered_any_rate": 1.0,
+      "wrong_only_rate": 0.0,
+      "miss_rate": 0.0
+    },
+    "label_level_confusion_matrix": {
+      "tp": 10018,
+      "fp": 1251,
+      "fn": 0,
+      "tn": 192563906
+    },
+    "label_level_metrics": {
+      "precision": 0.888987487798385,
+      "recall": 1.0,
+      "specificity": 0.999993503497624,
+      "f1": 0.9412317376802743
+    },
+    "prediction_size": {
+      "min": 1,
+      "median": 1,
+      "p90": 3,
+      "max": 963
+    },
+    "true_size": {
+      "min": 1,
+      "median": 1,
+      "p90": 3,
+      "max": 11
+    },
+    "examples": {
+      "exact": [
+        {
+          "kegg": "R00253",
+          "mnx_id": "MNXR100024",
+          "ec": "6.3.1.2",
+          "true_seed": [
+            "rxn00187",
+            "rxn19835",
+            "rxn19836",
+            "rxn30022",
+            "rxn33952",
+            "rxn33953",
+            "rxn34791",
+            "rxn34792"
+          ],
+          "predicted_seed": [
+            "rxn00187",
+            "rxn19835",
+            "rxn19836",
+            "rxn30022",
+            "rxn33952",
+            "rxn33953",
+            "rxn34791",
+            "rxn34792"
+          ],
+          "tp": [
+            "rxn00187",
+            "rxn19835",
+            "rxn19836",
+            "rxn30022",
+            "rxn33952",
+            "rxn33953",
+            "rxn34791",
+            "rxn34792"
+          ],
+          "fp_count": 0,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R00256",
+          "mnx_id": "MNXR100030",
+          "ec": "1.4.1.13|1.4.1.14|1.4.7.1|2.4.2|2.4.2.14|2.6.1.85|3.5.1.2|3.5.1.38|4.3.1|4.3.3.6|6.3.4.2|6.3.5.2|6.3.5.4|6.3.5.5|6.3.5.7",
+          "true_seed": [
+            "rxn00189",
+            "rxn19831",
+            "rxn29962",
+            "rxn30024",
+            "rxn30680",
+            "rxn34787"
+          ],
+          "predicted_seed": [
+            "rxn00189",
+            "rxn19831",
+            "rxn29962",
+            "rxn30024",
+            "rxn30680",
+            "rxn34787"
+          ],
+          "tp": [
+            "rxn00189",
+            "rxn19831",
+            "rxn29962",
+            "rxn30024",
+            "rxn30680",
+            "rxn34787"
+          ],
+          "fp_count": 0,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R01333",
+          "mnx_id": "MNXR100060",
+          "ec": "1.2.1|1.2.1.19|1.2.1.21|1.2.1.3|1.2.1.4|1.2.1.5|1.2.1.69",
+          "true_seed": [
+            "rxn00979",
+            "rxn31785"
+          ],
+          "predicted_seed": [
+            "rxn00979",
+            "rxn31785"
+          ],
+          "tp": [
+            "rxn00979",
+            "rxn31785"
+          ],
+          "fp_count": 0,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R03824",
+          "mnx_id": "MNXR100063",
+          "ec": "5.5.1.19",
+          "true_seed": [
+            "rxn11574",
+            "rxn26506"
+          ],
+          "predicted_seed": [
+            "rxn11574",
+            "rxn26506"
+          ],
+          "tp": [
+            "rxn11574",
+            "rxn26506"
+          ],
+          "fp_count": 0,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R01698",
+          "mnx_id": "MNXR100066",
+          "ec": "1.6.2.6|1.8.1|1.8.1.4",
+          "true_seed": [
+            "rxn01241",
+            "rxn27791",
+            "rxn27792",
+            "rxn38078"
+          ],
+          "predicted_seed": [
+            "rxn01241",
+            "rxn27791",
+            "rxn27792",
+            "rxn38078"
+          ],
+          "tp": [
+            "rxn01241",
+            "rxn27791",
+            "rxn27792",
+            "rxn38078"
+          ],
+          "fp_count": 0,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R00894",
+          "mnx_id": "MNXR100074",
+          "ec": "6.3.2.2",
+          "true_seed": [
+            "rxn00646",
+            "rxn27893"
+          ],
+          "predicted_seed": [
+            "rxn00646",
+            "rxn27893"
+          ],
+          "tp": [
+            "rxn00646",
+            "rxn27893"
+          ],
+          "fp_count": 0,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R03177",
+          "mnx_id": "MNXR100083",
+          "ec": "1.2.1.3|1.2.1.54",
+          "true_seed": [
+            "rxn02273"
+          ],
+          "predicted_seed": [
+            "rxn02273"
+          ],
+          "tp": [
+            "rxn02273"
+          ],
+          "fp_count": 0,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R00248",
+          "mnx_id": "MNXR100086",
+          "ec": "1.4.1.13|1.4.1.3|1.4.1.4",
+          "true_seed": [
+            "rxn00184",
+            "rxn27887",
+            "rxn30023",
+            "rxn33943",
+            "rxn34794"
+          ],
+          "predicted_seed": [
+            "rxn00184",
+            "rxn27887",
+            "rxn30023",
+            "rxn33943",
+            "rxn34794"
+          ],
+          "tp": [
+            "rxn00184",
+            "rxn27887",
+            "rxn30023",
+            "rxn33943",
+            "rxn34794"
+          ],
+          "fp_count": 0,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R00094",
+          "mnx_id": "MNXR100097",
+          "ec": "1.8.1.7",
+          "true_seed": [
+            "rxn00070",
+            "rxn34788",
+            "rxn34789"
+          ],
+          "predicted_seed": [
+            "rxn00070",
+            "rxn34788",
+            "rxn34789"
+          ],
+          "tp": [
+            "rxn00070",
+            "rxn34788",
+            "rxn34789"
+          ],
+          "fp_count": 0,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R00115",
+          "mnx_id": "MNXR100098",
+          "ec": "1.6.4.2|1.8.1.7|1.8.4.2",
+          "true_seed": [
+            "rxn00086",
+            "rxn19841",
+            "rxn19842",
+            "rxn32133"
+          ],
+          "predicted_seed": [
+            "rxn00086",
+            "rxn19841",
+            "rxn19842",
+            "rxn32133"
+          ],
+          "tp": [
+            "rxn00086",
+            "rxn19841",
+            "rxn19842",
+            "rxn32133"
+          ],
+          "fp_count": 0,
+          "fn_count": 0
+        }
+      ],
+      "clean_hit": [],
+      "mixed_hit": [
+        {
+          "kegg": "R00112",
+          "mnx_id": "MNXR101898",
+          "ec": "1.6.1.1|1.6.1.2|1.6.1.3",
+          "true_seed": [
+            "rxn00083",
+            "rxn27488",
+            "rxn32580"
+          ],
+          "predicted_seed": [
+            "rxn00083",
+            "rxn09295",
+            "rxn10125",
+            "rxn27378",
+            "rxn27488",
+            "rxn32580"
+          ],
+          "tp": [
+            "rxn00083",
+            "rxn27488",
+            "rxn32580"
+          ],
+          "fp_count": 3,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R01710",
+          "mnx_id": "MNXR103367",
+          "ec": "1.4.3|1.4.3.5",
+          "true_seed": [
+            "rxn01251",
+            "rxn35556"
+          ],
+          "predicted_seed": [
+            "rxn01251",
+            "rxn09566",
+            "rxn35556"
+          ],
+          "tp": [
+            "rxn01251",
+            "rxn35556"
+          ],
+          "fp_count": 1,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R00031",
+          "mnx_id": "MNXR104991",
+          "ec": "1.10.3.1|1.14.18.1",
+          "true_seed": [
+            "rxn00024"
+          ],
+          "predicted_seed": [
+            "rxn00024",
+            "rxn00524"
+          ],
+          "tp": [
+            "rxn00024"
+          ],
+          "fp_count": 1,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R00074",
+          "mnx_id": "MNXR106375",
+          "ec": "1.10.3.4",
+          "true_seed": [
+            "rxn00054"
+          ],
+          "predicted_seed": [
+            "rxn00054",
+            "rxn20469"
+          ],
+          "tp": [
+            "rxn00054"
+          ],
+          "fp_count": 1,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R00076",
+          "mnx_id": "MNXR106377",
+          "ec": "2.7.11.19",
+          "true_seed": [
+            "rxn14392"
+          ],
+          "predicted_seed": [
+            "rxn05769",
+            "rxn14392",
+            "rxn17686"
+          ],
+          "tp": [
+            "rxn14392"
+          ],
+          "fp_count": 2,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R00077",
+          "mnx_id": "MNXR106378",
+          "ec": "3.1.3.17",
+          "true_seed": [
+            "rxn05770"
+          ],
+          "predicted_seed": [
+            "rxn05770",
+            "rxn20593"
+          ],
+          "tp": [
+            "rxn05770"
+          ],
+          "fp_count": 1,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R00153",
+          "mnx_id": "MNXR106412",
+          "ec": "1.18.6.1",
+          "true_seed": [
+            "rxn11949"
+          ],
+          "predicted_seed": [
+            "rxn05780",
+            "rxn11949"
+          ],
+          "tp": [
+            "rxn11949"
+          ],
+          "fp_count": 1,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R03146",
+          "mnx_id": "MNXR107981",
+          "ec": "1.2.2.1",
+          "true_seed": [
+            "rxn11978"
+          ],
+          "predicted_seed": [
+            "rxn02254",
+            "rxn11978",
+            "rxn19716"
+          ],
+          "tp": [
+            "rxn11978"
+          ],
+          "fp_count": 2,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R03263",
+          "mnx_id": "MNXR108057",
+          "ec": "1.14.15.4|1.14.15.5",
+          "true_seed": [
+            "rxn11980"
+          ],
+          "predicted_seed": [
+            "rxn11980",
+            "rxn41844"
+          ],
+          "tp": [
+            "rxn11980"
+          ],
+          "fp_count": 1,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R05498",
+          "mnx_id": "MNXR109634",
+          "ec": "1.97.1.-",
+          "true_seed": [
+            "rxn03789"
+          ],
+          "predicted_seed": [
+            "rxn03789",
+            "rxn27439",
+            "rxn27440"
+          ],
+          "tp": [
+            "rxn03789"
+          ],
+          "fp_count": 2,
+          "fn_count": 0
+        }
+      ],
+      "wrong_only": [],
+      "miss": []
+    }
+  },
+  {
+    "mode": "inclusive_top1",
+    "exclude_source_mnx": false,
+    "prediction_policy": "top1",
+    "threshold": 0.5,
+    "sources": 6575,
+    "reaction_level": {
+      "exact": 4578,
+      "clean_hit": 1986,
+      "mixed_hit": 0,
+      "wrong_only": 11,
+      "miss": 0,
+      "recovered_any": 6564,
+      "recovered_any_rate": 0.9983269961977186,
+      "wrong_only_rate": 0.0016730038022813689,
+      "miss_rate": 0.0
+    },
+    "label_level_confusion_matrix": {
+      "tp": 6564,
+      "fp": 11,
+      "fn": 3454,
+      "tn": 192565146
+    },
+    "label_level_metrics": {
+      "precision": 0.9983269961977186,
+      "recall": 0.6552206029147535,
+      "specificity": 0.9999999428764779,
+      "f1": 0.7911770023503887
+    },
+    "prediction_size": {
+      "min": 1,
+      "median": 1,
+      "p90": 1,
+      "max": 1
+    },
+    "true_size": {
+      "min": 1,
+      "median": 1,
+      "p90": 3,
+      "max": 11
+    },
+    "examples": {
+      "exact": [
+        {
+          "kegg": "R03177",
+          "mnx_id": "MNXR100083",
+          "ec": "1.2.1.3|1.2.1.54",
+          "true_seed": [
+            "rxn02273"
+          ],
+          "predicted_seed": [
+            "rxn02273"
+          ],
+          "tp": [
+            "rxn02273"
+          ],
+          "fp_count": 0,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R07418",
+          "mnx_id": "MNXR100113",
+          "ec": "1.2.1.-|1.2.1.99",
+          "true_seed": [
+            "rxn05127"
+          ],
+          "predicted_seed": [
+            "rxn05127"
+          ],
+          "tp": [
+            "rxn05127"
+          ],
+          "fp_count": 0,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R07419",
+          "mnx_id": "MNXR100114",
+          "ec": "3.5.1.94",
+          "true_seed": [
+            "rxn05128"
+          ],
+          "predicted_seed": [
+            "rxn05128"
+          ],
+          "tp": [
+            "rxn05128"
+          ],
+          "fp_count": 0,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R09875",
+          "mnx_id": "MNXR100134",
+          "ec": "2.3.2.2|3.4.19.14",
+          "true_seed": [
+            "rxn02727"
+          ],
+          "predicted_seed": [
+            "rxn02727"
+          ],
+          "tp": [
+            "rxn02727"
+          ],
+          "fp_count": 0,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R03284",
+          "mnx_id": "MNXR100143",
+          "ec": "4.1.2.-",
+          "true_seed": [
+            "rxn02351"
+          ],
+          "predicted_seed": [
+            "rxn02351"
+          ],
+          "tp": [
+            "rxn02351"
+          ],
+          "fp_count": 0,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R03189",
+          "mnx_id": "MNXR100282",
+          "ec": "2.1.2.5",
+          "true_seed": [
+            "rxn02283"
+          ],
+          "predicted_seed": [
+            "rxn02283"
+          ],
+          "tp": [
+            "rxn02283"
+          ],
+          "fp_count": 0,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R00260",
+          "mnx_id": "MNXR100288",
+          "ec": "5.1.1.3",
+          "true_seed": [
+            "rxn00193"
+          ],
+          "predicted_seed": [
+            "rxn00193"
+          ],
+          "tp": [
+            "rxn00193"
+          ],
+          "fp_count": 0,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R00466",
+          "mnx_id": "MNXR100305",
+          "ec": "1.1.3.15|1.2.3.5",
+          "true_seed": [
+            "rxn00325"
+          ],
+          "predicted_seed": [
+            "rxn00325"
+          ],
+          "tp": [
+            "rxn00325"
+          ],
+          "fp_count": 0,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R01047",
+          "mnx_id": "MNXR100324",
+          "ec": "4.2.1.30",
+          "true_seed": [
+            "rxn00768"
+          ],
+          "predicted_seed": [
+            "rxn00768"
+          ],
+          "tp": [
+            "rxn00768"
+          ],
+          "fp_count": 0,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R01034",
+          "mnx_id": "MNXR100326",
+          "ec": "1.1.1.14|1.1.1.6",
+          "true_seed": [
+            "rxn00762"
+          ],
+          "predicted_seed": [
+            "rxn00762"
+          ],
+          "tp": [
+            "rxn00762"
+          ],
+          "fp_count": 0,
+          "fn_count": 0
+        }
+      ],
+      "clean_hit": [
+        {
+          "kegg": "R00253",
+          "mnx_id": "MNXR100024",
+          "ec": "6.3.1.2",
+          "true_seed": [
+            "rxn00187",
+            "rxn19835",
+            "rxn19836",
+            "rxn30022",
+            "rxn33952",
+            "rxn33953",
+            "rxn34791",
+            "rxn34792"
+          ],
+          "predicted_seed": [
+            "rxn00187"
+          ],
+          "tp": [
+            "rxn00187"
+          ],
+          "fp_count": 0,
+          "fn_count": 7
+        },
+        {
+          "kegg": "R00256",
+          "mnx_id": "MNXR100030",
+          "ec": "1.4.1.13|1.4.1.14|1.4.7.1|2.4.2|2.4.2.14|2.6.1.85|3.5.1.2|3.5.1.38|4.3.1|4.3.3.6|6.3.4.2|6.3.5.2|6.3.5.4|6.3.5.5|6.3.5.7",
+          "true_seed": [
+            "rxn00189",
+            "rxn19831",
+            "rxn29962",
+            "rxn30024",
+            "rxn30680",
+            "rxn34787"
+          ],
+          "predicted_seed": [
+            "rxn00189"
+          ],
+          "tp": [
+            "rxn00189"
+          ],
+          "fp_count": 0,
+          "fn_count": 5
+        },
+        {
+          "kegg": "R01333",
+          "mnx_id": "MNXR100060",
+          "ec": "1.2.1|1.2.1.19|1.2.1.21|1.2.1.3|1.2.1.4|1.2.1.5|1.2.1.69",
+          "true_seed": [
+            "rxn00979",
+            "rxn31785"
+          ],
+          "predicted_seed": [
+            "rxn00979"
+          ],
+          "tp": [
+            "rxn00979"
+          ],
+          "fp_count": 0,
+          "fn_count": 1
+        },
+        {
+          "kegg": "R03824",
+          "mnx_id": "MNXR100063",
+          "ec": "5.5.1.19",
+          "true_seed": [
+            "rxn11574",
+            "rxn26506"
+          ],
+          "predicted_seed": [
+            "rxn11574"
+          ],
+          "tp": [
+            "rxn11574"
+          ],
+          "fp_count": 0,
+          "fn_count": 1
+        },
+        {
+          "kegg": "R01698",
+          "mnx_id": "MNXR100066",
+          "ec": "1.6.2.6|1.8.1|1.8.1.4",
+          "true_seed": [
+            "rxn01241",
+            "rxn27791",
+            "rxn27792",
+            "rxn38078"
+          ],
+          "predicted_seed": [
+            "rxn01241"
+          ],
+          "tp": [
+            "rxn01241"
+          ],
+          "fp_count": 0,
+          "fn_count": 3
+        },
+        {
+          "kegg": "R00894",
+          "mnx_id": "MNXR100074",
+          "ec": "6.3.2.2",
+          "true_seed": [
+            "rxn00646",
+            "rxn27893"
+          ],
+          "predicted_seed": [
+            "rxn00646"
+          ],
+          "tp": [
+            "rxn00646"
+          ],
+          "fp_count": 0,
+          "fn_count": 1
+        },
+        {
+          "kegg": "R00248",
+          "mnx_id": "MNXR100086",
+          "ec": "1.4.1.13|1.4.1.3|1.4.1.4",
+          "true_seed": [
+            "rxn00184",
+            "rxn27887",
+            "rxn30023",
+            "rxn33943",
+            "rxn34794"
+          ],
+          "predicted_seed": [
+            "rxn00184"
+          ],
+          "tp": [
+            "rxn00184"
+          ],
+          "fp_count": 0,
+          "fn_count": 4
+        },
+        {
+          "kegg": "R00094",
+          "mnx_id": "MNXR100097",
+          "ec": "1.8.1.7",
+          "true_seed": [
+            "rxn00070",
+            "rxn34788",
+            "rxn34789"
+          ],
+          "predicted_seed": [
+            "rxn00070"
+          ],
+          "tp": [
+            "rxn00070"
+          ],
+          "fp_count": 0,
+          "fn_count": 2
+        },
+        {
+          "kegg": "R00115",
+          "mnx_id": "MNXR100098",
+          "ec": "1.6.4.2|1.8.1.7|1.8.4.2",
+          "true_seed": [
+            "rxn00086",
+            "rxn19841",
+            "rxn19842",
+            "rxn32133"
+          ],
+          "predicted_seed": [
+            "rxn00086"
+          ],
+          "tp": [
+            "rxn00086"
+          ],
+          "fp_count": 0,
+          "fn_count": 3
+        },
+        {
+          "kegg": "R03409",
+          "mnx_id": "MNXR100099",
+          "ec": "3.6.1.11|3.6.1.40",
+          "true_seed": [
+            "rxn02449",
+            "rxn33412"
+          ],
+          "predicted_seed": [
+            "rxn02449"
+          ],
+          "tp": [
+            "rxn02449"
+          ],
+          "fp_count": 0,
+          "fn_count": 1
+        }
+      ],
+      "mixed_hit": [],
+      "wrong_only": [
+        {
+          "kegg": "R00076",
+          "mnx_id": "MNXR106377",
+          "ec": "2.7.11.19",
+          "true_seed": [
+            "rxn14392"
+          ],
+          "predicted_seed": [
+            "rxn05769"
+          ],
+          "tp": [],
+          "fp_count": 1,
+          "fn_count": 1
+        },
+        {
+          "kegg": "R00153",
+          "mnx_id": "MNXR106412",
+          "ec": "1.18.6.1",
+          "true_seed": [
+            "rxn11949"
+          ],
+          "predicted_seed": [
+            "rxn05780"
+          ],
+          "tp": [],
+          "fp_count": 1,
+          "fn_count": 1
+        },
+        {
+          "kegg": "R03146",
+          "mnx_id": "MNXR107981",
+          "ec": "1.2.2.1",
+          "true_seed": [
+            "rxn11978"
+          ],
+          "predicted_seed": [
+            "rxn02254"
+          ],
+          "tp": [],
+          "fp_count": 1,
+          "fn_count": 1
+        },
+        {
+          "kegg": "R07510",
+          "mnx_id": "MNXR111131",
+          "ec": "1.14.99.-",
+          "true_seed": [
+            "rxn15681",
+            "rxn32292"
+          ],
+          "predicted_seed": [
+            "rxn07341"
+          ],
+          "tp": [],
+          "fp_count": 1,
+          "fn_count": 2
+        },
+        {
+          "kegg": "R09040",
+          "mnx_id": "MNXR112492",
+          "ec": "2.5.1.-|2.5.1.39|2.5.1.93",
+          "true_seed": [
+            "rxn11643",
+            "rxn15910",
+            "rxn25233"
+          ],
+          "predicted_seed": [
+            "rxn06833"
+          ],
+          "tp": [],
+          "fp_count": 1,
+          "fn_count": 3
+        },
+        {
+          "kegg": "R10404",
+          "mnx_id": "MNXR113746",
+          "ec": "2.1.1.-",
+          "true_seed": [
+            "rxn04551"
+          ],
+          "predicted_seed": [
+            "rxn00860"
+          ],
+          "tp": [],
+          "fp_count": 1,
+          "fn_count": 1
+        },
+        {
+          "kegg": "R05325",
+          "mnx_id": "MNXR152020",
+          "ec": "2.4.1.210",
+          "true_seed": [
+            "rxn39496"
+          ],
+          "predicted_seed": [
+            "rxn06898"
+          ],
+          "tp": [],
+          "fp_count": 1,
+          "fn_count": 1
+        },
+        {
+          "kegg": "R00557",
+          "mnx_id": "MNXR191213",
+          "ec": "1.14.13.39",
+          "true_seed": [
+            "rxn14058"
+          ],
+          "predicted_seed": [
+            "rxn00399"
+          ],
+          "tp": [],
+          "fp_count": 1,
+          "fn_count": 1
+        },
+        {
+          "kegg": "R04015",
+          "mnx_id": "MNXR195747",
+          "ec": "1.12.2.1",
+          "true_seed": [
+            "rxn43860"
+          ],
+          "predicted_seed": [
+            "rxn06557"
+          ],
+          "tp": [],
+          "fp_count": 1,
+          "fn_count": 1
+        },
+        {
+          "kegg": "R05218",
+          "mnx_id": "MNXR198680",
+          "ec": "1.16.8.-|1.16.8.1",
+          "true_seed": [
+            "rxn11650"
+          ],
+          "predicted_seed": [
+            "rxn03533"
+          ],
+          "tp": [],
+          "fp_count": 1,
+          "fn_count": 1
+        }
+      ],
+      "miss": []
+    }
+  },
+  {
+    "mode": "leave_one_mnx_out_all",
+    "exclude_source_mnx": true,
+    "prediction_policy": "all",
+    "threshold": 0.5,
+    "sources": 6575,
+    "reaction_level": {
+      "exact": 0,
+      "clean_hit": 0,
+      "mixed_hit": 0,
+      "wrong_only": 4536,
+      "miss": 2039,
+      "recovered_any": 0,
+      "recovered_any_rate": 0.0,
+      "wrong_only_rate": 0.6898859315589354,
+      "miss_rate": 0.31011406844106465
+    },
+    "label_level_confusion_matrix": {
+      "tp": 0,
+      "fp": 125102,
+      "fn": 10018,
+      "tn": 192440055
+    },
+    "label_level_metrics": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "specificity": 0.9993503393762975,
+      "f1": 0.0
+    },
+    "prediction_size": {
+      "min": 0,
+      "median": 2,
+      "p90": 57,
+      "max": 1164
+    },
+    "true_size": {
+      "min": 1,
+      "median": 1,
+      "p90": 3,
+      "max": 11
+    },
+    "examples": {
+      "exact": [],
+      "clean_hit": [],
+      "mixed_hit": [],
+      "wrong_only": [
+        {
+          "kegg": "R00253",
+          "mnx_id": "MNXR100024",
+          "ec": "6.3.1.2",
+          "true_seed": [
+            "rxn00187",
+            "rxn19835",
+            "rxn19836",
+            "rxn30022",
+            "rxn33952",
+            "rxn33953",
+            "rxn34791",
+            "rxn34792"
+          ],
+          "predicted_seed": [
+            "rxn01159",
+            "rxn02096",
+            "rxn03406",
+            "rxn03409",
+            "rxn31278",
+            "rxn31279"
+          ],
+          "tp": [],
+          "fp_count": 6,
+          "fn_count": 8
+        },
+        {
+          "kegg": "R00256",
+          "mnx_id": "MNXR100030",
+          "ec": "1.4.1.13|1.4.1.14|1.4.7.1|2.4.2|2.4.2.14|2.6.1.85|3.5.1.2|3.5.1.38|4.3.1|4.3.3.6|6.3.4.2|6.3.5.2|6.3.5.4|6.3.5.5|6.3.5.7",
+          "true_seed": [
+            "rxn00189",
+            "rxn19831",
+            "rxn29962",
+            "rxn30024",
+            "rxn30680",
+            "rxn34787"
+          ],
+          "predicted_seed": [
+            "rxn00182",
+            "rxn00184",
+            "rxn00412",
+            "rxn00414",
+            "rxn00416",
+            "rxn00790",
+            "rxn00917",
+            "rxn05144",
+            "rxn10534",
+            "rxn11276",
+            "rxn11772",
+            "rxn12881",
+            "rxn19827",
+            "rxn21635",
+            "rxn27743",
+            "rxn27771",
+            "rxn27887",
+            "rxn27918",
+            "rxn28100",
+            "rxn30023",
+            "rxn30075",
+            "rxn30627",
+            "rxn31216",
+            "rxn32227",
+            "rxn33242",
+            "rxn33943",
+            "rxn33987",
+            "rxn34026",
+            "rxn34051",
+            "rxn34790"
+          ],
+          "tp": [],
+          "fp_count": 86,
+          "fn_count": 6
+        },
+        {
+          "kegg": "R01333",
+          "mnx_id": "MNXR100060",
+          "ec": "1.2.1|1.2.1.19|1.2.1.21|1.2.1.3|1.2.1.4|1.2.1.5|1.2.1.69",
+          "true_seed": [
+            "rxn00979",
+            "rxn31785"
+          ],
+          "predicted_seed": [
+            "rxn00149",
+            "rxn00183",
+            "rxn00429",
+            "rxn00503",
+            "rxn00506",
+            "rxn00508",
+            "rxn00653",
+            "rxn01032",
+            "rxn01053",
+            "rxn01247",
+            "rxn01273",
+            "rxn01286",
+            "rxn01840",
+            "rxn01851",
+            "rxn01867",
+            "rxn01937",
+            "rxn01943",
+            "rxn02106",
+            "rxn02107",
+            "rxn02122",
+            "rxn02273",
+            "rxn02350",
+            "rxn02364",
+            "rxn02729",
+            "rxn02853",
+            "rxn03106",
+            "rxn03335",
+            "rxn03340",
+            "rxn03343",
+            "rxn03354"
+          ],
+          "tp": [],
+          "fp_count": 311,
+          "fn_count": 2
+        },
+        {
+          "kegg": "R03824",
+          "mnx_id": "MNXR100063",
+          "ec": "5.5.1.19",
+          "true_seed": [
+            "rxn11574",
+            "rxn26506"
+          ],
+          "predicted_seed": [
+            "rxn03646",
+            "rxn26505"
+          ],
+          "tp": [],
+          "fp_count": 2,
+          "fn_count": 2
+        },
+        {
+          "kegg": "R01698",
+          "mnx_id": "MNXR100066",
+          "ec": "1.6.2.6|1.8.1|1.8.1.4",
+          "true_seed": [
+            "rxn01241",
+            "rxn27791",
+            "rxn27792",
+            "rxn38078"
+          ],
+          "predicted_seed": [
+            "rxn31657",
+            "rxn05773",
+            "rxn24411",
+            "rxn24412",
+            "rxn25042",
+            "rxn25043",
+            "rxn25977",
+            "rxn28360",
+            "rxn28361",
+            "rxn28362",
+            "rxn28363",
+            "rxn28405",
+            "rxn28546",
+            "rxn28547",
+            "rxn28548",
+            "rxn28549",
+            "rxn28550",
+            "rxn37652",
+            "rxn37653",
+            "rxn37654",
+            "rxn37656",
+            "rxn37896",
+            "rxn37901",
+            "rxn38435",
+            "rxn38436",
+            "rxn38458",
+            "rxn38513",
+            "rxn40984",
+            "rxn45532",
+            "rxn47309"
+          ],
+          "tp": [],
+          "fp_count": 30,
+          "fn_count": 4
+        },
+        {
+          "kegg": "R00894",
+          "mnx_id": "MNXR100074",
+          "ec": "6.3.2.2",
+          "true_seed": [
+            "rxn00646",
+            "rxn27893"
+          ],
+          "predicted_seed": [
+            "rxn34002"
+          ],
+          "tp": [],
+          "fp_count": 1,
+          "fn_count": 2
+        },
+        {
+          "kegg": "R03177",
+          "mnx_id": "MNXR100083",
+          "ec": "1.2.1.3|1.2.1.54",
+          "true_seed": [
+            "rxn02273"
+          ],
+          "predicted_seed": [
+            "rxn00149",
+            "rxn00429",
+            "rxn00503",
+            "rxn00506",
+            "rxn00508",
+            "rxn00653",
+            "rxn00979",
+            "rxn01032",
+            "rxn01053",
+            "rxn01247",
+            "rxn01273",
+            "rxn01286",
+            "rxn01851",
+            "rxn01867",
+            "rxn01937",
+            "rxn02106",
+            "rxn02107",
+            "rxn02122",
+            "rxn02350",
+            "rxn02364",
+            "rxn02729",
+            "rxn02853",
+            "rxn03106",
+            "rxn03335",
+            "rxn03343",
+            "rxn03354",
+            "rxn03423",
+            "rxn03468",
+            "rxn03598",
+            "rxn04234"
+          ],
+          "tp": [],
+          "fp_count": 128,
+          "fn_count": 1
+        },
+        {
+          "kegg": "R00248",
+          "mnx_id": "MNXR100086",
+          "ec": "1.4.1.13|1.4.1.3|1.4.1.4",
+          "true_seed": [
+            "rxn00184",
+            "rxn27887",
+            "rxn30023",
+            "rxn33943",
+            "rxn34794"
+          ],
+          "predicted_seed": [
+            "rxn00085",
+            "rxn00182",
+            "rxn19827",
+            "rxn27889",
+            "rxn30075",
+            "rxn30679",
+            "rxn33967",
+            "rxn34790",
+            "rxn34793",
+            "rxn05779",
+            "rxn19826",
+            "rxn27885",
+            "rxn27886",
+            "rxn47423"
+          ],
+          "tp": [],
+          "fp_count": 14,
+          "fn_count": 5
+        },
+        {
+          "kegg": "R00094",
+          "mnx_id": "MNXR100097",
+          "ec": "1.8.1.7",
+          "true_seed": [
+            "rxn00070",
+            "rxn34788",
+            "rxn34789"
+          ],
+          "predicted_seed": [
+            "rxn00086",
+            "rxn19841",
+            "rxn19842",
+            "rxn32133"
+          ],
+          "tp": [],
+          "fp_count": 4,
+          "fn_count": 3
+        },
+        {
+          "kegg": "R00115",
+          "mnx_id": "MNXR100098",
+          "ec": "1.6.4.2|1.8.1.7|1.8.4.2",
+          "true_seed": [
+            "rxn00086",
+            "rxn19841",
+            "rxn19842",
+            "rxn32133"
+          ],
+          "predicted_seed": [
+            "rxn03980",
+            "rxn00070",
+            "rxn04960",
+            "rxn05910",
+            "rxn20612",
+            "rxn20613",
+            "rxn34788",
+            "rxn34789",
+            "rxn41730"
+          ],
+          "tp": [],
+          "fp_count": 9,
+          "fn_count": 4
+        }
+      ],
+      "miss": [
+        {
+          "kegg": "R03409",
+          "mnx_id": "MNXR100099",
+          "ec": "3.6.1.11|3.6.1.40",
+          "true_seed": [
+            "rxn02449",
+            "rxn33412"
+          ],
+          "predicted_seed": [],
+          "tp": [],
+          "fp_count": 0,
+          "fn_count": 2
+        },
+        {
+          "kegg": "R07419",
+          "mnx_id": "MNXR100114",
+          "ec": "3.5.1.94",
+          "true_seed": [
+            "rxn05128"
+          ],
+          "predicted_seed": [],
+          "tp": [],
+          "fp_count": 0,
+          "fn_count": 1
+        },
+        {
+          "kegg": "R03284",
+          "mnx_id": "MNXR100143",
+          "ec": "4.1.2.-",
+          "true_seed": [
+            "rxn02351"
+          ],
+          "predicted_seed": [],
+          "tp": [],
+          "fp_count": 0,
+          "fn_count": 1
+        },
+        {
+          "kegg": "R03189",
+          "mnx_id": "MNXR100282",
+          "ec": "2.1.2.5",
+          "true_seed": [
+            "rxn02283"
+          ],
+          "predicted_seed": [],
+          "tp": [],
+          "fp_count": 0,
+          "fn_count": 1
+        },
+        {
+          "kegg": "R00260",
+          "mnx_id": "MNXR100288",
+          "ec": "5.1.1.3",
+          "true_seed": [
+            "rxn00193"
+          ],
+          "predicted_seed": [],
+          "tp": [],
+          "fp_count": 0,
+          "fn_count": 1
+        },
+        {
+          "kegg": "R00847",
+          "mnx_id": "MNXR100348",
+          "ec": "2.7.1.30",
+          "true_seed": [
+            "rxn00615"
+          ],
+          "predicted_seed": [],
+          "tp": [],
+          "fp_count": 0,
+          "fn_count": 1
+        },
+        {
+          "kegg": "R09796",
+          "mnx_id": "MNXR100354",
+          "ec": "4.2.1.130",
+          "true_seed": [
+            "rxn08659"
+          ],
+          "predicted_seed": [],
+          "tp": [],
+          "fp_count": 0,
+          "fn_count": 1
+        },
+        {
+          "kegg": "R02530",
+          "mnx_id": "MNXR100355",
+          "ec": "4.4.1.5",
+          "true_seed": [
+            "rxn01834",
+            "rxn33394",
+            "rxn38131",
+            "rxn38132"
+          ],
+          "predicted_seed": [],
+          "tp": [],
+          "fp_count": 0,
+          "fn_count": 4
+        },
+        {
+          "kegg": "R01737",
+          "mnx_id": "MNXR100390",
+          "ec": "2.7.1.12",
+          "true_seed": [
+            "rxn01275",
+            "rxn34226"
+          ],
+          "predicted_seed": [],
+          "tp": [],
+          "fp_count": 0,
+          "fn_count": 2
+        },
+        {
+          "kegg": "R00132",
+          "mnx_id": "MNXR100482",
+          "ec": "4.2.1.1",
+          "true_seed": [
+            "rxn00102",
+            "rxn26146",
+            "rxn27740",
+            "rxn27741",
+            "rxn30392",
+            "rxn37640"
+          ],
+          "predicted_seed": [],
+          "tp": [],
+          "fp_count": 0,
+          "fn_count": 6
+        }
+      ]
+    }
+  },
+  {
+    "mode": "leave_one_mnx_out_best_ties",
+    "exclude_source_mnx": true,
+    "prediction_policy": "best_ties",
+    "threshold": 0.5,
+    "sources": 6575,
+    "reaction_level": {
+      "exact": 0,
+      "clean_hit": 0,
+      "mixed_hit": 0,
+      "wrong_only": 4536,
+      "miss": 2039,
+      "recovered_any": 0,
+      "recovered_any_rate": 0.0,
+      "wrong_only_rate": 0.6898859315589354,
+      "miss_rate": 0.31011406844106465
+    },
+    "label_level_confusion_matrix": {
+      "tp": 0,
+      "fp": 68507,
+      "fn": 10018,
+      "tn": 192496650
+    },
+    "label_level_metrics": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "specificity": 0.9996442398974598,
+      "f1": 0.0
+    },
+    "prediction_size": {
+      "min": 0,
+      "median": 1,
+      "p90": 21,
+      "max": 953
+    },
+    "true_size": {
+      "min": 1,
+      "median": 1,
+      "p90": 3,
+      "max": 11
+    },
+    "examples": {
+      "exact": [],
+      "clean_hit": [],
+      "mixed_hit": [],
+      "wrong_only": [
+        {
+          "kegg": "R00253",
+          "mnx_id": "MNXR100024",
+          "ec": "6.3.1.2",
+          "true_seed": [
+            "rxn00187",
+            "rxn19835",
+            "rxn19836",
+            "rxn30022",
+            "rxn33952",
+            "rxn33953",
+            "rxn34791",
+            "rxn34792"
+          ],
+          "predicted_seed": [
+            "rxn01159",
+            "rxn02096"
+          ],
+          "tp": [],
+          "fp_count": 2,
+          "fn_count": 8
+        },
+        {
+          "kegg": "R00256",
+          "mnx_id": "MNXR100030",
+          "ec": "1.4.1.13|1.4.1.14|1.4.7.1|2.4.2|2.4.2.14|2.6.1.85|3.5.1.2|3.5.1.38|4.3.1|4.3.3.6|6.3.4.2|6.3.5.2|6.3.5.4|6.3.5.5|6.3.5.7",
+          "true_seed": [
+            "rxn00189",
+            "rxn19831",
+            "rxn29962",
+            "rxn30024",
+            "rxn30680",
+            "rxn34787"
+          ],
+          "predicted_seed": [
+            "rxn00182",
+            "rxn00184",
+            "rxn00412",
+            "rxn00414",
+            "rxn00416",
+            "rxn00790",
+            "rxn00917",
+            "rxn05144",
+            "rxn10534",
+            "rxn11276",
+            "rxn11772",
+            "rxn12881",
+            "rxn19827",
+            "rxn21635",
+            "rxn27743",
+            "rxn27771",
+            "rxn27887",
+            "rxn27918",
+            "rxn28100",
+            "rxn30023",
+            "rxn30075",
+            "rxn30627",
+            "rxn31216",
+            "rxn32227",
+            "rxn33242",
+            "rxn33943",
+            "rxn33987",
+            "rxn34026",
+            "rxn34051",
+            "rxn34790"
+          ],
+          "tp": [],
+          "fp_count": 38,
+          "fn_count": 6
+        },
+        {
+          "kegg": "R01333",
+          "mnx_id": "MNXR100060",
+          "ec": "1.2.1|1.2.1.19|1.2.1.21|1.2.1.3|1.2.1.4|1.2.1.5|1.2.1.69",
+          "true_seed": [
+            "rxn00979",
+            "rxn31785"
+          ],
+          "predicted_seed": [
+            "rxn00149",
+            "rxn00183",
+            "rxn00429",
+            "rxn00503",
+            "rxn00506",
+            "rxn00508",
+            "rxn00653",
+            "rxn01032",
+            "rxn01053",
+            "rxn01247",
+            "rxn01273",
+            "rxn01286",
+            "rxn01840",
+            "rxn01851",
+            "rxn01867",
+            "rxn01937",
+            "rxn01943",
+            "rxn02106",
+            "rxn02107",
+            "rxn02122",
+            "rxn02273",
+            "rxn02350",
+            "rxn02364",
+            "rxn02729",
+            "rxn02853",
+            "rxn03106",
+            "rxn03335",
+            "rxn03340",
+            "rxn03343",
+            "rxn03354"
+          ],
+          "tp": [],
+          "fp_count": 160,
+          "fn_count": 2
+        },
+        {
+          "kegg": "R03824",
+          "mnx_id": "MNXR100063",
+          "ec": "5.5.1.19",
+          "true_seed": [
+            "rxn11574",
+            "rxn26506"
+          ],
+          "predicted_seed": [
+            "rxn03646",
+            "rxn26505"
+          ],
+          "tp": [],
+          "fp_count": 2,
+          "fn_count": 2
+        },
+        {
+          "kegg": "R01698",
+          "mnx_id": "MNXR100066",
+          "ec": "1.6.2.6|1.8.1|1.8.1.4",
+          "true_seed": [
+            "rxn01241",
+            "rxn27791",
+            "rxn27792",
+            "rxn38078"
+          ],
+          "predicted_seed": [
+            "rxn31657"
+          ],
+          "tp": [],
+          "fp_count": 1,
+          "fn_count": 4
+        },
+        {
+          "kegg": "R00894",
+          "mnx_id": "MNXR100074",
+          "ec": "6.3.2.2",
+          "true_seed": [
+            "rxn00646",
+            "rxn27893"
+          ],
+          "predicted_seed": [
+            "rxn34002"
+          ],
+          "tp": [],
+          "fp_count": 1,
+          "fn_count": 2
+        },
+        {
+          "kegg": "R03177",
+          "mnx_id": "MNXR100083",
+          "ec": "1.2.1.3|1.2.1.54",
+          "true_seed": [
+            "rxn02273"
+          ],
+          "predicted_seed": [
+            "rxn00149",
+            "rxn00429",
+            "rxn00503",
+            "rxn00506",
+            "rxn00508",
+            "rxn00653",
+            "rxn00979",
+            "rxn01032",
+            "rxn01053",
+            "rxn01247",
+            "rxn01273",
+            "rxn01286",
+            "rxn01851",
+            "rxn01867",
+            "rxn01937",
+            "rxn02106",
+            "rxn02107",
+            "rxn02122",
+            "rxn02350",
+            "rxn02364",
+            "rxn02729",
+            "rxn02853",
+            "rxn03106",
+            "rxn03335",
+            "rxn03343",
+            "rxn03354",
+            "rxn03423",
+            "rxn03468",
+            "rxn03598",
+            "rxn04234"
+          ],
+          "tp": [],
+          "fp_count": 111,
+          "fn_count": 1
+        },
+        {
+          "kegg": "R00248",
+          "mnx_id": "MNXR100086",
+          "ec": "1.4.1.13|1.4.1.3|1.4.1.4",
+          "true_seed": [
+            "rxn00184",
+            "rxn27887",
+            "rxn30023",
+            "rxn33943",
+            "rxn34794"
+          ],
+          "predicted_seed": [
+            "rxn00085",
+            "rxn00182",
+            "rxn19827",
+            "rxn27889",
+            "rxn30075",
+            "rxn30679",
+            "rxn33967",
+            "rxn34790",
+            "rxn34793"
+          ],
+          "tp": [],
+          "fp_count": 9,
+          "fn_count": 5
+        },
+        {
+          "kegg": "R00094",
+          "mnx_id": "MNXR100097",
+          "ec": "1.8.1.7",
+          "true_seed": [
+            "rxn00070",
+            "rxn34788",
+            "rxn34789"
+          ],
+          "predicted_seed": [
+            "rxn00086",
+            "rxn19841",
+            "rxn19842",
+            "rxn32133"
+          ],
+          "tp": [],
+          "fp_count": 4,
+          "fn_count": 3
+        },
+        {
+          "kegg": "R00115",
+          "mnx_id": "MNXR100098",
+          "ec": "1.6.4.2|1.8.1.7|1.8.4.2",
+          "true_seed": [
+            "rxn00086",
+            "rxn19841",
+            "rxn19842",
+            "rxn32133"
+          ],
+          "predicted_seed": [
+            "rxn03980"
+          ],
+          "tp": [],
+          "fp_count": 1,
+          "fn_count": 4
+        }
+      ],
+      "miss": [
+        {
+          "kegg": "R03409",
+          "mnx_id": "MNXR100099",
+          "ec": "3.6.1.11|3.6.1.40",
+          "true_seed": [
+            "rxn02449",
+            "rxn33412"
+          ],
+          "predicted_seed": [],
+          "tp": [],
+          "fp_count": 0,
+          "fn_count": 2
+        },
+        {
+          "kegg": "R07419",
+          "mnx_id": "MNXR100114",
+          "ec": "3.5.1.94",
+          "true_seed": [
+            "rxn05128"
+          ],
+          "predicted_seed": [],
+          "tp": [],
+          "fp_count": 0,
+          "fn_count": 1
+        },
+        {
+          "kegg": "R03284",
+          "mnx_id": "MNXR100143",
+          "ec": "4.1.2.-",
+          "true_seed": [
+            "rxn02351"
+          ],
+          "predicted_seed": [],
+          "tp": [],
+          "fp_count": 0,
+          "fn_count": 1
+        },
+        {
+          "kegg": "R03189",
+          "mnx_id": "MNXR100282",
+          "ec": "2.1.2.5",
+          "true_seed": [
+            "rxn02283"
+          ],
+          "predicted_seed": [],
+          "tp": [],
+          "fp_count": 0,
+          "fn_count": 1
+        },
+        {
+          "kegg": "R00260",
+          "mnx_id": "MNXR100288",
+          "ec": "5.1.1.3",
+          "true_seed": [
+            "rxn00193"
+          ],
+          "predicted_seed": [],
+          "tp": [],
+          "fp_count": 0,
+          "fn_count": 1
+        },
+        {
+          "kegg": "R00847",
+          "mnx_id": "MNXR100348",
+          "ec": "2.7.1.30",
+          "true_seed": [
+            "rxn00615"
+          ],
+          "predicted_seed": [],
+          "tp": [],
+          "fp_count": 0,
+          "fn_count": 1
+        },
+        {
+          "kegg": "R09796",
+          "mnx_id": "MNXR100354",
+          "ec": "4.2.1.130",
+          "true_seed": [
+            "rxn08659"
+          ],
+          "predicted_seed": [],
+          "tp": [],
+          "fp_count": 0,
+          "fn_count": 1
+        },
+        {
+          "kegg": "R02530",
+          "mnx_id": "MNXR100355",
+          "ec": "4.4.1.5",
+          "true_seed": [
+            "rxn01834",
+            "rxn33394",
+            "rxn38131",
+            "rxn38132"
+          ],
+          "predicted_seed": [],
+          "tp": [],
+          "fp_count": 0,
+          "fn_count": 4
+        },
+        {
+          "kegg": "R01737",
+          "mnx_id": "MNXR100390",
+          "ec": "2.7.1.12",
+          "true_seed": [
+            "rxn01275",
+            "rxn34226"
+          ],
+          "predicted_seed": [],
+          "tp": [],
+          "fp_count": 0,
+          "fn_count": 2
+        },
+        {
+          "kegg": "R00132",
+          "mnx_id": "MNXR100482",
+          "ec": "4.2.1.1",
+          "true_seed": [
+            "rxn00102",
+            "rxn26146",
+            "rxn27740",
+            "rxn27741",
+            "rxn30392",
+            "rxn37640"
+          ],
+          "predicted_seed": [],
+          "tp": [],
+          "fp_count": 0,
+          "fn_count": 6
+        }
+      ]
+    }
+  },
+  {
+    "mode": "leave_one_mnx_out_top1",
+    "exclude_source_mnx": true,
+    "prediction_policy": "top1",
+    "threshold": 0.5,
+    "sources": 6575,
+    "reaction_level": {
+      "exact": 0,
+      "clean_hit": 0,
+      "mixed_hit": 0,
+      "wrong_only": 4536,
+      "miss": 2039,
+      "recovered_any": 0,
+      "recovered_any_rate": 0.0,
+      "wrong_only_rate": 0.6898859315589354,
+      "miss_rate": 0.31011406844106465
+    },
+    "label_level_confusion_matrix": {
+      "tp": 0,
+      "fp": 4536,
+      "fn": 10018,
+      "tn": 192560621
+    },
+    "label_level_metrics": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "specificity": 0.9999764443367083,
+      "f1": 0.0
+    },
+    "prediction_size": {
+      "min": 0,
+      "median": 1,
+      "p90": 1,
+      "max": 1
+    },
+    "true_size": {
+      "min": 1,
+      "median": 1,
+      "p90": 3,
+      "max": 11
+    },
+    "examples": {
+      "exact": [],
+      "clean_hit": [],
+      "mixed_hit": [],
+      "wrong_only": [
+        {
+          "kegg": "R00253",
+          "mnx_id": "MNXR100024",
+          "ec": "6.3.1.2",
+          "true_seed": [
+            "rxn00187",
+            "rxn19835",
+            "rxn19836",
+            "rxn30022",
+            "rxn33952",
+            "rxn33953",
+            "rxn34791",
+            "rxn34792"
+          ],
+          "predicted_seed": [
+            "rxn01159"
+          ],
+          "tp": [],
+          "fp_count": 1,
+          "fn_count": 8
+        },
+        {
+          "kegg": "R00256",
+          "mnx_id": "MNXR100030",
+          "ec": "1.4.1.13|1.4.1.14|1.4.7.1|2.4.2|2.4.2.14|2.6.1.85|3.5.1.2|3.5.1.38|4.3.1|4.3.3.6|6.3.4.2|6.3.5.2|6.3.5.4|6.3.5.5|6.3.5.7",
+          "true_seed": [
+            "rxn00189",
+            "rxn19831",
+            "rxn29962",
+            "rxn30024",
+            "rxn30680",
+            "rxn34787"
+          ],
+          "predicted_seed": [
+            "rxn00182"
+          ],
+          "tp": [],
+          "fp_count": 1,
+          "fn_count": 6
+        },
+        {
+          "kegg": "R01333",
+          "mnx_id": "MNXR100060",
+          "ec": "1.2.1|1.2.1.19|1.2.1.21|1.2.1.3|1.2.1.4|1.2.1.5|1.2.1.69",
+          "true_seed": [
+            "rxn00979",
+            "rxn31785"
+          ],
+          "predicted_seed": [
+            "rxn00149"
+          ],
+          "tp": [],
+          "fp_count": 1,
+          "fn_count": 2
+        },
+        {
+          "kegg": "R03824",
+          "mnx_id": "MNXR100063",
+          "ec": "5.5.1.19",
+          "true_seed": [
+            "rxn11574",
+            "rxn26506"
+          ],
+          "predicted_seed": [
+            "rxn03646"
+          ],
+          "tp": [],
+          "fp_count": 1,
+          "fn_count": 2
+        },
+        {
+          "kegg": "R01698",
+          "mnx_id": "MNXR100066",
+          "ec": "1.6.2.6|1.8.1|1.8.1.4",
+          "true_seed": [
+            "rxn01241",
+            "rxn27791",
+            "rxn27792",
+            "rxn38078"
+          ],
+          "predicted_seed": [
+            "rxn31657"
+          ],
+          "tp": [],
+          "fp_count": 1,
+          "fn_count": 4
+        },
+        {
+          "kegg": "R00894",
+          "mnx_id": "MNXR100074",
+          "ec": "6.3.2.2",
+          "true_seed": [
+            "rxn00646",
+            "rxn27893"
+          ],
+          "predicted_seed": [
+            "rxn34002"
+          ],
+          "tp": [],
+          "fp_count": 1,
+          "fn_count": 2
+        },
+        {
+          "kegg": "R03177",
+          "mnx_id": "MNXR100083",
+          "ec": "1.2.1.3|1.2.1.54",
+          "true_seed": [
+            "rxn02273"
+          ],
+          "predicted_seed": [
+            "rxn00149"
+          ],
+          "tp": [],
+          "fp_count": 1,
+          "fn_count": 1
+        },
+        {
+          "kegg": "R00248",
+          "mnx_id": "MNXR100086",
+          "ec": "1.4.1.13|1.4.1.3|1.4.1.4",
+          "true_seed": [
+            "rxn00184",
+            "rxn27887",
+            "rxn30023",
+            "rxn33943",
+            "rxn34794"
+          ],
+          "predicted_seed": [
+            "rxn00085"
+          ],
+          "tp": [],
+          "fp_count": 1,
+          "fn_count": 5
+        },
+        {
+          "kegg": "R00094",
+          "mnx_id": "MNXR100097",
+          "ec": "1.8.1.7",
+          "true_seed": [
+            "rxn00070",
+            "rxn34788",
+            "rxn34789"
+          ],
+          "predicted_seed": [
+            "rxn00086"
+          ],
+          "tp": [],
+          "fp_count": 1,
+          "fn_count": 3
+        },
+        {
+          "kegg": "R00115",
+          "mnx_id": "MNXR100098",
+          "ec": "1.6.4.2|1.8.1.7|1.8.4.2",
+          "true_seed": [
+            "rxn00086",
+            "rxn19841",
+            "rxn19842",
+            "rxn32133"
+          ],
+          "predicted_seed": [
+            "rxn03980"
+          ],
+          "tp": [],
+          "fp_count": 1,
+          "fn_count": 4
+        }
+      ],
+      "miss": [
+        {
+          "kegg": "R03409",
+          "mnx_id": "MNXR100099",
+          "ec": "3.6.1.11|3.6.1.40",
+          "true_seed": [
+            "rxn02449",
+            "rxn33412"
+          ],
+          "predicted_seed": [],
+          "tp": [],
+          "fp_count": 0,
+          "fn_count": 2
+        },
+        {
+          "kegg": "R07419",
+          "mnx_id": "MNXR100114",
+          "ec": "3.5.1.94",
+          "true_seed": [
+            "rxn05128"
+          ],
+          "predicted_seed": [],
+          "tp": [],
+          "fp_count": 0,
+          "fn_count": 1
+        },
+        {
+          "kegg": "R03284",
+          "mnx_id": "MNXR100143",
+          "ec": "4.1.2.-",
+          "true_seed": [
+            "rxn02351"
+          ],
+          "predicted_seed": [],
+          "tp": [],
+          "fp_count": 0,
+          "fn_count": 1
+        },
+        {
+          "kegg": "R03189",
+          "mnx_id": "MNXR100282",
+          "ec": "2.1.2.5",
+          "true_seed": [
+            "rxn02283"
+          ],
+          "predicted_seed": [],
+          "tp": [],
+          "fp_count": 0,
+          "fn_count": 1
+        },
+        {
+          "kegg": "R00260",
+          "mnx_id": "MNXR100288",
+          "ec": "5.1.1.3",
+          "true_seed": [
+            "rxn00193"
+          ],
+          "predicted_seed": [],
+          "tp": [],
+          "fp_count": 0,
+          "fn_count": 1
+        },
+        {
+          "kegg": "R00847",
+          "mnx_id": "MNXR100348",
+          "ec": "2.7.1.30",
+          "true_seed": [
+            "rxn00615"
+          ],
+          "predicted_seed": [],
+          "tp": [],
+          "fp_count": 0,
+          "fn_count": 1
+        },
+        {
+          "kegg": "R09796",
+          "mnx_id": "MNXR100354",
+          "ec": "4.2.1.130",
+          "true_seed": [
+            "rxn08659"
+          ],
+          "predicted_seed": [],
+          "tp": [],
+          "fp_count": 0,
+          "fn_count": 1
+        },
+        {
+          "kegg": "R02530",
+          "mnx_id": "MNXR100355",
+          "ec": "4.4.1.5",
+          "true_seed": [
+            "rxn01834",
+            "rxn33394",
+            "rxn38131",
+            "rxn38132"
+          ],
+          "predicted_seed": [],
+          "tp": [],
+          "fp_count": 0,
+          "fn_count": 4
+        },
+        {
+          "kegg": "R01737",
+          "mnx_id": "MNXR100390",
+          "ec": "2.7.1.12",
+          "true_seed": [
+            "rxn01275",
+            "rxn34226"
+          ],
+          "predicted_seed": [],
+          "tp": [],
+          "fp_count": 0,
+          "fn_count": 2
+        },
+        {
+          "kegg": "R00132",
+          "mnx_id": "MNXR100482",
+          "ec": "4.2.1.1",
+          "true_seed": [
+            "rxn00102",
+            "rxn26146",
+            "rxn27740",
+            "rxn27741",
+            "rxn30392",
+            "rxn37640"
+          ],
+          "predicted_seed": [],
+          "tp": [],
+          "fp_count": 0,
+          "fn_count": 6
+        }
+      ]
+    }
+  }
+]

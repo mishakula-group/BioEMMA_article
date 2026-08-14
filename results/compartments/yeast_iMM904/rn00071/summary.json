@@ -1,0 +1,239 @@
+{
+  "organism": "Saccharomyces cerevisiae",
+  "model_id": "iMM904",
+  "pathway": "rn00071",
+  "title": "Fatty acid degradation",
+  "bioemma_version": "0.4.1",
+  "kgml": "data\\compartment_models\\recon3d_probe\\kgml\\rn00071.xml",
+  "compartments": [
+    [
+      "c",
+      "cytosol"
+    ],
+    [
+      "m",
+      "mitochondria"
+    ],
+    [
+      "x",
+      "peroxisome/glyoxysome"
+    ]
+  ],
+  "reaction_counts": {
+    "c": 4,
+    "m": 4,
+    "x": 14
+  },
+  "compartment_summaries": {
+    "c": {
+      "label": "cytosol",
+      "reaction_count": 4,
+      "nodes": 40,
+      "segments": 30,
+      "build_sec": 1.4766775999960373
+    },
+    "m": {
+      "label": "mitochondria",
+      "reaction_count": 4,
+      "nodes": 35,
+      "segments": 30,
+      "build_sec": 1.194241899996996
+    },
+    "x": {
+      "label": "peroxisome/glyoxysome",
+      "reaction_count": 14,
+      "nodes": 88,
+      "segments": 88,
+      "build_sec": 1.1520304000005126
+    }
+  },
+  "alignment": {
+    "reference_compartment": "x",
+    "translations": {
+      "x": {
+        "dx": 0.0,
+        "dy": 0.0,
+        "anchors": 14
+      },
+      "c": {
+        "dx": 0.0,
+        "dy": -2.0000000000002274,
+        "anchors": 1
+      },
+      "m": {
+        "dx": 0.0,
+        "dy": 0.0,
+        "anchors": 0
+      }
+    },
+    "max_shared_y_delta_after_alignment": 0.0,
+    "reaction_counts": {
+      "c": 4,
+      "m": 4,
+      "x": 14
+    },
+    "canvas": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 10440.0,
+      "height": 3494.0768537708764
+    }
+  },
+  "flux_summary": {
+    "by_compartment": {
+      "c": {
+        "mapped": 4,
+        "with_flux": 4,
+        "nonzero_flux": 1
+      },
+      "m": {
+        "mapped": 4,
+        "with_flux": 4,
+        "nonzero_flux": 1
+      },
+      "x": {
+        "mapped": 14,
+        "with_flux": 14,
+        "nonzero_flux": 0
+      }
+    },
+    "rows": [
+      {
+        "compartment": "c",
+        "kegg": "R00238",
+        "bigg_id": "ACACT1r",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00623",
+        "bigg_id": "ALCD22xi",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00631",
+        "bigg_id": "ALDD19xr",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01280",
+        "bigg_id": "FACOAL160",
+        "flux": -0.005319758204450263
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00238",
+        "bigg_id": "ACACT1m",
+        "flux": 0.0037998272888930436
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00623",
+        "bigg_id": "ALCD22xim",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00631",
+        "bigg_id": "ALDD20xm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R03026",
+        "bigg_id": "T4HCINNMFM",
+        "flux": 0.0
+      },
+      {
+        "compartment": "x",
+        "kegg": "R01280",
+        "bigg_id": "FACOAL160p",
+        "flux": 0.0
+      },
+      {
+        "compartment": "x",
+        "kegg": "R01975",
+        "bigg_id": "HACD10p",
+        "flux": 0.0
+      },
+      {
+        "compartment": "x",
+        "kegg": "R03778",
+        "bigg_id": "ACACT4p",
+        "flux": 0.0
+      },
+      {
+        "compartment": "x",
+        "kegg": "R03858",
+        "bigg_id": "ACACT6p",
+        "flux": 0.0
+      },
+      {
+        "compartment": "x",
+        "kegg": "R03991",
+        "bigg_id": "ACACT7p",
+        "flux": 0.0
+      },
+      {
+        "compartment": "x",
+        "kegg": "R04170",
+        "bigg_id": "ECOAH5p",
+        "flux": 0.0
+      },
+      {
+        "compartment": "x",
+        "kegg": "R04737",
+        "bigg_id": "HACD7p",
+        "flux": 0.0
+      },
+      {
+        "compartment": "x",
+        "kegg": "R04738",
+        "bigg_id": "ECOAH7p",
+        "flux": 0.0
+      },
+      {
+        "compartment": "x",
+        "kegg": "R04739",
+        "bigg_id": "HACD6p",
+        "flux": 0.0
+      },
+      {
+        "compartment": "x",
+        "kegg": "R04740",
+        "bigg_id": "ECOAH6p",
+        "flux": 0.0
+      },
+      {
+        "compartment": "x",
+        "kegg": "R04741",
+        "bigg_id": "HACD5p",
+        "flux": 0.0
+      },
+      {
+        "compartment": "x",
+        "kegg": "R04742",
+        "bigg_id": "ACACT5p",
+        "flux": 0.0
+      },
+      {
+        "compartment": "x",
+        "kegg": "R04743",
+        "bigg_id": "HACD4p",
+        "flux": 0.0
+      },
+      {
+        "compartment": "x",
+        "kegg": "R04744",
+        "bigg_id": "ECOAH4p",
+        "flux": 0.0
+      }
+    ]
+  },
+  "html": "results\\compartments\\yeast_iMM904\\rn00071\\iMM904_rn00071_compartments.html",
+  "map_json": "results\\compartments\\yeast_iMM904\\rn00071\\iMM904_rn00071_compartments.json",
+  "flux_tsv": "results\\compartments\\yeast_iMM904\\rn00071\\iMM904_rn00071_flux.tsv",
+  "summary_json": "results\\compartments\\yeast_iMM904\\rn00071\\summary.json"
+}

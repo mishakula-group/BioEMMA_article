@@ -1,0 +1,741 @@
+[
+  {
+    "map_name": "test",
+    "map_id": "default",
+    "map_description": "",
+    "homepage": "https://escher.github.io",
+    "schema": "https://escher.github.io/escher/jsonschema/1-0-0#"
+  },
+  {
+    "nodes": {
+      "6": {
+        "node_type": "metabolite",
+        "bigg_id": "aacoa_c",
+        "name": "C00332",
+        "node_is_primary": true,
+        "x": 3416.0,
+        "y": 2214.0,
+        "label_x": 3456.0,
+        "label_y": 2254.0,
+        "compartment": "c"
+      },
+      "8": {
+        "node_type": "metabolite",
+        "bigg_id": "ACP_c",
+        "name": "C00229",
+        "node_is_primary": true,
+        "x": 1544.0,
+        "y": 2934.0,
+        "label_x": 1584.0,
+        "label_y": 2974.0,
+        "compartment": "c"
+      },
+      "11": {
+        "node_type": "metabolite",
+        "bigg_id": "coa_c",
+        "name": "C00010",
+        "node_is_primary": true,
+        "x": 396.0,
+        "y": 2498.0,
+        "label_x": 436.0,
+        "label_y": 2538.0,
+        "compartment": "c"
+      },
+      "19": {
+        "node_type": "metabolite",
+        "bigg_id": "occoa_c",
+        "name": "C01944",
+        "node_is_primary": true,
+        "x": 2408.0,
+        "y": 1174.0000000000002,
+        "label_x": 2448.0,
+        "label_y": 1214.0000000000002,
+        "compartment": "c"
+      },
+      "23": {
+        "node_type": "metabolite",
+        "bigg_id": "dcacoa_c",
+        "name": "C05274",
+        "node_is_primary": true,
+        "x": 1904.0,
+        "y": 1174.0000000000002,
+        "label_x": 1944.0,
+        "label_y": 1214.0000000000002,
+        "compartment": "c"
+      },
+      "27": {
+        "node_type": "metabolite",
+        "bigg_id": "",
+        "name": "C00226",
+        "node_is_primary": true,
+        "x": 1428.0,
+        "y": 3382.0,
+        "label_x": 1468.0,
+        "label_y": 3422.0
+      },
+      "29": {
+        "node_type": "metabolite",
+        "bigg_id": "ddcacoa_c",
+        "name": "C01832",
+        "node_is_primary": true,
+        "x": 1400.0,
+        "y": 1174.0000000000002,
+        "label_x": 1440.0,
+        "label_y": 1214.0000000000002,
+        "compartment": "c"
+      },
+      "32": {
+        "node_type": "metabolite",
+        "bigg_id": "",
+        "name": "C00071",
+        "node_is_primary": true,
+        "x": 1848.0,
+        "y": 3382.0,
+        "label_x": 1888.0,
+        "label_y": 3422.0
+      },
+      "34": {
+        "node_type": "metabolite",
+        "bigg_id": "tdcoa_c",
+        "name": "C02593",
+        "node_is_primary": true,
+        "x": 896.0,
+        "y": 1174.0000000000002,
+        "label_x": 936.0,
+        "label_y": 1214.0000000000002,
+        "compartment": "c"
+      },
+      "37": {
+        "node_type": "metabolite",
+        "bigg_id": "",
+        "name": "C00162",
+        "node_is_primary": true,
+        "x": 2264.0,
+        "y": 3382.0,
+        "label_x": 2304.0,
+        "label_y": 3422.0
+      },
+      "42": {
+        "node_type": "metabolite",
+        "bigg_id": "pmtcoa_c",
+        "name": "C00154",
+        "node_is_primary": true,
+        "x": 396.0,
+        "y": 1174.0000000000002,
+        "label_x": 436.0,
+        "label_y": 1214.0000000000002,
+        "compartment": "c"
+      },
+      "43": {
+        "node_type": "metabolite",
+        "bigg_id": "hdca_c",
+        "name": "C00249",
+        "node_is_primary": true,
+        "x": 396.0,
+        "y": 438.0000000000002,
+        "label_x": 436.0,
+        "label_y": 478.0000000000002,
+        "compartment": "c"
+      },
+      "46": {
+        "node_type": "metabolite",
+        "bigg_id": "hxdcal_c",
+        "name": "C00517",
+        "node_is_primary": true,
+        "x": 832.0,
+        "y": 434.0000000000002,
+        "label_x": 872.0,
+        "label_y": 474.0000000000002,
+        "compartment": "c"
+      },
+      "48": {
+        "node_type": "metabolite",
+        "bigg_id": "accoa_c",
+        "name": "C00024",
+        "node_is_primary": true,
+        "x": 3416.0,
+        "y": 2846.0,
+        "label_x": 3456.0,
+        "label_y": 2886.0,
+        "compartment": "c"
+      },
+      "73": {
+        "node_type": "midmarker",
+        "x": 1644.0,
+        "y": 3346.0
+      },
+      "84": {
+        "node_type": "midmarker",
+        "x": 396.0,
+        "y": 566.0000000000002
+      },
+      "88": {
+        "node_type": "midmarker",
+        "x": 3316.0,
+        "y": 2362.0
+      },
+      "90": {
+        "node_type": "midmarker",
+        "x": 2052.0,
+        "y": 3346.0
+      },
+      "120": {
+        "node_type": "multimarker",
+        "x": 1579.2,
+        "y": 3346.0
+      },
+      "167": {
+        "node_type": "multimarker",
+        "x": 1705.2,
+        "y": 3346.0
+      },
+      "131": {
+        "node_type": "multimarker",
+        "x": 396.0,
+        "y": 527.6000000000003
+      },
+      "178": {
+        "node_type": "multimarker",
+        "x": 396.0,
+        "y": 748.4000000000002
+      },
+      "135": {
+        "node_type": "multimarker",
+        "x": 3316.0,
+        "y": 2507.2
+      },
+      "182": {
+        "node_type": "multimarker",
+        "x": 3316.0,
+        "y": 2317.6000000000004
+      },
+      "137": {
+        "node_type": "multimarker",
+        "x": 1990.8000000000002,
+        "y": 3346.0
+      },
+      "184": {
+        "node_type": "multimarker",
+        "x": 2115.6,
+        "y": 3346.0
+      },
+      "191": {
+        "node_type": "metabolite",
+        "bigg_id": "2mbald_c",
+        "name": "2 methylbutyraldehyde C5H10O",
+        "node_is_primary": false,
+        "x": 1520.0163645700716,
+        "y": 3477.5191898442863,
+        "label_x": 1560.0163645700716,
+        "label_y": 3517.5191898442863,
+        "compartment": "c"
+      },
+      "192": {
+        "node_type": "metabolite",
+        "bigg_id": "h_c",
+        "name": "H+",
+        "node_is_primary": false,
+        "x": 1490.4245468551073,
+        "y": 3299.9682835545,
+        "label_x": 1530.4245468551073,
+        "label_y": 3339.9682835545,
+        "compartment": "c"
+      },
+      "193": {
+        "node_type": "metabolite",
+        "bigg_id": "nadh_c",
+        "name": "Nicotinamide adenine dinucleotide - reduced",
+        "node_is_primary": false,
+        "x": 1480.5606076167858,
+        "y": 3240.7846481245715,
+        "label_x": 1520.5606076167858,
+        "label_y": 3280.7846481245715,
+        "compartment": "c"
+      },
+      "194": {
+        "node_type": "metabolite",
+        "bigg_id": "2mbtoh_c",
+        "name": "2 methyl 1 butanol C5H12O",
+        "node_is_primary": false,
+        "x": 1794.409804739978,
+        "y": 3300.815813183648,
+        "label_x": 1834.409804739978,
+        "label_y": 3340.815813183648,
+        "compartment": "c"
+      },
+      "195": {
+        "node_type": "metabolite",
+        "bigg_id": "nad_c",
+        "name": "Nicotinamide adenine dinucleotide",
+        "node_is_primary": false,
+        "x": 1773.5555646708922,
+        "y": 3418.9898402418003,
+        "label_x": 1813.5555646708922,
+        "label_y": 3458.9898402418003,
+        "compartment": "c"
+      },
+      "196": {
+        "node_type": "metabolite",
+        "bigg_id": "atp_c",
+        "name": "ATP C10H12N5O13P3",
+        "node_is_primary": false,
+        "x": 456.0,
+        "y": 447.60000000000025,
+        "label_x": 496.0,
+        "label_y": 487.60000000000025,
+        "compartment": "c"
+      },
+      "197": {
+        "node_type": "metabolite",
+        "bigg_id": "amp_c",
+        "name": "AMP C10H12N5O7P",
+        "node_is_primary": false,
+        "x": 456.0,
+        "y": 828.4000000000003,
+        "label_x": 496.0,
+        "label_y": 868.4000000000003,
+        "compartment": "c"
+      },
+      "198": {
+        "node_type": "metabolite",
+        "bigg_id": "ppi_c",
+        "name": "Diphosphate",
+        "node_is_primary": false,
+        "x": 336.0,
+        "y": 828.4000000000003,
+        "label_x": 376.0,
+        "label_y": 868.4000000000003,
+        "compartment": "c"
+      },
+      "199": {
+        "node_type": "metabolite",
+        "bigg_id": "h2o_c",
+        "name": "H2O H2O",
+        "node_is_primary": false,
+        "x": 1932.8715553636512,
+        "y": 3478.0768537708764,
+        "label_x": 1972.8715553636512,
+        "label_y": 3518.0768537708764,
+        "compartment": "c"
+      },
+      "200": {
+        "node_type": "metabolite",
+        "bigg_id": "nad_c",
+        "name": "Nicotinamide adenine dinucleotide",
+        "node_is_primary": false,
+        "x": 1901.5901952600225,
+        "y": 3300.815813183648,
+        "label_x": 1941.5901952600225,
+        "label_y": 3340.815813183648,
+        "compartment": "c"
+      },
+      "201": {
+        "node_type": "metabolite",
+        "bigg_id": "pacald_c",
+        "name": "Phenylacetaldehyde",
+        "node_is_primary": false,
+        "x": 1891.1630752254796,
+        "y": 3241.728799654572,
+        "label_x": 1931.1630752254796,
+        "label_y": 3281.728799654572,
+        "compartment": "c"
+      },
+      "202": {
+        "node_type": "metabolite",
+        "bigg_id": "h_c",
+        "name": "H+",
+        "node_is_primary": false,
+        "x": 2214.5606891299753,
+        "y": 3241.086788215591,
+        "label_x": 2254.5606891299753,
+        "label_y": 3281.086788215591,
+        "compartment": "c"
+      },
+      "203": {
+        "node_type": "metabolite",
+        "bigg_id": "nadh_c",
+        "name": "Nicotinamide adenine dinucleotide - reduced",
+        "node_is_primary": false,
+        "x": 2184.4260431919,
+        "y": 3418.546369850922,
+        "label_x": 2224.4260431919,
+        "label_y": 3458.546369850922,
+        "compartment": "c"
+      },
+      "204": {
+        "node_type": "metabolite",
+        "bigg_id": "pac_c",
+        "name": "Phenylacetic acid",
+        "node_is_primary": false,
+        "x": 2174.3811612125414,
+        "y": 3477.6995637293658,
+        "label_x": 2214.3811612125414,
+        "label_y": 3517.6995637293658,
+        "compartment": "c"
+      }
+    },
+    "reactions": {
+      "23": {
+        "name": "R00623",
+        "bigg_id": "ALCD22xi",
+        "reversibility": true,
+        "gene_reaction_rule": "",
+        "genes": [],
+        "metabolites": [
+          {
+            "kegg_id": "C00226",
+            "bigg_id": "",
+            "seed_id": "",
+            "coefficient": -1
+          },
+          {
+            "kegg_id": "C00071",
+            "bigg_id": "",
+            "seed_id": "cpd11616",
+            "coefficient": 1
+          },
+          {
+            "bigg_id": "2mbald_c",
+            "coefficient": -1.0,
+            "compartment": "c"
+          },
+          {
+            "bigg_id": "h_c",
+            "coefficient": -1.0,
+            "compartment": "c"
+          },
+          {
+            "bigg_id": "nadh_c",
+            "coefficient": -1.0,
+            "compartment": "c"
+          },
+          {
+            "bigg_id": "2mbtoh_c",
+            "coefficient": 1.0,
+            "compartment": "c"
+          },
+          {
+            "bigg_id": "nad_c",
+            "coefficient": 1.0,
+            "compartment": "c"
+          }
+        ],
+        "segments": {
+          "97": {
+            "from_node_id": 27,
+            "to_node_id": 120,
+            "b1": null,
+            "b2": null
+          },
+          "98": {
+            "from_node_id": 120,
+            "to_node_id": 73,
+            "b1": null,
+            "b2": null
+          },
+          "99": {
+            "from_node_id": 73,
+            "to_node_id": 167,
+            "b1": null,
+            "b2": null
+          },
+          "100": {
+            "from_node_id": 167,
+            "to_node_id": 32,
+            "b1": null,
+            "b2": null
+          },
+          "203": {
+            "from_node_id": 191,
+            "to_node_id": 120,
+            "b1": null,
+            "b2": null
+          },
+          "204": {
+            "from_node_id": 192,
+            "to_node_id": 120,
+            "b1": null,
+            "b2": null
+          },
+          "205": {
+            "from_node_id": 193,
+            "to_node_id": 120,
+            "b1": null,
+            "b2": null
+          },
+          "206": {
+            "from_node_id": 167,
+            "to_node_id": 194,
+            "b1": null,
+            "b2": null
+          },
+          "207": {
+            "from_node_id": 167,
+            "to_node_id": 195,
+            "b1": null,
+            "b2": null
+          }
+        },
+        "label_x": 1684.0,
+        "label_y": 3386.0
+      },
+      "34": {
+        "name": "R01280",
+        "bigg_id": "FACOAL160",
+        "reversibility": true,
+        "gene_reaction_rule": "",
+        "genes": [],
+        "metabolites": [
+          {
+            "kegg_id": "C00249",
+            "bigg_id": "hdca_c",
+            "seed_id": "cpd00214",
+            "coefficient": -1,
+            "compartment": "c"
+          },
+          {
+            "kegg_id": "C00154",
+            "bigg_id": "pmtcoa_c",
+            "seed_id": "cpd00134",
+            "coefficient": 1,
+            "compartment": "c"
+          },
+          {
+            "bigg_id": "atp_c",
+            "coefficient": -1.0,
+            "compartment": "c"
+          },
+          {
+            "bigg_id": "amp_c",
+            "coefficient": 1.0,
+            "compartment": "c"
+          },
+          {
+            "bigg_id": "ppi_c",
+            "coefficient": 1.0,
+            "compartment": "c"
+          }
+        ],
+        "segments": {
+          "141": {
+            "from_node_id": 43,
+            "to_node_id": 131,
+            "b1": null,
+            "b2": null
+          },
+          "142": {
+            "from_node_id": 131,
+            "to_node_id": 84,
+            "b1": null,
+            "b2": null
+          },
+          "143": {
+            "from_node_id": 84,
+            "to_node_id": 178,
+            "b1": null,
+            "b2": null
+          },
+          "144": {
+            "from_node_id": 178,
+            "to_node_id": 42,
+            "b1": null,
+            "b2": null
+          },
+          "208": {
+            "from_node_id": 196,
+            "to_node_id": 131,
+            "b1": null,
+            "b2": null
+          },
+          "209": {
+            "from_node_id": 178,
+            "to_node_id": 197,
+            "b1": null,
+            "b2": null
+          },
+          "210": {
+            "from_node_id": 178,
+            "to_node_id": 198,
+            "b1": null,
+            "b2": null
+          }
+        },
+        "label_x": 436.0,
+        "label_y": 606.0000000000002
+      },
+      "38": {
+        "name": "R00238",
+        "bigg_id": "ACACT1r",
+        "reversibility": true,
+        "gene_reaction_rule": "",
+        "genes": [],
+        "metabolites": [
+          {
+            "kegg_id": "C00024",
+            "bigg_id": "accoa_c",
+            "seed_id": "cpd00022",
+            "coefficient": -1,
+            "compartment": "c"
+          },
+          {
+            "kegg_id": "C00332",
+            "bigg_id": "aacoa_c",
+            "seed_id": "cpd00279",
+            "coefficient": 1,
+            "compartment": "c"
+          }
+        ],
+        "segments": {
+          "157": {
+            "from_node_id": 48,
+            "to_node_id": 135,
+            "b1": null,
+            "b2": null
+          },
+          "158": {
+            "from_node_id": 135,
+            "to_node_id": 88,
+            "b1": null,
+            "b2": null
+          },
+          "159": {
+            "from_node_id": 88,
+            "to_node_id": 182,
+            "b1": null,
+            "b2": null
+          },
+          "160": {
+            "from_node_id": 182,
+            "to_node_id": 6,
+            "b1": null,
+            "b2": null
+          }
+        },
+        "label_x": 3356.0,
+        "label_y": 2402.0
+      },
+      "40": {
+        "name": "R00631",
+        "bigg_id": "ALDD19xr",
+        "reversibility": true,
+        "gene_reaction_rule": "",
+        "genes": [],
+        "metabolites": [
+          {
+            "kegg_id": "C00071",
+            "bigg_id": "",
+            "seed_id": "cpd11616",
+            "coefficient": -1
+          },
+          {
+            "kegg_id": "C00162",
+            "bigg_id": "",
+            "seed_id": "",
+            "coefficient": 1
+          },
+          {
+            "bigg_id": "h2o_c",
+            "coefficient": -1.0,
+            "compartment": "c"
+          },
+          {
+            "bigg_id": "nad_c",
+            "coefficient": -1.0,
+            "compartment": "c"
+          },
+          {
+            "bigg_id": "pacald_c",
+            "coefficient": -1.0,
+            "compartment": "c"
+          },
+          {
+            "bigg_id": "h_c",
+            "coefficient": 2.0,
+            "compartment": "c"
+          },
+          {
+            "bigg_id": "nadh_c",
+            "coefficient": 1.0,
+            "compartment": "c"
+          },
+          {
+            "bigg_id": "pac_c",
+            "coefficient": 1.0,
+            "compartment": "c"
+          }
+        ],
+        "segments": {
+          "165": {
+            "from_node_id": 32,
+            "to_node_id": 137,
+            "b1": null,
+            "b2": null
+          },
+          "166": {
+            "from_node_id": 137,
+            "to_node_id": 90,
+            "b1": null,
+            "b2": null
+          },
+          "167": {
+            "from_node_id": 90,
+            "to_node_id": 184,
+            "b1": null,
+            "b2": null
+          },
+          "168": {
+            "from_node_id": 184,
+            "to_node_id": 37,
+            "b1": null,
+            "b2": null
+          },
+          "211": {
+            "from_node_id": 199,
+            "to_node_id": 137,
+            "b1": null,
+            "b2": null
+          },
+          "212": {
+            "from_node_id": 200,
+            "to_node_id": 137,
+            "b1": null,
+            "b2": null
+          },
+          "213": {
+            "from_node_id": 201,
+            "to_node_id": 137,
+            "b1": null,
+            "b2": null
+          },
+          "214": {
+            "from_node_id": 184,
+            "to_node_id": 202,
+            "b1": null,
+            "b2": null
+          },
+          "215": {
+            "from_node_id": 184,
+            "to_node_id": 203,
+            "b1": null,
+            "b2": null
+          },
+          "216": {
+            "from_node_id": 184,
+            "to_node_id": 204,
+            "b1": null,
+            "b2": null
+          }
+        },
+        "label_x": 2092.0,
+        "label_y": 3386.0
+      }
+    },
+    "text_labels": {},
+    "canvas": {
+      "x": 0,
+      "y": 0,
+      "width": 3752.0,
+      "height": 3912.076853770876
+    }
+  }
+]

@@ -1,0 +1,401 @@
+{
+  "organism": "Homo sapiens",
+  "model_id": "Recon3D",
+  "pathway": "rn00280",
+  "title": "Valine, leucine and isoleucine degradation",
+  "bioemma_version": "0.4.1",
+  "kgml": "data\\compartment_models\\recon3d_probe\\kgml\\rn00280.xml",
+  "compartments": [
+    [
+      "c",
+      "cytosol"
+    ],
+    [
+      "m",
+      "mitochondria"
+    ],
+    [
+      "x",
+      "peroxisome/glyoxysome"
+    ]
+  ],
+  "reaction_counts": {
+    "c": 11,
+    "m": 32,
+    "x": 6
+  },
+  "compartment_summaries": {
+    "c": {
+      "label": "cytosol",
+      "reaction_count": 11,
+      "nodes": 86,
+      "segments": 75,
+      "build_sec": 3.879266500000085
+    },
+    "m": {
+      "label": "mitochondria",
+      "reaction_count": 32,
+      "nodes": 201,
+      "segments": 205,
+      "build_sec": 2.38715830000001
+    },
+    "x": {
+      "label": "peroxisome/glyoxysome",
+      "reaction_count": 6,
+      "nodes": 42,
+      "segments": 41,
+      "build_sec": 2.7395542999947793
+    }
+  },
+  "alignment": {
+    "reference_compartment": "m",
+    "translations": {
+      "m": {
+        "dx": 0.0,
+        "dy": 0.0,
+        "anchors": 32
+      },
+      "c": {
+        "dx": 0.0,
+        "dy": -28.671748257209856,
+        "anchors": 8
+      },
+      "x": {
+        "dx": 0.0,
+        "dy": 699.137726518914,
+        "anchors": 6
+      }
+    },
+    "max_shared_y_delta_after_alignment": 0.0,
+    "reaction_counts": {
+      "c": 11,
+      "m": 32,
+      "x": 6
+    },
+    "canvas": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 8241.139299604516,
+      "height": 3519.3434965144197
+    }
+  },
+  "flux_summary": {
+    "by_compartment": {
+      "c": {
+        "mapped": 11,
+        "with_flux": 11,
+        "nonzero_flux": 3
+      },
+      "m": {
+        "mapped": 32,
+        "with_flux": 32,
+        "nonzero_flux": 6
+      },
+      "x": {
+        "mapped": 6,
+        "with_flux": 6,
+        "nonzero_flux": 0
+      }
+    },
+    "rows": [
+      {
+        "compartment": "c",
+        "kegg": "R00238",
+        "bigg_id": "ACACT1r",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01090",
+        "bigg_id": "LEUTA",
+        "flux": 1000.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01214",
+        "bigg_id": "VALTA",
+        "flux": 311.20486131503367
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01357",
+        "bigg_id": "AACOAT",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01859",
+        "bigg_id": "ACCOAC",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01978",
+        "bigg_id": "HMGCOAS",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R02197",
+        "bigg_id": "TYROX",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R02199",
+        "bigg_id": "ILETA",
+        "flux": -658.2260238829525
+      },
+      {
+        "compartment": "c",
+        "kegg": "R03383",
+        "bigg_id": "ADPACDAc",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R03869",
+        "bigg_id": "LCADi_D",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R03871",
+        "bigg_id": "r0558",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00238",
+        "bigg_id": "ACACT1m",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00410",
+        "bigg_id": "OCOAT1m",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00833",
+        "bigg_id": "MMMm",
+        "flux": 1000.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00922",
+        "bigg_id": "MMSAD1m",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00927",
+        "bigg_id": "ACACT10m",
+        "flux": -791.036305271453
+      },
+      {
+        "compartment": "m",
+        "kegg": "R01090",
+        "bigg_id": "LEUTAm",
+        "flux": -989.8281478053967
+      },
+      {
+        "compartment": "m",
+        "kegg": "R01214",
+        "bigg_id": "VALTAim",
+        "flux": -1000.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R01357",
+        "bigg_id": "r0321",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R01360",
+        "bigg_id": "HMGLm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R01859",
+        "bigg_id": "ACCOACrm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R01978",
+        "bigg_id": "HMGCOASm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R02050",
+        "bigg_id": "D3AIBTm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R02085",
+        "bigg_id": "MGCHrm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R02199",
+        "bigg_id": "ILETAm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R02662",
+        "bigg_id": "OIVD2m",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R02764",
+        "bigg_id": "r0571",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R02765",
+        "bigg_id": "MMEm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R03174",
+        "bigg_id": "OIVD3m",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R03869",
+        "bigg_id": "ALDD20xm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R04095",
+        "bigg_id": "ACOAD8m",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R04097",
+        "bigg_id": "r0656",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R04137",
+        "bigg_id": "FAOXC5C5OHm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R04138",
+        "bigg_id": "MCCCrm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R04188",
+        "bigg_id": "3AIBTm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R04203",
+        "bigg_id": "HACD9m",
+        "flux": -791.0363052714531
+      },
+      {
+        "compartment": "m",
+        "kegg": "R04204",
+        "bigg_id": "ECOAH9m",
+        "flux": -791.0363052714531
+      },
+      {
+        "compartment": "m",
+        "kegg": "R04224",
+        "bigg_id": "ECOAH12m",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R05064",
+        "bigg_id": "3HBCOAHLm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R07599",
+        "bigg_id": "r0385",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R07600",
+        "bigg_id": "r0670",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R07601",
+        "bigg_id": "r0386",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R07618",
+        "bigg_id": "2OXOADOXm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "x",
+        "kegg": "R00238",
+        "bigg_id": "ACACT1x",
+        "flux": 0.0
+      },
+      {
+        "compartment": "x",
+        "kegg": "R00927",
+        "bigg_id": "ACACT5p",
+        "flux": 0.0
+      },
+      {
+        "compartment": "x",
+        "kegg": "R01360",
+        "bigg_id": "HMGLx",
+        "flux": 0.0
+      },
+      {
+        "compartment": "x",
+        "kegg": "R01978",
+        "bigg_id": "r0463",
+        "flux": 0.0
+      },
+      {
+        "compartment": "x",
+        "kegg": "R04137",
+        "bigg_id": "ECOAH5p",
+        "flux": 0.0
+      },
+      {
+        "compartment": "x",
+        "kegg": "R04203",
+        "bigg_id": "HACD1x",
+        "flux": 0.0
+      }
+    ]
+  },
+  "html": "results\\compartments\\human_Recon3D\\rn00280\\Recon3D_rn00280_compartments.html",
+  "map_json": "results\\compartments\\human_Recon3D\\rn00280\\Recon3D_rn00280_compartments.json",
+  "flux_tsv": "results\\compartments\\human_Recon3D\\rn00280\\Recon3D_rn00280_flux.tsv",
+  "summary_json": "results\\compartments\\human_Recon3D\\rn00280\\summary.json"
+}

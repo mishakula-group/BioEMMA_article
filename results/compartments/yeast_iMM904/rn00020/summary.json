@@ -1,0 +1,251 @@
+{
+  "organism": "Saccharomyces cerevisiae",
+  "model_id": "iMM904",
+  "pathway": "rn00020",
+  "title": "Citrate cycle (TCA cycle)",
+  "bioemma_version": "0.4.1",
+  "kgml": "data\\compartment_models\\recon3d_probe\\kgml\\rn00020.xml",
+  "compartments": [
+    [
+      "c",
+      "cytosol"
+    ],
+    [
+      "m",
+      "mitochondria"
+    ],
+    [
+      "x",
+      "peroxisome/glyoxysome"
+    ]
+  ],
+  "reaction_counts": {
+    "c": 8,
+    "m": 13,
+    "x": 3
+  },
+  "compartment_summaries": {
+    "c": {
+      "label": "cytosol",
+      "reaction_count": 8,
+      "nodes": 59,
+      "segments": 54,
+      "build_sec": 1.1013873999982025
+    },
+    "m": {
+      "label": "mitochondria",
+      "reaction_count": 13,
+      "nodes": 100,
+      "segments": 98,
+      "build_sec": 1.0143080000052578
+    },
+    "x": {
+      "label": "peroxisome/glyoxysome",
+      "reaction_count": 3,
+      "nodes": 26,
+      "segments": 22,
+      "build_sec": 0.9268160999999964
+    }
+  },
+  "alignment": {
+    "reference_compartment": "m",
+    "translations": {
+      "m": {
+        "dx": 0.0,
+        "dy": 0.0,
+        "anchors": 13
+      },
+      "c": {
+        "dx": 0.0,
+        "dy": -19.83126446713959,
+        "anchors": 6
+      },
+      "x": {
+        "dx": 56.323320417401874,
+        "dy": 250.0,
+        "anchors": 3
+      }
+    },
+    "max_shared_y_delta_after_alignment": 0.0,
+    "reaction_counts": {
+      "c": 8,
+      "m": 13,
+      "x": 3
+    },
+    "canvas": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 8689.939922504413,
+      "height": 2401.662528934279
+    }
+  },
+  "flux_summary": {
+    "by_compartment": {
+      "c": {
+        "mapped": 8,
+        "with_flux": 8,
+        "nonzero_flux": 5
+      },
+      "m": {
+        "mapped": 13,
+        "with_flux": 13,
+        "nonzero_flux": 10
+      },
+      "x": {
+        "mapped": 3,
+        "with_flux": 3,
+        "nonzero_flux": 0
+      }
+    },
+    "rows": [
+      {
+        "compartment": "c",
+        "kegg": "R00014",
+        "bigg_id": "4MOPDC",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00268",
+        "bigg_id": "ICDHyr",
+        "flux": 0.2510539205902178
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00341",
+        "bigg_id": "PPCK",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00342",
+        "bigg_id": "MDH",
+        "flux": 1.3558978508431667
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00344",
+        "bigg_id": "PC",
+        "flux": 0.5651955226524721
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01082",
+        "bigg_id": "FUM",
+        "flux": 0.10811947965417336
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01325",
+        "bigg_id": "ACONT",
+        "flux": 0.2660546024102459
+      },
+      {
+        "compartment": "c",
+        "kegg": "R02164",
+        "bigg_id": "FRDcm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00014",
+        "bigg_id": "ACHBSm",
+        "flux": 0.055471721103764374
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00268",
+        "bigg_id": "ICDHym",
+        "flux": 0.26322439946695486
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00342",
+        "bigg_id": "MDHm",
+        "flux": -1.0117769482454484
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00351",
+        "bigg_id": "CSm",
+        "flux": 0.5292790018772008
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00405",
+        "bigg_id": "SUCOASm",
+        "flux": -0.2210007411235172
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00621",
+        "bigg_id": "AKGDam",
+        "flux": 0.22100074112351717
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00709",
+        "bigg_id": "ICDHxm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R01082",
+        "bigg_id": "FUMm",
+        "flux": 0.23600142294354534
+      },
+      {
+        "compartment": "m",
+        "kegg": "R01325",
+        "bigg_id": "ACONTm",
+        "flux": 0.2632243994669549
+      },
+      {
+        "compartment": "m",
+        "kegg": "R02164",
+        "bigg_id": "FRDcm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R02569",
+        "bigg_id": "PDHm",
+        "flux": 0.7083890427218412
+      },
+      {
+        "compartment": "m",
+        "kegg": "R02570",
+        "bigg_id": "AKGDbm",
+        "flux": 0.22100074112351717
+      },
+      {
+        "compartment": "m",
+        "kegg": "R07618",
+        "bigg_id": "GLYCLm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "x",
+        "kegg": "R00268",
+        "bigg_id": "ICDHyp",
+        "flux": 0.0
+      },
+      {
+        "compartment": "x",
+        "kegg": "R00342",
+        "bigg_id": "MDHp",
+        "flux": 0.0
+      },
+      {
+        "compartment": "x",
+        "kegg": "R00351",
+        "bigg_id": "CSp",
+        "flux": 0.0
+      }
+    ]
+  },
+  "html": "results\\compartments\\yeast_iMM904\\rn00020\\iMM904_rn00020_compartments.html",
+  "map_json": "results\\compartments\\yeast_iMM904\\rn00020\\iMM904_rn00020_compartments.json",
+  "flux_tsv": "results\\compartments\\yeast_iMM904\\rn00020\\iMM904_rn00020_flux.tsv",
+  "summary_json": "results\\compartments\\yeast_iMM904\\rn00020\\summary.json"
+}

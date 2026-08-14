@@ -1,0 +1,1246 @@
+{
+  "old_root": "rerun_bigg_ec_fallback_only/BioEMMA_article",
+  "new_root": "rerun_bigg_modelseed_ec_fallback/BioEMMA_article",
+  "old_label": "fresh_current_ec",
+  "new_label": "seed_ec_fallback",
+  "total_pairs": 35,
+  "changed_maps": 0,
+  "changed_flux_json": 0,
+  "comparisons": [
+    {
+      "label": "fig3_map00010/kegg_fragment.json",
+      "old_path": "rerun_bigg_ec_fallback_only/BioEMMA_article\\figures_scripts\\fig3_map00010\\outputs\\fragment\\kegg_fragment.json",
+      "new_path": "rerun_bigg_modelseed_ec_fallback/BioEMMA_article\\figures_scripts\\fig3_map00010\\outputs\\fragment\\kegg_fragment.json",
+      "old_exists": true,
+      "new_exists": true,
+      "sha256_equal": true,
+      "kind": "escher_map",
+      "old": {
+        "nodes": 23,
+        "metabolite_nodes": 5,
+        "primary_metabolite_nodes": 5,
+        "reactions": 6,
+        "segments": 24
+      },
+      "new": {
+        "nodes": 23,
+        "metabolite_nodes": 5,
+        "primary_metabolite_nodes": 5,
+        "reactions": 6,
+        "segments": 24
+      },
+      "delta": {
+        "nodes": 0,
+        "metabolite_nodes": 0,
+        "primary_metabolite_nodes": 0,
+        "reactions": 0,
+        "segments": 0
+      },
+      "reaction_id_diff": {
+        "added_count": 0,
+        "removed_count": 0,
+        "added": [],
+        "removed": []
+      }
+    },
+    {
+      "label": "fig3_map00010/ecoli_core_fragment.json",
+      "old_path": "rerun_bigg_ec_fallback_only/BioEMMA_article\\figures_scripts\\fig3_map00010\\outputs\\fragment\\ecoli_core_fragment.json",
+      "new_path": "rerun_bigg_modelseed_ec_fallback/BioEMMA_article\\figures_scripts\\fig3_map00010\\outputs\\fragment\\ecoli_core_fragment.json",
+      "old_exists": true,
+      "new_exists": true,
+      "sha256_equal": true,
+      "kind": "escher_map",
+      "old": {
+        "nodes": 25,
+        "metabolite_nodes": 13,
+        "primary_metabolite_nodes": 4,
+        "reactions": 4,
+        "segments": 25
+      },
+      "new": {
+        "nodes": 25,
+        "metabolite_nodes": 13,
+        "primary_metabolite_nodes": 4,
+        "reactions": 4,
+        "segments": 25
+      },
+      "delta": {
+        "nodes": 0,
+        "metabolite_nodes": 0,
+        "primary_metabolite_nodes": 0,
+        "reactions": 0,
+        "segments": 0
+      },
+      "reaction_id_diff": {
+        "added_count": 0,
+        "removed_count": 0,
+        "added": [],
+        "removed": []
+      }
+    },
+    {
+      "label": "fig3_map00010/ecoli_core_flux_fragment.json",
+      "old_path": "rerun_bigg_ec_fallback_only/BioEMMA_article\\figures_scripts\\fig3_map00010\\outputs\\fragment\\ecoli_core_flux_fragment.json",
+      "new_path": "rerun_bigg_modelseed_ec_fallback/BioEMMA_article\\figures_scripts\\fig3_map00010\\outputs\\fragment\\ecoli_core_flux_fragment.json",
+      "old_exists": true,
+      "new_exists": true,
+      "sha256_equal": true,
+      "kind": "escher_map",
+      "old": {
+        "nodes": 25,
+        "metabolite_nodes": 13,
+        "primary_metabolite_nodes": 4,
+        "reactions": 4,
+        "segments": 25
+      },
+      "new": {
+        "nodes": 25,
+        "metabolite_nodes": 13,
+        "primary_metabolite_nodes": 4,
+        "reactions": 4,
+        "segments": 25
+      },
+      "delta": {
+        "nodes": 0,
+        "metabolite_nodes": 0,
+        "primary_metabolite_nodes": 0,
+        "reactions": 0,
+        "segments": 0
+      },
+      "reaction_id_diff": {
+        "added_count": 0,
+        "removed_count": 0,
+        "added": [],
+        "removed": []
+      }
+    },
+    {
+      "label": "fig3_map00010/fluxes_fragment.json",
+      "old_path": "rerun_bigg_ec_fallback_only/BioEMMA_article\\figures_scripts\\fig3_map00010\\outputs\\fragment\\fluxes_fragment.json",
+      "new_path": "rerun_bigg_modelseed_ec_fallback/BioEMMA_article\\figures_scripts\\fig3_map00010\\outputs\\fragment\\fluxes_fragment.json",
+      "old_exists": true,
+      "new_exists": true,
+      "sha256_equal": true,
+      "kind": "json",
+      "json_equal": true
+    },
+    {
+      "label": "supplementary/rn00010/kegg_source_reconstruction.json",
+      "old_path": "rerun_bigg_ec_fallback_only/BioEMMA_article\\figures_scripts\\supplementary_figures\\outputs\\rn00010\\kegg_source_reconstruction.json",
+      "new_path": "rerun_bigg_modelseed_ec_fallback/BioEMMA_article\\figures_scripts\\supplementary_figures\\outputs\\rn00010\\kegg_source_reconstruction.json",
+      "old_exists": true,
+      "new_exists": true,
+      "sha256_equal": true,
+      "kind": "json",
+      "json_equal": true
+    },
+    {
+      "label": "supplementary/rn00010/kegg_escher_map.json",
+      "old_path": "rerun_bigg_ec_fallback_only/BioEMMA_article\\figures_scripts\\supplementary_figures\\outputs\\rn00010\\kegg_escher_map.json",
+      "new_path": "rerun_bigg_modelseed_ec_fallback/BioEMMA_article\\figures_scripts\\supplementary_figures\\outputs\\rn00010\\kegg_escher_map.json",
+      "old_exists": true,
+      "new_exists": true,
+      "sha256_equal": true,
+      "kind": "escher_map",
+      "old": {
+        "nodes": 199,
+        "metabolite_nodes": 31,
+        "primary_metabolite_nodes": 31,
+        "reactions": 56,
+        "segments": 229
+      },
+      "new": {
+        "nodes": 199,
+        "metabolite_nodes": 31,
+        "primary_metabolite_nodes": 31,
+        "reactions": 56,
+        "segments": 229
+      },
+      "delta": {
+        "nodes": 0,
+        "metabolite_nodes": 0,
+        "primary_metabolite_nodes": 0,
+        "reactions": 0,
+        "segments": 0
+      },
+      "reaction_id_diff": {
+        "added_count": 0,
+        "removed_count": 0,
+        "added": [],
+        "removed": []
+      }
+    },
+    {
+      "label": "supplementary/rn00010/escher_map.json",
+      "old_path": "rerun_bigg_ec_fallback_only/BioEMMA_article\\figures_scripts\\supplementary_figures\\outputs\\rn00010\\escher_map.json",
+      "new_path": "rerun_bigg_modelseed_ec_fallback/BioEMMA_article\\figures_scripts\\supplementary_figures\\outputs\\rn00010\\escher_map.json",
+      "old_exists": true,
+      "new_exists": true,
+      "sha256_equal": true,
+      "kind": "escher_map",
+      "old": {
+        "nodes": 110,
+        "metabolite_nodes": 62,
+        "primary_metabolite_nodes": 21,
+        "reactions": 16,
+        "segments": 107
+      },
+      "new": {
+        "nodes": 110,
+        "metabolite_nodes": 62,
+        "primary_metabolite_nodes": 21,
+        "reactions": 16,
+        "segments": 107
+      },
+      "delta": {
+        "nodes": 0,
+        "metabolite_nodes": 0,
+        "primary_metabolite_nodes": 0,
+        "reactions": 0,
+        "segments": 0
+      },
+      "reaction_id_diff": {
+        "added_count": 0,
+        "removed_count": 0,
+        "added": [],
+        "removed": []
+      }
+    },
+    {
+      "label": "supplementary/rn00010/fluxes.json",
+      "old_path": "rerun_bigg_ec_fallback_only/BioEMMA_article\\figures_scripts\\supplementary_figures\\outputs\\rn00010\\fluxes.json",
+      "new_path": "rerun_bigg_modelseed_ec_fallback/BioEMMA_article\\figures_scripts\\supplementary_figures\\outputs\\rn00010\\fluxes.json",
+      "old_exists": true,
+      "new_exists": true,
+      "sha256_equal": true,
+      "kind": "json",
+      "json_equal": true
+    },
+    {
+      "label": "figure_03/map00020/gapseq/gapseq_map00020_map.json",
+      "old_path": "rerun_bigg_ec_fallback_only/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\gapseq\\gapseq_map00020_map.json",
+      "new_path": "rerun_bigg_modelseed_ec_fallback/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\gapseq\\gapseq_map00020_map.json",
+      "old_exists": true,
+      "new_exists": true,
+      "sha256_equal": true,
+      "kind": "escher_map",
+      "old": {
+        "nodes": 159,
+        "metabolite_nodes": 90,
+        "primary_metabolite_nodes": 20,
+        "reactions": 23,
+        "segments": 168
+      },
+      "new": {
+        "nodes": 159,
+        "metabolite_nodes": 90,
+        "primary_metabolite_nodes": 20,
+        "reactions": 23,
+        "segments": 168
+      },
+      "delta": {
+        "nodes": 0,
+        "metabolite_nodes": 0,
+        "primary_metabolite_nodes": 0,
+        "reactions": 0,
+        "segments": 0
+      },
+      "reaction_id_diff": {
+        "added_count": 0,
+        "removed_count": 0,
+        "added": [],
+        "removed": []
+      }
+    },
+    {
+      "label": "figure_03/map00020/gapseq/gapseq_map00020_full_flux_map.json",
+      "old_path": "rerun_bigg_ec_fallback_only/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\gapseq\\gapseq_map00020_full_flux_map.json",
+      "new_path": "rerun_bigg_modelseed_ec_fallback/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\gapseq\\gapseq_map00020_full_flux_map.json",
+      "old_exists": true,
+      "new_exists": true,
+      "sha256_equal": true,
+      "kind": "escher_map",
+      "old": {
+        "nodes": 159,
+        "metabolite_nodes": 90,
+        "primary_metabolite_nodes": 20,
+        "reactions": 23,
+        "segments": 168
+      },
+      "new": {
+        "nodes": 159,
+        "metabolite_nodes": 90,
+        "primary_metabolite_nodes": 20,
+        "reactions": 23,
+        "segments": 168
+      },
+      "delta": {
+        "nodes": 0,
+        "metabolite_nodes": 0,
+        "primary_metabolite_nodes": 0,
+        "reactions": 0,
+        "segments": 0
+      },
+      "reaction_id_diff": {
+        "added_count": 0,
+        "removed_count": 0,
+        "added": [],
+        "removed": []
+      }
+    },
+    {
+      "label": "figure_03/map00020/gapseq/gapseq_map00020_full_fluxes.json",
+      "old_path": "rerun_bigg_ec_fallback_only/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\gapseq\\gapseq_map00020_full_fluxes.json",
+      "new_path": "rerun_bigg_modelseed_ec_fallback/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\gapseq\\gapseq_map00020_full_fluxes.json",
+      "old_exists": true,
+      "new_exists": true,
+      "sha256_equal": false,
+      "kind": "flux_json",
+      "old": {
+        "solution_status": "optimal",
+        "objective_value": 0.36441784289723095,
+        "reaction_data_count": 20,
+        "matches": 23,
+        "matched": 20,
+        "unmatched": 3
+      },
+      "new": {
+        "solution_status": "optimal",
+        "objective_value": 0.36441784289723095,
+        "reaction_data_count": 20,
+        "matches": 23,
+        "matched": 20,
+        "unmatched": 3
+      },
+      "delta": {
+        "reaction_data_count": 0,
+        "matches": 0,
+        "matched": 0,
+        "unmatched": 0
+      },
+      "reaction_data_diff": {
+        "added_count": 0,
+        "removed_count": 0,
+        "added": [],
+        "removed": []
+      },
+      "old_unmatched_map_reaction_ids": [
+        [
+          "ACITL",
+          "R00352"
+        ],
+        [
+          "PC",
+          "R00344"
+        ],
+        [
+          "R01196",
+          "rxn05940_c0"
+        ]
+      ],
+      "new_unmatched_map_reaction_ids": [
+        [
+          "ACITL",
+          "R00352"
+        ],
+        [
+          "PC",
+          "R00344"
+        ],
+        [
+          "R01196",
+          "rxn05940_c0"
+        ]
+      ]
+    },
+    {
+      "label": "figure_03/map00020/modelseed/modelseed_map00020_map.json",
+      "old_path": "rerun_bigg_ec_fallback_only/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\modelseed\\modelseed_map00020_map.json",
+      "new_path": "rerun_bigg_modelseed_ec_fallback/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\modelseed\\modelseed_map00020_map.json",
+      "old_exists": true,
+      "new_exists": true,
+      "sha256_equal": true,
+      "kind": "escher_map",
+      "old": {
+        "nodes": 99,
+        "metabolite_nodes": 66,
+        "primary_metabolite_nodes": 16,
+        "reactions": 11,
+        "segments": 97
+      },
+      "new": {
+        "nodes": 99,
+        "metabolite_nodes": 66,
+        "primary_metabolite_nodes": 16,
+        "reactions": 11,
+        "segments": 97
+      },
+      "delta": {
+        "nodes": 0,
+        "metabolite_nodes": 0,
+        "primary_metabolite_nodes": 0,
+        "reactions": 0,
+        "segments": 0
+      },
+      "reaction_id_diff": {
+        "added_count": 0,
+        "removed_count": 0,
+        "added": [],
+        "removed": []
+      }
+    },
+    {
+      "label": "figure_03/map00020/modelseed/modelseed_map00020_full_flux_map.json",
+      "old_path": "rerun_bigg_ec_fallback_only/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\modelseed\\modelseed_map00020_full_flux_map.json",
+      "new_path": "rerun_bigg_modelseed_ec_fallback/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\modelseed\\modelseed_map00020_full_flux_map.json",
+      "old_exists": true,
+      "new_exists": true,
+      "sha256_equal": true,
+      "kind": "escher_map",
+      "old": {
+        "nodes": 99,
+        "metabolite_nodes": 66,
+        "primary_metabolite_nodes": 16,
+        "reactions": 11,
+        "segments": 97
+      },
+      "new": {
+        "nodes": 99,
+        "metabolite_nodes": 66,
+        "primary_metabolite_nodes": 16,
+        "reactions": 11,
+        "segments": 97
+      },
+      "delta": {
+        "nodes": 0,
+        "metabolite_nodes": 0,
+        "primary_metabolite_nodes": 0,
+        "reactions": 0,
+        "segments": 0
+      },
+      "reaction_id_diff": {
+        "added_count": 0,
+        "removed_count": 0,
+        "added": [],
+        "removed": []
+      }
+    },
+    {
+      "label": "figure_03/map00020/modelseed/modelseed_map00020_full_fluxes.json",
+      "old_path": "rerun_bigg_ec_fallback_only/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\modelseed\\modelseed_map00020_full_fluxes.json",
+      "new_path": "rerun_bigg_modelseed_ec_fallback/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\modelseed\\modelseed_map00020_full_fluxes.json",
+      "old_exists": true,
+      "new_exists": true,
+      "sha256_equal": false,
+      "kind": "flux_json",
+      "old": {
+        "solution_status": "optimal",
+        "objective_value": 0.27526073954662356,
+        "reaction_data_count": 11,
+        "matches": 11,
+        "matched": 11,
+        "unmatched": 0
+      },
+      "new": {
+        "solution_status": "optimal",
+        "objective_value": 0.27526073954662356,
+        "reaction_data_count": 11,
+        "matches": 11,
+        "matched": 11,
+        "unmatched": 0
+      },
+      "delta": {
+        "reaction_data_count": 0,
+        "matches": 0,
+        "matched": 0,
+        "unmatched": 0
+      },
+      "reaction_data_diff": {
+        "added_count": 0,
+        "removed_count": 0,
+        "added": [],
+        "removed": []
+      },
+      "old_unmatched_map_reaction_ids": [],
+      "new_unmatched_map_reaction_ids": []
+    },
+    {
+      "label": "figure_03/map00020/reconstructor/reconstructor_map00020_map.json",
+      "old_path": "rerun_bigg_ec_fallback_only/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\reconstructor\\reconstructor_map00020_map.json",
+      "new_path": "rerun_bigg_modelseed_ec_fallback/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\reconstructor\\reconstructor_map00020_map.json",
+      "old_exists": true,
+      "new_exists": true,
+      "sha256_equal": true,
+      "kind": "escher_map",
+      "old": {
+        "nodes": 94,
+        "metabolite_nodes": 52,
+        "primary_metabolite_nodes": 16,
+        "reactions": 14,
+        "segments": 95
+      },
+      "new": {
+        "nodes": 94,
+        "metabolite_nodes": 52,
+        "primary_metabolite_nodes": 16,
+        "reactions": 14,
+        "segments": 95
+      },
+      "delta": {
+        "nodes": 0,
+        "metabolite_nodes": 0,
+        "primary_metabolite_nodes": 0,
+        "reactions": 0,
+        "segments": 0
+      },
+      "reaction_id_diff": {
+        "added_count": 0,
+        "removed_count": 0,
+        "added": [],
+        "removed": []
+      }
+    },
+    {
+      "label": "figure_03/map00020/reconstructor/reconstructor_map00020_full_flux_map.json",
+      "old_path": "rerun_bigg_ec_fallback_only/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\reconstructor\\reconstructor_map00020_full_flux_map.json",
+      "new_path": "rerun_bigg_modelseed_ec_fallback/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\reconstructor\\reconstructor_map00020_full_flux_map.json",
+      "old_exists": true,
+      "new_exists": true,
+      "sha256_equal": true,
+      "kind": "escher_map",
+      "old": {
+        "nodes": 94,
+        "metabolite_nodes": 52,
+        "primary_metabolite_nodes": 16,
+        "reactions": 14,
+        "segments": 95
+      },
+      "new": {
+        "nodes": 94,
+        "metabolite_nodes": 52,
+        "primary_metabolite_nodes": 16,
+        "reactions": 14,
+        "segments": 95
+      },
+      "delta": {
+        "nodes": 0,
+        "metabolite_nodes": 0,
+        "primary_metabolite_nodes": 0,
+        "reactions": 0,
+        "segments": 0
+      },
+      "reaction_id_diff": {
+        "added_count": 0,
+        "removed_count": 0,
+        "added": [],
+        "removed": []
+      }
+    },
+    {
+      "label": "figure_03/map00020/reconstructor/reconstructor_map00020_full_fluxes.json",
+      "old_path": "rerun_bigg_ec_fallback_only/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\reconstructor\\reconstructor_map00020_full_fluxes.json",
+      "new_path": "rerun_bigg_modelseed_ec_fallback/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\reconstructor\\reconstructor_map00020_full_fluxes.json",
+      "old_exists": true,
+      "new_exists": true,
+      "sha256_equal": true,
+      "kind": "flux_json",
+      "old": {
+        "solution_status": "optimal",
+        "objective_value": 545.416564628316,
+        "reaction_data_count": 14,
+        "matches": 14,
+        "matched": 14,
+        "unmatched": 0
+      },
+      "new": {
+        "solution_status": "optimal",
+        "objective_value": 545.416564628316,
+        "reaction_data_count": 14,
+        "matches": 14,
+        "matched": 14,
+        "unmatched": 0
+      },
+      "delta": {
+        "reaction_data_count": 0,
+        "matches": 0,
+        "matched": 0,
+        "unmatched": 0
+      },
+      "reaction_data_diff": {
+        "added_count": 0,
+        "removed_count": 0,
+        "added": [],
+        "removed": []
+      },
+      "old_unmatched_map_reaction_ids": [],
+      "new_unmatched_map_reaction_ids": []
+    },
+    {
+      "label": "figure_03/map00020/selected/cs_pdh_por_aconitase/gapseq_map00020_cs_pdh_por_aconitase.json",
+      "old_path": "rerun_bigg_ec_fallback_only/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\selected_reaction_fragments\\cs_pdh_por_aconitase\\gapseq_map00020_cs_pdh_por_aconitase.json",
+      "new_path": "rerun_bigg_modelseed_ec_fallback/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\selected_reaction_fragments\\cs_pdh_por_aconitase\\gapseq_map00020_cs_pdh_por_aconitase.json",
+      "old_exists": true,
+      "new_exists": true,
+      "sha256_equal": true,
+      "kind": "escher_map",
+      "old": {
+        "nodes": 37,
+        "metabolite_nodes": 22,
+        "primary_metabolite_nodes": 8,
+        "reactions": 5,
+        "segments": 36
+      },
+      "new": {
+        "nodes": 37,
+        "metabolite_nodes": 22,
+        "primary_metabolite_nodes": 8,
+        "reactions": 5,
+        "segments": 36
+      },
+      "delta": {
+        "nodes": 0,
+        "metabolite_nodes": 0,
+        "primary_metabolite_nodes": 0,
+        "reactions": 0,
+        "segments": 0
+      },
+      "reaction_id_diff": {
+        "added_count": 0,
+        "removed_count": 0,
+        "added": [],
+        "removed": []
+      }
+    },
+    {
+      "label": "figure_03/map00020/selected/cs_pdh_por_aconitase/gapseq_map00020_cs_pdh_por_aconitase_flux_map.json",
+      "old_path": "rerun_bigg_ec_fallback_only/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\selected_reaction_fragments\\cs_pdh_por_aconitase\\gapseq_map00020_cs_pdh_por_aconitase_flux_map.json",
+      "new_path": "rerun_bigg_modelseed_ec_fallback/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\selected_reaction_fragments\\cs_pdh_por_aconitase\\gapseq_map00020_cs_pdh_por_aconitase_flux_map.json",
+      "old_exists": true,
+      "new_exists": true,
+      "sha256_equal": true,
+      "kind": "escher_map",
+      "old": {
+        "nodes": 37,
+        "metabolite_nodes": 22,
+        "primary_metabolite_nodes": 8,
+        "reactions": 5,
+        "segments": 36
+      },
+      "new": {
+        "nodes": 37,
+        "metabolite_nodes": 22,
+        "primary_metabolite_nodes": 8,
+        "reactions": 5,
+        "segments": 36
+      },
+      "delta": {
+        "nodes": 0,
+        "metabolite_nodes": 0,
+        "primary_metabolite_nodes": 0,
+        "reactions": 0,
+        "segments": 0
+      },
+      "reaction_id_diff": {
+        "added_count": 0,
+        "removed_count": 0,
+        "added": [],
+        "removed": []
+      }
+    },
+    {
+      "label": "figure_03/map00020/selected/cs_pdh_por_aconitase/gapseq_map00020_cs_pdh_por_aconitase_fluxes.json",
+      "old_path": "rerun_bigg_ec_fallback_only/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\selected_reaction_fragments\\cs_pdh_por_aconitase\\gapseq_map00020_cs_pdh_por_aconitase_fluxes.json",
+      "new_path": "rerun_bigg_modelseed_ec_fallback/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\selected_reaction_fragments\\cs_pdh_por_aconitase\\gapseq_map00020_cs_pdh_por_aconitase_fluxes.json",
+      "old_exists": true,
+      "new_exists": true,
+      "sha256_equal": false,
+      "kind": "flux_json",
+      "old": {
+        "solution_status": "optimal",
+        "objective_value": 0.3985473056901489,
+        "reaction_data_count": 5,
+        "matches": 5,
+        "matched": 5,
+        "unmatched": 0
+      },
+      "new": {
+        "solution_status": "optimal",
+        "objective_value": 0.3985473056901489,
+        "reaction_data_count": 5,
+        "matches": 5,
+        "matched": 5,
+        "unmatched": 0
+      },
+      "delta": {
+        "reaction_data_count": 0,
+        "matches": 0,
+        "matched": 0,
+        "unmatched": 0
+      },
+      "reaction_data_diff": {
+        "added_count": 0,
+        "removed_count": 0,
+        "added": [],
+        "removed": []
+      },
+      "old_unmatched_map_reaction_ids": [],
+      "new_unmatched_map_reaction_ids": []
+    },
+    {
+      "label": "figure_03/map00020/selected/cs_pdh_por_aconitase/modelseed_map00020_cs_pdh_por_aconitase.json",
+      "old_path": "rerun_bigg_ec_fallback_only/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\selected_reaction_fragments\\cs_pdh_por_aconitase\\modelseed_map00020_cs_pdh_por_aconitase.json",
+      "new_path": "rerun_bigg_modelseed_ec_fallback/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\selected_reaction_fragments\\cs_pdh_por_aconitase\\modelseed_map00020_cs_pdh_por_aconitase.json",
+      "old_exists": true,
+      "new_exists": true,
+      "sha256_equal": true,
+      "kind": "escher_map",
+      "old": {
+        "nodes": 37,
+        "metabolite_nodes": 25,
+        "primary_metabolite_nodes": 8,
+        "reactions": 4,
+        "segments": 35
+      },
+      "new": {
+        "nodes": 37,
+        "metabolite_nodes": 25,
+        "primary_metabolite_nodes": 8,
+        "reactions": 4,
+        "segments": 35
+      },
+      "delta": {
+        "nodes": 0,
+        "metabolite_nodes": 0,
+        "primary_metabolite_nodes": 0,
+        "reactions": 0,
+        "segments": 0
+      },
+      "reaction_id_diff": {
+        "added_count": 0,
+        "removed_count": 0,
+        "added": [],
+        "removed": []
+      }
+    },
+    {
+      "label": "figure_03/map00020/selected/cs_pdh_por_aconitase/modelseed_map00020_cs_pdh_por_aconitase_flux_map.json",
+      "old_path": "rerun_bigg_ec_fallback_only/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\selected_reaction_fragments\\cs_pdh_por_aconitase\\modelseed_map00020_cs_pdh_por_aconitase_flux_map.json",
+      "new_path": "rerun_bigg_modelseed_ec_fallback/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\selected_reaction_fragments\\cs_pdh_por_aconitase\\modelseed_map00020_cs_pdh_por_aconitase_flux_map.json",
+      "old_exists": true,
+      "new_exists": true,
+      "sha256_equal": true,
+      "kind": "escher_map",
+      "old": {
+        "nodes": 37,
+        "metabolite_nodes": 25,
+        "primary_metabolite_nodes": 8,
+        "reactions": 4,
+        "segments": 35
+      },
+      "new": {
+        "nodes": 37,
+        "metabolite_nodes": 25,
+        "primary_metabolite_nodes": 8,
+        "reactions": 4,
+        "segments": 35
+      },
+      "delta": {
+        "nodes": 0,
+        "metabolite_nodes": 0,
+        "primary_metabolite_nodes": 0,
+        "reactions": 0,
+        "segments": 0
+      },
+      "reaction_id_diff": {
+        "added_count": 0,
+        "removed_count": 0,
+        "added": [],
+        "removed": []
+      }
+    },
+    {
+      "label": "figure_03/map00020/selected/cs_pdh_por_aconitase/modelseed_map00020_cs_pdh_por_aconitase_fluxes.json",
+      "old_path": "rerun_bigg_ec_fallback_only/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\selected_reaction_fragments\\cs_pdh_por_aconitase\\modelseed_map00020_cs_pdh_por_aconitase_fluxes.json",
+      "new_path": "rerun_bigg_modelseed_ec_fallback/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\selected_reaction_fragments\\cs_pdh_por_aconitase\\modelseed_map00020_cs_pdh_por_aconitase_fluxes.json",
+      "old_exists": true,
+      "new_exists": true,
+      "sha256_equal": false,
+      "kind": "flux_json",
+      "old": {
+        "solution_status": "optimal",
+        "objective_value": 0.27526073954662356,
+        "reaction_data_count": 4,
+        "matches": 4,
+        "matched": 4,
+        "unmatched": 0
+      },
+      "new": {
+        "solution_status": "optimal",
+        "objective_value": 0.27526073954662356,
+        "reaction_data_count": 4,
+        "matches": 4,
+        "matched": 4,
+        "unmatched": 0
+      },
+      "delta": {
+        "reaction_data_count": 0,
+        "matches": 0,
+        "matched": 0,
+        "unmatched": 0
+      },
+      "reaction_data_diff": {
+        "added_count": 0,
+        "removed_count": 0,
+        "added": [],
+        "removed": []
+      },
+      "old_unmatched_map_reaction_ids": [],
+      "new_unmatched_map_reaction_ids": []
+    },
+    {
+      "label": "figure_03/map00020/selected/cs_pdh_por_aconitase/reconstructor_map00020_cs_pdh_por_aconitase.json",
+      "old_path": "rerun_bigg_ec_fallback_only/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\selected_reaction_fragments\\cs_pdh_por_aconitase\\reconstructor_map00020_cs_pdh_por_aconitase.json",
+      "new_path": "rerun_bigg_modelseed_ec_fallback/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\selected_reaction_fragments\\cs_pdh_por_aconitase\\reconstructor_map00020_cs_pdh_por_aconitase.json",
+      "old_exists": true,
+      "new_exists": true,
+      "sha256_equal": true,
+      "kind": "escher_map",
+      "old": {
+        "nodes": 35,
+        "metabolite_nodes": 20,
+        "primary_metabolite_nodes": 8,
+        "reactions": 5,
+        "segments": 34
+      },
+      "new": {
+        "nodes": 35,
+        "metabolite_nodes": 20,
+        "primary_metabolite_nodes": 8,
+        "reactions": 5,
+        "segments": 34
+      },
+      "delta": {
+        "nodes": 0,
+        "metabolite_nodes": 0,
+        "primary_metabolite_nodes": 0,
+        "reactions": 0,
+        "segments": 0
+      },
+      "reaction_id_diff": {
+        "added_count": 0,
+        "removed_count": 0,
+        "added": [],
+        "removed": []
+      }
+    },
+    {
+      "label": "figure_03/map00020/selected/cs_pdh_por_aconitase/reconstructor_map00020_cs_pdh_por_aconitase_flux_map.json",
+      "old_path": "rerun_bigg_ec_fallback_only/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\selected_reaction_fragments\\cs_pdh_por_aconitase\\reconstructor_map00020_cs_pdh_por_aconitase_flux_map.json",
+      "new_path": "rerun_bigg_modelseed_ec_fallback/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\selected_reaction_fragments\\cs_pdh_por_aconitase\\reconstructor_map00020_cs_pdh_por_aconitase_flux_map.json",
+      "old_exists": true,
+      "new_exists": true,
+      "sha256_equal": true,
+      "kind": "escher_map",
+      "old": {
+        "nodes": 35,
+        "metabolite_nodes": 20,
+        "primary_metabolite_nodes": 8,
+        "reactions": 5,
+        "segments": 34
+      },
+      "new": {
+        "nodes": 35,
+        "metabolite_nodes": 20,
+        "primary_metabolite_nodes": 8,
+        "reactions": 5,
+        "segments": 34
+      },
+      "delta": {
+        "nodes": 0,
+        "metabolite_nodes": 0,
+        "primary_metabolite_nodes": 0,
+        "reactions": 0,
+        "segments": 0
+      },
+      "reaction_id_diff": {
+        "added_count": 0,
+        "removed_count": 0,
+        "added": [],
+        "removed": []
+      }
+    },
+    {
+      "label": "figure_03/map00020/selected/cs_pdh_por_aconitase/reconstructor_map00020_cs_pdh_por_aconitase_fluxes.json",
+      "old_path": "rerun_bigg_ec_fallback_only/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\selected_reaction_fragments\\cs_pdh_por_aconitase\\reconstructor_map00020_cs_pdh_por_aconitase_fluxes.json",
+      "new_path": "rerun_bigg_modelseed_ec_fallback/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\selected_reaction_fragments\\cs_pdh_por_aconitase\\reconstructor_map00020_cs_pdh_por_aconitase_fluxes.json",
+      "old_exists": true,
+      "new_exists": true,
+      "sha256_equal": false,
+      "kind": "flux_json",
+      "old": {
+        "solution_status": "optimal",
+        "objective_value": 555.503477104577,
+        "reaction_data_count": 5,
+        "matches": 5,
+        "matched": 5,
+        "unmatched": 0
+      },
+      "new": {
+        "solution_status": "optimal",
+        "objective_value": 555.503477104577,
+        "reaction_data_count": 5,
+        "matches": 5,
+        "matched": 5,
+        "unmatched": 0
+      },
+      "delta": {
+        "reaction_data_count": 0,
+        "matches": 0,
+        "matched": 0,
+        "unmatched": 0
+      },
+      "reaction_data_diff": {
+        "added_count": 0,
+        "removed_count": 0,
+        "added": [],
+        "removed": []
+      },
+      "old_unmatched_map_reaction_ids": [],
+      "new_unmatched_map_reaction_ids": []
+    },
+    {
+      "label": "figure_03/map00020/selected/aconitase_icd_osucc/gapseq_map00020_aconitase_icd_osucc.json",
+      "old_path": "rerun_bigg_ec_fallback_only/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\selected_reaction_fragments\\aconitase_icd_osucc\\gapseq_map00020_aconitase_icd_osucc.json",
+      "new_path": "rerun_bigg_modelseed_ec_fallback/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\selected_reaction_fragments\\aconitase_icd_osucc\\gapseq_map00020_aconitase_icd_osucc.json",
+      "old_exists": true,
+      "new_exists": true,
+      "sha256_equal": true,
+      "kind": "escher_map",
+      "old": {
+        "nodes": 25,
+        "metabolite_nodes": 13,
+        "primary_metabolite_nodes": 4,
+        "reactions": 4,
+        "segments": 25
+      },
+      "new": {
+        "nodes": 25,
+        "metabolite_nodes": 13,
+        "primary_metabolite_nodes": 4,
+        "reactions": 4,
+        "segments": 25
+      },
+      "delta": {
+        "nodes": 0,
+        "metabolite_nodes": 0,
+        "primary_metabolite_nodes": 0,
+        "reactions": 0,
+        "segments": 0
+      },
+      "reaction_id_diff": {
+        "added_count": 0,
+        "removed_count": 0,
+        "added": [],
+        "removed": []
+      }
+    },
+    {
+      "label": "figure_03/map00020/selected/aconitase_icd_osucc/gapseq_map00020_aconitase_icd_osucc_flux_map.json",
+      "old_path": "rerun_bigg_ec_fallback_only/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\selected_reaction_fragments\\aconitase_icd_osucc\\gapseq_map00020_aconitase_icd_osucc_flux_map.json",
+      "new_path": "rerun_bigg_modelseed_ec_fallback/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\selected_reaction_fragments\\aconitase_icd_osucc\\gapseq_map00020_aconitase_icd_osucc_flux_map.json",
+      "old_exists": true,
+      "new_exists": true,
+      "sha256_equal": true,
+      "kind": "escher_map",
+      "old": {
+        "nodes": 25,
+        "metabolite_nodes": 13,
+        "primary_metabolite_nodes": 4,
+        "reactions": 4,
+        "segments": 25
+      },
+      "new": {
+        "nodes": 25,
+        "metabolite_nodes": 13,
+        "primary_metabolite_nodes": 4,
+        "reactions": 4,
+        "segments": 25
+      },
+      "delta": {
+        "nodes": 0,
+        "metabolite_nodes": 0,
+        "primary_metabolite_nodes": 0,
+        "reactions": 0,
+        "segments": 0
+      },
+      "reaction_id_diff": {
+        "added_count": 0,
+        "removed_count": 0,
+        "added": [],
+        "removed": []
+      }
+    },
+    {
+      "label": "figure_03/map00020/selected/aconitase_icd_osucc/gapseq_map00020_aconitase_icd_osucc_fluxes.json",
+      "old_path": "rerun_bigg_ec_fallback_only/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\selected_reaction_fragments\\aconitase_icd_osucc\\gapseq_map00020_aconitase_icd_osucc_fluxes.json",
+      "new_path": "rerun_bigg_modelseed_ec_fallback/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\selected_reaction_fragments\\aconitase_icd_osucc\\gapseq_map00020_aconitase_icd_osucc_fluxes.json",
+      "old_exists": true,
+      "new_exists": true,
+      "sha256_equal": false,
+      "kind": "flux_json",
+      "old": {
+        "solution_status": "optimal",
+        "objective_value": 0.3985473056901489,
+        "reaction_data_count": 4,
+        "matches": 4,
+        "matched": 4,
+        "unmatched": 0
+      },
+      "new": {
+        "solution_status": "optimal",
+        "objective_value": 0.3985473056901489,
+        "reaction_data_count": 4,
+        "matches": 4,
+        "matched": 4,
+        "unmatched": 0
+      },
+      "delta": {
+        "reaction_data_count": 0,
+        "matches": 0,
+        "matched": 0,
+        "unmatched": 0
+      },
+      "reaction_data_diff": {
+        "added_count": 0,
+        "removed_count": 0,
+        "added": [],
+        "removed": []
+      },
+      "old_unmatched_map_reaction_ids": [],
+      "new_unmatched_map_reaction_ids": []
+    },
+    {
+      "label": "figure_03/map00020/selected/aconitase_icd_osucc/modelseed_map00020_aconitase_icd_osucc.json",
+      "old_path": "rerun_bigg_ec_fallback_only/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\selected_reaction_fragments\\aconitase_icd_osucc\\modelseed_map00020_aconitase_icd_osucc.json",
+      "new_path": "rerun_bigg_modelseed_ec_fallback/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\selected_reaction_fragments\\aconitase_icd_osucc\\modelseed_map00020_aconitase_icd_osucc.json",
+      "old_exists": true,
+      "new_exists": true,
+      "sha256_equal": true,
+      "kind": "escher_map",
+      "old": {
+        "nodes": 25,
+        "metabolite_nodes": 16,
+        "primary_metabolite_nodes": 4,
+        "reactions": 3,
+        "segments": 24
+      },
+      "new": {
+        "nodes": 25,
+        "metabolite_nodes": 16,
+        "primary_metabolite_nodes": 4,
+        "reactions": 3,
+        "segments": 24
+      },
+      "delta": {
+        "nodes": 0,
+        "metabolite_nodes": 0,
+        "primary_metabolite_nodes": 0,
+        "reactions": 0,
+        "segments": 0
+      },
+      "reaction_id_diff": {
+        "added_count": 0,
+        "removed_count": 0,
+        "added": [],
+        "removed": []
+      }
+    },
+    {
+      "label": "figure_03/map00020/selected/aconitase_icd_osucc/modelseed_map00020_aconitase_icd_osucc_flux_map.json",
+      "old_path": "rerun_bigg_ec_fallback_only/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\selected_reaction_fragments\\aconitase_icd_osucc\\modelseed_map00020_aconitase_icd_osucc_flux_map.json",
+      "new_path": "rerun_bigg_modelseed_ec_fallback/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\selected_reaction_fragments\\aconitase_icd_osucc\\modelseed_map00020_aconitase_icd_osucc_flux_map.json",
+      "old_exists": true,
+      "new_exists": true,
+      "sha256_equal": true,
+      "kind": "escher_map",
+      "old": {
+        "nodes": 25,
+        "metabolite_nodes": 16,
+        "primary_metabolite_nodes": 4,
+        "reactions": 3,
+        "segments": 24
+      },
+      "new": {
+        "nodes": 25,
+        "metabolite_nodes": 16,
+        "primary_metabolite_nodes": 4,
+        "reactions": 3,
+        "segments": 24
+      },
+      "delta": {
+        "nodes": 0,
+        "metabolite_nodes": 0,
+        "primary_metabolite_nodes": 0,
+        "reactions": 0,
+        "segments": 0
+      },
+      "reaction_id_diff": {
+        "added_count": 0,
+        "removed_count": 0,
+        "added": [],
+        "removed": []
+      }
+    },
+    {
+      "label": "figure_03/map00020/selected/aconitase_icd_osucc/modelseed_map00020_aconitase_icd_osucc_fluxes.json",
+      "old_path": "rerun_bigg_ec_fallback_only/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\selected_reaction_fragments\\aconitase_icd_osucc\\modelseed_map00020_aconitase_icd_osucc_fluxes.json",
+      "new_path": "rerun_bigg_modelseed_ec_fallback/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\selected_reaction_fragments\\aconitase_icd_osucc\\modelseed_map00020_aconitase_icd_osucc_fluxes.json",
+      "old_exists": true,
+      "new_exists": true,
+      "sha256_equal": false,
+      "kind": "flux_json",
+      "old": {
+        "solution_status": "optimal",
+        "objective_value": 0.27526073954662356,
+        "reaction_data_count": 3,
+        "matches": 3,
+        "matched": 3,
+        "unmatched": 0
+      },
+      "new": {
+        "solution_status": "optimal",
+        "objective_value": 0.27526073954662356,
+        "reaction_data_count": 3,
+        "matches": 3,
+        "matched": 3,
+        "unmatched": 0
+      },
+      "delta": {
+        "reaction_data_count": 0,
+        "matches": 0,
+        "matched": 0,
+        "unmatched": 0
+      },
+      "reaction_data_diff": {
+        "added_count": 0,
+        "removed_count": 0,
+        "added": [],
+        "removed": []
+      },
+      "old_unmatched_map_reaction_ids": [],
+      "new_unmatched_map_reaction_ids": []
+    },
+    {
+      "label": "figure_03/map00020/selected/aconitase_icd_osucc/reconstructor_map00020_aconitase_icd_osucc.json",
+      "old_path": "rerun_bigg_ec_fallback_only/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\selected_reaction_fragments\\aconitase_icd_osucc\\reconstructor_map00020_aconitase_icd_osucc.json",
+      "new_path": "rerun_bigg_modelseed_ec_fallback/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\selected_reaction_fragments\\aconitase_icd_osucc\\reconstructor_map00020_aconitase_icd_osucc.json",
+      "old_exists": true,
+      "new_exists": true,
+      "sha256_equal": true,
+      "kind": "escher_map",
+      "old": {
+        "nodes": 19,
+        "metabolite_nodes": 10,
+        "primary_metabolite_nodes": 4,
+        "reactions": 3,
+        "segments": 18
+      },
+      "new": {
+        "nodes": 19,
+        "metabolite_nodes": 10,
+        "primary_metabolite_nodes": 4,
+        "reactions": 3,
+        "segments": 18
+      },
+      "delta": {
+        "nodes": 0,
+        "metabolite_nodes": 0,
+        "primary_metabolite_nodes": 0,
+        "reactions": 0,
+        "segments": 0
+      },
+      "reaction_id_diff": {
+        "added_count": 0,
+        "removed_count": 0,
+        "added": [],
+        "removed": []
+      }
+    },
+    {
+      "label": "figure_03/map00020/selected/aconitase_icd_osucc/reconstructor_map00020_aconitase_icd_osucc_flux_map.json",
+      "old_path": "rerun_bigg_ec_fallback_only/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\selected_reaction_fragments\\aconitase_icd_osucc\\reconstructor_map00020_aconitase_icd_osucc_flux_map.json",
+      "new_path": "rerun_bigg_modelseed_ec_fallback/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\selected_reaction_fragments\\aconitase_icd_osucc\\reconstructor_map00020_aconitase_icd_osucc_flux_map.json",
+      "old_exists": true,
+      "new_exists": true,
+      "sha256_equal": true,
+      "kind": "escher_map",
+      "old": {
+        "nodes": 19,
+        "metabolite_nodes": 10,
+        "primary_metabolite_nodes": 4,
+        "reactions": 3,
+        "segments": 18
+      },
+      "new": {
+        "nodes": 19,
+        "metabolite_nodes": 10,
+        "primary_metabolite_nodes": 4,
+        "reactions": 3,
+        "segments": 18
+      },
+      "delta": {
+        "nodes": 0,
+        "metabolite_nodes": 0,
+        "primary_metabolite_nodes": 0,
+        "reactions": 0,
+        "segments": 0
+      },
+      "reaction_id_diff": {
+        "added_count": 0,
+        "removed_count": 0,
+        "added": [],
+        "removed": []
+      }
+    },
+    {
+      "label": "figure_03/map00020/selected/aconitase_icd_osucc/reconstructor_map00020_aconitase_icd_osucc_fluxes.json",
+      "old_path": "rerun_bigg_ec_fallback_only/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\selected_reaction_fragments\\aconitase_icd_osucc\\reconstructor_map00020_aconitase_icd_osucc_fluxes.json",
+      "new_path": "rerun_bigg_modelseed_ec_fallback/BioEMMA_article\\figures_scripts\\fig6_map00020\\outputs\\map00020\\selected_reaction_fragments\\aconitase_icd_osucc\\reconstructor_map00020_aconitase_icd_osucc_fluxes.json",
+      "old_exists": true,
+      "new_exists": true,
+      "sha256_equal": false,
+      "kind": "flux_json",
+      "old": {
+        "solution_status": "optimal",
+        "objective_value": 555.503477104577,
+        "reaction_data_count": 3,
+        "matches": 3,
+        "matched": 3,
+        "unmatched": 0
+      },
+      "new": {
+        "solution_status": "optimal",
+        "objective_value": 555.503477104577,
+        "reaction_data_count": 3,
+        "matches": 3,
+        "matched": 3,
+        "unmatched": 0
+      },
+      "delta": {
+        "reaction_data_count": 0,
+        "matches": 0,
+        "matched": 0,
+        "unmatched": 0
+      },
+      "reaction_data_diff": {
+        "added_count": 0,
+        "removed_count": 0,
+        "added": [],
+        "removed": []
+      },
+      "old_unmatched_map_reaction_ids": [],
+      "new_unmatched_map_reaction_ids": []
+    }
+  ]
+}

@@ -1,0 +1,407 @@
+{
+  "organism": "Mus musculus",
+  "model_id": "iMM1415",
+  "pathway": "rn00630",
+  "title": "Glyoxylate and dicarboxylate metabolism",
+  "bioemma_version": "0.4.1",
+  "kgml": "data\\compartment_models\\recon3d_probe\\kgml\\rn00630.xml",
+  "compartments": [
+    [
+      "c",
+      "cytosol"
+    ],
+    [
+      "m",
+      "mitochondria"
+    ],
+    [
+      "x",
+      "peroxisome/glyoxysome"
+    ]
+  ],
+  "reaction_counts": {
+    "c": 24,
+    "m": 20,
+    "x": 6
+  },
+  "compartment_summaries": {
+    "c": {
+      "label": "cytosol",
+      "reaction_count": 24,
+      "nodes": 185,
+      "segments": 171,
+      "build_sec": 2.9963979000021936
+    },
+    "m": {
+      "label": "mitochondria",
+      "reaction_count": 20,
+      "nodes": 141,
+      "segments": 127,
+      "build_sec": 2.364717299999029
+    },
+    "x": {
+      "label": "peroxisome/glyoxysome",
+      "reaction_count": 6,
+      "nodes": 48,
+      "segments": 33,
+      "build_sec": 2.046312400001625
+    }
+  },
+  "alignment": {
+    "reference_compartment": "c",
+    "translations": {
+      "c": {
+        "dx": 0.0,
+        "dy": 0.0,
+        "anchors": 24
+      },
+      "m": {
+        "dx": 224.9011112804801,
+        "dy": -17.37364299443834,
+        "anchors": 12
+      },
+      "x": {
+        "dx": 342.9011112804801,
+        "dy": 66.95811513588524,
+        "anchors": 3
+      }
+    },
+    "max_shared_y_delta_after_alignment": 0.0,
+    "reaction_counts": {
+      "c": 24,
+      "m": 20,
+      "x": 6
+    },
+    "canvas": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 14765.40666768288,
+      "height": 3872.747285988877
+    }
+  },
+  "flux_summary": {
+    "by_compartment": {
+      "c": {
+        "mapped": 24,
+        "with_flux": 23,
+        "nonzero_flux": 6
+      },
+      "m": {
+        "mapped": 20,
+        "with_flux": 20,
+        "nonzero_flux": 8
+      },
+      "x": {
+        "mapped": 6,
+        "with_flux": 6,
+        "nonzero_flux": 1
+      }
+    },
+    "rows": [
+      {
+        "compartment": "c",
+        "kegg": "R00009",
+        "bigg_id": "PRDX",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00235",
+        "bigg_id": "ACS",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00238",
+        "bigg_id": "ACACT1r",
+        "flux": null
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00253",
+        "bigg_id": "GLNS",
+        "flux": 1.4116932535108548
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00342",
+        "bigg_id": "MDH",
+        "flux": -4.8575729825856
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00369",
+        "bigg_id": "3HKYNAKGAT",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00465",
+        "bigg_id": "GLYCLTDy",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00519",
+        "bigg_id": "FDH",
+        "flux": 0.9645508744530802
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00521",
+        "bigg_id": "FCOAH",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00526",
+        "bigg_id": "NACASPAH",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00717",
+        "bigg_id": "G3PD1ir",
+        "flux": -0.8377520792275569
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00945",
+        "bigg_id": "GHMT2r",
+        "flux": 0.4235550762900001
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01325",
+        "bigg_id": "ACONT",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01333",
+        "bigg_id": "GCALDD",
+        "flux": -1.9134684781247561e-16
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01334",
+        "bigg_id": "PGLYCP",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01392",
+        "bigg_id": "HPYRRy",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01393",
+        "bigg_id": "HPYRDC",
+        "flux": -1.9134684781247556e-16
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01745",
+        "bigg_id": "ALR2",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01781",
+        "bigg_id": "LCARR",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01859",
+        "bigg_id": "ACCOAC",
+        "flux": 5.913942871022954e-31
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01959",
+        "bigg_id": "FKYNH",
+        "flux": 0.940009172151366
+      },
+      {
+        "compartment": "c",
+        "kegg": "R03140",
+        "bigg_id": "3HXKYNDCL",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R08572",
+        "bigg_id": "GLYCK2",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R12696",
+        "bigg_id": "GHMT3",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00009",
+        "bigg_id": "CATm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00021",
+        "bigg_id": "GLUNm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00235",
+        "bigg_id": "ACSm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00238",
+        "bigg_id": "ACACT1m",
+        "flux": 7.320431239966673
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00342",
+        "bigg_id": "MDHm",
+        "flux": 7.040561699474832
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00351",
+        "bigg_id": "CSm",
+        "flux": 0.6107828144858275
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00369",
+        "bigg_id": "AGTim",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00465",
+        "bigg_id": "GLYCLTDym",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00470",
+        "bigg_id": "DDPGAm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00833",
+        "bigg_id": "MMMm",
+        "flux": 0.9910633498184239
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00945",
+        "bigg_id": "GHMT2rm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R01221",
+        "bigg_id": "2OXOADOXm",
+        "flux": 1.16285526593042
+      },
+      {
+        "compartment": "m",
+        "kegg": "R01325",
+        "bigg_id": "ACONTm",
+        "flux": 0.6107828144858274
+      },
+      {
+        "compartment": "m",
+        "kegg": "R01333",
+        "bigg_id": "GCALDDm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R01388",
+        "bigg_id": "LDH_Lm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R01393",
+        "bigg_id": "HPYRDCm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R01859",
+        "bigg_id": "PPCOACm",
+        "flux": 0.558249358569149
+      },
+      {
+        "compartment": "m",
+        "kegg": "R02765",
+        "bigg_id": "MMEm",
+        "flux": -0.5582493585691493
+      },
+      {
+        "compartment": "m",
+        "kegg": "R03027",
+        "bigg_id": "3HBCDm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R12696",
+        "bigg_id": "GHMT3m",
+        "flux": 0.0
+      },
+      {
+        "compartment": "x",
+        "kegg": "R00009",
+        "bigg_id": "CATp",
+        "flux": 1.4865087074039367
+      },
+      {
+        "compartment": "x",
+        "kegg": "R00238",
+        "bigg_id": "ACACT1x",
+        "flux": 0.0
+      },
+      {
+        "compartment": "x",
+        "kegg": "R00369",
+        "bigg_id": "AGTix",
+        "flux": -1.9134684781247556e-16
+      },
+      {
+        "compartment": "x",
+        "kegg": "R00466",
+        "bigg_id": "GLXO2p",
+        "flux": 0.0
+      },
+      {
+        "compartment": "x",
+        "kegg": "R00475",
+        "bigg_id": "GLYCTO1p",
+        "flux": -1.913468478124756e-16
+      },
+      {
+        "compartment": "x",
+        "kegg": "R03027",
+        "bigg_id": "ECOAH1x",
+        "flux": 0.0
+      }
+    ]
+  },
+  "html": "results\\compartments\\mouse_iMM1415\\rn00630\\iMM1415_rn00630_compartments.html",
+  "map_json": "results\\compartments\\mouse_iMM1415\\rn00630\\iMM1415_rn00630_compartments.json",
+  "flux_tsv": "results\\compartments\\mouse_iMM1415\\rn00630\\iMM1415_rn00630_flux.tsv",
+  "summary_json": "results\\compartments\\mouse_iMM1415\\rn00630\\summary.json"
+}

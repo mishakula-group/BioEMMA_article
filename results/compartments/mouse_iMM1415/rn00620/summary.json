@@ -1,0 +1,372 @@
+{
+  "organism": "Mus musculus",
+  "model_id": "iMM1415",
+  "pathway": "rn00620",
+  "title": "Pyruvate metabolism",
+  "bioemma_version": "0.4.1",
+  "kgml": "data\\compartment_models\\recon3d_probe\\kgml\\rn00620.xml",
+  "compartments": [
+    [
+      "c",
+      "cytosol"
+    ],
+    [
+      "m",
+      "mitochondria"
+    ]
+  ],
+  "reaction_counts": {
+    "c": 25,
+    "m": 23
+  },
+  "compartment_summaries": {
+    "c": {
+      "label": "cytosol",
+      "reaction_count": 25,
+      "nodes": 187,
+      "segments": 190,
+      "build_sec": 2.6107615000000806
+    },
+    "m": {
+      "label": "mitochondria",
+      "reaction_count": 23,
+      "nodes": 178,
+      "segments": 178,
+      "build_sec": 1.975050299995928
+    }
+  },
+  "alignment": {
+    "reference_compartment": "c",
+    "translations": {
+      "c": {
+        "dx": 0.0,
+        "dy": 0.0,
+        "anchors": 25
+      },
+      "m": {
+        "dx": 0.0,
+        "dy": 0.0,
+        "anchors": 17
+      }
+    },
+    "max_shared_y_delta_after_alignment": 0.0,
+    "reaction_counts": {
+      "c": 25,
+      "m": 23
+    },
+    "canvas": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 6467.373674249083,
+      "height": 3818.6215598025087
+    }
+  },
+  "flux_summary": {
+    "by_compartment": {
+      "c": {
+        "mapped": 25,
+        "with_flux": 24,
+        "nonzero_flux": 3
+      },
+      "m": {
+        "mapped": 23,
+        "with_flux": 23,
+        "nonzero_flux": 8
+      }
+    },
+    "rows": [
+      {
+        "compartment": "c",
+        "kegg": "R00200",
+        "bigg_id": "PYK",
+        "flux": 0.5258514194110471
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00203",
+        "bigg_id": "34DHALDD",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00205",
+        "bigg_id": "ALR",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00216",
+        "bigg_id": "ME2",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00217",
+        "bigg_id": "CYSLYSL",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00227",
+        "bigg_id": "ACOAH",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00229",
+        "bigg_id": "ACCOAL",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00236",
+        "bigg_id": "ACS",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00238",
+        "bigg_id": "ACACT1r",
+        "flux": null
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00317",
+        "bigg_id": "ACYP",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00342",
+        "bigg_id": "MDH",
+        "flux": -4.8575729825856
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00431",
+        "bigg_id": "PEPCK_re",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00703",
+        "bigg_id": "ALR2",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00704",
+        "bigg_id": "LDH_D",
+        "flux": 2.597369466321365e-15
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00710",
+        "bigg_id": "ALDD2x",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00711",
+        "bigg_id": "ALDD2y",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00742",
+        "bigg_id": "ACCOAC",
+        "flux": 5.913942871022954e-31
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00746",
+        "bigg_id": "ALCD2y",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00754",
+        "bigg_id": "FALDH",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01082",
+        "bigg_id": "FUM",
+        "flux": 0.6821849551928372
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01446",
+        "bigg_id": "LCADi",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01735",
+        "bigg_id": "LCADi_D",
+        "flux": 2.597369466321365e-15
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01736",
+        "bigg_id": "GLYOX",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R02527",
+        "bigg_id": "LALDO2x",
+        "flux": 2.597369466321365e-15
+      },
+      {
+        "compartment": "c",
+        "kegg": "R02530",
+        "bigg_id": "LGTHL",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00203",
+        "bigg_id": "5HOXINDACTOXm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00210",
+        "bigg_id": "PDHm",
+        "flux": 0.757324293393158
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00214",
+        "bigg_id": "ME1m",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00216",
+        "bigg_id": "ME2m",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00217",
+        "bigg_id": "DDPGAm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00227",
+        "bigg_id": "4HBZFm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00236",
+        "bigg_id": "ACSm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00238",
+        "bigg_id": "ACACT1m",
+        "flux": 7.320431239966673
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00271",
+        "bigg_id": "CSm",
+        "flux": 0.6107828144858275
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00342",
+        "bigg_id": "MDHm",
+        "flux": 7.040561699474832
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00344",
+        "bigg_id": "PCm",
+        "flux": 0.00773435466475447
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00431",
+        "bigg_id": "PEPCKm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00703",
+        "bigg_id": "LDH_Lm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00710",
+        "bigg_id": "ALDD2xm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00711",
+        "bigg_id": "4HGLSDm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00742",
+        "bigg_id": "ACCOACrm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R01082",
+        "bigg_id": "FUMm",
+        "flux": 1.5008037616963956
+      },
+      {
+        "compartment": "m",
+        "kegg": "R01446",
+        "bigg_id": "LCADm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R01735",
+        "bigg_id": "LCADi_Dm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R01736",
+        "bigg_id": "GLYOXm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R02164",
+        "bigg_id": "SUCD1m",
+        "flux": 1.5008037616963956
+      },
+      {
+        "compartment": "m",
+        "kegg": "R02527",
+        "bigg_id": "GLYCLTDym",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R07618",
+        "bigg_id": "2OXOADOXm",
+        "flux": 1.16285526593042
+      }
+    ]
+  },
+  "html": "results\\compartments\\mouse_iMM1415\\rn00620\\iMM1415_rn00620_compartments.html",
+  "map_json": "results\\compartments\\mouse_iMM1415\\rn00620\\iMM1415_rn00620_compartments.json",
+  "flux_tsv": "results\\compartments\\mouse_iMM1415\\rn00620\\iMM1415_rn00620_flux.tsv",
+  "summary_json": "results\\compartments\\mouse_iMM1415\\rn00620\\summary.json"
+}
