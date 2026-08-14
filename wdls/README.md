@@ -4,6 +4,9 @@ This folder contains the WDL files used to expose the BioEMMA article pipeline
 scenarios outside the BioUML web interface. The workflows are written for
 Cromwell/WDL v1 execution and use Docker images for each pipeline tool.
 
+BioUML pipeline documentation is available in the
+[BioUML Flux Modeling documentation](https://biouml-flux-modeling.readthedocs.io/en/latest/index.html).
+
 ## Article run
 
 The article test case for comparing three reconstructions used:

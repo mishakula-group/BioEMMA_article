@@ -4,7 +4,7 @@ This directory contains the publication materials for KEGG `map00020` (citrate
 cycle / TCA cycle). The `figure_03` parent folder is kept because the article
 cites this path directly.
 
-These files support Figure 6 and Supplementary Figures S10-S13.
+These files support Figure 6 and Supplementary Figures S11-S14.
 
 ## Full maps
 
@@ -28,11 +28,11 @@ reaction matching details used for each overlay.
 
 ## Supplementary mapping
 
-- S10: `kegg_source_reconstruction.json` in each model folder records the KEGG
+- S11: `kegg_source_reconstruction.json` in each model folder records the KEGG
   source reconstruction used for the `map00020` reference geometry.
-- S11: `gapseq/`.
-- S12: `modelseed/`.
-- S13: `reconstructor/`.
+- S12: `gapseq/`.
+- S13: `modelseed/`.
+- S14: `reconstructor/`.
 
 ## Selected reaction fragments
 

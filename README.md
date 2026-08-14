@@ -21,7 +21,7 @@ The list below follows the article numbering.
   matching `map00010` BioEMMA/Escher fragments in `results/fig3_map00010/`.
 - Figure 5: `results/fig5_tool_comparison/tool_comparison_matrix.png` and
   `results/fig5_tool_comparison/tool_comparison.html`.
-- Figure 6 and Supplementary Figures S10-S13: `results/figure_03/map00020/`.
+- Figure 6 and Supplementary Figures S11-S14: `results/figure_03/map00020/`.
   This path is kept because it is cited directly in the article.
 - Table 2: `results/table2_reaction_retention/`.
 - Pathway-wide KEGG mapping data discussed in the limitations:

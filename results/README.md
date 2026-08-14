@@ -13,7 +13,7 @@ The source scripts and reproducible inputs remain in `figures_scripts/`,
   HTML/JSON, including the flux-overlay panel. These materials support Figure 3
   and part of Figure 4.
 - `fig4_naviflux/` - NAViFLuX reference images as PNG files for Figure 4.
-- `figure_03/map00020/` - Figure 6 and Supplementary S10-S13 materials: latest
+- `figure_03/map00020/` - Figure 6 and Supplementary S11-S14 materials: latest
   `map00020` citrate-cycle maps, selected reaction fragments, full-map flux
   overlays, and source model copies. This path is kept because it is cited
   directly in the article.
@@ -23,9 +23,9 @@ The source scripts and reproducible inputs remain in `figures_scripts/`,
   counts for the 153 reaction-containing KEGG maps in
   `data/kegg_pathways.tsv`; this path is kept because it is cited directly in
   the article.
-- `supplementary/` - Supplementary S1-S13 crosswalk and full `rn00010` map
+- `supplementary/` - Supplementary S1-S14 crosswalk and full `rn00010` map
   materials for S1-S4.
-- `fig5_tool_comparison/` - Figure 5 and Supplementary S5-S8 comparison
+- `fig5_tool_comparison/` - Figure 5 and Supplementary S5-S9 comparison
   artifacts for SAMMI, Fluxer, CAVE, MetExplore V2, NetworkX/Grohar baselines,
   and the Fluxer input model.
 
@@ -34,7 +34,7 @@ The source scripts and reproducible inputs remain in `figures_scripts/`,
 - The KEGG/BioEMMA map panels, NAViFLuX reference images, reaction-retention
   table, all-pathway mapping table, and Supplementary S1-S4 were regenerated
   with the repository scripts.
-- Figure 6 and Supplementary S10-S13 were prepared from the final gapseq,
+- Figure 6 and Supplementary S11-S14 were prepared from the final gapseq,
   ModelSEEDpy, and Reconstructor models stored in
   `figure_03/map00020/source_models/`.
 - The three-reconstructor pipeline run parameters and retained intermediate

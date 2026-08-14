@@ -7,4 +7,4 @@ curated results bundle instead:
 - `../../results/figure_03/map00020/source_models/`
 
 Those files are the publication materials for Figure 6 and
-Supplementary Figures S10-S13.
+Supplementary Figures S11-S14.
