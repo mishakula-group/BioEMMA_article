@@ -70,5 +70,28 @@ Current submitted export names:
   `../figure_03/map00020/reconstructor/reconstructor_map00020_map.html` and
   `../figure_03/map00020/reconstructor/reconstructor_map00020_full_with_fluxes.html`.
 
+## Supplementary tables
+
+- Table S1, EC-fallback validation for BiGG and SEED identifiers:
+  `../fallback/fallback_summary.md`,
+  `../fallback/evaluations/ec_fallback_eval/ec_fallback_confusion.json`,
+  `../fallback/evaluations/seed_fallback_eval/seed_fallback_confusion.json`, and
+  `../fallback/evaluations/seed_kegg_formula_eval/seed_kegg_formula_fallback_confusion.json`.
+- Table S2, tool descriptions and functional-comparison criteria:
+  `../fig5_tool_comparison/supplementary_table_s2_tool_descriptions.tsv`,
+  `../fig5_tool_comparison/supplementary_table_s2_tool_descriptions.md`,
+  `../fig5_tool_comparison/tool_comparison.html`, and
+  `../fig5_tool_comparison/tool_comparison_feature_definitions.md`.
+- Table S3, reaction presence/absence, union counts, two-model overlaps, and
+  pairwise Jaccard values for Table 2:
+  `../table2_reaction_retention/reaction_details.json`,
+  `../table2_reaction_retention/reaction_details.txt`,
+  `../table2_reaction_retention/reaction_retention.tsv`, and
+  `../table2_reaction_retention/kegg_mapping_by_database.tsv`.
+- Table S4, model-diversity evaluation summaries, retained-reaction counts,
+  Jaccard values, compartment maps, flux tables, and timing files:
+  `../jaccard/`, `../compartments/index.json`, `../compartments/index.html`,
+  and `../compartments/timing.csv`.
+
 Rendered article/MDPI supplementary images may be exported from these
 HTML/SVG/PNG materials. Summary-only scratch files are intentionally not kept.

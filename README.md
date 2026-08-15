@@ -19,13 +19,18 @@ The list below follows the article numbering.
   `results/supplementary/rn00010/`.
 - Figure 4: NAViFLuX reference images in `results/fig4_naviflux/`, with the
   matching `map00010` BioEMMA/Escher fragments in `results/fig3_map00010/`.
-- Figure 5: `results/fig5_tool_comparison/tool_comparison_matrix.png` and
-  `results/fig5_tool_comparison/tool_comparison.html`.
+- Figure 5 and Supplementary Table S2:
+  `results/fig5_tool_comparison/tool_comparison_matrix.png`,
+  `results/fig5_tool_comparison/tool_comparison.html`, and
+  `results/fig5_tool_comparison/supplementary_table_s2_tool_descriptions.tsv`.
 - Figure 6 and Supplementary Figures S11-S14: `results/figure_03/map00020/`.
   This path is kept because it is cited directly in the article.
-- Additional model-diversity and fallback-validation materials:
-  `results/jaccard/`, `results/compartments/`, and `results/fallback/`.
+- Additional model-diversity and fallback-validation materials for
+  Supplementary Tables S1 and S4: `results/fallback/`, `results/jaccard/`, and
+  `results/compartments/`.
 - Table 2: `results/table2_reaction_retention/`.
+- Supplementary Table S3 reaction-level summaries:
+  `results/table2_reaction_retention/`.
 - Pathway-wide KEGG mapping data discussed in the limitations:
   `results/table_02_kegg_database_mapping/`. This path is kept because the
   article cites it directly.

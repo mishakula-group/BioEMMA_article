@@ -26,6 +26,7 @@ BioEMMA 0.4.2 keeps the BiGG EC fallback from 0.4.1 and adds a separate SEED EC 
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | BiGG MNX participants inclusive best-ties | 1711 | 1697 | 14 | 0 | 0 | 0.934 | 1.000 | 0.966 |
 | BiGG KEGG formula inclusive best-ties | 1704 | 1668 | 36 | 0 | 0 | 0.907 | 1.000 | 0.951 |
+| SEED MNX participants inclusive best-ties | 6575 | 6521 | 54 | 0 | 0 | 0.889 | 1.000 | 0.941 |
 | SEED KEGG formula inclusive best-ties | 6549 | 6258 | 286 | 3 | 2 | 0.757 | 0.999 | 0.862 |
 | SEED KEGG formula leave-one-MNX-out best-ties | 6549 | 0 | 0 | 4135 | 2414 | 0.000 | 0.000 | 0.000 |
 
