@@ -49,5 +49,5 @@ The source scripts and reproducible inputs remain in `figures_scripts/`,
   `figure_03/map00020/source_models/`.
 - The three-reconstructor pipeline run parameters and retained intermediate
   outputs are stored in `../pipeline_three_reconstructors_outputs/`.
-- The fallback, Jaccard, and compartment-map materials support the additional
-  model-diversity evaluation added during revision.
+- The fallback, Jaccard, prokaryote-map, and compartment-map materials support
+  the additional model-diversity evaluation added during revision.

@@ -26,8 +26,8 @@ The list below follows the article numbering.
 - Figure 6 and Supplementary Figures S11-S14: `results/figure_03/map00020/`.
   This path is kept because it is cited directly in the article.
 - Additional model-diversity and fallback-validation materials for
-  Supplementary Tables S1 and S4: `results/fallback/`, `results/jaccard/`, and
-  `results/compartments/`.
+  Supplementary Tables S1 and S4: `results/fallback/`, `results/jaccard/`,
+  `results/prokaryote_maps/`, and `results/compartments/`.
 - Table 2: `results/table2_reaction_retention/`.
 - Supplementary Table S3 reaction-level summaries:
   `results/table2_reaction_retention/`.

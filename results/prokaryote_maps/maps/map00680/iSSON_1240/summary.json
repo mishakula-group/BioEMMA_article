@@ -390,11 +390,11 @@
     "metabolite_id_compartments": true
   },
   "paths": {
-    "map_json": "C:\\Users\\HONOR\\Desktop\\sirius_repo\\bioemma_article_materials\\article_materials_repo\\BioEMMA_article\\results\\prokaryote_maps\\maps\\map00680\\iSSON_1240\\iSSON_1240_map00680_map.json",
-    "map_html": "C:\\Users\\HONOR\\Desktop\\sirius_repo\\bioemma_article_materials\\article_materials_repo\\BioEMMA_article\\results\\prokaryote_maps\\maps\\map00680\\iSSON_1240\\iSSON_1240_map00680_map.html",
-    "summary_json": "C:\\Users\\HONOR\\Desktop\\sirius_repo\\bioemma_article_materials\\article_materials_repo\\BioEMMA_article\\results\\prokaryote_maps\\maps\\map00680\\iSSON_1240\\summary.json",
-    "model_xml": "C:\\Users\\HONOR\\Desktop\\sirius_repo\\bioemma_article_materials\\article_materials_repo\\BioEMMA_article\\results\\prokaryote_maps\\models\\iSSON_1240.xml",
-    "kgml": "C:\\Users\\HONOR\\Desktop\\sirius_repo\\bioemma_article_materials\\article_materials_repo\\BioEMMA_article\\results\\prokaryote_maps\\kegg_kgml\\rn00680.drawable.kgml"
+    "map_json": "results/prokaryote_maps/maps/map00680/iSSON_1240/iSSON_1240_map00680_map.json",
+    "map_html": "results/prokaryote_maps/maps/map00680/iSSON_1240/iSSON_1240_map00680_map.html",
+    "summary_json": "results/prokaryote_maps/maps/map00680/iSSON_1240/summary.json",
+    "model_xml": "http://bigg.ucsd.edu/static/models/iSSON_1240.xml",
+    "kgml": "results/prokaryote_maps/kegg_kgml/rn00680.drawable.kgml"
   },
   "bigg_batch": {
     "bigg_id": "iSSON_1240",
@@ -420,8 +420,8 @@
       "segments_removed": 0
     },
     "kgml_sanitization": {
-      "source_kgml": "C:\\Users\\HONOR\\Desktop\\sirius_repo\\bioemma_article_materials\\article_materials_repo\\BioEMMA_article\\results\\prokaryote_maps\\kegg_kgml\\rn00680.kgml",
-      "drawable_kgml": "C:\\Users\\HONOR\\Desktop\\sirius_repo\\bioemma_article_materials\\article_materials_repo\\BioEMMA_article\\results\\prokaryote_maps\\kegg_kgml\\rn00680.drawable.kgml",
+      "source_kgml": "results/prokaryote_maps/kegg_kgml/rn00680.kgml",
+      "drawable_kgml": "results/prokaryote_maps/kegg_kgml/rn00680.drawable.kgml",
       "removed_reaction_entries": [
         {
           "entry_id": "288",

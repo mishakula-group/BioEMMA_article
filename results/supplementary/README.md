@@ -89,9 +89,9 @@ Current submitted export names:
   `../table2_reaction_retention/reaction_retention.tsv`, and
   `../table2_reaction_retention/kegg_mapping_by_database.tsv`.
 - Table S4, model-diversity evaluation summaries, retained-reaction counts,
-  Jaccard values, compartment maps, flux tables, and timing files:
-  `../jaccard/`, `../compartments/index.json`, `../compartments/index.html`,
-  and `../compartments/timing.csv`.
+  Jaccard values, prokaryotic maps, compartment maps, flux tables, and timing
+  files: `../jaccard/`, `../prokaryote_maps/`, `../compartments/index.json`,
+  `../compartments/index.html`, and `../compartments/timing.csv`.
 
 Rendered article/MDPI supplementary images may be exported from these
 HTML/SVG/PNG materials. Summary-only scratch files are intentionally not kept.

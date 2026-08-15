@@ -390,11 +390,11 @@
     "metabolite_id_compartments": true
   },
   "paths": {
-    "map_json": "C:\\Users\\HONOR\\Desktop\\sirius_repo\\bioemma_article_materials\\article_materials_repo\\BioEMMA_article\\results\\prokaryote_maps\\maps\\map00010\\iEC1368_DH5a\\iEC1368_DH5a_map00010_map.json",
-    "map_html": "C:\\Users\\HONOR\\Desktop\\sirius_repo\\bioemma_article_materials\\article_materials_repo\\BioEMMA_article\\results\\prokaryote_maps\\maps\\map00010\\iEC1368_DH5a\\iEC1368_DH5a_map00010_map.html",
-    "summary_json": "C:\\Users\\HONOR\\Desktop\\sirius_repo\\bioemma_article_materials\\article_materials_repo\\BioEMMA_article\\results\\prokaryote_maps\\maps\\map00010\\iEC1368_DH5a\\summary.json",
-    "model_xml": "C:\\Users\\HONOR\\Desktop\\sirius_repo\\bioemma_article_materials\\article_materials_repo\\BioEMMA_article\\results\\prokaryote_maps\\models\\iEC1368_DH5a.xml",
-    "kgml": "C:\\Users\\HONOR\\Desktop\\sirius_repo\\bioemma_article_materials\\article_materials_repo\\BioEMMA_article\\results\\prokaryote_maps\\kegg_kgml\\rn00010.drawable.kgml"
+    "map_json": "results/prokaryote_maps/maps/map00010/iEC1368_DH5a/iEC1368_DH5a_map00010_map.json",
+    "map_html": "results/prokaryote_maps/maps/map00010/iEC1368_DH5a/iEC1368_DH5a_map00010_map.html",
+    "summary_json": "results/prokaryote_maps/maps/map00010/iEC1368_DH5a/summary.json",
+    "model_xml": "http://bigg.ucsd.edu/static/models/iEC1368_DH5a.xml",
+    "kgml": "results/prokaryote_maps/kegg_kgml/rn00010.drawable.kgml"
   },
   "bigg_batch": {
     "bigg_id": "iEC1368_DH5a",
@@ -420,8 +420,8 @@
       "segments_removed": 0
     },
     "kgml_sanitization": {
-      "source_kgml": "C:\\Users\\HONOR\\Desktop\\sirius_repo\\bioemma_article_materials\\article_materials_repo\\BioEMMA_article\\results\\prokaryote_maps\\kegg_kgml\\rn00010.kgml",
-      "drawable_kgml": "C:\\Users\\HONOR\\Desktop\\sirius_repo\\bioemma_article_materials\\article_materials_repo\\BioEMMA_article\\results\\prokaryote_maps\\kegg_kgml\\rn00010.drawable.kgml",
+      "source_kgml": "results/prokaryote_maps/kegg_kgml/rn00010.kgml",
+      "drawable_kgml": "results/prokaryote_maps/kegg_kgml/rn00010.drawable.kgml",
       "removed_reaction_entries": [],
       "removed_reaction_entry_count": 0,
       "removed_reaction_ids": []
