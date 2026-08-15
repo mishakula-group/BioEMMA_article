@@ -18,15 +18,19 @@ Pathways:
 
 ## Outputs
 
-- `models/`: downloaded BiGG SBML files.
-- `kegg_kgml/`: cached KEGG KGML files for the requested pathways.
-  `*.drawable.kgml` files omit KEGG reaction entries with no x/y
-  coordinates because BioEMMA cannot place them on an Escher map.
-- `maps/<pathway>/<model_id>/`: BioEMMA Escher JSON and HTML maps.
-- `stats/map_stats.tsv`: one row per model-pathway map.
+- `maps/<pathway>/<model_id>/`: BioEMMA Escher JSON and HTML maps. The
+  publication copy is stored in `../prokaryote_maps/maps/`.
+- `stats/map_stats.tsv`: one row per model-pathway map. The publication copy is
+  stored in `../prokaryote_maps/stats/map_stats.tsv`.
 - `stats/pathway_stats.tsv`: aggregate statistics by pathway.
 - `stats/model_stats.tsv`: aggregate statistics by model.
 - `stats/top_models_by_pathway.tsv`: top matched models per pathway.
+- `kegg_kgml/`: cached KEGG KGML files for the requested pathways.
+  `*.drawable.kgml` files omit KEGG reaction entries with no x/y
+  coordinates because BioEMMA cannot place them on an Escher map.
+
+Downloaded BiGG SBML files are not duplicated in the publication `results/`
+folder; source model URLs are retained in `../prokaryote_maps/stats/map_stats.tsv`.
 
 ## Run Summary
 

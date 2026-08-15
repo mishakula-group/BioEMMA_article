@@ -1,6 +1,6 @@
 # Reaction Reproducibility Metrics
 
-Source maps: `outputs\bigg_prokaryote_bioemma`
+Source maps: `results/prokaryote_maps/maps`
 Models: 87 BiGG prokaryotic models; excluded: `e_coli_core`.
 
 Jaccard is calculated over KEGG reaction IDs that are actually present in each generated Escher JSON map.

@@ -1,0 +1,61 @@
+pathway	rank	bigg_id	organism	matched_reactions	kegg_reactions	reaction_retention_percent	map_html
+map00010	1	iCN900	Clostridioides difficile 630	42	56	75.0	results\prokaryote_maps\maps\map00010\iCN900\iCN900_map00010_map.html
+map00010	2	iAPECO1_1312	Escherichia coli APEC O1	41	56	73.21	results\prokaryote_maps\maps\map00010\iAPECO1_1312\iAPECO1_1312_map00010_map.html
+map00010	3	iB21_1397	Escherichia coli BL21(DE3)	41	56	73.21	results\prokaryote_maps\maps\map00010\iB21_1397\iB21_1397_map00010_map.html
+map00010	4	iBWG_1329	Escherichia coli BW2952	41	56	73.21	results\prokaryote_maps\maps\map00010\iBWG_1329\iBWG_1329_map00010_map.html
+map00010	5	ic_1306	Escherichia coli CFT073	41	56	73.21	results\prokaryote_maps\maps\map00010\ic_1306\ic_1306_map00010_map.html
+map00010	6	iE2348C_1286	Escherichia coli O127:H6 str. E2348/69	41	56	73.21	results\prokaryote_maps\maps\map00010\iE2348C_1286\iE2348C_1286_map00010_map.html
+map00010	7	iEC042_1314	Escherichia coli 042	41	56	73.21	results\prokaryote_maps\maps\map00010\iEC042_1314\iEC042_1314_map00010_map.html
+map00010	8	iEC1344_C	Escherichia coli C	41	56	73.21	results\prokaryote_maps\maps\map00010\iEC1344_C\iEC1344_C_map00010_map.html
+map00010	9	iEC1356_Bl21DE3	Escherichia coli BL21(DE3)	41	56	73.21	results\prokaryote_maps\maps\map00010\iEC1356_Bl21DE3\iEC1356_Bl21DE3_map00010_map.html
+map00010	10	iEC1364_W	Escherichia coli W	41	56	73.21	results\prokaryote_maps\maps\map00010\iEC1364_W\iEC1364_W_map00010_map.html
+map00010	11	iEC1368_DH5a	Escherichia coli DH5[alpha]	41	56	73.21	results\prokaryote_maps\maps\map00010\iEC1368_DH5a\iEC1368_DH5a_map00010_map.html
+map00010	12	iEC55989_1330	Escherichia coli 55989	41	56	73.21	results\prokaryote_maps\maps\map00010\iEC55989_1330\iEC55989_1330_map00010_map.html
+map00010	13	iECABU_c1320	Escherichia coli ABU 83972	41	56	73.21	results\prokaryote_maps\maps\map00010\iECABU_c1320\iECABU_c1320_map00010_map.html
+map00010	14	iECB_1328	Escherichia coli B str. REL606	41	56	73.21	results\prokaryote_maps\maps\map00010\iECB_1328\iECB_1328_map00010_map.html
+map00010	15	iECBD_1354	Escherichia coli 'BL21-Gold(DE3)pLysS AG'	41	56	73.21	results\prokaryote_maps\maps\map00010\iECBD_1354\iECBD_1354_map00010_map.html
+map00020	1	iAPECO1_1312	Escherichia coli APEC O1	23	29	79.31	results\prokaryote_maps\maps\map00020\iAPECO1_1312\iAPECO1_1312_map00020_map.html
+map00020	2	iB21_1397	Escherichia coli BL21(DE3)	23	29	79.31	results\prokaryote_maps\maps\map00020\iB21_1397\iB21_1397_map00020_map.html
+map00020	3	iBWG_1329	Escherichia coli BW2952	23	29	79.31	results\prokaryote_maps\maps\map00020\iBWG_1329\iBWG_1329_map00020_map.html
+map00020	4	ic_1306	Escherichia coli CFT073	23	29	79.31	results\prokaryote_maps\maps\map00020\ic_1306\ic_1306_map00020_map.html
+map00020	5	iCN900	Clostridioides difficile 630	23	29	79.31	results\prokaryote_maps\maps\map00020\iCN900\iCN900_map00020_map.html
+map00020	6	iE2348C_1286	Escherichia coli O127:H6 str. E2348/69	23	29	79.31	results\prokaryote_maps\maps\map00020\iE2348C_1286\iE2348C_1286_map00020_map.html
+map00020	7	iEC042_1314	Escherichia coli 042	23	29	79.31	results\prokaryote_maps\maps\map00020\iEC042_1314\iEC042_1314_map00020_map.html
+map00020	8	iEC55989_1330	Escherichia coli 55989	23	29	79.31	results\prokaryote_maps\maps\map00020\iEC55989_1330\iEC55989_1330_map00020_map.html
+map00020	9	iECABU_c1320	Escherichia coli ABU 83972	23	29	79.31	results\prokaryote_maps\maps\map00020\iECABU_c1320\iECABU_c1320_map00020_map.html
+map00020	10	iECB_1328	Escherichia coli B str. REL606	23	29	79.31	results\prokaryote_maps\maps\map00020\iECB_1328\iECB_1328_map00020_map.html
+map00020	11	iECBD_1354	Escherichia coli 'BL21-Gold(DE3)pLysS AG'	23	29	79.31	results\prokaryote_maps\maps\map00020\iECBD_1354\iECBD_1354_map00020_map.html
+map00020	12	iECD_1391	Escherichia coli BL21(DE3)	23	29	79.31	results\prokaryote_maps\maps\map00020\iECD_1391\iECD_1391_map00020_map.html
+map00020	13	iECDH10B_1368	Escherichia coli str. K-12 substr. DH10B	23	29	79.31	results\prokaryote_maps\maps\map00020\iECDH10B_1368\iECDH10B_1368_map00020_map.html
+map00020	14	iEcDH1_1363	Escherichia coli DH1	23	29	79.31	results\prokaryote_maps\maps\map00020\iEcDH1_1363\iEcDH1_1363_map00020_map.html
+map00020	15	iECDH1ME8569_1439	Escherichia coli DH1	23	29	79.31	results\prokaryote_maps\maps\map00020\iECDH1ME8569_1439\iECDH1ME8569_1439_map00020_map.html
+map00030	1	iAF1260	Escherichia coli str. K-12 substr. MG1655	34	58	58.62	results\prokaryote_maps\maps\map00030\iAF1260\iAF1260_map00030_map.html
+map00030	2	iAF1260b	Escherichia coli str. K-12 substr. MG1655	34	58	58.62	results\prokaryote_maps\maps\map00030\iAF1260b\iAF1260b_map00030_map.html
+map00030	3	iAPECO1_1312	Escherichia coli APEC O1	34	58	58.62	results\prokaryote_maps\maps\map00030\iAPECO1_1312\iAPECO1_1312_map00030_map.html
+map00030	4	iBWG_1329	Escherichia coli BW2952	34	58	58.62	results\prokaryote_maps\maps\map00030\iBWG_1329\iBWG_1329_map00030_map.html
+map00030	5	ic_1306	Escherichia coli CFT073	34	58	58.62	results\prokaryote_maps\maps\map00030\ic_1306\ic_1306_map00030_map.html
+map00030	6	iEC042_1314	Escherichia coli 042	34	58	58.62	results\prokaryote_maps\maps\map00030\iEC042_1314\iEC042_1314_map00030_map.html
+map00030	7	iEC1344_C	Escherichia coli C	34	58	58.62	results\prokaryote_maps\maps\map00030\iEC1344_C\iEC1344_C_map00030_map.html
+map00030	8	iEC1349_Crooks	Escherichia coli ATCC 8739	34	58	58.62	results\prokaryote_maps\maps\map00030\iEC1349_Crooks\iEC1349_Crooks_map00030_map.html
+map00030	9	iEC1364_W	Escherichia coli W	34	58	58.62	results\prokaryote_maps\maps\map00030\iEC1364_W\iEC1364_W_map00030_map.html
+map00030	10	iEC1368_DH5a	Escherichia coli DH5[alpha]	34	58	58.62	results\prokaryote_maps\maps\map00030\iEC1368_DH5a\iEC1368_DH5a_map00030_map.html
+map00030	11	iEC1372_W3110	Escherichia coli str. K-12 substr. W3110	34	58	58.62	results\prokaryote_maps\maps\map00030\iEC1372_W3110\iEC1372_W3110_map00030_map.html
+map00030	12	iEC55989_1330	Escherichia coli 55989	34	58	58.62	results\prokaryote_maps\maps\map00030\iEC55989_1330\iEC55989_1330_map00030_map.html
+map00030	13	iECABU_c1320	Escherichia coli ABU 83972	34	58	58.62	results\prokaryote_maps\maps\map00030\iECABU_c1320\iECABU_c1320_map00030_map.html
+map00030	14	iECB_1328	Escherichia coli B str. REL606	34	58	58.62	results\prokaryote_maps\maps\map00030\iECB_1328\iECB_1328_map00030_map.html
+map00030	15	iECDH10B_1368	Escherichia coli str. K-12 substr. DH10B	34	58	58.62	results\prokaryote_maps\maps\map00030\iECDH10B_1368\iECDH10B_1368_map00030_map.html
+map00680	1	iAF692	Methanosarcina barkeri str. Fusaro	43	104	41.35	results\prokaryote_maps\maps\map00680\iAF692\iAF692_map00680_map.html
+map00680	2	iEK1008	Mycobacterium tuberculosis H37Rv	36	104	34.62	results\prokaryote_maps\maps\map00680\iEK1008\iEK1008_map00680_map.html
+map00680	3	iYL1228	Klebsiella pneumoniae subsp. pneumoniae MGH 78578	34	104	32.69	results\prokaryote_maps\maps\map00680\iYL1228\iYL1228_map00680_map.html
+map00680	4	iCN900	Clostridioides difficile 630	33	104	31.73	results\prokaryote_maps\maps\map00680\iCN900\iCN900_map00680_map.html
+map00680	5	iAPECO1_1312	Escherichia coli APEC O1	32	104	30.77	results\prokaryote_maps\maps\map00680\iAPECO1_1312\iAPECO1_1312_map00680_map.html
+map00680	6	iB21_1397	Escherichia coli BL21(DE3)	32	104	30.77	results\prokaryote_maps\maps\map00680\iB21_1397\iB21_1397_map00680_map.html
+map00680	7	iBWG_1329	Escherichia coli BW2952	32	104	30.77	results\prokaryote_maps\maps\map00680\iBWG_1329\iBWG_1329_map00680_map.html
+map00680	8	ic_1306	Escherichia coli CFT073	32	104	30.77	results\prokaryote_maps\maps\map00680\ic_1306\ic_1306_map00680_map.html
+map00680	9	iE2348C_1286	Escherichia coli O127:H6 str. E2348/69	32	104	30.77	results\prokaryote_maps\maps\map00680\iE2348C_1286\iE2348C_1286_map00680_map.html
+map00680	10	iEC042_1314	Escherichia coli 042	32	104	30.77	results\prokaryote_maps\maps\map00680\iEC042_1314\iEC042_1314_map00680_map.html
+map00680	11	iEC1349_Crooks	Escherichia coli ATCC 8739	32	104	30.77	results\prokaryote_maps\maps\map00680\iEC1349_Crooks\iEC1349_Crooks_map00680_map.html
+map00680	12	iEC55989_1330	Escherichia coli 55989	32	104	30.77	results\prokaryote_maps\maps\map00680\iEC55989_1330\iEC55989_1330_map00680_map.html
+map00680	13	iECABU_c1320	Escherichia coli ABU 83972	32	104	30.77	results\prokaryote_maps\maps\map00680\iECABU_c1320\iECABU_c1320_map00680_map.html
+map00680	14	iECB_1328	Escherichia coli B str. REL606	32	104	30.77	results\prokaryote_maps\maps\map00680\iECB_1328\iECB_1328_map00680_map.html
+map00680	15	iECBD_1354	Escherichia coli 'BL21-Gold(DE3)pLysS AG'	32	104	30.77	results\prokaryote_maps\maps\map00680\iECBD_1354\iECBD_1354_map00680_map.html

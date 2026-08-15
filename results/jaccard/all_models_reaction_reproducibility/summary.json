@@ -1,6 +1,6 @@
 {
-  "source_output_root": "outputs\\bigg_prokaryote_bioemma",
-  "output_dir": "outputs\\bigg_prokaryote_bioemma\\stats\\all_models_reaction_reproducibility",
+  "source_output_root": "results\\prokaryote_maps",
+  "output_dir": "results\\prokaryote_maps\\stats\\all_models_reaction_reproducibility",
   "scope": "all-prokaryotes",
   "excluded_models": [
     "e_coli_core"

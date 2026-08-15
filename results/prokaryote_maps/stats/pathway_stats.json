@@ -1,0 +1,62 @@
+[
+  {
+    "pathway": "map00010",
+    "pathway_rn": "rn00010",
+    "pathway_label": "Glycolysis / gluconeogenesis",
+    "models_attempted": 88,
+    "models_successful": 88,
+    "models_failed": 0,
+    "models_with_zero_matched_reactions": 0,
+    "mean_reaction_retention_percent": 68.89,
+    "median_reaction_retention_percent": 73.21,
+    "min_reaction_retention_percent": 42.86,
+    "max_reaction_retention_percent": 75.0,
+    "mean_matched_reactions": 38.58,
+    "median_matched_reactions": 41.0
+  },
+  {
+    "pathway": "map00020",
+    "pathway_rn": "rn00020",
+    "pathway_label": "Citrate cycle (TCA cycle)",
+    "models_attempted": 88,
+    "models_successful": 88,
+    "models_failed": 0,
+    "models_with_zero_matched_reactions": 0,
+    "mean_reaction_retention_percent": 74.61,
+    "median_reaction_retention_percent": 79.31,
+    "min_reaction_retention_percent": 31.03,
+    "max_reaction_retention_percent": 79.31,
+    "mean_matched_reactions": 21.64,
+    "median_matched_reactions": 23.0
+  },
+  {
+    "pathway": "map00030",
+    "pathway_rn": "rn00030",
+    "pathway_label": "Pentose phosphate pathway",
+    "models_attempted": 88,
+    "models_successful": 88,
+    "models_failed": 0,
+    "models_with_zero_matched_reactions": 0,
+    "mean_reaction_retention_percent": 54.84,
+    "median_reaction_retention_percent": 58.62,
+    "min_reaction_retention_percent": 29.31,
+    "max_reaction_retention_percent": 58.62,
+    "mean_matched_reactions": 31.81,
+    "median_matched_reactions": 34.0
+  },
+  {
+    "pathway": "map00680",
+    "pathway_rn": "rn00680",
+    "pathway_label": "Methane metabolism / C1 metabolism",
+    "models_attempted": 88,
+    "models_successful": 88,
+    "models_failed": 0,
+    "models_with_zero_matched_reactions": 0,
+    "mean_reaction_retention_percent": 29.62,
+    "median_reaction_retention_percent": 30.77,
+    "min_reaction_retention_percent": 14.42,
+    "max_reaction_retention_percent": 41.35,
+    "mean_matched_reactions": 30.81,
+    "median_matched_reactions": 32.0
+  }
+]

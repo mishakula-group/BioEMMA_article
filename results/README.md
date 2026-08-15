@@ -32,6 +32,10 @@ The source scripts and reproducible inputs remain in `figures_scripts/`,
   resource coverage, and article-map no-change evidence.
 - `jaccard/` - prokaryotic model reproducibility and pairwise Jaccard metrics
   for E. coli and broader BiGG prokaryotic model sets.
+- `prokaryote_maps/` - full BiGG prokaryote BioEMMA batch used as the source
+  for the Jaccard analysis: 352 Escher HTML/JSON maps for 88 prokaryotic models
+  across `map00010`, `map00020`, `map00030`, and `map00680`, with batch
+  statistics and cached KEGG KGML files.
 - `compartments/` - compartment-specific eukaryotic maps and timing summaries
   for `iMM904`, `iMM1415`, and `Recon3D`.
 

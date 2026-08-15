@@ -1,0 +1,5 @@
+﻿pathway	pathway_label	old_mean_reaction_retention_percent	new_mean_reaction_retention_percent	delta_mean_reaction_retention_points	old_mean_matched_reactions	new_mean_matched_reactions	delta_mean_matched_reactions
+map00010	Glycolysis / gluconeogenesis	26.22	68.89	42.67	14.68	38.58	23.9
+map00020	Citrate cycle (TCA cycle)	23.63	74.61	50.98	6.85	21.64	14.79
+map00030	Pentose phosphate pathway	34.13	54.84	20.71	19.8	31.81	12.01
+map00680	Methane metabolism / C1 metabolism	18.95	29.62	10.67	19.7	30.81	11.11
