@@ -1,0 +1,251 @@
+{
+  "organism": "Saccharomyces cerevisiae",
+  "model_id": "iMM904",
+  "pathway": "rn00290",
+  "title": "Valine, leucine and isoleucine biosynthesis",
+  "bioemma_version": "0.4.1",
+  "kgml": "data\\compartment_models\\recon3d_probe\\kgml\\rn00290.xml",
+  "compartments": [
+    [
+      "c",
+      "cytosol"
+    ],
+    [
+      "m",
+      "mitochondria"
+    ],
+    [
+      "x",
+      "peroxisome/glyoxysome"
+    ]
+  ],
+  "reaction_counts": {
+    "c": 10,
+    "m": 13,
+    "x": 1
+  },
+  "compartment_summaries": {
+    "c": {
+      "label": "cytosol",
+      "reaction_count": 10,
+      "nodes": 66,
+      "segments": 61,
+      "build_sec": 1.1034744999997201
+    },
+    "m": {
+      "label": "mitochondria",
+      "reaction_count": 13,
+      "nodes": 86,
+      "segments": 82,
+      "build_sec": 0.9781034000043292
+    },
+    "x": {
+      "label": "peroxisome/glyoxysome",
+      "reaction_count": 1,
+      "nodes": 11,
+      "segments": 8,
+      "build_sec": 1.0269770999948378
+    }
+  },
+  "alignment": {
+    "reference_compartment": "m",
+    "translations": {
+      "m": {
+        "dx": 0.0,
+        "dy": 0.0,
+        "anchors": 13
+      },
+      "c": {
+        "dx": 0.0,
+        "dy": -12.63888384947586,
+        "anchors": 6
+      },
+      "x": {
+        "dx": 762.0,
+        "dy": 116.0,
+        "anchors": 1
+      }
+    },
+    "max_shared_y_delta_after_alignment": 0.0,
+    "reaction_counts": {
+      "c": 10,
+      "m": 13,
+      "x": 1
+    },
+    "canvas": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 8321.266499579804,
+      "height": 2711.2777676989517
+    }
+  },
+  "flux_summary": {
+    "by_compartment": {
+      "c": {
+        "mapped": 10,
+        "with_flux": 10,
+        "nonzero_flux": 7
+      },
+      "m": {
+        "mapped": 13,
+        "with_flux": 13,
+        "nonzero_flux": 8
+      },
+      "x": {
+        "mapped": 1,
+        "with_flux": 1,
+        "nonzero_flux": 0
+      }
+    },
+    "rows": [
+      {
+        "compartment": "c",
+        "kegg": "R00994",
+        "bigg_id": "2HBO",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00996",
+        "bigg_id": "THRD_L",
+        "flux": 0.053571807459317854
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01090",
+        "bigg_id": "LEUTA",
+        "flux": -0.08532339457787108
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01213",
+        "bigg_id": "IPPS",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01214",
+        "bigg_id": "VALTA",
+        "flux": -0.07616926520008332
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01652",
+        "bigg_id": "OMCDC",
+        "flux": 0.0853233945778711
+      },
+      {
+        "compartment": "c",
+        "kegg": "R02199",
+        "bigg_id": "ILETA",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R03968",
+        "bigg_id": "IPPMIb",
+        "flux": -0.08532339457787108
+      },
+      {
+        "compartment": "c",
+        "kegg": "R04001",
+        "bigg_id": "IPPMIa",
+        "flux": -0.0853233945778711
+      },
+      {
+        "compartment": "c",
+        "kegg": "R04426",
+        "bigg_id": "IPMD",
+        "flux": 0.08532339457787111
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00226",
+        "bigg_id": "ACLSm",
+        "flux": 0.1614926597779545
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00996",
+        "bigg_id": "THRD_Lm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R01090",
+        "bigg_id": "LEUTAm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R01213",
+        "bigg_id": "IPPSm",
+        "flux": 0.0853233945778711
+      },
+      {
+        "compartment": "m",
+        "kegg": "R01214",
+        "bigg_id": "VALTAim",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R01652",
+        "bigg_id": "OMCDCm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R02199",
+        "bigg_id": "ILETAm",
+        "flux": -0.05547172110376438
+      },
+      {
+        "compartment": "m",
+        "kegg": "R04440",
+        "bigg_id": "KARA1im",
+        "flux": 0.16149265977795446
+      },
+      {
+        "compartment": "m",
+        "kegg": "R04441",
+        "bigg_id": "DHAD1m",
+        "flux": 0.16149265977795446
+      },
+      {
+        "compartment": "m",
+        "kegg": "R05068",
+        "bigg_id": "KARA2im",
+        "flux": 0.055471721103764374
+      },
+      {
+        "compartment": "m",
+        "kegg": "R05070",
+        "bigg_id": "DHAD2m",
+        "flux": 0.05547172110376439
+      },
+      {
+        "compartment": "m",
+        "kegg": "R07399",
+        "bigg_id": "ACOAHim",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R08648",
+        "bigg_id": "ACHBSm",
+        "flux": 0.055471721103764374
+      },
+      {
+        "compartment": "x",
+        "kegg": "R01090",
+        "bigg_id": "ASPTAp",
+        "flux": 0.0
+      }
+    ]
+  },
+  "html": "results\\compartments\\yeast_iMM904\\rn00290\\iMM904_rn00290_compartments.html",
+  "map_json": "results\\compartments\\yeast_iMM904\\rn00290\\iMM904_rn00290_compartments.json",
+  "flux_tsv": "results\\compartments\\yeast_iMM904\\rn00290\\iMM904_rn00290_flux.tsv",
+  "summary_json": "results\\compartments\\yeast_iMM904\\rn00290\\summary.json"
+}

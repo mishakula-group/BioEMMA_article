@@ -13,11 +13,13 @@ from bioemma.workflow import validate_escher_map
 
 
 FIGURE_DIR = Path(__file__).resolve().parent
+REPO_ROOT = FIGURE_DIR.parents[1]
 PATHWAY = "map00020"
 FULL_OUTPUT_DIR = FIGURE_DIR / "outputs" / PATHWAY
 CROP_OUTPUT_DIR = FULL_OUTPUT_DIR / "selected_reaction_fragments"
 COBRA_CACHE_DIR = FIGURE_DIR / ".cobra_cache"
 INPUT_DIR = FIGURE_DIR / "inputs"
+CURATED_RESULTS_DIR = REPO_ROOT / "results" / "figure_03" / PATHWAY
 CANVAS_PADDING = 80.0
 REACTION_COMPARTMENT_SUFFIX = re.compile(r"^(.+)_([a-z]\d*|[a-z])$")
 
@@ -83,6 +85,13 @@ def write_json(path: Path, data: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8") as file:
         json.dump(data, file, indent=2)
+
+
+def repo_relative(path: Path) -> str:
+    try:
+        return str(path.relative_to(REPO_ROOT))
+    except ValueError:
+        return str(path)
 
 
 def save_html(path: Path, map_json_path: Path) -> None:
@@ -427,6 +436,72 @@ def build_flux_overlay_map(
     return flux_map, reaction_data, matches
 
 
+def full_flux_match_ids(match: dict[str, Any]) -> set[str]:
+    ids = {str(value) for value in match.get("map_reaction_ids", []) if value}
+    for key in ("map_reaction_id", "model_reaction_id"):
+        value = match.get(key)
+        if value is not None:
+            ids.add(str(value))
+    return {value for value in ids if value and value != "None"}
+
+
+def find_full_flux_match(
+    reaction: dict[str, Any],
+    full_matches: list[dict[str, Any]],
+) -> dict[str, Any] | None:
+    bigg_id = str(reaction.get("bigg_id") or "")
+    ids = reaction_ids(reaction)
+
+    for match in full_matches:
+        if bigg_id and match.get("model_reaction_id") == bigg_id:
+            return match
+    for match in full_matches:
+        if bigg_id and match.get("map_reaction_id") == bigg_id:
+            return match
+    for match in full_matches:
+        if ids & full_flux_match_ids(match):
+            return match
+    return None
+
+
+def build_flux_overlay_from_full_fluxes(
+    escher_map: list[dict[str, Any]],
+    full_fluxes: dict[str, Any],
+) -> tuple[list[dict[str, Any]], dict[str, float], list[dict[str, Any]]]:
+    flux_map = deepcopy(escher_map)
+    reaction_data = {}
+    matches = []
+    full_matches = full_fluxes.get("matches", [])
+
+    for reaction in flux_map[1]["reactions"].values():
+        map_reaction_id = str(reaction.get("bigg_id") or reaction.get("name"))
+        ids = reaction_ids(reaction)
+        match = find_full_flux_match(reaction, full_matches)
+        if match is None or match.get("flux") is None:
+            matches.append(
+                {
+                    "map_reaction_ids": sorted(ids),
+                    "map_reaction_id": map_reaction_id,
+                    "model_reaction_id": None,
+                    "flux": None,
+                }
+            )
+            continue
+
+        flux = float(match["flux"])
+        reaction_data[map_reaction_id] = flux
+        matches.append(
+            {
+                "map_reaction_ids": sorted(ids | set(match.get("map_reaction_ids", []))),
+                "map_reaction_id": map_reaction_id,
+                "model_reaction_id": match.get("model_reaction_id"),
+                "flux": flux,
+            }
+        )
+
+    return flux_map, reaction_data, matches
+
+
 def main() -> None:
     configure_cobra_cache()
 
@@ -434,9 +509,22 @@ def main() -> None:
         slug: read_json(FULL_OUTPUT_DIR / slug / f"{slug}_{PATHWAY}_map.json")
         for slug, _label in MODELS
     }
-    cobra_models = load_models()
-    model_solutions = optimize_models(cobra_models)
-    reaction_mapper = MetaNetXMapper(resource_path("reaction_mapping.tsv"), "first")
+    curated_full_fluxes = {
+        slug: (
+            read_json(CURATED_RESULTS_DIR / slug / f"{slug}_{PATHWAY}_full_fluxes.json")
+            if (CURATED_RESULTS_DIR / slug / f"{slug}_{PATHWAY}_full_fluxes.json").exists()
+            else None
+        )
+        for slug, _label in MODELS
+    }
+    needs_flux_fallback = any(value is None for value in curated_full_fluxes.values())
+    cobra_models = load_models() if needs_flux_fallback else {}
+    model_solutions = optimize_models(cobra_models) if needs_flux_fallback else {}
+    reaction_mapper = (
+        MetaNetXMapper(resource_path("reaction_mapping.tsv"), "first")
+        if needs_flux_fallback
+        else None
+    )
     fragment_summaries = {}
     fragment_outputs = {}
 
@@ -500,25 +588,40 @@ def main() -> None:
                 / fragment_slug
                 / f"{slug}_{PATHWAY}_{fragment_slug}_with_fluxes.html"
             )
-            flux_map, reaction_data, flux_matches = build_flux_overlay_map(
-                cropped,
-                model=cobra_models[slug],
-                solution=model_solutions[slug],
-                reaction_mapper=reaction_mapper,
-            )
+            full_fluxes = curated_full_fluxes.get(slug)
+            if full_fluxes is not None:
+                flux_map, reaction_data, flux_matches = build_flux_overlay_from_full_fluxes(
+                    cropped,
+                    full_fluxes,
+                )
+                flux_model = str(full_fluxes.get("model", model_path(slug)))
+                flux_status = str(full_fluxes.get("solution_status"))
+                flux_objective_value = full_fluxes.get("objective_value")
+            else:
+                if reaction_mapper is None:
+                    raise RuntimeError("Missing reaction mapper for flux fallback.")
+                flux_map, reaction_data, flux_matches = build_flux_overlay_map(
+                    cropped,
+                    model=cobra_models[slug],
+                    solution=model_solutions[slug],
+                    reaction_mapper=reaction_mapper,
+                )
+                flux_model = str(model_path(slug))
+                flux_status = str(model_solutions[slug].status)
+                flux_objective_value = (
+                    None
+                    if model_solutions[slug].objective_value is None
+                    else float(model_solutions[slug].objective_value)
+                )
             write_json(json_path, cropped)
             save_html(html_path, json_path)
             write_json(flux_map_json_path, flux_map)
             write_json(
                 flux_json_path,
                 {
-                    "model": str(model_path(slug)),
-                    "solution_status": str(model_solutions[slug].status),
-                    "objective_value": (
-                        None
-                        if model_solutions[slug].objective_value is None
-                        else float(model_solutions[slug].objective_value)
-                    ),
+                    "model": flux_model,
+                    "solution_status": flux_status,
+                    "objective_value": flux_objective_value,
                     "reaction_data": reaction_data,
                     "matches": flux_matches,
                 },
@@ -529,22 +632,18 @@ def main() -> None:
                 reaction_data,
             )
             meta["fluxes"] = {
-                "solution_status": str(model_solutions[slug].status),
-                "objective_value": (
-                    None
-                    if model_solutions[slug].objective_value is None
-                    else float(model_solutions[slug].objective_value)
-                ),
+                "solution_status": flux_status,
+                "objective_value": flux_objective_value,
                 "reaction_count": len(reaction_data),
                 "matches": flux_matches,
             }
             summaries[slug] = meta
             outputs[slug] = {
-                "json": str(json_path),
-                "html": str(html_path),
-                "flux_map_json": str(flux_map_json_path),
-                "flux_json": str(flux_json_path),
-                "flux_html": str(flux_html_path),
+                "json": repo_relative(json_path),
+                "html": repo_relative(html_path),
+                "flux_map_json": repo_relative(flux_map_json_path),
+                "flux_json": repo_relative(flux_json_path),
+                "flux_html": repo_relative(flux_html_path),
             }
 
         fragment_summaries[fragment_slug] = {
@@ -570,7 +669,7 @@ def main() -> None:
         summary_path,
         {
             "pathway": PATHWAY,
-            "source_dir": str(FULL_OUTPUT_DIR),
+            "source_dir": repo_relative(FULL_OUTPUT_DIR),
             "fragments": fragment_summaries,
             "outputs": fragment_outputs,
         },

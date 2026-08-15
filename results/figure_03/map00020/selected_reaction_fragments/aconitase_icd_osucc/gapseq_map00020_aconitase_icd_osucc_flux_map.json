@@ -13,9 +13,9 @@
         "bigg_id": "HC01434",
         "name": "C05379",
         "node_is_primary": true,
-        "x": 710.0,
+        "x": 752.3841040554785,
         "y": 751.6753841072937,
-        "label_x": 645.0,
+        "label_x": 687.3841040554785,
         "label_y": 726.6753841072937
       },
       "6": {
@@ -23,9 +23,9 @@
         "bigg_id": "icit",
         "name": "C00311",
         "node_is_primary": true,
-        "x": 710.0,
+        "x": 752.3841040554785,
         "y": 206.67538410729367,
-        "label_x": 645.0,
+        "label_x": 687.3841040554785,
         "label_y": 181.67538410729367
       },
       "7": {
@@ -33,9 +33,9 @@
         "bigg_id": "HC00342",
         "name": "C00417",
         "node_is_primary": true,
-        "x": 225.0,
+        "x": 267.3841040554785,
         "y": 206.67538410729367,
-        "label_x": 160.0,
+        "label_x": 202.38410405547847,
         "label_y": 181.67538410729367
       },
       "15": {
@@ -43,167 +43,167 @@
         "bigg_id": "akg",
         "name": "C00026",
         "node_is_primary": true,
-        "x": 710.0,
+        "x": 752.3841040554785,
         "y": 1351.6753841072937,
-        "label_x": 645.0,
+        "label_x": 687.3841040554785,
         "label_y": 1326.6753841072937
       },
       "27": {
         "node_type": "midmarker",
-        "x": 710.0,
+        "x": 752.3841040554785,
         "y": 1011.6753841072937
       },
       "28": {
         "node_type": "midmarker",
-        "x": 1200.0,
+        "x": 1242.3841040554785,
         "y": 776.6753841072937
       },
       "29": {
         "node_type": "midmarker",
-        "x": 710.0,
+        "x": 752.3841040554785,
         "y": 486.67538410729367
       },
       "32": {
         "node_type": "midmarker",
-        "x": 470.0,
+        "x": 512.3841040554785,
         "y": 211.67538410729367
       },
       "56": {
         "node_type": "multimarker",
-        "x": 710.0,
+        "x": 752.3841040554785,
         "y": 959.6753841072937
       },
       "85": {
         "node_type": "multimarker",
-        "x": 710.0,
+        "x": 752.3841040554785,
         "y": 1079.6753841072937
       },
       "57": {
         "node_type": "multimarker",
-        "x": 1200.0,
+        "x": 1242.3841040554785,
         "y": 662.6753841072937
       },
       "86": {
         "node_type": "multimarker",
-        "x": 1200.0,
+        "x": 1242.3841040554785,
         "y": 891.6753841072937
       },
       "58": {
         "node_type": "multimarker",
-        "x": 710.0,
+        "x": 752.3841040554785,
         "y": 430.67538410729367
       },
       "87": {
         "node_type": "multimarker",
-        "x": 710.0,
+        "x": 752.3841040554785,
         "y": 539.6753841072937
       },
       "61": {
         "node_type": "multimarker",
-        "x": 421.0,
+        "x": 463.3841040554785,
         "y": 211.67538410729367
       },
       "90": {
         "node_type": "multimarker",
-        "x": 518.0,
+        "x": 560.3841040554785,
         "y": 211.67538410729367
       },
-      "121": {
+      "125": {
         "node_type": "metabolite",
         "bigg_id": "h",
         "name": "H+-c0",
         "node_is_primary": false,
-        "x": 760.0,
+        "x": 802.3841040554785,
         "y": 884.6753841072937,
-        "label_x": 695.0,
+        "label_x": 737.3841040554785,
         "label_y": 859.6753841072937,
-        "compartment": "c0"
-      },
-      "122": {
-        "node_type": "metabolite",
-        "bigg_id": "co2",
-        "name": "CO2-c0",
-        "node_is_primary": false,
-        "x": 660.0,
-        "y": 1154.6753841072937,
-        "label_x": 595.0,
-        "label_y": 1129.6753841072937,
-        "compartment": "c0"
-      },
-      "123": {
-        "node_type": "metabolite",
-        "bigg_id": "nad",
-        "name": "NAD-c0",
-        "node_is_primary": false,
-        "x": 1189.0243632635775,
-        "y": 573.2073149528178,
-        "label_x": 1124.0243632635775,
-        "label_y": 548.2073149528178,
-        "compartment": "c0"
-      },
-      "124": {
-        "node_type": "metabolite",
-        "bigg_id": "co2",
-        "name": "CO2-c0",
-        "node_is_primary": false,
-        "x": 1189.4104735706132,
-        "y": 981.1899747057055,
-        "label_x": 1124.4104735706132,
-        "label_y": 956.1899747057055,
-        "compartment": "c0"
-      },
-      "125": {
-        "node_type": "metabolite",
-        "bigg_id": "nadh",
-        "name": "NADH-c0",
-        "node_is_primary": false,
-        "x": 1113.2982523593937,
-        "y": 916.3291253257103,
-        "label_x": 1048.2982523593937,
-        "label_y": 891.3291253257103,
         "compartment": "c0"
       },
       "126": {
         "node_type": "metabolite",
-        "bigg_id": "nadp",
-        "name": "NADP-c0",
+        "bigg_id": "co2",
+        "name": "CO2-c0",
         "node_is_primary": false,
-        "x": 760.0,
-        "y": 355.67538410729367,
-        "label_x": 695.0,
-        "label_y": 330.67538410729367,
+        "x": 702.3841040554785,
+        "y": 1154.6753841072937,
+        "label_x": 637.3841040554785,
+        "label_y": 1129.6753841072937,
         "compartment": "c0"
       },
       "127": {
         "node_type": "metabolite",
-        "bigg_id": "h",
-        "name": "H+-c0",
+        "bigg_id": "nad",
+        "name": "NAD-c0",
         "node_is_primary": false,
-        "x": 760.0,
-        "y": 614.6753841072937,
-        "label_x": 695.0,
-        "label_y": 589.6753841072937,
+        "x": 1231.408467319056,
+        "y": 573.2073149528178,
+        "label_x": 1166.408467319056,
+        "label_y": 548.2073149528178,
         "compartment": "c0"
       },
       "128": {
         "node_type": "metabolite",
-        "bigg_id": "nadph",
-        "name": "NADPH-c0",
+        "bigg_id": "co2",
+        "name": "CO2-c0",
         "node_is_primary": false,
-        "x": 660.0,
-        "y": 614.6753841072937,
-        "label_x": 595.0,
-        "label_y": 589.6753841072937,
+        "x": 1231.7945776260917,
+        "y": 981.1899747057055,
+        "label_x": 1166.7945776260917,
+        "label_y": 956.1899747057055,
+        "compartment": "c0"
+      },
+      "129": {
+        "node_type": "metabolite",
+        "bigg_id": "nadh",
+        "name": "NADH-c0",
+        "node_is_primary": false,
+        "x": 1155.6823564148722,
+        "y": 916.3291253257103,
+        "label_x": 1090.6823564148722,
+        "label_y": 891.3291253257103,
         "compartment": "c0"
       },
       "130": {
         "node_type": "metabolite",
+        "bigg_id": "nadp",
+        "name": "NADP-c0",
+        "node_is_primary": false,
+        "x": 802.3841040554785,
+        "y": 355.67538410729367,
+        "label_x": 737.3841040554785,
+        "label_y": 330.67538410729367,
+        "compartment": "c0"
+      },
+      "131": {
+        "node_type": "metabolite",
+        "bigg_id": "h",
+        "name": "H+-c0",
+        "node_is_primary": false,
+        "x": 802.3841040554785,
+        "y": 614.6753841072937,
+        "label_x": 737.3841040554785,
+        "label_y": 589.6753841072937,
+        "compartment": "c0"
+      },
+      "132": {
+        "node_type": "metabolite",
+        "bigg_id": "nadph",
+        "name": "NADPH-c0",
+        "node_is_primary": false,
+        "x": 702.3841040554785,
+        "y": 614.6753841072937,
+        "label_x": 637.3841040554785,
+        "label_y": 589.6753841072937,
+        "compartment": "c0"
+      },
+      "138": {
+        "node_type": "metabolite",
         "bigg_id": "h2o",
         "name": "H2O-c0",
         "node_is_primary": false,
-        "x": 594.0251699387004,
+        "x": 636.4092739941789,
         "y": 260.10237591756163,
-        "label_x": 529.0251699387004,
+        "label_x": 571.4092739941789,
         "label_y": 235.10237591756163,
         "compartment": "c0"
       }
@@ -264,20 +264,20 @@
             "b1": null,
             "b2": null
           },
-          "140": {
-            "from_node_id": 121,
+          "144": {
+            "from_node_id": 125,
             "to_node_id": 56,
             "b1": null,
             "b2": null
           },
-          "141": {
+          "145": {
             "from_node_id": 85,
-            "to_node_id": 122,
+            "to_node_id": 126,
             "b1": null,
             "b2": null
           }
         },
-        "label_x": 735.0,
+        "label_x": 777.3841040554785,
         "label_y": 1036.6753841072937
       },
       "8": {
@@ -340,26 +340,26 @@
             "b1": null,
             "b2": null
           },
-          "142": {
-            "from_node_id": 123,
+          "146": {
+            "from_node_id": 127,
             "to_node_id": 57,
             "b1": null,
             "b2": null
           },
-          "143": {
+          "147": {
             "from_node_id": 86,
-            "to_node_id": 124,
+            "to_node_id": 128,
             "b1": null,
             "b2": null
           },
-          "144": {
+          "148": {
             "from_node_id": 86,
-            "to_node_id": 125,
+            "to_node_id": 129,
             "b1": null,
             "b2": null
           }
         },
-        "label_x": 1225.0,
+        "label_x": 1267.3841040554785,
         "label_y": 801.6753841072937
       },
       "9": {
@@ -422,26 +422,26 @@
             "b1": null,
             "b2": null
           },
-          "145": {
-            "from_node_id": 126,
+          "149": {
+            "from_node_id": 130,
             "to_node_id": 58,
             "b1": null,
             "b2": null
           },
-          "146": {
+          "150": {
             "from_node_id": 87,
-            "to_node_id": 127,
+            "to_node_id": 131,
             "b1": null,
             "b2": null
           },
-          "147": {
+          "151": {
             "from_node_id": 87,
-            "to_node_id": 128,
+            "to_node_id": 132,
             "b1": null,
             "b2": null
           }
         },
-        "label_x": 735.0,
+        "label_x": 777.3841040554785,
         "label_y": 511.67538410729367
       },
       "12": {
@@ -494,14 +494,14 @@
             "b1": null,
             "b2": null
           },
-          "149": {
+          "157": {
             "from_node_id": 90,
-            "to_node_id": 130,
+            "to_node_id": 138,
             "b1": null,
             "b2": null
           }
         },
-        "label_x": 495.0,
+        "label_x": 537.3841040554785,
         "label_y": 236.67538410729367
       }
     },
@@ -509,7 +509,7 @@
     "canvas": {
       "x": 0,
       "y": 0,
-      "width": 1385.0,
+      "width": 1427.3841040554785,
       "height": 1545.8179058189085
     }
   }

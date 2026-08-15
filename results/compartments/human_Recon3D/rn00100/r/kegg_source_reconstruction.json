@@ -1,0 +1,2507 @@
+{
+  "source": {
+    "kind": "kgml",
+    "path": "data/compartment_models/recon3d_probe/kgml/rn00100.xml"
+  },
+  "counts": {
+    "metabolites": 57,
+    "reactions": 63
+  },
+  "metabolites": {
+    "C01673": {
+      "ids": {
+        "KEGG": "C01673",
+        "BIGG": "1a25dhvitd3",
+        "SEED": "cpd01156"
+      },
+      "position": [
+        "88",
+        "1115"
+      ]
+    },
+    "C01561": {
+      "ids": {
+        "KEGG": "C01561",
+        "BIGG": "25hvitd3",
+        "SEED": "cpd01099"
+      },
+      "position": [
+        "88",
+        "1060"
+      ]
+    },
+    "C01902": {
+      "ids": {
+        "KEGG": "C01902",
+        "BIGG": "cyart",
+        "SEED": "cpd01306"
+      },
+      "position": [
+        "668",
+        "354"
+      ]
+    },
+    "C05442": {
+      "ids": {
+        "KEGG": "C05442",
+        "BIGG": "",
+        "SEED": "cpd03225"
+      },
+      "position": [
+        "834",
+        "1154"
+      ]
+    },
+    "C15776": {
+      "ids": {
+        "KEGG": "C15776",
+        "BIGG": "",
+        "SEED": "cpd14513"
+      },
+      "position": [
+        "668",
+        "754"
+      ]
+    },
+    "C11508": {
+      "ids": {
+        "KEGG": "C11508",
+        "BIGG": "mergtrol",
+        "SEED": "cpd08347"
+      },
+      "position": [
+        "668",
+        "704"
+      ]
+    },
+    "C01802": {
+      "ids": {
+        "KEGG": "C01802",
+        "BIGG": "dsmsterol",
+        "SEED": "cpd01243"
+      },
+      "position": [
+        "372",
+        "1054"
+      ]
+    },
+    "C01789": {
+      "ids": {
+        "KEGG": "C01789",
+        "BIGG": "",
+        "SEED": "cpd01234"
+      },
+      "position": [
+        "668",
+        "1104"
+      ]
+    },
+    "C15781": {
+      "ids": {
+        "KEGG": "C15781",
+        "BIGG": "",
+        "SEED": "cpd14517"
+      },
+      "position": [
+        "668",
+        "1054"
+      ]
+    },
+    "C05107": {
+      "ids": {
+        "KEGG": "C05107",
+        "BIGG": "ddsmsterol",
+        "SEED": "cpd03037"
+      },
+      "position": [
+        "372",
+        "1004"
+      ]
+    },
+    "C15780": {
+      "ids": {
+        "KEGG": "C15780",
+        "BIGG": "",
+        "SEED": "cpd14515"
+      },
+      "position": [
+        "523",
+        "1004"
+      ]
+    },
+    "C15783": {
+      "ids": {
+        "KEGG": "C15783",
+        "BIGG": "",
+        "SEED": ""
+      },
+      "position": [
+        "834",
+        "1004"
+      ]
+    },
+    "C01753": {
+      "ids": {
+        "KEGG": "C01753",
+        "BIGG": "",
+        "SEED": "cpd01210"
+      },
+      "position": [
+        "834",
+        "1104"
+      ]
+    },
+    "C08830": {
+      "ids": {
+        "KEGG": "C08830",
+        "BIGG": "",
+        "SEED": "cpd05727"
+      },
+      "position": [
+        "668",
+        "454"
+      ]
+    },
+    "C08821": {
+      "ids": {
+        "KEGG": "C08821",
+        "BIGG": "",
+        "SEED": "cpd05717"
+      },
+      "position": [
+        "834",
+        "1054"
+      ]
+    },
+    "C15782": {
+      "ids": {
+        "KEGG": "C15782",
+        "BIGG": "",
+        "SEED": "cpd14518"
+      },
+      "position": [
+        "834",
+        "954"
+      ]
+    },
+    "C02141": {
+      "ids": {
+        "KEGG": "C02141",
+        "BIGG": "cyeuol",
+        "SEED": "cpd01451"
+      },
+      "position": [
+        "668",
+        "604"
+      ]
+    },
+    "C01943": {
+      "ids": {
+        "KEGG": "C01943",
+        "BIGG": "",
+        "SEED": "cpd01334"
+      },
+      "position": [
+        "668",
+        "654"
+      ]
+    },
+    "C11523": {
+      "ids": {
+        "KEGG": "C11523",
+        "BIGG": "",
+        "SEED": "cpd08360"
+      },
+      "position": [
+        "834",
+        "804"
+      ]
+    },
+    "C01054": {
+      "ids": {
+        "KEGG": "C01054",
+        "BIGG": "Ssq23epx",
+        "SEED": "cpd00776"
+      },
+      "position": [
+        "372",
+        "288"
+      ]
+    },
+    "C01724": {
+      "ids": {
+        "KEGG": "C01724",
+        "BIGG": "lanost",
+        "SEED": "cpd01188"
+      },
+      "position": [
+        "372",
+        "354"
+      ]
+    },
+    "C05109": {
+      "ids": {
+        "KEGG": "C05109",
+        "BIGG": "C05109",
+        "SEED": "cpd03039"
+      },
+      "position": [
+        "237",
+        "353"
+      ]
+    },
+    "C04525": {
+      "ids": {
+        "KEGG": "C04525",
+        "BIGG": "fecost",
+        "SEED": "cpd02755"
+      },
+      "position": [
+        "523",
+        "904"
+      ]
+    },
+    "C11455": {
+      "ids": {
+        "KEGG": "C11455",
+        "BIGG": "44mctr",
+        "SEED": "cpd08302"
+      },
+      "position": [
+        "372",
+        "404"
+      ]
+    },
+    "C15915": {
+      "ids": {
+        "KEGG": "C15915",
+        "BIGG": "CE2314",
+        "SEED": "cpd14644"
+      },
+      "position": [
+        "238",
+        "454"
+      ]
+    },
+    "C05108": {
+      "ids": {
+        "KEGG": "C05108",
+        "BIGG": "44mzym",
+        "SEED": "cpd03038"
+      },
+      "position": [
+        "372",
+        "454"
+      ]
+    },
+    "C15777": {
+      "ids": {
+        "KEGG": "C15777",
+        "BIGG": "epist",
+        "SEED": "cpd14514"
+      },
+      "position": [
+        "668",
+        "954"
+      ]
+    },
+    "C15808": {
+      "ids": {
+        "KEGG": "C15808",
+        "BIGG": "4mzym_int1",
+        "SEED": "cpd14544"
+      },
+      "position": [
+        "372",
+        "504"
+      ]
+    },
+    "C15816": {
+      "ids": {
+        "KEGG": "C15816",
+        "BIGG": "4mzym_int2",
+        "SEED": "cpd14552"
+      },
+      "position": [
+        "372",
+        "554"
+      ]
+    },
+    "C01189": {
+      "ids": {
+        "KEGG": "C01189",
+        "BIGG": "lthstrl",
+        "SEED": "cpd00877"
+      },
+      "position": [
+        "237",
+        "954"
+      ]
+    },
+    "C01164": {
+      "ids": {
+        "KEGG": "C01164",
+        "BIGG": "7dhchsterol",
+        "SEED": "cpd00857"
+      },
+      "position": [
+        "237",
+        "1004"
+      ]
+    },
+    "C05443": {
+      "ids": {
+        "KEGG": "C05443",
+        "BIGG": "vitd3",
+        "SEED": "cpd03226"
+      },
+      "position": [
+        "88",
+        "1004"
+      ]
+    },
+    "C05103": {
+      "ids": {
+        "KEGG": "C05103",
+        "BIGG": "HC02110",
+        "SEED": "cpd03035"
+      },
+      "position": [
+        "372",
+        "604"
+      ]
+    },
+    "C05437": {
+      "ids": {
+        "KEGG": "C05437",
+        "BIGG": "zymst",
+        "SEED": "cpd03221"
+      },
+      "position": [
+        "372",
+        "804"
+      ]
+    },
+    "C05440": {
+      "ids": {
+        "KEGG": "C05440",
+        "BIGG": "ergtetrol",
+        "SEED": "cpd03223"
+      },
+      "position": [
+        "523",
+        "1054"
+      ]
+    },
+    "C01694": {
+      "ids": {
+        "KEGG": "C01694",
+        "BIGG": "ergst",
+        "SEED": "cpd01170"
+      },
+      "position": [
+        "523",
+        "1104"
+      ]
+    },
+    "C03845": {
+      "ids": {
+        "KEGG": "C03845",
+        "BIGG": "zymstnl",
+        "SEED": "cpd02398"
+      },
+      "position": [
+        "237",
+        "804"
+      ]
+    },
+    "C11522": {
+      "ids": {
+        "KEGG": "C11522",
+        "BIGG": "",
+        "SEED": "cpd08359"
+      },
+      "position": [
+        "668",
+        "804"
+      ]
+    },
+    "C05441": {
+      "ids": {
+        "KEGG": "C05441",
+        "BIGG": "vitd2",
+        "SEED": "cpd03224"
+      },
+      "position": [
+        "523",
+        "1157"
+      ]
+    },
+    "C05439": {
+      "ids": {
+        "KEGG": "C05439",
+        "BIGG": "chlstol",
+        "SEED": "cpd03222"
+      },
+      "position": [
+        "372",
+        "954"
+      ]
+    },
+    "C00187": {
+      "ids": {
+        "KEGG": "C00187",
+        "BIGG": "chsterol",
+        "SEED": "cpd00160"
+      },
+      "position": [
+        "237",
+        "1054"
+      ]
+    },
+    "C02530": {
+      "ids": {
+        "KEGG": "C02530",
+        "BIGG": "",
+        "SEED": ""
+      },
+      "position": [
+        "151",
+        "1054"
+      ]
+    },
+    "C18231": {
+      "ids": {
+        "KEGG": "C18231",
+        "BIGG": "1a2425thvitd3",
+        "SEED": ""
+      },
+      "position": [
+        "88",
+        "1170"
+      ]
+    },
+    "C07712": {
+      "ids": {
+        "KEGG": "C07712",
+        "BIGG": "2425dhvitd3",
+        "SEED": ""
+      },
+      "position": [
+        "144",
+        "1170"
+      ]
+    },
+    "C00448": {
+      "ids": {
+        "KEGG": "C00448",
+        "BIGG": "",
+        "SEED": "cpd00350"
+      },
+      "position": [
+        "372",
+        "109"
+      ]
+    },
+    "C03428": {
+      "ids": {
+        "KEGG": "C03428",
+        "BIGG": "",
+        "SEED": ""
+      },
+      "position": [
+        "372",
+        "169"
+      ]
+    },
+    "C00751": {
+      "ids": {
+        "KEGG": "C00751",
+        "BIGG": "sql",
+        "SEED": "cpd00559"
+      },
+      "position": [
+        "372",
+        "228"
+      ]
+    },
+    "C21106": {
+      "ids": {
+        "KEGG": "C21106",
+        "BIGG": "",
+        "SEED": "cpd25054"
+      },
+      "position": [
+        "748",
+        "1104"
+      ]
+    },
+    "C08813": {
+      "ids": {
+        "KEGG": "C08813",
+        "BIGG": "brasstrl",
+        "SEED": "cpd05718"
+      },
+      "position": [
+        "748",
+        "1154"
+      ]
+    },
+    "C22116": {
+      "ids": {
+        "KEGG": "C22116",
+        "BIGG": "",
+        "SEED": "cpd23617"
+      },
+      "position": [
+        "668",
+        "504"
+      ]
+    },
+    "C22119": {
+      "ids": {
+        "KEGG": "C22119",
+        "BIGG": "",
+        "SEED": "cpd23631"
+      },
+      "position": [
+        "668",
+        "854"
+      ]
+    },
+    "C22120": {
+      "ids": {
+        "KEGG": "C22120",
+        "BIGG": "",
+        "SEED": "cpd23635"
+      },
+      "position": [
+        "834",
+        "854"
+      ]
+    },
+    "C22121": {
+      "ids": {
+        "KEGG": "C22121",
+        "BIGG": "",
+        "SEED": "cpd23618"
+      },
+      "position": [
+        "668",
+        "554"
+      ]
+    },
+    "C22122": {
+      "ids": {
+        "KEGG": "C22122",
+        "BIGG": "",
+        "SEED": "cpd23632"
+      },
+      "position": [
+        "668",
+        "904"
+      ]
+    },
+    "C22123": {
+      "ids": {
+        "KEGG": "C22123",
+        "BIGG": "",
+        "SEED": "cpd23636"
+      },
+      "position": [
+        "834",
+        "904"
+      ]
+    },
+    "C22112": {
+      "ids": {
+        "KEGG": "C22112",
+        "BIGG": "",
+        "SEED": "cpd24533"
+      },
+      "position": [
+        "372",
+        "654"
+      ]
+    },
+    "C22136": {
+      "ids": {
+        "KEGG": "C22136",
+        "BIGG": "M01067",
+        "SEED": "cpd24507"
+      },
+      "position": [
+        "372",
+        "704"
+      ]
+    }
+  },
+  "reactions": {
+    "R07486": {
+      "ids": {
+        "KEGG": "R07486",
+        "BIGG": "",
+        "SEED": ""
+      },
+      "position": [
+        "835",
+        "975"
+      ],
+      "substrates": {
+        "main": [
+          "C15782"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C15783"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R04804": {
+      "ids": {
+        "KEGG": "R04804",
+        "BIGG": "CHLSTI_1",
+        "SEED": "rxn03281"
+      },
+      "position": [
+        "373",
+        "874"
+      ],
+      "substrates": {
+        "main": [
+          "C05437"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C05439"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R01451": {
+      "ids": {
+        "KEGG": "R01451",
+        "BIGG": "DHCR72r",
+        "SEED": "rxn01058"
+      },
+      "position": [
+        "238",
+        "1026"
+      ],
+      "substrates": {
+        "main": [
+          "C01164"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C00187"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R01456": {
+      "ids": {
+        "KEGG": "R01456",
+        "BIGG": "DHCR72r",
+        "SEED": "rxn01062"
+      },
+      "position": [
+        "238",
+        "1026"
+      ],
+      "substrates": {
+        "main": [
+          "C01164"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C00187"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R07215": {
+      "ids": {
+        "KEGG": "R07215",
+        "BIGG": "",
+        "SEED": ""
+      },
+      "position": [
+        "238",
+        "975"
+      ],
+      "substrates": {
+        "main": [
+          "C01189"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C01164"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R03353": {
+      "ids": {
+        "KEGG": "R03353",
+        "BIGG": "CHLSTD78I",
+        "SEED": "rxn02407"
+      },
+      "position": [
+        "238",
+        "874"
+      ],
+      "substrates": {
+        "main": [
+          "C03845"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C01189"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R05641": {
+      "ids": {
+        "KEGG": "R05641",
+        "BIGG": "C24STRer",
+        "SEED": "rxn03913"
+      },
+      "position": [
+        "523",
+        "1075"
+      ],
+      "substrates": {
+        "main": [
+          "C05440"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C01694"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R07506": {
+      "ids": {
+        "KEGG": "R07506",
+        "BIGG": "",
+        "SEED": "rxn12919"
+      },
+      "position": [
+        "523",
+        "1026"
+      ],
+      "substrates": {
+        "main": [
+          "C15780"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C05440"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R07491": {
+      "ids": {
+        "KEGG": "R07491",
+        "BIGG": "",
+        "SEED": ""
+      },
+      "position": [
+        "668",
+        "975"
+      ],
+      "substrates": {
+        "main": [
+          "C15777"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C15780"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R07497": {
+      "ids": {
+        "KEGG": "R07497",
+        "BIGG": "C8STI",
+        "SEED": "rxn07328"
+      },
+      "position": [
+        "523",
+        "925"
+      ],
+      "substrates": {
+        "main": [
+          "C04525"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C15777"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R07493": {
+      "ids": {
+        "KEGG": "R07493",
+        "BIGG": "CHLSTR",
+        "SEED": "rxn07324"
+      },
+      "position": [
+        "668",
+        "1075"
+      ],
+      "substrates": {
+        "main": [
+          "C15781"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C01789"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R07492": {
+      "ids": {
+        "KEGG": "R07492",
+        "BIGG": "",
+        "SEED": "rxn07323"
+      },
+      "position": [
+        "668",
+        "1026"
+      ],
+      "substrates": {
+        "main": [
+          "C15780"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C15781"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R01457": {
+      "ids": {
+        "KEGG": "R01457",
+        "BIGG": "DSMSTOLR",
+        "SEED": "rxn01063"
+      },
+      "position": [
+        "306",
+        "1055"
+      ],
+      "substrates": {
+        "main": [
+          "C00187"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C01802"
+        ],
+        "side": []
+      },
+      "reversibility": "reversible"
+    },
+    "R07507": {
+      "ids": {
+        "KEGG": "R07507",
+        "BIGG": "DDSMSTOLR",
+        "SEED": "rxn11682"
+      },
+      "position": [
+        "306",
+        "1005"
+      ],
+      "substrates": {
+        "main": [
+          "C05107"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C01164"
+        ],
+        "side": []
+      },
+      "reversibility": "reversible"
+    },
+    "R05703": {
+      "ids": {
+        "KEGG": "R05703",
+        "BIGG": "CHLSTR",
+        "SEED": "rxn03973"
+      },
+      "position": [
+        "306",
+        "954"
+      ],
+      "substrates": {
+        "main": [
+          "C01189"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C05439"
+        ],
+        "side": []
+      },
+      "reversibility": "reversible"
+    },
+    "R07498": {
+      "ids": {
+        "KEGG": "R07498",
+        "BIGG": "R_ZYMSTR",
+        "SEED": "rxn03007"
+      },
+      "position": [
+        "306",
+        "805"
+      ],
+      "substrates": {
+        "main": [
+          "C05437"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C03845"
+        ],
+        "side": []
+      },
+      "reversibility": "reversible"
+    },
+    "R07499": {
+      "ids": {
+        "KEGG": "R07499",
+        "BIGG": "CHLSTR",
+        "SEED": "rxn11681"
+      },
+      "position": [
+        "306",
+        "455"
+      ],
+      "substrates": {
+        "main": [
+          "C05108"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C15915"
+        ],
+        "side": []
+      },
+      "reversibility": "reversible"
+    },
+    "R03200": {
+      "ids": {
+        "KEGG": "R03200",
+        "BIGG": "CAS",
+        "SEED": "rxn02291"
+      },
+      "position": [
+        "668",
+        "317"
+      ],
+      "substrates": {
+        "main": [
+          "C01054"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C01902"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R03775": {
+      "ids": {
+        "KEGG": "R03775",
+        "BIGG": "CYEUOLCYCI",
+        "SEED": "rxn02677"
+      },
+      "position": [
+        "668",
+        "625"
+      ],
+      "substrates": {
+        "main": [
+          "C02141"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C01943"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R07488": {
+      "ids": {
+        "KEGG": "R07488",
+        "BIGG": "CHLSTR",
+        "SEED": "rxn32309"
+      },
+      "position": [
+        "835",
+        "1075"
+      ],
+      "substrates": {
+        "main": [
+          "C08821"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C01753"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R05731": {
+      "ids": {
+        "KEGG": "R05731",
+        "BIGG": "",
+        "SEED": ""
+      },
+      "position": [
+        "669",
+        "675"
+      ],
+      "substrates": {
+        "main": [
+          "C01943"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C11508"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R05776": {
+      "ids": {
+        "KEGG": "R05776",
+        "BIGG": "",
+        "SEED": "rxn04028"
+      },
+      "position": [
+        "750",
+        "805"
+      ],
+      "substrates": {
+        "main": [
+          "C11522"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C11523"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R07483": {
+      "ids": {
+        "KEGG": "R07483",
+        "BIGG": "C14STR",
+        "SEED": "rxn07314"
+      },
+      "position": [
+        "668",
+        "725"
+      ],
+      "substrates": {
+        "main": [
+          "C11508"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C15776"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R07481": {
+      "ids": {
+        "KEGG": "R07481",
+        "BIGG": "CYARTMT",
+        "SEED": "rxn07312"
+      },
+      "position": [
+        "668",
+        "395"
+      ],
+      "substrates": {
+        "main": [
+          "C01902"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C08830"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R07487": {
+      "ids": {
+        "KEGG": "R07487",
+        "BIGG": "",
+        "SEED": ""
+      },
+      "position": [
+        "835",
+        "1026"
+      ],
+      "substrates": {
+        "main": [
+          "C15783"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C08821"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R03199": {
+      "ids": {
+        "KEGG": "R03199",
+        "BIGG": "LNSTLS",
+        "SEED": "rxn02290"
+      },
+      "position": [
+        "372",
+        "317"
+      ],
+      "substrates": {
+        "main": [
+          "C01054"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C01724"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R05639": {
+      "ids": {
+        "KEGG": "R05639",
+        "BIGG": "C14STR",
+        "SEED": "rxn03911"
+      },
+      "position": [
+        "373",
+        "425"
+      ],
+      "substrates": {
+        "main": [
+          "C11455"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C05108"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R07484": {
+      "ids": {
+        "KEGG": "R07484",
+        "BIGG": "",
+        "SEED": "rxn07315"
+      },
+      "position": [
+        "668",
+        "775"
+      ],
+      "substrates": {
+        "main": [
+          "C15776"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C11522"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R07494": {
+      "ids": {
+        "KEGG": "R07494",
+        "BIGG": "4MZYMCODH",
+        "SEED": "rxn07325"
+      },
+      "position": [
+        "373",
+        "525"
+      ],
+      "substrates": {
+        "main": [
+          "C15808"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C15816"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R07489": {
+      "ids": {
+        "KEGG": "R07489",
+        "BIGG": "",
+        "SEED": "rxn23911"
+      },
+      "position": [
+        "835",
+        "1126"
+      ],
+      "substrates": {
+        "main": [
+          "C01753"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C05442"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R04427": {
+      "ids": {
+        "KEGG": "R04427",
+        "BIGG": "R_SAM24MT",
+        "SEED": "rxn03063"
+      },
+      "position": [
+        "523",
+        "848"
+      ],
+      "substrates": {
+        "main": [
+          "C05437"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C04525"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R03689": {
+      "ids": {
+        "KEGG": "R03689",
+        "BIGG": "RE2407C",
+        "SEED": "rxn02618"
+      },
+      "position": [
+        "306",
+        "354"
+      ],
+      "substrates": {
+        "main": [
+          "C01724"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C05109"
+        ],
+        "side": []
+      },
+      "reversibility": "reversible"
+    },
+    "R07509": {
+      "ids": {
+        "KEGG": "R07509",
+        "BIGG": "",
+        "SEED": ""
+      },
+      "position": [
+        "373",
+        "475"
+      ],
+      "substrates": {
+        "main": [
+          "C05108"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C15808"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R05640": {
+      "ids": {
+        "KEGG": "R05640",
+        "BIGG": "",
+        "SEED": ""
+      },
+      "position": [
+        "347",
+        "375"
+      ],
+      "substrates": {
+        "main": [
+          "C01724"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C11455"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R07495": {
+      "ids": {
+        "KEGG": "R07495",
+        "BIGG": "HMR_1500",
+        "SEED": "rxn14019"
+      },
+      "position": [
+        "373",
+        "575"
+      ],
+      "substrates": {
+        "main": [
+          "C15816"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C05103"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R01462": {
+      "ids": {
+        "KEGG": "R01462",
+        "BIGG": "CHOLESTle",
+        "SEED": ""
+      },
+      "position": [
+        "195",
+        "1052"
+      ],
+      "substrates": {
+        "main": [
+          "C02530"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C00187"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R02692": {
+      "ids": {
+        "KEGG": "R02692",
+        "BIGG": "",
+        "SEED": ""
+      },
+      "position": [
+        "195",
+        "1096"
+      ],
+      "substrates": {
+        "main": [
+          "C00187"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C02530"
+        ],
+        "side": []
+      },
+      "reversibility": "reversible"
+    },
+    "R01461": {
+      "ids": {
+        "KEGG": "R01461",
+        "BIGG": "HMR_3654",
+        "SEED": ""
+      },
+      "position": [
+        "195",
+        "1075"
+      ],
+      "substrates": {
+        "main": [
+          "C00187"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C02530"
+        ],
+        "side": []
+      },
+      "reversibility": "reversible"
+    },
+    "R03611": {
+      "ids": {
+        "KEGG": "R03611",
+        "BIGG": "CYP2R1",
+        "SEED": ""
+      },
+      "position": [
+        "63",
+        "1026"
+      ],
+      "substrates": {
+        "main": [
+          "C05443"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C01561"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R03610": {
+      "ids": {
+        "KEGG": "R03610",
+        "BIGG": "25HVITD3c",
+        "SEED": ""
+      },
+      "position": [
+        "63",
+        "1082"
+      ],
+      "substrates": {
+        "main": [
+          "C01561"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C01673"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R12378": {
+      "ids": {
+        "KEGG": "R12378",
+        "BIGG": "",
+        "SEED": ""
+      },
+      "position": [
+        "668",
+        "825"
+      ],
+      "substrates": {
+        "main": [
+          "C11522"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C22119"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R12377": {
+      "ids": {
+        "KEGG": "R12377",
+        "BIGG": "",
+        "SEED": ""
+      },
+      "position": [
+        "668",
+        "475"
+      ],
+      "substrates": {
+        "main": [
+          "C08830"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C22116"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R12379": {
+      "ids": {
+        "KEGG": "R12379",
+        "BIGG": "",
+        "SEED": ""
+      },
+      "position": [
+        "835",
+        "825"
+      ],
+      "substrates": {
+        "main": [
+          "C11523"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C22120"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R09515": {
+      "ids": {
+        "KEGG": "R09515",
+        "BIGG": "",
+        "SEED": ""
+      },
+      "position": [
+        "88",
+        "1138"
+      ],
+      "substrates": {
+        "main": [
+          "C01673"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C18231"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R09516": {
+      "ids": {
+        "KEGG": "R09516",
+        "BIGG": "24_25VITD3Hm",
+        "SEED": ""
+      },
+      "position": [
+        "144",
+        "1138"
+      ],
+      "substrates": {
+        "main": [
+          "C01561"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C07712"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R00702": {
+      "ids": {
+        "KEGG": "R00702",
+        "BIGG": "HMR_1465",
+        "SEED": ""
+      },
+      "position": [
+        "372",
+        "137"
+      ],
+      "substrates": {
+        "main": [
+          "C00448"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C03428"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R02872": {
+      "ids": {
+        "KEGG": "R02872",
+        "BIGG": "HMR_1467",
+        "SEED": ""
+      },
+      "position": [
+        "372",
+        "195"
+      ],
+      "substrates": {
+        "main": [
+          "C03428"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C00751"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R02874": {
+      "ids": {
+        "KEGG": "R02874",
+        "BIGG": "R_SMO",
+        "SEED": ""
+      },
+      "position": [
+        "347",
+        "256"
+      ],
+      "substrates": {
+        "main": [
+          "C00751"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C01054"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R11096": {
+      "ids": {
+        "KEGG": "R11096",
+        "BIGG": "C24STRer",
+        "SEED": ""
+      },
+      "position": [
+        "748",
+        "1075"
+      ],
+      "substrates": {
+        "main": [
+          "C15781"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C21106"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R11097": {
+      "ids": {
+        "KEGG": "R11097",
+        "BIGG": "",
+        "SEED": "rxn24845"
+      },
+      "position": [
+        "748",
+        "1126"
+      ],
+      "substrates": {
+        "main": [
+          "C21106"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C08813"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R11458": {
+      "ids": {
+        "KEGG": "R11458",
+        "BIGG": "",
+        "SEED": ""
+      },
+      "position": [
+        "113",
+        "1026"
+      ],
+      "substrates": {
+        "main": [
+          "C05443"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C01561"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R11459": {
+      "ids": {
+        "KEGG": "R11459",
+        "BIGG": "",
+        "SEED": ""
+      },
+      "position": [
+        "113",
+        "1082"
+      ],
+      "substrates": {
+        "main": [
+          "C01561"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C01673"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R12323": {
+      "ids": {
+        "KEGG": "R12323",
+        "BIGG": "",
+        "SEED": ""
+      },
+      "position": [
+        "397",
+        "375"
+      ],
+      "substrates": {
+        "main": [
+          "C01724"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C11455"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R12355": {
+      "ids": {
+        "KEGG": "R12355",
+        "BIGG": "",
+        "SEED": ""
+      },
+      "position": [
+        "397",
+        "256"
+      ],
+      "substrates": {
+        "main": [
+          "C00751"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C01054"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R12371": {
+      "ids": {
+        "KEGG": "R12371",
+        "BIGG": "C3STDH1",
+        "SEED": "rxn22239"
+      },
+      "position": [
+        "668",
+        "525"
+      ],
+      "substrates": {
+        "main": [
+          "C22116"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C22121"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R12375": {
+      "ids": {
+        "KEGG": "R12375",
+        "BIGG": "C3STDH1",
+        "SEED": "rxn22244"
+      },
+      "position": [
+        "668",
+        "876"
+      ],
+      "substrates": {
+        "main": [
+          "C22119"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C22122"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R12376": {
+      "ids": {
+        "KEGG": "R12376",
+        "BIGG": "C3STDH1",
+        "SEED": "rxn22249"
+      },
+      "position": [
+        "835",
+        "876"
+      ],
+      "substrates": {
+        "main": [
+          "C22120"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C22123"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R12399": {
+      "ids": {
+        "KEGG": "R12399",
+        "BIGG": "13PPDH2",
+        "SEED": "rxn22240"
+      },
+      "position": [
+        "668",
+        "575"
+      ],
+      "substrates": {
+        "main": [
+          "C22121"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C02141"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R12400": {
+      "ids": {
+        "KEGG": "R12400",
+        "BIGG": "13PPDH2",
+        "SEED": "rxn22245"
+      },
+      "position": [
+        "668",
+        "925"
+      ],
+      "substrates": {
+        "main": [
+          "C22122"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C15777"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R12401": {
+      "ids": {
+        "KEGG": "R12401",
+        "BIGG": "13PPDH2",
+        "SEED": "rxn22250"
+      },
+      "position": [
+        "835",
+        "925"
+      ],
+      "substrates": {
+        "main": [
+          "C22123"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C15782"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R12403": {
+      "ids": {
+        "KEGG": "R12403",
+        "BIGG": "",
+        "SEED": ""
+      },
+      "position": [
+        "373",
+        "625"
+      ],
+      "substrates": {
+        "main": [
+          "C05103"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C22112"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R12404": {
+      "ids": {
+        "KEGG": "R12404",
+        "BIGG": "4MZYMCODH",
+        "SEED": "rxn26960"
+      },
+      "position": [
+        "373",
+        "675"
+      ],
+      "substrates": {
+        "main": [
+          "C22112"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C22136"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    },
+    "R12405": {
+      "ids": {
+        "KEGG": "R12405",
+        "BIGG": "C3STKR2",
+        "SEED": "rxn26965"
+      },
+      "position": [
+        "373",
+        "745"
+      ],
+      "substrates": {
+        "main": [
+          "C22136"
+        ],
+        "side": []
+      },
+      "products": {
+        "main": [
+          "C05437"
+        ],
+        "side": []
+      },
+      "reversibility": "irreversible"
+    }
+  },
+  "map_stats": {
+    "stages": [
+      {
+        "name": "kegg_layout",
+        "counts": {
+          "total_elements": 561,
+          "nodes": 246,
+          "primary_metabolites": 57,
+          "secondary_metabolites": 0,
+          "reaction_nodes": 63,
+          "multimarkers": 126,
+          "reactions": 63,
+          "segments": 252
+        },
+        "change": {
+          "total_elements": {
+            "added": 561,
+            "removed": 0,
+            "delta": 561
+          },
+          "nodes": {
+            "added": 246,
+            "removed": 0,
+            "delta": 246
+          },
+          "primary_metabolites": {
+            "added": 57,
+            "removed": 0,
+            "delta": 57
+          },
+          "secondary_metabolites": {
+            "added": 0,
+            "removed": 0,
+            "delta": 0
+          },
+          "reaction_nodes": {
+            "added": 63,
+            "removed": 0,
+            "delta": 63
+          },
+          "multimarkers": {
+            "added": 126,
+            "removed": 0,
+            "delta": 126
+          },
+          "reactions": {
+            "added": 63,
+            "removed": 0,
+            "delta": 63
+          },
+          "segments": {
+            "added": 252,
+            "removed": 0,
+            "delta": 252
+          }
+        },
+        "description": "Initial Escher layout reconstructed from KEGG."
+      },
+      {
+        "name": "model_metabolite_id_application",
+        "counts": {
+          "total_elements": 561,
+          "nodes": 246,
+          "primary_metabolites": 57,
+          "secondary_metabolites": 0,
+          "reaction_nodes": 63,
+          "multimarkers": 126,
+          "reactions": 63,
+          "segments": 252
+        },
+        "change": {
+          "total_elements": {
+            "added": 0,
+            "removed": 0,
+            "delta": 0
+          },
+          "nodes": {
+            "added": 0,
+            "removed": 0,
+            "delta": 0
+          },
+          "primary_metabolites": {
+            "added": 0,
+            "removed": 0,
+            "delta": 0
+          },
+          "secondary_metabolites": {
+            "added": 0,
+            "removed": 0,
+            "delta": 0
+          },
+          "reaction_nodes": {
+            "added": 0,
+            "removed": 0,
+            "delta": 0
+          },
+          "multimarkers": {
+            "added": 0,
+            "removed": 0,
+            "delta": 0
+          },
+          "reactions": {
+            "added": 0,
+            "removed": 0,
+            "delta": 0
+          },
+          "segments": {
+            "added": 0,
+            "removed": 0,
+            "delta": 0
+          }
+        },
+        "description": "Applied COBRA model metabolite identifiers to matched KEGG metabolites."
+      },
+      {
+        "name": "model_reaction_filter",
+        "counts": {
+          "total_elements": 209,
+          "nodes": 114,
+          "primary_metabolites": 57,
+          "secondary_metabolites": 0,
+          "reaction_nodes": 19,
+          "multimarkers": 38,
+          "reactions": 19,
+          "segments": 76
+        },
+        "change": {
+          "total_elements": {
+            "added": 0,
+            "removed": 352,
+            "delta": -352
+          },
+          "nodes": {
+            "added": 0,
+            "removed": 132,
+            "delta": -132
+          },
+          "primary_metabolites": {
+            "added": 0,
+            "removed": 0,
+            "delta": 0
+          },
+          "secondary_metabolites": {
+            "added": 0,
+            "removed": 0,
+            "delta": 0
+          },
+          "reaction_nodes": {
+            "added": 0,
+            "removed": 44,
+            "delta": -44
+          },
+          "multimarkers": {
+            "added": 0,
+            "removed": 88,
+            "delta": -88
+          },
+          "reactions": {
+            "added": 0,
+            "removed": 44,
+            "delta": -44
+          },
+          "segments": {
+            "added": 0,
+            "removed": 176,
+            "delta": -176
+          }
+        },
+        "description": "Removed KEGG reactions that were not matched to the COBRA model."
+      },
+      {
+        "name": "model_metabolite_filter",
+        "counts": {
+          "total_elements": 179,
+          "nodes": 84,
+          "primary_metabolites": 27,
+          "secondary_metabolites": 0,
+          "reaction_nodes": 19,
+          "multimarkers": 38,
+          "reactions": 19,
+          "segments": 76
+        },
+        "change": {
+          "total_elements": {
+            "added": 0,
+            "removed": 30,
+            "delta": -30
+          },
+          "nodes": {
+            "added": 0,
+            "removed": 30,
+            "delta": -30
+          },
+          "primary_metabolites": {
+            "added": 0,
+            "removed": 30,
+            "delta": -30
+          },
+          "secondary_metabolites": {
+            "added": 0,
+            "removed": 0,
+            "delta": 0
+          },
+          "reaction_nodes": {
+            "added": 0,
+            "removed": 0,
+            "delta": 0
+          },
+          "multimarkers": {
+            "added": 0,
+            "removed": 0,
+            "delta": 0
+          },
+          "reactions": {
+            "added": 0,
+            "removed": 0,
+            "delta": 0
+          },
+          "segments": {
+            "added": 0,
+            "removed": 0,
+            "delta": 0
+          }
+        },
+        "description": "Removed KEGG metabolites that were not matched to the COBRA model."
+      },
+      {
+        "name": "secondary_metabolite_addition",
+        "counts": {
+          "total_elements": 297,
+          "nodes": 143,
+          "primary_metabolites": 27,
+          "secondary_metabolites": 59,
+          "reaction_nodes": 19,
+          "multimarkers": 38,
+          "reactions": 19,
+          "segments": 135
+        },
+        "change": {
+          "total_elements": {
+            "added": 118,
+            "removed": 0,
+            "delta": 118
+          },
+          "nodes": {
+            "added": 59,
+            "removed": 0,
+            "delta": 59
+          },
+          "primary_metabolites": {
+            "added": 0,
+            "removed": 0,
+            "delta": 0
+          },
+          "secondary_metabolites": {
+            "added": 59,
+            "removed": 0,
+            "delta": 59
+          },
+          "reaction_nodes": {
+            "added": 0,
+            "removed": 0,
+            "delta": 0
+          },
+          "multimarkers": {
+            "added": 0,
+            "removed": 0,
+            "delta": 0
+          },
+          "reactions": {
+            "added": 0,
+            "removed": 0,
+            "delta": 0
+          },
+          "segments": {
+            "added": 59,
+            "removed": 0,
+            "delta": 59
+          }
+        },
+        "description": "Added non-primary COBRA metabolites attached to matched reactions."
+      },
+      {
+        "name": "final_layout",
+        "counts": {
+          "total_elements": 297,
+          "nodes": 143,
+          "primary_metabolites": 27,
+          "secondary_metabolites": 59,
+          "reaction_nodes": 19,
+          "multimarkers": 38,
+          "reactions": 19,
+          "segments": 135
+        },
+        "change": {
+          "total_elements": {
+            "added": 0,
+            "removed": 0,
+            "delta": 0
+          },
+          "nodes": {
+            "added": 0,
+            "removed": 0,
+            "delta": 0
+          },
+          "primary_metabolites": {
+            "added": 0,
+            "removed": 0,
+            "delta": 0
+          },
+          "secondary_metabolites": {
+            "added": 0,
+            "removed": 0,
+            "delta": 0
+          },
+          "reaction_nodes": {
+            "added": 0,
+            "removed": 0,
+            "delta": 0
+          },
+          "multimarkers": {
+            "added": 0,
+            "removed": 0,
+            "delta": 0
+          },
+          "reactions": {
+            "added": 0,
+            "removed": 0,
+            "delta": 0
+          },
+          "segments": {
+            "added": 0,
+            "removed": 0,
+            "delta": 0
+          }
+        },
+        "description": "Final Escher map after layout scaling and alignment."
+      }
+    ],
+    "model_matching": {
+      "matched_metabolites": 18,
+      "unmatched_metabolites": 39,
+      "matched_reactions": 19,
+      "unmatched_reactions": 44,
+      "compartment_filter": "r",
+      "use_fallback_matching": true,
+      "reaction_match_methods": {
+        "bigg": 10,
+        "bigg_ec_fallback": 7,
+        "ec": 1,
+        "kegg": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "bioemma_version": "0.4.2",
+  "old_resource": {
+    "label": "BioEMMA 0.4.1 / BiGG EC fallback",
+    "path": "results\\fallback\\resources_0_4_1\\reaction_mapping.tsv",
+    "sha256": "f557363e155fa7f9d095bdc06919f88b00512ab86f80229a229f3e708280bb21",
+    "coverage_stats": {
+      "total": 11863,
+      "has_bigg": 3786,
+      "has_seed": 7363,
+      "has_metacyc": 5165,
+      "has_ec": 10552,
+      "ec_fallback": 2046,
+      "bigg_ec_fallback": 2046,
+      "seed_ec_fallback": 0,
+      "ambiguous": 7189,
+      "bigg_pct": 31.91435555930203,
+      "seed_pct": 62.06693079322263
+    }
+  },
+  "new_resource": {
+    "label": "BioEMMA 0.4.2 / BiGG + SEED EC fallback",
+    "path": "results\\fallback\\resources_0_4_2\\reaction_mapping.tsv",
+    "sha256": "7642e225f1531b8bbaa0b53ef0113bca3f02e20ca171068cc9d34b84ad2e5b0e",
+    "coverage_stats": {
+      "total": 11863,
+      "has_bigg": 3786,
+      "has_seed": 9916,
+      "has_metacyc": 5165,
+      "has_ec": 10552,
+      "ec_fallback": 2046,
+      "bigg_ec_fallback": 2046,
+      "seed_ec_fallback": 2553,
+      "ambiguous": 8683,
+      "bigg_pct": 31.91435555930203,
+      "seed_pct": 83.58762538986765
+    }
+  },
+  "resource_delta": {
+    "total": 0,
+    "has_bigg": 0,
+    "has_seed": 2553,
+    "bigg_ec_fallback": 0,
+    "seed_ec_fallback": 2553
+  },
+  "fallback_overlap": {
+    "bigg_ec_fallback": 2046,
+    "seed_ec_fallback": 2553,
+    "overlap": 662,
+    "seed_only": 1891,
+    "bigg_only": 1384,
+    "overlap_percent_of_seed": 25.930278104191146,
+    "overlap_percent_of_bigg": 32.355816226783965
+  },
+  "validation": {
+    "bigg_mnx_participants_inclusive_best_ties": {
+      "sources": 1711,
+      "exact": 1697,
+      "mixed_hit": 14,
+      "wrong_only": 0,
+      "miss": 0,
+      "recovered_any": 1711,
+      "precision": 0.9341040462427745,
+      "recall": 1.0,
+      "f1": 0.9659294680215182
+    },
+    "bigg_kegg_formula_inclusive_best_ties": {
+      "sources": 1704,
+      "exact": 1668,
+      "mixed_hit": 36,
+      "wrong_only": 0,
+      "miss": 0,
+      "recovered_any": 1704,
+      "precision": 0.9069636312376657,
+      "recall": 1.0,
+      "f1": 0.9512123004139562
+    },
+    "seed_mnx_participants_inclusive_best_ties": {
+      "sources": 6575,
+      "exact": 6521,
+      "mixed_hit": 54,
+      "wrong_only": 0,
+      "miss": 0,
+      "recovered_any": 6575,
+      "precision": 0.888987487798385,
+      "recall": 1.0,
+      "f1": 0.9412317376802743
+    },
+    "seed_mnx_participants_leave_one_mnx_out_best_ties": {
+      "sources": 6575,
+      "exact": 0,
+      "mixed_hit": 0,
+      "wrong_only": 4536,
+      "miss": 2039,
+      "recovered_any": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "seed_kegg_formula_inclusive_best_ties": {
+      "sources": 6549,
+      "exact": 6258,
+      "mixed_hit": 286,
+      "wrong_only": 3,
+      "miss": 2,
+      "recovered_any": 6544,
+      "precision": 0.7574031890660592,
+      "recall": 0.999498997995992,
+      "f1": 0.8617710583153347
+    },
+    "seed_kegg_formula_leave_one_mnx_out_best_ties": {
+      "sources": 6549,
+      "exact": 0,
+      "mixed_hit": 0,
+      "wrong_only": 4135,
+      "miss": 2414,
+      "recovered_any": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  "article_map_seed_fallback_delta": {
+    "changed_maps": 0,
+    "changed_flux_json": 0
+  }
+}

@@ -1,0 +1,216 @@
+[
+  {
+    "map_name": "test",
+    "map_id": "default",
+    "map_description": "",
+    "homepage": "https://escher.github.io",
+    "schema": "https://escher.github.io/escher/jsonschema/1-0-0#"
+  },
+  {
+    "nodes": {
+      "4": {
+        "node_type": "metabolite",
+        "bigg_id": "accoa_x",
+        "name": "C00024",
+        "node_is_primary": true,
+        "x": 1256.0,
+        "y": 560.0,
+        "label_x": 1296.0,
+        "label_y": 600.0,
+        "compartment": "x"
+      },
+      "5": {
+        "node_type": "metabolite",
+        "bigg_id": "pyr_x",
+        "name": "C00022",
+        "node_is_primary": true,
+        "x": 1028.0,
+        "y": 668.0,
+        "label_x": 1068.0,
+        "label_y": 708.0,
+        "compartment": "x"
+      },
+      "21": {
+        "node_type": "metabolite",
+        "bigg_id": "4mop",
+        "name": "C00233",
+        "node_is_primary": true,
+        "x": 1936.0,
+        "y": 2200.0,
+        "label_x": 1976.0,
+        "label_y": 2240.0
+      },
+      "22": {
+        "node_type": "metabolite",
+        "bigg_id": "leu__L",
+        "name": "C00123",
+        "node_is_primary": true,
+        "x": 1936.0,
+        "y": 2564.0,
+        "label_x": 1976.0,
+        "label_y": 2604.0
+      },
+      "28": {
+        "node_type": "midmarker",
+        "x": 1836.0,
+        "y": 2416.0
+      },
+      "53": {
+        "node_type": "multimarker",
+        "x": 1836.0,
+        "y": 2460.4
+      },
+      "78": {
+        "node_type": "multimarker",
+        "x": 1836.0,
+        "y": 2351.2
+      },
+      "98": {
+        "node_type": "metabolite",
+        "bigg_id": "akg_x",
+        "name": "2-Oxoglutarate",
+        "node_is_primary": false,
+        "x": 1930.5039310237244,
+        "y": 2493.0956728186343,
+        "label_x": 1970.5039310237244,
+        "label_y": 2533.0956728186343,
+        "compartment": "x"
+      },
+      "99": {
+        "node_type": "metabolite",
+        "bigg_id": "asp__L_x",
+        "name": "L-Aspartate",
+        "node_is_primary": false,
+        "x": 1831.0732547807538,
+        "y": 2560.2785621719927,
+        "label_x": 1871.0732547807538,
+        "label_y": 2600.2785621719927,
+        "compartment": "x"
+      },
+      "100": {
+        "node_type": "metabolite",
+        "bigg_id": "glu__L_x",
+        "name": "L-Glutamate",
+        "node_is_primary": false,
+        "x": 1815.1618710216921,
+        "y": 2253.3952333437505,
+        "label_x": 1855.1618710216921,
+        "label_y": 2293.3952333437505,
+        "compartment": "x"
+      },
+      "101": {
+        "node_type": "metabolite",
+        "bigg_id": "oaa_x",
+        "name": "Oxaloacetate",
+        "node_is_primary": false,
+        "x": 1924.0578998760734,
+        "y": 2303.8100615170747,
+        "label_x": 1964.0578998760734,
+        "label_y": 2343.8100615170747,
+        "compartment": "x"
+      }
+    },
+    "reactions": {
+      "5": {
+        "name": "R01090",
+        "bigg_id": "ASPTAp",
+        "reversibility": true,
+        "gene_reaction_rule": "",
+        "genes": [],
+        "metabolites": [
+          {
+            "kegg_id": "C00123",
+            "bigg_id": "leu__L",
+            "seed_id": "cpd00107",
+            "coefficient": -1
+          },
+          {
+            "kegg_id": "C00233",
+            "bigg_id": "4mop",
+            "seed_id": "cpd00200",
+            "coefficient": 1
+          },
+          {
+            "bigg_id": "akg_x",
+            "coefficient": -1.0,
+            "compartment": "x"
+          },
+          {
+            "bigg_id": "asp__L_x",
+            "coefficient": -1.0,
+            "compartment": "x"
+          },
+          {
+            "bigg_id": "glu__L_x",
+            "coefficient": 1.0,
+            "compartment": "x"
+          },
+          {
+            "bigg_id": "oaa_x",
+            "coefficient": 1.0,
+            "compartment": "x"
+          }
+        ],
+        "segments": {
+          "21": {
+            "from_node_id": 22,
+            "to_node_id": 53,
+            "b1": null,
+            "b2": null
+          },
+          "22": {
+            "from_node_id": 53,
+            "to_node_id": 28,
+            "b1": null,
+            "b2": null
+          },
+          "23": {
+            "from_node_id": 28,
+            "to_node_id": 78,
+            "b1": null,
+            "b2": null
+          },
+          "24": {
+            "from_node_id": 78,
+            "to_node_id": 21,
+            "b1": null,
+            "b2": null
+          },
+          "102": {
+            "from_node_id": 98,
+            "to_node_id": 53,
+            "b1": null,
+            "b2": null
+          },
+          "103": {
+            "from_node_id": 99,
+            "to_node_id": 53,
+            "b1": null,
+            "b2": null
+          },
+          "104": {
+            "from_node_id": 78,
+            "to_node_id": 100,
+            "b1": null,
+            "b2": null
+          },
+          "105": {
+            "from_node_id": 78,
+            "to_node_id": 101,
+            "b1": null,
+            "b2": null
+          }
+        },
+        "label_x": 1876.0,
+        "label_y": 2456.0
+      }
+    },
+    "text_labels": {},
+    "canvas": {
+      "x": 0,
+      "y": 0,
+      "width": 2964.0,
+      "height": 3124.0
+    }
+  }
+]

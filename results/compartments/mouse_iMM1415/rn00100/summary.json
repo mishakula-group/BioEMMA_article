@@ -1,0 +1,203 @@
+{
+  "organism": "Mus musculus",
+  "model_id": "iMM1415",
+  "pathway": "rn00100",
+  "title": "Steroid biosynthesis",
+  "bioemma_version": "0.4.1",
+  "kgml": "data\\compartment_models\\recon3d_probe\\kgml\\rn00100.xml",
+  "compartments": [
+    [
+      "c",
+      "cytosol"
+    ],
+    [
+      "r",
+      "endoplasmic reticulum"
+    ],
+    [
+      "m",
+      "mitochondria"
+    ]
+  ],
+  "reaction_counts": {
+    "c": 1,
+    "r": 12,
+    "m": 3
+  },
+  "compartment_summaries": {
+    "c": {
+      "label": "cytosol",
+      "reaction_count": 1,
+      "nodes": 19,
+      "segments": 9,
+      "build_sec": 2.640682499994
+    },
+    "r": {
+      "label": "endoplasmic reticulum",
+      "reaction_count": 12,
+      "nodes": 94,
+      "segments": 83,
+      "build_sec": 2.0126133000012487
+    },
+    "m": {
+      "label": "mitochondria",
+      "reaction_count": 3,
+      "nodes": 31,
+      "segments": 27,
+      "build_sec": 2.147826799999166
+    }
+  },
+  "alignment": {
+    "reference_compartment": "r",
+    "translations": {
+      "r": {
+        "dx": 0.0,
+        "dy": 0.0,
+        "anchors": 12
+      },
+      "c": {
+        "dx": 0.0,
+        "dy": 0.0,
+        "anchors": 0
+      },
+      "m": {
+        "dx": 0.0,
+        "dy": 0.0,
+        "anchors": 0
+      }
+    },
+    "max_shared_y_delta_after_alignment": 0.0,
+    "reaction_counts": {
+      "c": 1,
+      "r": 12,
+      "m": 3
+    },
+    "canvas": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 9526.360380700089,
+      "height": 4694.8
+    }
+  },
+  "flux_summary": {
+    "by_compartment": {
+      "c": {
+        "mapped": 1,
+        "with_flux": 1,
+        "nonzero_flux": 0
+      },
+      "r": {
+        "mapped": 12,
+        "with_flux": 12,
+        "nonzero_flux": 8
+      },
+      "m": {
+        "mapped": 3,
+        "with_flux": 3,
+        "nonzero_flux": 0
+      }
+    },
+    "rows": [
+      {
+        "compartment": "c",
+        "kegg": "R12399",
+        "bigg_id": "ALR2",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R03610",
+        "bigg_id": "25VITD3Hm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R03611",
+        "bigg_id": "VITD3Hm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R09516",
+        "bigg_id": "24_25VITD3Hm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "r",
+        "kegg": "R00702",
+        "bigg_id": "SQLSr",
+        "flux": 0.02454170230171409
+      },
+      {
+        "compartment": "r",
+        "kegg": "R01456",
+        "bigg_id": "DHCR72r",
+        "flux": 0.0
+      },
+      {
+        "compartment": "r",
+        "kegg": "R02874",
+        "bigg_id": "SQLEr",
+        "flux": 0.02454170230171409
+      },
+      {
+        "compartment": "r",
+        "kegg": "R03199",
+        "bigg_id": "LNSTLSr",
+        "flux": 0.024541702301714086
+      },
+      {
+        "compartment": "r",
+        "kegg": "R03353",
+        "bigg_id": "EBP2r",
+        "flux": 0.0
+      },
+      {
+        "compartment": "r",
+        "kegg": "R04804",
+        "bigg_id": "EBP1r",
+        "flux": 0.024541702301714086
+      },
+      {
+        "compartment": "r",
+        "kegg": "R05639",
+        "bigg_id": "C14STRr",
+        "flux": 0.024541702301714093
+      },
+      {
+        "compartment": "r",
+        "kegg": "R07487",
+        "bigg_id": "DHCR71r",
+        "flux": 0.024541702301714093
+      },
+      {
+        "compartment": "r",
+        "kegg": "R07488",
+        "bigg_id": "SR5AR2r",
+        "flux": 0.0
+      },
+      {
+        "compartment": "r",
+        "kegg": "R07494",
+        "bigg_id": "C3STDH1Pr",
+        "flux": 0.024541702301714093
+      },
+      {
+        "compartment": "r",
+        "kegg": "R12371",
+        "bigg_id": "C3STDH1r",
+        "flux": 0.0
+      },
+      {
+        "compartment": "r",
+        "kegg": "R12405",
+        "bigg_id": "C3STKR2r",
+        "flux": 0.02454170230171409
+      }
+    ]
+  },
+  "html": "results\\compartments\\mouse_iMM1415\\rn00100\\iMM1415_rn00100_compartments.html",
+  "map_json": "results\\compartments\\mouse_iMM1415\\rn00100\\iMM1415_rn00100_compartments.json",
+  "flux_tsv": "results\\compartments\\mouse_iMM1415\\rn00100\\iMM1415_rn00100_flux.tsv",
+  "summary_json": "results\\compartments\\mouse_iMM1415\\rn00100\\summary.json"
+}

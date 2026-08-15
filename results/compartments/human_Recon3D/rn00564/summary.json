@@ -1,0 +1,328 @@
+{
+  "organism": "Homo sapiens",
+  "model_id": "Recon3D",
+  "pathway": "rn00564",
+  "title": "Glycerophospholipid metabolism",
+  "bioemma_version": "0.4.1",
+  "kgml": "data\\compartment_models\\recon3d_probe\\kgml\\rn00564.xml",
+  "compartments": [
+    [
+      "c",
+      "cytosol"
+    ],
+    [
+      "r",
+      "endoplasmic reticulum"
+    ],
+    [
+      "m",
+      "mitochondria"
+    ],
+    [
+      "e",
+      "extracellular space"
+    ]
+  ],
+  "reaction_counts": {
+    "c": 21,
+    "r": 4,
+    "m": 4,
+    "e": 4
+  },
+  "compartment_summaries": {
+    "c": {
+      "label": "cytosol",
+      "reaction_count": 21,
+      "nodes": 142,
+      "segments": 143,
+      "build_sec": 6.1427850000036415
+    },
+    "r": {
+      "label": "endoplasmic reticulum",
+      "reaction_count": 4,
+      "nodes": 43,
+      "segments": 35,
+      "build_sec": 4.276865400002862
+    },
+    "m": {
+      "label": "mitochondria",
+      "reaction_count": 4,
+      "nodes": 36,
+      "segments": 30,
+      "build_sec": 4.2204805000001215
+    },
+    "e": {
+      "label": "extracellular space",
+      "reaction_count": 4,
+      "nodes": 42,
+      "segments": 31,
+      "build_sec": 5.643275900001754
+    }
+  },
+  "alignment": {
+    "reference_compartment": "c",
+    "translations": {
+      "c": {
+        "dx": 0.0,
+        "dy": 0.0,
+        "anchors": 21
+      },
+      "r": {
+        "dx": 0.0,
+        "dy": 124.0,
+        "anchors": 4
+      },
+      "m": {
+        "dx": 0.0,
+        "dy": 124.0,
+        "anchors": 3
+      },
+      "e": {
+        "dx": 0.0,
+        "dy": 358.0,
+        "anchors": 4
+      }
+    },
+    "max_shared_y_delta_after_alignment": 0.0,
+    "reaction_counts": {
+      "c": 21,
+      "r": 4,
+      "m": 4,
+      "e": 4
+    },
+    "canvas": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 20690.0,
+      "height": 3622.0
+    }
+  },
+  "flux_summary": {
+    "by_compartment": {
+      "c": {
+        "mapped": 21,
+        "with_flux": 21,
+        "nonzero_flux": 2
+      },
+      "r": {
+        "mapped": 4,
+        "with_flux": 4,
+        "nonzero_flux": 1
+      },
+      "m": {
+        "mapped": 4,
+        "with_flux": 4,
+        "nonzero_flux": 1
+      },
+      "e": {
+        "mapped": 4,
+        "with_flux": 4,
+        "nonzero_flux": 1
+      }
+    },
+    "rows": [
+      {
+        "compartment": "c",
+        "kegg": "R00748",
+        "bigg_id": "r0186",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00749",
+        "bigg_id": "ETHAAL",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00842",
+        "bigg_id": "G3PD1ir",
+        "flux": 318.7509340825102
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00844",
+        "bigg_id": "G3PD2",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00848",
+        "bigg_id": "G3PD",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01021",
+        "bigg_id": "CHOLK",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01023",
+        "bigg_id": "CHAT",
+        "flux": 208.9636947285477
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01026",
+        "bigg_id": "HMR_0641",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01030",
+        "bigg_id": "GPDDA1",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01468",
+        "bigg_id": "ETHAK",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01890",
+        "bigg_id": "CHLPCTD",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R02037",
+        "bigg_id": "r0480",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R02038",
+        "bigg_id": "PETHCT",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R02057",
+        "bigg_id": "CEPTE",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R02239",
+        "bigg_id": "SBPP3",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R05680",
+        "bigg_id": "ALCD2y",
+        "flux": 1.2119436404960136e-13
+      },
+      {
+        "compartment": "c",
+        "kegg": "R06868",
+        "bigg_id": "r0788",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R06869",
+        "bigg_id": "r0789",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R06870",
+        "bigg_id": "ETHP",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R06871",
+        "bigg_id": "CHLP",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R12699",
+        "bigg_id": "FT",
+        "flux": 0.0
+      },
+      {
+        "compartment": "e",
+        "kegg": "R01026",
+        "bigg_id": "ACHEe",
+        "flux": 0.0
+      },
+      {
+        "compartment": "e",
+        "kegg": "R02239",
+        "bigg_id": "HMR_0783",
+        "flux": 0.0
+      },
+      {
+        "compartment": "e",
+        "kegg": "R06870",
+        "bigg_id": "r0242",
+        "flux": -1000.0
+      },
+      {
+        "compartment": "e",
+        "kegg": "R06871",
+        "bigg_id": "NDP8ex",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00842",
+        "bigg_id": "G3PD1irm",
+        "flux": -225.89445872479726
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00848",
+        "bigg_id": "G3PDm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R05680",
+        "bigg_id": "GLYCLTDym",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R12757",
+        "bigg_id": "DPHMBDCm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "r",
+        "kegg": "R00844",
+        "bigg_id": "G6PDH2er",
+        "flux": 1.2299085053570754e-13
+      },
+      {
+        "compartment": "r",
+        "kegg": "R02239",
+        "bigg_id": "SBPP3er",
+        "flux": 0.0
+      },
+      {
+        "compartment": "r",
+        "kegg": "R05680",
+        "bigg_id": "GULNDer",
+        "flux": -365.0939784731361
+      },
+      {
+        "compartment": "r",
+        "kegg": "R06871",
+        "bigg_id": "NDP7er",
+        "flux": 0.0
+      }
+    ]
+  },
+  "html": "results\\compartments\\human_Recon3D\\rn00564\\Recon3D_rn00564_compartments.html",
+  "map_json": "results\\compartments\\human_Recon3D\\rn00564\\Recon3D_rn00564_compartments.json",
+  "flux_tsv": "results\\compartments\\human_Recon3D\\rn00564\\Recon3D_rn00564_flux.tsv",
+  "summary_json": "results\\compartments\\human_Recon3D\\rn00564\\summary.json"
+}

@@ -1,0 +1,671 @@
+{
+  "organism": "Homo sapiens",
+  "model_id": "Recon3D",
+  "pathway": "rn00240",
+  "title": "Pyrimidine metabolism",
+  "bioemma_version": "0.4.1",
+  "kgml": "data\\compartment_models\\recon3d_probe\\kgml\\rn00240.xml",
+  "compartments": [
+    [
+      "c",
+      "cytosol"
+    ],
+    [
+      "m",
+      "mitochondria"
+    ],
+    [
+      "n",
+      "nucleus"
+    ]
+  ],
+  "reaction_counts": {
+    "c": 60,
+    "m": 21,
+    "n": 13
+  },
+  "compartment_summaries": {
+    "c": {
+      "label": "cytosol",
+      "reaction_count": 60,
+      "nodes": 403,
+      "segments": 419,
+      "build_sec": 6.568111500004306
+    },
+    "m": {
+      "label": "mitochondria",
+      "reaction_count": 21,
+      "nodes": 157,
+      "segments": 148,
+      "build_sec": 4.613886099999945
+    },
+    "n": {
+      "label": "nucleus",
+      "reaction_count": 13,
+      "nodes": 88,
+      "segments": 83,
+      "build_sec": 3.8453089999966323
+    }
+  },
+  "alignment": {
+    "reference_compartment": "c",
+    "translations": {
+      "c": {
+        "dx": 0.0,
+        "dy": 0.0,
+        "anchors": 60
+      },
+      "m": {
+        "dx": 30.0,
+        "dy": 227.36326838093555,
+        "anchors": 20
+      },
+      "n": {
+        "dx": 188.0,
+        "dy": 235.34838075250718,
+        "anchors": 13
+      }
+    },
+    "max_shared_y_delta_after_alignment": 2.2737367544323206e-13,
+    "reaction_counts": {
+      "c": 60,
+      "m": 21,
+      "n": 13
+    },
+    "canvas": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 16188.0,
+      "height": 3774.0
+    }
+  },
+  "flux_summary": {
+    "by_compartment": {
+      "c": {
+        "mapped": 59,
+        "with_flux": 59,
+        "nonzero_flux": 15
+      },
+      "m": {
+        "mapped": 21,
+        "with_flux": 21,
+        "nonzero_flux": 4
+      },
+      "n": {
+        "mapped": 13,
+        "with_flux": 13,
+        "nonzero_flux": 8
+      }
+    },
+    "rows": [
+      {
+        "compartment": "c",
+        "kegg": "R00155",
+        "bigg_id": "ACP1_FMN",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00156",
+        "bigg_id": "NDPK2",
+        "flux": -1000.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00158",
+        "bigg_id": "UMPK",
+        "flux": -1000.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00511",
+        "bigg_id": "NTD4",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00512",
+        "bigg_id": "CYTK1",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00513",
+        "bigg_id": "CYTDK1",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00514",
+        "bigg_id": "NDP1",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00515",
+        "bigg_id": "UDPGP",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00517",
+        "bigg_id": "CYTDK2",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00570",
+        "bigg_id": "NDPK3",
+        "flux": -1000.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00571",
+        "bigg_id": "CTPS1",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00573",
+        "bigg_id": "CTPS2",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00575",
+        "bigg_id": "CBPS",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00662",
+        "bigg_id": "NDP8",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00905",
+        "bigg_id": "UPPN",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00963",
+        "bigg_id": "NTD2",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00964",
+        "bigg_id": "URIK1",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00965",
+        "bigg_id": "OMPDC",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00966",
+        "bigg_id": "UPPRT",
+        "flux": 383.5093370323996
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00968",
+        "bigg_id": "URIK2",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00974",
+        "bigg_id": "CSND",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00977",
+        "bigg_id": "DURADx",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00978",
+        "bigg_id": "DURAD",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01397",
+        "bigg_id": "ASPCT",
+        "flux": -1.3383587911140327e-13
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01415",
+        "bigg_id": "DURAD2",
+        "flux": 1.28139891394378e-12
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01567",
+        "bigg_id": "TMDK1",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01569",
+        "bigg_id": "NTD5",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01570",
+        "bigg_id": "TMDPP",
+        "flux": -1.28139891394378e-12
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01663",
+        "bigg_id": "DCMPDA",
+        "flux": -343.15743517407884
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01664",
+        "bigg_id": "NTD3",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01665",
+        "bigg_id": "CYTK2",
+        "flux": -490.09960074384264
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01666",
+        "bigg_id": "ADADir",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01870",
+        "bigg_id": "ORPT",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01876",
+        "bigg_id": "PYNP2r",
+        "flux": 383.5093370323995
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01878",
+        "bigg_id": "CYTD",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01993",
+        "bigg_id": "DHORTS",
+        "flux": 1.3383587911140327e-13
+      },
+      {
+        "compartment": "c",
+        "kegg": "R02018",
+        "bigg_id": "RNDR4",
+        "flux": 1000.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R02022",
+        "bigg_id": "RNTR3",
+        "flux": -1000.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R02023",
+        "bigg_id": "RNTR4",
+        "flux": -656.8425648259207
+      },
+      {
+        "compartment": "c",
+        "kegg": "R02024",
+        "bigg_id": "RNDR3",
+        "flux": 5.622634483952668
+      },
+      {
+        "compartment": "c",
+        "kegg": "R02093",
+        "bigg_id": "NDPK4",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R02094",
+        "bigg_id": "DTMPK",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R02098",
+        "bigg_id": "URIDK2r",
+        "flux": -1000.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R02099",
+        "bigg_id": "DURIK1",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R02100",
+        "bigg_id": "DUTPDP",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R02101",
+        "bigg_id": "TMDS",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R02102",
+        "bigg_id": "NTD1",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R02269",
+        "bigg_id": "DHPM1",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R02325",
+        "bigg_id": "DCTPD",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R02326",
+        "bigg_id": "NDPK7",
+        "flux": 1000.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R02331",
+        "bigg_id": "NDPK6",
+        "flux": -1000.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R02484",
+        "bigg_id": "DURIPP",
+        "flux": 1000.0000000000001
+      },
+      {
+        "compartment": "c",
+        "kegg": "R02485",
+        "bigg_id": "DCYTD",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R03055",
+        "bigg_id": "DHPM2",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R04666",
+        "bigg_id": "BUP2",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R06613",
+        "bigg_id": "DHFR2i",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R09289",
+        "bigg_id": "ALCD2y",
+        "flux": 1.2119436404960136e-13
+      },
+      {
+        "compartment": "c",
+        "kegg": "R09947",
+        "bigg_id": "NADN",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R11026",
+        "bigg_id": "r0330",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00158",
+        "bigg_id": "ADK3m",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00159",
+        "bigg_id": "TDPm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00512",
+        "bigg_id": "CYTK1m",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00513",
+        "bigg_id": "CYTDK2m",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00570",
+        "bigg_id": "NDPK3m",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00571",
+        "bigg_id": "GLUNm",
+        "flux": 331.2148206732507
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00575",
+        "bigg_id": "CBPSam",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R01567",
+        "bigg_id": "TMDK1m",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R01569",
+        "bigg_id": "NTD5m",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R01666",
+        "bigg_id": "DCK1m",
+        "flux": 651.2199303419686
+      },
+      {
+        "compartment": "m",
+        "kegg": "R02093",
+        "bigg_id": "NDPK4m",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R02094",
+        "bigg_id": "DTMPKm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R02098",
+        "bigg_id": "URIDK2m",
+        "flux": -343.15743517407884
+      },
+      {
+        "compartment": "m",
+        "kegg": "R02099",
+        "bigg_id": "DURIK1m",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R02100",
+        "bigg_id": "DUTPDPm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R02102",
+        "bigg_id": "NTD1m",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R02326",
+        "bigg_id": "NDPK7m",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R02331",
+        "bigg_id": "NDPK6m",
+        "flux": -308.06249516789023
+      },
+      {
+        "compartment": "m",
+        "kegg": "R06613",
+        "bigg_id": "r0514",
+        "flux": -1.4967466494384285e-14
+      },
+      {
+        "compartment": "m",
+        "kegg": "R09289",
+        "bigg_id": "r0246",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R11026",
+        "bigg_id": "r0331",
+        "flux": 0.0
+      },
+      {
+        "compartment": "n",
+        "kegg": "R00156",
+        "bigg_id": "NDPK2n",
+        "flux": 1000.0
+      },
+      {
+        "compartment": "n",
+        "kegg": "R00158",
+        "bigg_id": "UMPKn",
+        "flux": 2.4435603586915573e-13
+      },
+      {
+        "compartment": "n",
+        "kegg": "R00512",
+        "bigg_id": "CYTK1n",
+        "flux": -999.9999999999998
+      },
+      {
+        "compartment": "n",
+        "kegg": "R00570",
+        "bigg_id": "NDPK3n",
+        "flux": -999.9999999999998
+      },
+      {
+        "compartment": "n",
+        "kegg": "R01665",
+        "bigg_id": "CYTK2n",
+        "flux": 0.0
+      },
+      {
+        "compartment": "n",
+        "kegg": "R01666",
+        "bigg_id": "DCK1n",
+        "flux": -1000.000000000003
+      },
+      {
+        "compartment": "n",
+        "kegg": "R01878",
+        "bigg_id": "CYTDn",
+        "flux": 30.804886197682315
+      },
+      {
+        "compartment": "n",
+        "kegg": "R02023",
+        "bigg_id": "RE0456N",
+        "flux": 999.9999999999998
+      },
+      {
+        "compartment": "n",
+        "kegg": "R02093",
+        "bigg_id": "NDPK4n",
+        "flux": 1000.0
+      },
+      {
+        "compartment": "n",
+        "kegg": "R02100",
+        "bigg_id": "DUTPDPn",
+        "flux": 0.0
+      },
+      {
+        "compartment": "n",
+        "kegg": "R02326",
+        "bigg_id": "NDPK7n",
+        "flux": 0.0
+      },
+      {
+        "compartment": "n",
+        "kegg": "R02331",
+        "bigg_id": "NDPK6n",
+        "flux": -1000.0
+      },
+      {
+        "compartment": "n",
+        "kegg": "R02485",
+        "bigg_id": "DCYTDn",
+        "flux": 0.0
+      },
+      {
+        "compartment": "r",
+        "kegg": "R00139",
+        "bigg_id": "ATP1ter",
+        "flux": 0.0
+      }
+    ]
+  },
+  "html": "results\\compartments\\human_Recon3D\\rn00240\\Recon3D_rn00240_compartments.html",
+  "map_json": "results\\compartments\\human_Recon3D\\rn00240\\Recon3D_rn00240_compartments.json",
+  "flux_tsv": "results\\compartments\\human_Recon3D\\rn00240\\Recon3D_rn00240_flux.tsv",
+  "summary_json": "results\\compartments\\human_Recon3D\\rn00240\\summary.json"
+}

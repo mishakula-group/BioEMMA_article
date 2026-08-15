@@ -1,0 +1,89 @@
+bigg_id	organism	reaction_count	metabolite_count	gene_count	domain_classification	classification_reason
+e_coli_core	Escherichia coli str. K-12 substr. MG1655	95	72	137	prokaryote_selected	not in known eukaryotic BiGG taxa
+iAF1260	Escherichia coli str. K-12 substr. MG1655	2382	1668	1261	prokaryote_selected	not in known eukaryotic BiGG taxa
+iAF1260b	Escherichia coli str. K-12 substr. MG1655	2388	1668	1261	prokaryote_selected	not in known eukaryotic BiGG taxa
+iAF692	Methanosarcina barkeri str. Fusaro	690	628	692	prokaryote_selected	not in known eukaryotic BiGG taxa
+iAF987	Geobacter metallireducens GS-15	1285	1109	987	prokaryote_selected	not in known eukaryotic BiGG taxa
+iAPECO1_1312	Escherichia coli APEC O1	2735	1942	1313	prokaryote_selected	not in known eukaryotic BiGG taxa
+iB21_1397	Escherichia coli BL21(DE3)	2741	1943	1337	prokaryote_selected	not in known eukaryotic BiGG taxa
+iBWG_1329	Escherichia coli BW2952	2741	1949	1329	prokaryote_selected	not in known eukaryotic BiGG taxa
+ic_1306	Escherichia coli CFT073	2726	1936	1307	prokaryote_selected	not in known eukaryotic BiGG taxa
+iCN718	Acinetobacter baumannii AYE	1015	888	709	prokaryote_selected	not in known eukaryotic BiGG taxa
+iCN900	Clostridioides difficile 630	1229	885	900	prokaryote_selected	not in known eukaryotic BiGG taxa
+iE2348C_1286	Escherichia coli O127:H6 str. E2348/69	2703	1919	1287	prokaryote_selected	not in known eukaryotic BiGG taxa
+iEC042_1314	Escherichia coli 042	2714	1926	1314	prokaryote_selected	not in known eukaryotic BiGG taxa
+iEC1344_C	Escherichia coli C	2726	1934	1344	prokaryote_selected	not in known eukaryotic BiGG taxa
+iEC1349_Crooks	Escherichia coli ATCC 8739	2756	1946	1349	prokaryote_selected	not in known eukaryotic BiGG taxa
+iEC1356_Bl21DE3	Escherichia coli BL21(DE3)	2740	1918	1356	prokaryote_selected	not in known eukaryotic BiGG taxa
+iEC1364_W	Escherichia coli W	2764	1927	1364	prokaryote_selected	not in known eukaryotic BiGG taxa
+iEC1368_DH5a	Escherichia coli DH5[alpha]	2779	1951	1368	prokaryote_selected	not in known eukaryotic BiGG taxa
+iEC1372_W3110	Escherichia coli str. K-12 substr. W3110	2758	1918	1372	prokaryote_selected	not in known eukaryotic BiGG taxa
+iEC55989_1330	Escherichia coli 55989	2756	1953	1330	prokaryote_selected	not in known eukaryotic BiGG taxa
+iECABU_c1320	Escherichia coli ABU 83972	2731	1942	1320	prokaryote_selected	not in known eukaryotic BiGG taxa
+iECB_1328	Escherichia coli B str. REL606	2748	1951	1329	prokaryote_selected	not in known eukaryotic BiGG taxa
+iECBD_1354	Escherichia coli 'BL21-Gold(DE3)pLysS AG'	2748	1952	1354	prokaryote_selected	not in known eukaryotic BiGG taxa
+iECD_1391	Escherichia coli BL21(DE3)	2741	1943	1333	prokaryote_selected	not in known eukaryotic BiGG taxa
+iECDH10B_1368	Escherichia coli str. K-12 substr. DH10B	2742	1947	1327	prokaryote_selected	not in known eukaryotic BiGG taxa
+iEcDH1_1363	Escherichia coli DH1	2750	1949	1363	prokaryote_selected	not in known eukaryotic BiGG taxa
+iECDH1ME8569_1439	Escherichia coli DH1	2755	1950	1439	prokaryote_selected	not in known eukaryotic BiGG taxa
+iEcE24377_1341	Escherichia coli O139:H28 str. E24377A	2763	1972	1341	prokaryote_selected	not in known eukaryotic BiGG taxa
+iECED1_1282	Escherichia coli ED1a	2706	1929	1279	prokaryote_selected	not in known eukaryotic BiGG taxa
+iECH74115_1262	Escherichia coli O157:H7 str. EC4115	2694	1918	1262	prokaryote_selected	not in known eukaryotic BiGG taxa
+iEcHS_1320	Escherichia coli HS	2753	1963	1321	prokaryote_selected	not in known eukaryotic BiGG taxa
+iECIAI1_1343	Escherichia coli IAI1	2765	1968	1343	prokaryote_selected	not in known eukaryotic BiGG taxa
+iECIAI39_1322	Escherichia coli IAI39	2721	1953	1321	prokaryote_selected	not in known eukaryotic BiGG taxa
+iECNA114_1301	Escherichia coli NA114	2718	1927	1301	prokaryote_selected	not in known eukaryotic BiGG taxa
+iECO103_1326	Escherichia coli O103:H2 str. 12009	2758	1958	1327	prokaryote_selected	not in known eukaryotic BiGG taxa
+iECO111_1330	Escherichia coli O111:H- str. 11128	2760	1959	1328	prokaryote_selected	not in known eukaryotic BiGG taxa
+iECO26_1355	Escherichia coli O26:H11 str. 11368	2780	1965	1355	prokaryote_selected	not in known eukaryotic BiGG taxa
+iECOK1_1307	Escherichia coli IHE3034	2729	1941	1304	prokaryote_selected	not in known eukaryotic BiGG taxa
+iEcolC_1368	Escherichia coli ATCC 8739	2768	1969	1368	prokaryote_selected	not in known eukaryotic BiGG taxa
+iECP_1309	Escherichia coli 536	2739	1941	1309	prokaryote_selected	not in known eukaryotic BiGG taxa
+iECS88_1305	Escherichia coli S88	2729	1942	1305	prokaryote_selected	not in known eukaryotic BiGG taxa
+iECs_1301	Escherichia coli O157:H7 str. Sakai	2720	1923	1301	prokaryote_selected	not in known eukaryotic BiGG taxa
+iECSE_1348	Escherichia coli SE11	2768	1957	1348	prokaryote_selected	not in known eukaryotic BiGG taxa
+iECSF_1327	Escherichia coli SE15	2742	1951	1327	prokaryote_selected	not in known eukaryotic BiGG taxa
+iEcSMS35_1347	Escherichia coli SMS-3-5	2746	1947	1347	prokaryote_selected	not in known eukaryotic BiGG taxa
+iECSP_1301	Escherichia coli O157:H7 str. TW14359	2712	1920	1299	prokaryote_selected	not in known eukaryotic BiGG taxa
+iECUMN_1333	Escherichia coli UMN026	2740	1935	1332	prokaryote_selected	not in known eukaryotic BiGG taxa
+iECW_1372	Escherichia coli W	2782	1973	1372	prokaryote_selected	not in known eukaryotic BiGG taxa
+iEK1008	Mycobacterium tuberculosis H37Rv	1226	998	1008	prokaryote_selected	not in known eukaryotic BiGG taxa
+iEKO11_1354	Escherichia coli KO11FL	2778	1972	1354	prokaryote_selected	not in known eukaryotic BiGG taxa
+iETEC_1333	Escherichia coli ETEC H10407	2756	1962	1333	prokaryote_selected	not in known eukaryotic BiGG taxa
+iG2583_1286	Escherichia coli O55:H7 str. CB9615	2704	1919	1283	prokaryote_selected	not in known eukaryotic BiGG taxa
+iHN637	Clostridium ljungdahlii DSM 13528	785	698	637	prokaryote_selected	not in known eukaryotic BiGG taxa
+iIT341	Helicobacter pylori 26695	554	485	339	prokaryote_selected	not in known eukaryotic BiGG taxa
+iJB785	Synechococcus elongatus PCC 7942	849	768	785	prokaryote_selected	not in known eukaryotic BiGG taxa
+iJN1463	Pseudomonas putida KT2440	2927	2153	1462	prokaryote_selected	not in known eukaryotic BiGG taxa
+iJN678	Synechocystis sp. PCC 6803	863	795	622	prokaryote_selected	not in known eukaryotic BiGG taxa
+iJN746	Pseudomonas putida KT2440	1054	907	746	prokaryote_selected	not in known eukaryotic BiGG taxa
+iJO1366	Escherichia coli str. K-12 substr. MG1655	2583	1805	1367	prokaryote_selected	not in known eukaryotic BiGG taxa
+iJR904	Escherichia coli str. K-12 substr. MG1655	1075	761	904	prokaryote_selected	not in known eukaryotic BiGG taxa
+iLF82_1304	Escherichia coli LF82	2726	1938	1302	prokaryote_selected	not in known eukaryotic BiGG taxa
+iLJ478	Thermotoga maritima MSB8	652	570	482	prokaryote_selected	not in known eukaryotic BiGG taxa
+iML1515	Escherichia coli str. K-12 substr. MG1655	2712	1877	1516	prokaryote_selected	not in known eukaryotic BiGG taxa
+iNF517	Lactococcus lactis subsp. cremoris MG1363	754	650	516	prokaryote_selected	not in known eukaryotic BiGG taxa
+iNJ661	Mycobacterium tuberculosis H37Rv	1025	825	661	prokaryote_selected	not in known eukaryotic BiGG taxa
+iNRG857_1313	Escherichia coli O83:H1 str. NRG 857C	2735	1943	1311	prokaryote_selected	not in known eukaryotic BiGG taxa
+iPC815	Yersinia pestis CO92	1961	1552	815	prokaryote_selected	not in known eukaryotic BiGG taxa
+iS_1188	Shigella flexneri 2a str. 2457T	2619	1914	1188	prokaryote_selected	not in known eukaryotic BiGG taxa
+iSB619	Staphylococcus aureus subsp. aureus N315	743	655	619	prokaryote_selected	not in known eukaryotic BiGG taxa
+iSbBS512_1146	Shigella boydii CDC 3083-94	2591	1910	1147	prokaryote_selected	not in known eukaryotic BiGG taxa
+iSBO_1134	Shigella boydii Sb227	2591	1908	1134	prokaryote_selected	not in known eukaryotic BiGG taxa
+iSDY_1059	Shigella dysenteriae Sd197	2539	1888	1059	prokaryote_selected	not in known eukaryotic BiGG taxa
+iSF_1195	Shigella flexneri 2a str. 301	2630	1917	1195	prokaryote_selected	not in known eukaryotic BiGG taxa
+iSFV_1184	Shigella flexneri 5 str. 8401	2621	1917	1184	prokaryote_selected	not in known eukaryotic BiGG taxa
+iSFxv_1172	Shigella flexneri 2002017	2638	1918	1169	prokaryote_selected	not in known eukaryotic BiGG taxa
+iSSON_1240	Shigella sonnei Ss046	2693	1936	1240	prokaryote_selected	not in known eukaryotic BiGG taxa
+iSynCJ816	Synechocystis sp. PCC 6803	1044	928	816	prokaryote_selected	not in known eukaryotic BiGG taxa
+iUMN146_1321	Escherichia coli UM146	2735	1942	1319	prokaryote_selected	not in known eukaryotic BiGG taxa
+iUMNK88_1353	Escherichia coli UMNK88	2777	1969	1353	prokaryote_selected	not in known eukaryotic BiGG taxa
+iUTI89_1310	Escherichia coli UTI89	2725	1940	1310	prokaryote_selected	not in known eukaryotic BiGG taxa
+iWFL_1372	Escherichia coli W	2782	1973	1372	prokaryote_selected	not in known eukaryotic BiGG taxa
+iY75_1357	Escherichia coli str. K-12 substr. W3110	2759	1953	1358	prokaryote_selected	not in known eukaryotic BiGG taxa
+iYL1228	Klebsiella pneumoniae subsp. pneumoniae MGH 78578	2262	1658	1229	prokaryote_selected	not in known eukaryotic BiGG taxa
+iYO844	Bacillus subtilis subsp. subtilis str. 168	1250	990	844	prokaryote_selected	not in known eukaryotic BiGG taxa
+iYS1720	Salmonella pan-reactome	3357	2436	1707	prokaryote_selected	not in known eukaryotic BiGG taxa
+iYS854	Staphylococcus aureus subsp. aureus USA300_TCH1516	1455	1335	866	prokaryote_selected	not in known eukaryotic BiGG taxa
+iZ_1308	Escherichia coli O157:H7 str. EDL933	2721	1923	1308	prokaryote_selected	not in known eukaryotic BiGG taxa
+STM_v1_0	Salmonella enterica subsp. enterica serovar Typhimurium str. LT2	2545	1802	1271	prokaryote_selected	not in known eukaryotic BiGG taxa

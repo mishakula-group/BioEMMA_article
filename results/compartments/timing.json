@@ -1,0 +1,813 @@
+{
+  "bioemma_version": "0.4.1",
+  "models": [
+    {
+      "key": "yeast_iMM904",
+      "organism": "Saccharomyces cerevisiae",
+      "model_id": "iMM904",
+      "path": "data/compartment_models/compartment_probe/iMM904.xml",
+      "objective": null,
+      "reactions": 1577,
+      "metabolites": 1226,
+      "genes": 905,
+      "load_sec": 2.4973817999998573,
+      "fba_sec": 0.0942399999985355,
+      "fba_status": "optimal",
+      "objective_value": 0.2878657037040186
+    },
+    {
+      "key": "mouse_iMM1415",
+      "organism": "Mus musculus",
+      "model_id": "iMM1415",
+      "path": "data/compartment_models/organism_benchmark/models/iMM1415.xml",
+      "objective": "BIOMASS_mm_1_no_glygln",
+      "reactions": 3726,
+      "metabolites": 2775,
+      "genes": 1375,
+      "load_sec": 5.857344600000943,
+      "fba_sec": 0.3145437999992282,
+      "fba_status": "optimal",
+      "objective_value": 1.3634279056507828
+    },
+    {
+      "key": "human_Recon3D",
+      "organism": "Homo sapiens",
+      "model_id": "Recon3D",
+      "path": "data/compartment_models/recon3d_probe/Recon3D.xml",
+      "objective": null,
+      "reactions": 10600,
+      "metabolites": 5835,
+      "genes": 2248,
+      "load_sec": 12.568423400000029,
+      "fba_sec": 1.1591646999950171,
+      "fba_status": "optimal",
+      "objective_value": 755.003215550663
+    }
+  ],
+  "summary_by_model": {
+    "yeast_iMM904": {
+      "n": 18,
+      "mean_sec": 1.2615318944432754,
+      "median_sec": 1.1966310999960115,
+      "min_sec": 0.9268160999999964,
+      "max_sec": 1.8468645999964792,
+      "total_sec": 22.707574099978956
+    },
+    "mouse_iMM1415": {
+      "n": 12,
+      "mean_sec": 2.0916546583333306,
+      "median_sec": 2.0970696000003954,
+      "min_sec": 1.2307958000019426,
+      "max_sec": 2.9963979000021936,
+      "total_sec": 25.099855899999966
+    },
+    "human_Recon3D": {
+      "n": 28,
+      "mean_sec": 3.7127400928579197,
+      "median_sec": 3.6347388500034867,
+      "min_sec": 1.9075851000015973,
+      "max_sec": 6.568111500004306,
+      "total_sec": 103.95672260002175
+    }
+  },
+  "summary_by_pathway": {
+    "rn00010": {
+      "n": 3,
+      "mean_sec": 1.2222693333339218,
+      "median_sec": 1.199020299995027,
+      "min_sec": 1.1340972000034526,
+      "max_sec": 1.3336905000032857,
+      "total_sec": 3.6668080000017653
+    },
+    "rn00020": {
+      "n": 8,
+      "mean_sec": 1.5345344500001374,
+      "median_sec": 1.3804277999988699,
+      "min_sec": 0.9268160999999964,
+      "max_sec": 2.5707544999968377,
+      "total_sec": 12.2762756000011
+    },
+    "rn00071": {
+      "n": 7,
+      "mean_sec": 2.352018014285672,
+      "median_sec": 2.3272330000036163,
+      "min_sec": 1.1520304000005126,
+      "max_sec": 4.532347200001823,
+      "total_sec": 16.464126099999703
+    },
+    "rn00100": {
+      "n": 6,
+      "mean_sec": 3.0818185666660916,
+      "median_sec": 3.019944999996369,
+      "min_sec": 2.0126133000012487,
+      "max_sec": 4.618205999999191,
+      "total_sec": 18.49091139999655
+    },
+    "rn00240": {
+      "n": 3,
+      "mean_sec": 5.009102200000295,
+      "median_sec": 4.613886099999945,
+      "min_sec": 3.8453089999966323,
+      "max_sec": 6.568111500004306,
+      "total_sec": 15.027306600000884
+    },
+    "rn00280": {
+      "n": 5,
+      "mean_sec": 2.510123480000766,
+      "median_sec": 2.38715830000001,
+      "min_sec": 1.3467415000050096,
+      "max_sec": 3.879266500000085,
+      "total_sec": 12.55061740000383
+    },
+    "rn00290": {
+      "n": 3,
+      "mean_sec": 1.036184999999629,
+      "median_sec": 1.0269770999948378,
+      "min_sec": 0.9781034000043292,
+      "max_sec": 1.1034744999997201,
+      "total_sec": 3.108554999998887
+    },
+    "rn00480": {
+      "n": 3,
+      "mean_sec": 3.656218700001773,
+      "median_sec": 3.8340859999952954,
+      "min_sec": 2.9400461000041105,
+      "max_sec": 4.194524000005913,
+      "total_sec": 10.968656100005319
+    },
+    "rn00564": {
+      "n": 4,
+      "mean_sec": 5.070851700002095,
+      "median_sec": 4.960070650002308,
+      "min_sec": 4.2204805000001215,
+      "max_sec": 6.1427850000036415,
+      "total_sec": 20.28340680000838
+    },
+    "rn00620": {
+      "n": 8,
+      "mean_sec": 2.5697355749989583,
+      "median_sec": 2.2929058999980043,
+      "min_sec": 1.201021499997296,
+      "max_sec": 5.111667099998158,
+      "total_sec": 20.557884599991667
+    },
+    "rn00630": {
+      "n": 6,
+      "mean_sec": 2.0342209166653142,
+      "median_sec": 1.9465884999990521,
+      "min_sec": 1.4453672999952687,
+      "max_sec": 2.9963979000021936,
+      "total_sec": 12.205325499991886
+    },
+    "rn00670": {
+      "n": 2,
+      "mean_sec": 3.0821397500003513,
+      "median_sec": 3.0821397500003513,
+      "min_sec": 2.5671770999979344,
+      "max_sec": 3.5971024000027683,
+      "total_sec": 6.164279500000703
+    }
+  },
+  "total_wall_sec": 176.61840680000023,
+  "task_count": 58,
+  "tasks": [
+    {
+      "organism": "Saccharomyces cerevisiae",
+      "model_id": "iMM904",
+      "pathway": "rn00010",
+      "pathway_title": "Glycolysis / Gluconeogenesis",
+      "compartment": "c",
+      "build_sec": 1.3336905000032857,
+      "mapped_reactions": 21,
+      "nodes": 142,
+      "segments": 142
+    },
+    {
+      "organism": "Saccharomyces cerevisiae",
+      "model_id": "iMM904",
+      "pathway": "rn00010",
+      "pathway_title": "Glycolysis / Gluconeogenesis",
+      "compartment": "m",
+      "build_sec": 1.199020299995027,
+      "mapped_reactions": 9,
+      "nodes": 84,
+      "segments": 79
+    },
+    {
+      "organism": "Saccharomyces cerevisiae",
+      "model_id": "iMM904",
+      "pathway": "rn00010",
+      "pathway_title": "Glycolysis / Gluconeogenesis",
+      "compartment": "x",
+      "build_sec": 1.1340972000034526,
+      "mapped_reactions": 1,
+      "nodes": 11,
+      "segments": 8
+    },
+    {
+      "organism": "Saccharomyces cerevisiae",
+      "model_id": "iMM904",
+      "pathway": "rn00020",
+      "pathway_title": "Citrate cycle (TCA cycle)",
+      "compartment": "c",
+      "build_sec": 1.1013873999982025,
+      "mapped_reactions": 8,
+      "nodes": 59,
+      "segments": 54
+    },
+    {
+      "organism": "Saccharomyces cerevisiae",
+      "model_id": "iMM904",
+      "pathway": "rn00020",
+      "pathway_title": "Citrate cycle (TCA cycle)",
+      "compartment": "m",
+      "build_sec": 1.0143080000052578,
+      "mapped_reactions": 13,
+      "nodes": 100,
+      "segments": 98
+    },
+    {
+      "organism": "Saccharomyces cerevisiae",
+      "model_id": "iMM904",
+      "pathway": "rn00020",
+      "pathway_title": "Citrate cycle (TCA cycle)",
+      "compartment": "x",
+      "build_sec": 0.9268160999999964,
+      "mapped_reactions": 3,
+      "nodes": 26,
+      "segments": 22
+    },
+    {
+      "organism": "Saccharomyces cerevisiae",
+      "model_id": "iMM904",
+      "pathway": "rn00620",
+      "pathway_title": "Pyruvate metabolism",
+      "compartment": "c",
+      "build_sec": 1.7259009999979753,
+      "mapped_reactions": 26,
+      "nodes": 194,
+      "segments": 198
+    },
+    {
+      "organism": "Saccharomyces cerevisiae",
+      "model_id": "iMM904",
+      "pathway": "rn00620",
+      "pathway_title": "Pyruvate metabolism",
+      "compartment": "m",
+      "build_sec": 1.3419292999969912,
+      "mapped_reactions": 21,
+      "nodes": 166,
+      "segments": 164
+    },
+    {
+      "organism": "Saccharomyces cerevisiae",
+      "model_id": "iMM904",
+      "pathway": "rn00620",
+      "pathway_title": "Pyruvate metabolism",
+      "compartment": "x",
+      "build_sec": 1.201021499997296,
+      "mapped_reactions": 7,
+      "nodes": 57,
+      "segments": 56
+    },
+    {
+      "organism": "Saccharomyces cerevisiae",
+      "model_id": "iMM904",
+      "pathway": "rn00630",
+      "pathway_title": "Glyoxylate and dicarboxylate metabolism",
+      "compartment": "c",
+      "build_sec": 1.8468645999964792,
+      "mapped_reactions": 24,
+      "nodes": 186,
+      "segments": 176
+    },
+    {
+      "organism": "Saccharomyces cerevisiae",
+      "model_id": "iMM904",
+      "pathway": "rn00630",
+      "pathway_title": "Glyoxylate and dicarboxylate metabolism",
+      "compartment": "m",
+      "build_sec": 1.5056659999972908,
+      "mapped_reactions": 13,
+      "nodes": 117,
+      "segments": 100
+    },
+    {
+      "organism": "Saccharomyces cerevisiae",
+      "model_id": "iMM904",
+      "pathway": "rn00630",
+      "pathway_title": "Glyoxylate and dicarboxylate metabolism",
+      "compartment": "x",
+      "build_sec": 1.4453672999952687,
+      "mapped_reactions": 6,
+      "nodes": 52,
+      "segments": 42
+    },
+    {
+      "organism": "Saccharomyces cerevisiae",
+      "model_id": "iMM904",
+      "pathway": "rn00071",
+      "pathway_title": "Fatty acid degradation",
+      "compartment": "c",
+      "build_sec": 1.4766775999960373,
+      "mapped_reactions": 4,
+      "nodes": 40,
+      "segments": 30
+    },
+    {
+      "organism": "Saccharomyces cerevisiae",
+      "model_id": "iMM904",
+      "pathway": "rn00071",
+      "pathway_title": "Fatty acid degradation",
+      "compartment": "m",
+      "build_sec": 1.194241899996996,
+      "mapped_reactions": 4,
+      "nodes": 35,
+      "segments": 30
+    },
+    {
+      "organism": "Saccharomyces cerevisiae",
+      "model_id": "iMM904",
+      "pathway": "rn00071",
+      "pathway_title": "Fatty acid degradation",
+      "compartment": "x",
+      "build_sec": 1.1520304000005126,
+      "mapped_reactions": 14,
+      "nodes": 88,
+      "segments": 88
+    },
+    {
+      "organism": "Saccharomyces cerevisiae",
+      "model_id": "iMM904",
+      "pathway": "rn00290",
+      "pathway_title": "Valine, leucine and isoleucine biosynthesis",
+      "compartment": "c",
+      "build_sec": 1.1034744999997201,
+      "mapped_reactions": 10,
+      "nodes": 66,
+      "segments": 61
+    },
+    {
+      "organism": "Saccharomyces cerevisiae",
+      "model_id": "iMM904",
+      "pathway": "rn00290",
+      "pathway_title": "Valine, leucine and isoleucine biosynthesis",
+      "compartment": "m",
+      "build_sec": 0.9781034000043292,
+      "mapped_reactions": 13,
+      "nodes": 86,
+      "segments": 82
+    },
+    {
+      "organism": "Saccharomyces cerevisiae",
+      "model_id": "iMM904",
+      "pathway": "rn00290",
+      "pathway_title": "Valine, leucine and isoleucine biosynthesis",
+      "compartment": "x",
+      "build_sec": 1.0269770999948378,
+      "mapped_reactions": 1,
+      "nodes": 11,
+      "segments": 8
+    },
+    {
+      "organism": "Mus musculus",
+      "model_id": "iMM1415",
+      "pathway": "rn00020",
+      "pathway_title": "Citrate cycle (TCA cycle)",
+      "compartment": "c",
+      "build_sec": 1.5300597999957972,
+      "mapped_reactions": 7,
+      "nodes": 52,
+      "segments": 47
+    },
+    {
+      "organism": "Mus musculus",
+      "model_id": "iMM1415",
+      "pathway": "rn00020",
+      "pathway_title": "Citrate cycle (TCA cycle)",
+      "compartment": "m",
+      "build_sec": 1.2307958000019426,
+      "mapped_reactions": 14,
+      "nodes": 105,
+      "segments": 104
+    },
+    {
+      "organism": "Mus musculus",
+      "model_id": "iMM1415",
+      "pathway": "rn00620",
+      "pathway_title": "Pyruvate metabolism",
+      "compartment": "c",
+      "build_sec": 2.6107615000000806,
+      "mapped_reactions": 25,
+      "nodes": 187,
+      "segments": 190
+    },
+    {
+      "organism": "Mus musculus",
+      "model_id": "iMM1415",
+      "pathway": "rn00620",
+      "pathway_title": "Pyruvate metabolism",
+      "compartment": "m",
+      "build_sec": 1.975050299995928,
+      "mapped_reactions": 23,
+      "nodes": 178,
+      "segments": 178
+    },
+    {
+      "organism": "Mus musculus",
+      "model_id": "iMM1415",
+      "pathway": "rn00630",
+      "pathway_title": "Glyoxylate and dicarboxylate metabolism",
+      "compartment": "c",
+      "build_sec": 2.9963979000021936,
+      "mapped_reactions": 24,
+      "nodes": 185,
+      "segments": 171
+    },
+    {
+      "organism": "Mus musculus",
+      "model_id": "iMM1415",
+      "pathway": "rn00630",
+      "pathway_title": "Glyoxylate and dicarboxylate metabolism",
+      "compartment": "m",
+      "build_sec": 2.364717299999029,
+      "mapped_reactions": 20,
+      "nodes": 141,
+      "segments": 127
+    },
+    {
+      "organism": "Mus musculus",
+      "model_id": "iMM1415",
+      "pathway": "rn00630",
+      "pathway_title": "Glyoxylate and dicarboxylate metabolism",
+      "compartment": "x",
+      "build_sec": 2.046312400001625,
+      "mapped_reactions": 6,
+      "nodes": 48,
+      "segments": 33
+    },
+    {
+      "organism": "Mus musculus",
+      "model_id": "iMM1415",
+      "pathway": "rn00280",
+      "pathway_title": "Valine, leucine and isoleucine degradation",
+      "compartment": "c",
+      "build_sec": 2.197896800003946,
+      "mapped_reactions": 10,
+      "nodes": 71,
+      "segments": 64
+    },
+    {
+      "organism": "Mus musculus",
+      "model_id": "iMM1415",
+      "pathway": "rn00280",
+      "pathway_title": "Valine, leucine and isoleucine degradation",
+      "compartment": "m",
+      "build_sec": 1.3467415000050096,
+      "mapped_reactions": 28,
+      "nodes": 171,
+      "segments": 171
+    },
+    {
+      "organism": "Mus musculus",
+      "model_id": "iMM1415",
+      "pathway": "rn00100",
+      "pathway_title": "Steroid biosynthesis",
+      "compartment": "c",
+      "build_sec": 2.640682499994,
+      "mapped_reactions": 1,
+      "nodes": 19,
+      "segments": 9
+    },
+    {
+      "organism": "Mus musculus",
+      "model_id": "iMM1415",
+      "pathway": "rn00100",
+      "pathway_title": "Steroid biosynthesis",
+      "compartment": "r",
+      "build_sec": 2.0126133000012487,
+      "mapped_reactions": 12,
+      "nodes": 94,
+      "segments": 83
+    },
+    {
+      "organism": "Mus musculus",
+      "model_id": "iMM1415",
+      "pathway": "rn00100",
+      "pathway_title": "Steroid biosynthesis",
+      "compartment": "m",
+      "build_sec": 2.147826799999166,
+      "mapped_reactions": 3,
+      "nodes": 31,
+      "segments": 27
+    },
+    {
+      "organism": "Homo sapiens",
+      "model_id": "Recon3D",
+      "pathway": "rn00020",
+      "pathway_title": "Citrate cycle (TCA cycle)",
+      "compartment": "c",
+      "build_sec": 2.5707544999968377,
+      "mapped_reactions": 8,
+      "nodes": 57,
+      "segments": 52
+    },
+    {
+      "organism": "Homo sapiens",
+      "model_id": "Recon3D",
+      "pathway": "rn00020",
+      "pathway_title": "Citrate cycle (TCA cycle)",
+      "compartment": "m",
+      "build_sec": 1.9075851000015973,
+      "mapped_reactions": 17,
+      "nodes": 119,
+      "segments": 122
+    },
+    {
+      "organism": "Homo sapiens",
+      "model_id": "Recon3D",
+      "pathway": "rn00020",
+      "pathway_title": "Citrate cycle (TCA cycle)",
+      "compartment": "x",
+      "build_sec": 1.9945689000014681,
+      "mapped_reactions": 4,
+      "nodes": 32,
+      "segments": 27
+    },
+    {
+      "organism": "Homo sapiens",
+      "model_id": "Recon3D",
+      "pathway": "rn00620",
+      "pathway_title": "Pyruvate metabolism",
+      "compartment": "c",
+      "build_sec": 5.111667099998158,
+      "mapped_reactions": 27,
+      "nodes": 187,
+      "segments": 191
+    },
+    {
+      "organism": "Homo sapiens",
+      "model_id": "Recon3D",
+      "pathway": "rn00620",
+      "pathway_title": "Pyruvate metabolism",
+      "compartment": "m",
+      "build_sec": 3.333488000003854,
+      "mapped_reactions": 22,
+      "nodes": 173,
+      "segments": 171
+    },
+    {
+      "organism": "Homo sapiens",
+      "model_id": "Recon3D",
+      "pathway": "rn00620",
+      "pathway_title": "Pyruvate metabolism",
+      "compartment": "x",
+      "build_sec": 3.258065900001384,
+      "mapped_reactions": 6,
+      "nodes": 45,
+      "segments": 39
+    },
+    {
+      "organism": "Homo sapiens",
+      "model_id": "Recon3D",
+      "pathway": "rn00071",
+      "pathway_title": "Fatty acid degradation",
+      "compartment": "c",
+      "build_sec": 4.532347200001823,
+      "mapped_reactions": 7,
+      "nodes": 76,
+      "segments": 55
+    },
+    {
+      "organism": "Homo sapiens",
+      "model_id": "Recon3D",
+      "pathway": "rn00071",
+      "pathway_title": "Fatty acid degradation",
+      "compartment": "m",
+      "build_sec": 2.3272330000036163,
+      "mapped_reactions": 33,
+      "nodes": 205,
+      "segments": 212
+    },
+    {
+      "organism": "Homo sapiens",
+      "model_id": "Recon3D",
+      "pathway": "rn00071",
+      "pathway_title": "Fatty acid degradation",
+      "compartment": "x",
+      "build_sec": 2.398628299997654,
+      "mapped_reactions": 23,
+      "nodes": 142,
+      "segments": 143
+    },
+    {
+      "organism": "Homo sapiens",
+      "model_id": "Recon3D",
+      "pathway": "rn00071",
+      "pathway_title": "Fatty acid degradation",
+      "compartment": "r",
+      "build_sec": 3.3829677000030642,
+      "mapped_reactions": 4,
+      "nodes": 40,
+      "segments": 32
+    },
+    {
+      "organism": "Homo sapiens",
+      "model_id": "Recon3D",
+      "pathway": "rn00100",
+      "pathway_title": "Steroid biosynthesis",
+      "compartment": "c",
+      "build_sec": 4.618205999999191,
+      "mapped_reactions": 20,
+      "nodes": 157,
+      "segments": 146
+    },
+    {
+      "organism": "Homo sapiens",
+      "model_id": "Recon3D",
+      "pathway": "rn00100",
+      "pathway_title": "Steroid biosynthesis",
+      "compartment": "r",
+      "build_sec": 3.399207499998738,
+      "mapped_reactions": 19,
+      "nodes": 143,
+      "segments": 135
+    },
+    {
+      "organism": "Homo sapiens",
+      "model_id": "Recon3D",
+      "pathway": "rn00100",
+      "pathway_title": "Steroid biosynthesis",
+      "compartment": "m",
+      "build_sec": 3.672375300004205,
+      "mapped_reactions": 3,
+      "nodes": 30,
+      "segments": 27
+    },
+    {
+      "organism": "Homo sapiens",
+      "model_id": "Recon3D",
+      "pathway": "rn00240",
+      "pathway_title": "Pyrimidine metabolism",
+      "compartment": "c",
+      "build_sec": 6.568111500004306,
+      "mapped_reactions": 60,
+      "nodes": 403,
+      "segments": 419
+    },
+    {
+      "organism": "Homo sapiens",
+      "model_id": "Recon3D",
+      "pathway": "rn00240",
+      "pathway_title": "Pyrimidine metabolism",
+      "compartment": "m",
+      "build_sec": 4.613886099999945,
+      "mapped_reactions": 21,
+      "nodes": 157,
+      "segments": 148
+    },
+    {
+      "organism": "Homo sapiens",
+      "model_id": "Recon3D",
+      "pathway": "rn00240",
+      "pathway_title": "Pyrimidine metabolism",
+      "compartment": "n",
+      "build_sec": 3.8453089999966323,
+      "mapped_reactions": 13,
+      "nodes": 88,
+      "segments": 83
+    },
+    {
+      "organism": "Homo sapiens",
+      "model_id": "Recon3D",
+      "pathway": "rn00280",
+      "pathway_title": "Valine, leucine and isoleucine degradation",
+      "compartment": "c",
+      "build_sec": 3.879266500000085,
+      "mapped_reactions": 11,
+      "nodes": 86,
+      "segments": 75
+    },
+    {
+      "organism": "Homo sapiens",
+      "model_id": "Recon3D",
+      "pathway": "rn00280",
+      "pathway_title": "Valine, leucine and isoleucine degradation",
+      "compartment": "m",
+      "build_sec": 2.38715830000001,
+      "mapped_reactions": 32,
+      "nodes": 201,
+      "segments": 205
+    },
+    {
+      "organism": "Homo sapiens",
+      "model_id": "Recon3D",
+      "pathway": "rn00280",
+      "pathway_title": "Valine, leucine and isoleucine degradation",
+      "compartment": "x",
+      "build_sec": 2.7395542999947793,
+      "mapped_reactions": 6,
+      "nodes": 42,
+      "segments": 41
+    },
+    {
+      "organism": "Homo sapiens",
+      "model_id": "Recon3D",
+      "pathway": "rn00480",
+      "pathway_title": "Glutathione metabolism",
+      "compartment": "c",
+      "build_sec": 4.194524000005913,
+      "mapped_reactions": 21,
+      "nodes": 139,
+      "segments": 148
+    },
+    {
+      "organism": "Homo sapiens",
+      "model_id": "Recon3D",
+      "pathway": "rn00480",
+      "pathway_title": "Glutathione metabolism",
+      "compartment": "m",
+      "build_sec": 2.9400461000041105,
+      "mapped_reactions": 5,
+      "nodes": 38,
+      "segments": 35
+    },
+    {
+      "organism": "Homo sapiens",
+      "model_id": "Recon3D",
+      "pathway": "rn00480",
+      "pathway_title": "Glutathione metabolism",
+      "compartment": "e",
+      "build_sec": 3.8340859999952954,
+      "mapped_reactions": 5,
+      "nodes": 42,
+      "segments": 34
+    },
+    {
+      "organism": "Homo sapiens",
+      "model_id": "Recon3D",
+      "pathway": "rn00564",
+      "pathway_title": "Glycerophospholipid metabolism",
+      "compartment": "c",
+      "build_sec": 6.1427850000036415,
+      "mapped_reactions": 21,
+      "nodes": 142,
+      "segments": 143
+    },
+    {
+      "organism": "Homo sapiens",
+      "model_id": "Recon3D",
+      "pathway": "rn00564",
+      "pathway_title": "Glycerophospholipid metabolism",
+      "compartment": "r",
+      "build_sec": 4.276865400002862,
+      "mapped_reactions": 4,
+      "nodes": 43,
+      "segments": 35
+    },
+    {
+      "organism": "Homo sapiens",
+      "model_id": "Recon3D",
+      "pathway": "rn00564",
+      "pathway_title": "Glycerophospholipid metabolism",
+      "compartment": "m",
+      "build_sec": 4.2204805000001215,
+      "mapped_reactions": 4,
+      "nodes": 36,
+      "segments": 30
+    },
+    {
+      "organism": "Homo sapiens",
+      "model_id": "Recon3D",
+      "pathway": "rn00564",
+      "pathway_title": "Glycerophospholipid metabolism",
+      "compartment": "e",
+      "build_sec": 5.643275900001754,
+      "mapped_reactions": 4,
+      "nodes": 42,
+      "segments": 31
+    },
+    {
+      "organism": "Homo sapiens",
+      "model_id": "Recon3D",
+      "pathway": "rn00670",
+      "pathway_title": "One carbon pool by folate",
+      "compartment": "c",
+      "build_sec": 3.5971024000027683,
+      "mapped_reactions": 28,
+      "nodes": 174,
+      "segments": 189
+    },
+    {
+      "organism": "Homo sapiens",
+      "model_id": "Recon3D",
+      "pathway": "rn00670",
+      "pathway_title": "One carbon pool by folate",
+      "compartment": "m",
+      "build_sec": 2.5671770999979344,
+      "mapped_reactions": 13,
+      "nodes": 93,
+      "segments": 87
+    }
+  ]
+}

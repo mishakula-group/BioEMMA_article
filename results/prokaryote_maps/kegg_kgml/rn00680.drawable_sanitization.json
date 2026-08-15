@@ -1,0 +1,36 @@
+{
+  "source_kgml": "results/prokaryote_maps/kegg_kgml/rn00680.kgml",
+  "drawable_kgml": "results/prokaryote_maps/kegg_kgml/rn00680.drawable.kgml",
+  "removed_reaction_entries": [
+    {
+      "entry_id": "288",
+      "name": "rn:R08323 rc:RC00090",
+      "reaction": "rn:R08323",
+      "reaction_ids": [
+        "R08323"
+      ]
+    },
+    {
+      "entry_id": "290",
+      "name": "rn:R10397 rc:RC02444",
+      "reaction": "rn:R10397",
+      "reaction_ids": [
+        "R10397"
+      ]
+    },
+    {
+      "entry_id": "292",
+      "name": "rn:R08328 rc:RC00506",
+      "reaction": "rn:R08328",
+      "reaction_ids": [
+        "R08328"
+      ]
+    }
+  ],
+  "removed_reaction_entry_count": 3,
+  "removed_reaction_ids": [
+    "R08323",
+    "R08328",
+    "R10397"
+  ]
+}

@@ -37,7 +37,16 @@ reaction matching details used for each overlay.
 ## Selected reaction fragments
 
 The `selected_reaction_fragments/` directory contains cropped fragments for the
-article panels, including versions with flux overlays.
+article panels, including versions with flux overlays. It contains two fragment
+subdirectories:
+
+- `cs_pdh_por_aconitase/`
+- `aconitase_icd_osucc/`
+
+Each model-specific fragment is stored as a five-file bundle: `*.json`,
+`*.html`, `*_flux_map.json`, `*_fluxes.json`, and `*_with_fluxes.html`.
+The `summary.json` file records retained reactions, flux matches, and unmatched
+reactions for the cropped panels.
 
 ## Source models
 

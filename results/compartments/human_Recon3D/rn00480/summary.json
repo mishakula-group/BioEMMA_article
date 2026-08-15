@@ -1,0 +1,293 @@
+{
+  "organism": "Homo sapiens",
+  "model_id": "Recon3D",
+  "pathway": "rn00480",
+  "title": "Glutathione metabolism",
+  "bioemma_version": "0.4.1",
+  "kgml": "data\\compartment_models\\recon3d_probe\\kgml\\rn00480.xml",
+  "compartments": [
+    [
+      "c",
+      "cytosol"
+    ],
+    [
+      "m",
+      "mitochondria"
+    ],
+    [
+      "e",
+      "extracellular space"
+    ]
+  ],
+  "reaction_counts": {
+    "c": 21,
+    "m": 5,
+    "e": 5
+  },
+  "compartment_summaries": {
+    "c": {
+      "label": "cytosol",
+      "reaction_count": 21,
+      "nodes": 139,
+      "segments": 148,
+      "build_sec": 4.194524000005913
+    },
+    "m": {
+      "label": "mitochondria",
+      "reaction_count": 5,
+      "nodes": 38,
+      "segments": 35,
+      "build_sec": 2.9400461000041105
+    },
+    "e": {
+      "label": "extracellular space",
+      "reaction_count": 5,
+      "nodes": 42,
+      "segments": 34,
+      "build_sec": 3.8340859999952954
+    }
+  },
+  "alignment": {
+    "reference_compartment": "c",
+    "translations": {
+      "c": {
+        "dx": 0.0,
+        "dy": 0.0,
+        "anchors": 21
+      },
+      "m": {
+        "dx": 0.0,
+        "dy": 290.0,
+        "anchors": 5
+      },
+      "e": {
+        "dx": 0.0,
+        "dy": 80.0,
+        "anchors": 5
+      }
+    },
+    "max_shared_y_delta_after_alignment": 0.0,
+    "reaction_counts": {
+      "c": 21,
+      "m": 5,
+      "e": 5
+    },
+    "canvas": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 9660.0,
+      "height": 3202.0
+    }
+  },
+  "flux_summary": {
+    "by_compartment": {
+      "c": {
+        "mapped": 21,
+        "with_flux": 21,
+        "nonzero_flux": 3
+      },
+      "m": {
+        "mapped": 5,
+        "with_flux": 5,
+        "nonzero_flux": 1
+      },
+      "e": {
+        "mapped": 5,
+        "with_flux": 5,
+        "nonzero_flux": 1
+      }
+    },
+    "rows": [
+      {
+        "compartment": "c",
+        "kegg": "R00115",
+        "bigg_id": "GTHOr",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00251",
+        "bigg_id": "OPAH",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00267",
+        "bigg_id": "ICDHyr",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00274",
+        "bigg_id": "GTHPi",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00494",
+        "bigg_id": "GTHRDH_syn",
+        "flux": -208.9636947285467
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00497",
+        "bigg_id": "GTHS",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00644",
+        "bigg_id": "PRDX",
+        "flux": 1.0123083908290395e-12
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00670",
+        "bigg_id": "ORNDC",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00894",
+        "bigg_id": "GLUCYS",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R00899",
+        "bigg_id": "AMPTASECG",
+        "flux": -4.629868555207193e-14
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01108",
+        "bigg_id": "DHAOX_c",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01109",
+        "bigg_id": "CYSGLTH",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01110",
+        "bigg_id": "LHCYSTIN",
+        "flux": 104.25537150002745
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01528",
+        "bigg_id": "GNDc",
+        "flux": 562.7819992229734
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01918",
+        "bigg_id": "NADN",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R01920",
+        "bigg_id": "SPMS",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R02736",
+        "bigg_id": "G6PDH2r",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R02743",
+        "bigg_id": "r0568",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R02869",
+        "bigg_id": "SPRMS",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R03167",
+        "bigg_id": "HMR_0960",
+        "flux": 0.0
+      },
+      {
+        "compartment": "c",
+        "kegg": "R08363",
+        "bigg_id": "RNDR2",
+        "flux": 0.0
+      },
+      {
+        "compartment": "e",
+        "kegg": "R00274",
+        "bigg_id": "GTHPe",
+        "flux": 0.0
+      },
+      {
+        "compartment": "e",
+        "kegg": "R00494",
+        "bigg_id": "GGTAe2",
+        "flux": 208.96369472854667
+      },
+      {
+        "compartment": "e",
+        "kegg": "R00670",
+        "bigg_id": "HMR_4422",
+        "flux": 0.0
+      },
+      {
+        "compartment": "e",
+        "kegg": "R00899",
+        "bigg_id": "AMPTASECGe",
+        "flux": 0.0
+      },
+      {
+        "compartment": "e",
+        "kegg": "R01918",
+        "bigg_id": "NADNe",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00115",
+        "bigg_id": "GTHOm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00267",
+        "bigg_id": "ICDHym",
+        "flux": -153.2549571753962
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00274",
+        "bigg_id": "GTHPm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R00670",
+        "bigg_id": "ARGDCm",
+        "flux": 0.0
+      },
+      {
+        "compartment": "m",
+        "kegg": "R03167",
+        "bigg_id": "HMR_0963",
+        "flux": 0.0
+      }
+    ]
+  },
+  "html": "results\\compartments\\human_Recon3D\\rn00480\\Recon3D_rn00480_compartments.html",
+  "map_json": "results\\compartments\\human_Recon3D\\rn00480\\Recon3D_rn00480_compartments.json",
+  "flux_tsv": "results\\compartments\\human_Recon3D\\rn00480\\Recon3D_rn00480_flux.tsv",
+  "summary_json": "results\\compartments\\human_Recon3D\\rn00480\\summary.json"
+}

@@ -1,0 +1,18 @@
+{
+  "source_kgml": "results/prokaryote_maps/kegg_kgml/rn00030.kgml",
+  "drawable_kgml": "results/prokaryote_maps/kegg_kgml/rn00030.drawable.kgml",
+  "removed_reaction_entries": [
+    {
+      "entry_id": "91",
+      "name": "rn:R06837 rc:RC00017",
+      "reaction": "rn:R06837",
+      "reaction_ids": [
+        "R06837"
+      ]
+    }
+  ],
+  "removed_reaction_entry_count": 1,
+  "removed_reaction_ids": [
+    "R06837"
+  ]
+}

@@ -1,0 +1,1827 @@
+[
+  {
+    "mode": "inclusive_all",
+    "exclude_source_mnx": false,
+    "prediction_policy": "all",
+    "threshold": 0.5,
+    "sources": 1711,
+    "reaction_level": {
+      "exact": 563,
+      "clean_hit": 0,
+      "mixed_hit": 1148,
+      "wrong_only": 0,
+      "miss": 0,
+      "recovered_any": 1711,
+      "recovered_any_rate": 1.0,
+      "wrong_only_rate": 0.0,
+      "miss_rate": 0.0
+    },
+    "label_level_confusion_matrix": {
+      "tp": 6464,
+      "fp": 39280,
+      "fn": 0,
+      "tn": 22026156
+    },
+    "label_level_metrics": {
+      "precision": 0.14130814970269326,
+      "recall": 1.0,
+      "specificity": 0.9982198402968335,
+      "f1": 0.24762488507508426
+    },
+    "prediction_size": {
+      "min": 2,
+      "median": 10,
+      "p90": 82,
+      "max": 530
+    },
+    "true_size": {
+      "min": 2,
+      "median": 4,
+      "p90": 6,
+      "max": 18
+    },
+    "examples": {
+      "exact": [
+        {
+          "kegg": "R01698",
+          "mnx_id": "MNXR100066",
+          "ec": "1.6.2.6|1.8.1|1.8.1.4",
+          "true_bigg": [
+            "GCC2cm",
+            "PDHcr",
+            "PDHe3hr",
+            "R_GCC2cm",
+            "R_PDHcr",
+            "R_PDHe3hr"
+          ],
+          "predicted_bigg": [
+            "GCC2cm",
+            "PDHcr",
+            "PDHe3hr",
+            "R_GCC2cm",
+            "R_PDHcr",
+            "R_PDHe3hr"
+          ],
+          "tp": [
+            "GCC2cm",
+            "PDHcr",
+            "PDHe3hr",
+            "R_GCC2cm",
+            "R_PDHcr",
+            "R_PDHe3hr"
+          ],
+          "fp_count": 0,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R00894",
+          "mnx_id": "MNXR100074",
+          "ec": "6.3.2.2",
+          "true_bigg": [
+            "GCL",
+            "GLUCYS",
+            "R_GCL",
+            "R_GLUCYS"
+          ],
+          "predicted_bigg": [
+            "GCL",
+            "GLUCYS",
+            "R_GCL",
+            "R_GLUCYS"
+          ],
+          "tp": [
+            "GCL",
+            "GLUCYS",
+            "R_GCL",
+            "R_GLUCYS"
+          ],
+          "fp_count": 0,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R03409",
+          "mnx_id": "MNXR100099",
+          "ec": "3.6.1.11|3.6.1.40",
+          "true_bigg": [
+            "GDTP",
+            "GTPDPDP",
+            "R_GDTP",
+            "R_GTPDPDP"
+          ],
+          "predicted_bigg": [
+            "GDTP",
+            "GTPDPDP",
+            "R_GDTP",
+            "R_GTPDPDP"
+          ],
+          "tp": [
+            "GDTP",
+            "GTPDPDP",
+            "R_GDTP",
+            "R_GTPDPDP"
+          ],
+          "fp_count": 0,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R07419",
+          "mnx_id": "MNXR100114",
+          "ec": "3.5.1.94",
+          "true_bigg": [
+            "GGGABAH",
+            "R_GGGABAH"
+          ],
+          "predicted_bigg": [
+            "GGGABAH",
+            "R_GGGABAH"
+          ],
+          "tp": [
+            "GGGABAH",
+            "R_GGGABAH"
+          ],
+          "fp_count": 0,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R04158",
+          "mnx_id": "MNXR100116",
+          "ec": "2.5.1.41",
+          "true_bigg": [
+            "GGGPS",
+            "R_GGGPS"
+          ],
+          "predicted_bigg": [
+            "GGGPS",
+            "R_GGGPS"
+          ],
+          "tp": [
+            "GGGPS",
+            "R_GGGPS"
+          ],
+          "fp_count": 0,
+          "fn_count": 0
+        }
+      ],
+      "clean_hit": [],
+      "mixed_hit": [
+        {
+          "kegg": "R00253",
+          "mnx_id": "MNXR100024",
+          "ec": "6.3.1.2",
+          "true_bigg": [
+            "GALh",
+            "GALm",
+            "GLNS",
+            "GLNS_1",
+            "R_GALh",
+            "R_GALm",
+            "R_GLNS",
+            "R_GLNS_1"
+          ],
+          "predicted_bigg": [
+            "GALh",
+            "GALm",
+            "GLNS",
+            "GLNS_1",
+            "R_GALh",
+            "R_GALm",
+            "R_GLNS",
+            "R_GLNS_1",
+            "GLNSP1",
+            "GLNSP2",
+            "GLNSP3",
+            "R_GLNSP1",
+            "R_GLNSP2",
+            "R_GLNSP3"
+          ],
+          "tp": [
+            "GALh",
+            "GALm",
+            "GLNS",
+            "GLNS_1",
+            "R_GALh",
+            "R_GALm",
+            "R_GLNS",
+            "R_GLNS_1"
+          ],
+          "fp_count": 6,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R00256",
+          "mnx_id": "MNXR100030",
+          "ec": "1.4.1.13|1.4.1.14|1.4.7.1|2.4.2|2.4.2.14|2.6.1.85|3.5.1.2|3.5.1.38|4.3.1|4.3.3.6|6.3.4.2|6.3.5.2|6.3.5.4|6.3.5.5|6.3.5.7",
+          "true_bigg": [
+            "GAM",
+            "GLUN",
+            "GLUN_1",
+            "GLUNm",
+            "GLUNpp",
+            "R_GAM",
+            "R_GLUN",
+            "R_GLUN_1",
+            "R_GLUNm",
+            "R_GLUNpp"
+          ],
+          "predicted_bigg": [
+            "GAM",
+            "GLUN",
+            "GLUN_1",
+            "GLUNm",
+            "GLUNpp",
+            "R_GAM",
+            "R_GLUN",
+            "R_GLUN_1",
+            "R_GLUNm",
+            "R_GLUNpp",
+            "6TXAN5MPAML",
+            "ASNS1",
+            "CBPS",
+            "CBPS_1",
+            "CBPSn",
+            "CTPS2",
+            "CTPS2n",
+            "GDH",
+            "GDH1",
+            "GDH_nadp"
+          ],
+          "tp": [
+            "GAM",
+            "GLUN",
+            "GLUN_1",
+            "GLUNm",
+            "GLUNpp",
+            "R_GAM",
+            "R_GLUN",
+            "R_GLUN_1",
+            "R_GLUNm",
+            "R_GLUNpp"
+          ],
+          "fp_count": 96,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R01333",
+          "mnx_id": "MNXR100060",
+          "ec": "1.2.1|1.2.1.19|1.2.1.21|1.2.1.3|1.2.1.4|1.2.1.5|1.2.1.69",
+          "true_bigg": [
+            "GCALDD",
+            "GCALDDm",
+            "R_GCALDD",
+            "R_GCALDDm"
+          ],
+          "predicted_bigg": [
+            "GCALDD",
+            "GCALDDm",
+            "R_GCALDD",
+            "R_GCALDDm",
+            "34DHALDD",
+            "34DHXMANDACOX",
+            "3M4HDXPAC",
+            "3MBZDH",
+            "3MOX4HOXPGALDOX",
+            "4HALDD",
+            "4HALDD_1",
+            "4HGLSD",
+            "4HGLSDm",
+            "4MBZDH",
+            "5HOXINDACTOX",
+            "5HOXINDACTOXm",
+            "ABUTD",
+            "ABUTDm",
+            "ALDD1",
+            "ALDD10"
+          ],
+          "tp": [
+            "GCALDD",
+            "GCALDDm",
+            "R_GCALDD",
+            "R_GCALDDm"
+          ],
+          "fp_count": 154,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R03824",
+          "mnx_id": "MNXR100063",
+          "ec": "5.5.1.19",
+          "true_bigg": [
+            "GCATENEC",
+            "LCYB",
+            "LYCBC2_h",
+            "R_GCATENEC",
+            "R_LCYB",
+            "R_LYCBC2_h"
+          ],
+          "predicted_bigg": [
+            "GCATENEC",
+            "LCYB",
+            "LYCBC2_h",
+            "R_GCATENEC",
+            "R_LCYB",
+            "R_LYCBC2_h",
+            "LCYG",
+            "LYCOPC",
+            "R_LCYG",
+            "R_LYCOPC"
+          ],
+          "tp": [
+            "GCATENEC",
+            "LCYB",
+            "LYCBC2_h",
+            "R_GCATENEC",
+            "R_LCYB",
+            "R_LYCBC2_h"
+          ],
+          "fp_count": 4,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R03177",
+          "mnx_id": "MNXR100083",
+          "ec": "1.2.1.3|1.2.1.54",
+          "true_bigg": [
+            "GDBTALDH",
+            "R_GDBTALDH"
+          ],
+          "predicted_bigg": [
+            "GDBTALDH",
+            "R_GDBTALDH",
+            "34DHALDD",
+            "34DHXMANDACOX",
+            "3MBZDH",
+            "4MBZDH",
+            "5HOXINDACTOX",
+            "5HOXINDACTOXm",
+            "ABUTD",
+            "ABUTDm",
+            "ALDD1",
+            "ALDD10",
+            "ALDD12",
+            "ALDD16",
+            "ALDD19xr",
+            "ALDD20x",
+            "ALDD20xm",
+            "ALDD2x",
+            "ALDD2xm",
+            "ALDD3"
+          ],
+          "tp": [
+            "GDBTALDH",
+            "R_GDBTALDH"
+          ],
+          "fp_count": 128,
+          "fn_count": 0
+        }
+      ],
+      "wrong_only": [],
+      "miss": []
+    }
+  },
+  {
+    "mode": "inclusive_best_ties",
+    "exclude_source_mnx": false,
+    "prediction_policy": "best_ties",
+    "threshold": 0.5,
+    "sources": 1711,
+    "reaction_level": {
+      "exact": 1697,
+      "clean_hit": 0,
+      "mixed_hit": 14,
+      "wrong_only": 0,
+      "miss": 0,
+      "recovered_any": 1711,
+      "recovered_any_rate": 1.0,
+      "wrong_only_rate": 0.0,
+      "miss_rate": 0.0
+    },
+    "label_level_confusion_matrix": {
+      "tp": 6464,
+      "fp": 456,
+      "fn": 0,
+      "tn": 22064980
+    },
+    "label_level_metrics": {
+      "precision": 0.9341040462427745,
+      "recall": 1.0,
+      "specificity": 0.9999793341948919,
+      "f1": 0.9659294680215182
+    },
+    "prediction_size": {
+      "min": 2,
+      "median": 4,
+      "p90": 6,
+      "max": 358
+    },
+    "true_size": {
+      "min": 2,
+      "median": 4,
+      "p90": 6,
+      "max": 18
+    },
+    "examples": {
+      "exact": [
+        {
+          "kegg": "R00253",
+          "mnx_id": "MNXR100024",
+          "ec": "6.3.1.2",
+          "true_bigg": [
+            "GALh",
+            "GALm",
+            "GLNS",
+            "GLNS_1",
+            "R_GALh",
+            "R_GALm",
+            "R_GLNS",
+            "R_GLNS_1"
+          ],
+          "predicted_bigg": [
+            "GALh",
+            "GALm",
+            "GLNS",
+            "GLNS_1",
+            "R_GALh",
+            "R_GALm",
+            "R_GLNS",
+            "R_GLNS_1"
+          ],
+          "tp": [
+            "GALh",
+            "GALm",
+            "GLNS",
+            "GLNS_1",
+            "R_GALh",
+            "R_GALm",
+            "R_GLNS",
+            "R_GLNS_1"
+          ],
+          "fp_count": 0,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R00256",
+          "mnx_id": "MNXR100030",
+          "ec": "1.4.1.13|1.4.1.14|1.4.7.1|2.4.2|2.4.2.14|2.6.1.85|3.5.1.2|3.5.1.38|4.3.1|4.3.3.6|6.3.4.2|6.3.5.2|6.3.5.4|6.3.5.5|6.3.5.7",
+          "true_bigg": [
+            "GAM",
+            "GLUN",
+            "GLUN_1",
+            "GLUNm",
+            "GLUNpp",
+            "R_GAM",
+            "R_GLUN",
+            "R_GLUN_1",
+            "R_GLUNm",
+            "R_GLUNpp"
+          ],
+          "predicted_bigg": [
+            "GAM",
+            "GLUN",
+            "GLUN_1",
+            "GLUNm",
+            "GLUNpp",
+            "R_GAM",
+            "R_GLUN",
+            "R_GLUN_1",
+            "R_GLUNm",
+            "R_GLUNpp"
+          ],
+          "tp": [
+            "GAM",
+            "GLUN",
+            "GLUN_1",
+            "GLUNm",
+            "GLUNpp",
+            "R_GAM",
+            "R_GLUN",
+            "R_GLUN_1",
+            "R_GLUNm",
+            "R_GLUNpp"
+          ],
+          "fp_count": 0,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R01333",
+          "mnx_id": "MNXR100060",
+          "ec": "1.2.1|1.2.1.19|1.2.1.21|1.2.1.3|1.2.1.4|1.2.1.5|1.2.1.69",
+          "true_bigg": [
+            "GCALDD",
+            "GCALDDm",
+            "R_GCALDD",
+            "R_GCALDDm"
+          ],
+          "predicted_bigg": [
+            "GCALDD",
+            "GCALDDm",
+            "R_GCALDD",
+            "R_GCALDDm"
+          ],
+          "tp": [
+            "GCALDD",
+            "GCALDDm",
+            "R_GCALDD",
+            "R_GCALDDm"
+          ],
+          "fp_count": 0,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R03824",
+          "mnx_id": "MNXR100063",
+          "ec": "5.5.1.19",
+          "true_bigg": [
+            "GCATENEC",
+            "LCYB",
+            "LYCBC2_h",
+            "R_GCATENEC",
+            "R_LCYB",
+            "R_LYCBC2_h"
+          ],
+          "predicted_bigg": [
+            "GCATENEC",
+            "LCYB",
+            "LYCBC2_h",
+            "R_GCATENEC",
+            "R_LCYB",
+            "R_LYCBC2_h"
+          ],
+          "tp": [
+            "GCATENEC",
+            "LCYB",
+            "LYCBC2_h",
+            "R_GCATENEC",
+            "R_LCYB",
+            "R_LYCBC2_h"
+          ],
+          "fp_count": 0,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R01698",
+          "mnx_id": "MNXR100066",
+          "ec": "1.6.2.6|1.8.1|1.8.1.4",
+          "true_bigg": [
+            "GCC2cm",
+            "PDHcr",
+            "PDHe3hr",
+            "R_GCC2cm",
+            "R_PDHcr",
+            "R_PDHe3hr"
+          ],
+          "predicted_bigg": [
+            "GCC2cm",
+            "PDHcr",
+            "PDHe3hr",
+            "R_GCC2cm",
+            "R_PDHcr",
+            "R_PDHe3hr"
+          ],
+          "tp": [
+            "GCC2cm",
+            "PDHcr",
+            "PDHe3hr",
+            "R_GCC2cm",
+            "R_PDHcr",
+            "R_PDHe3hr"
+          ],
+          "fp_count": 0,
+          "fn_count": 0
+        }
+      ],
+      "clean_hit": [],
+      "mixed_hit": [
+        {
+          "kegg": "R00112",
+          "mnx_id": "MNXR101898",
+          "ec": "1.6.1.1|1.6.1.2|1.6.1.3",
+          "true_bigg": [
+            "NADTRHD",
+            "NADTRHD2",
+            "NNOR",
+            "R_NADTRHD",
+            "R_NADTRHD2",
+            "R_NNOR",
+            "R_THD1_h",
+            "THD1_h"
+          ],
+          "predicted_bigg": [
+            "NADTRHD",
+            "NADTRHD2",
+            "NNOR",
+            "R_NADTRHD",
+            "R_NADTRHD2",
+            "R_NNOR",
+            "R_THD1_h",
+            "R_THD1m",
+            "R_THD2",
+            "R_THD2pp",
+            "THD1_h",
+            "THD1m",
+            "THD2",
+            "THD2pp"
+          ],
+          "tp": [
+            "NADTRHD",
+            "NADTRHD2",
+            "NNOR",
+            "R_NADTRHD",
+            "R_NADTRHD2",
+            "R_NNOR",
+            "R_THD1_h",
+            "THD1_h"
+          ],
+          "fp_count": 6,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R01710",
+          "mnx_id": "MNXR103367",
+          "ec": "1.4.3|1.4.3.5",
+          "true_bigg": [
+            "PYDXO_1",
+            "R_PYDXO_1"
+          ],
+          "predicted_bigg": [
+            "PYDXO",
+            "PYDXO_1",
+            "R_PYDXO",
+            "R_PYDXO_1"
+          ],
+          "tp": [
+            "PYDXO_1",
+            "R_PYDXO_1"
+          ],
+          "fp_count": 2,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R00031",
+          "mnx_id": "MNXR104991",
+          "ec": "1.10.3.1|1.14.18.1",
+          "true_bigg": [
+            "R_TYRDOPO",
+            "TYRDOPO"
+          ],
+          "predicted_bigg": [
+            "HMR_6729",
+            "R_HMR_6729",
+            "R_TYRDOPO",
+            "TYRDOPO"
+          ],
+          "tp": [
+            "R_TYRDOPO",
+            "TYRDOPO"
+          ],
+          "fp_count": 2,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R00004",
+          "mnx_id": "MNXR145285",
+          "ec": "3.1.3|3.1.3.1|3.1.3.2|3.6.1|3.6.1.1|3.6.2.1",
+          "true_bigg": [
+            "IDP_h",
+            "IDPh",
+            "IDPh_1",
+            "IDPm",
+            "PPA",
+            "PPAer",
+            "PPAm",
+            "PPAn",
+            "R_IDP_h",
+            "R_IDPh",
+            "R_IDPh_1",
+            "R_IDPm",
+            "R_PPA",
+            "R_PPAer",
+            "R_PPAm",
+            "R_PPAn",
+            "R_r0009",
+            "r0009"
+          ],
+          "predicted_bigg": [
+            "IDP_h",
+            "IDPh",
+            "IDPh_1",
+            "IDPm",
+            "PPA",
+            "PPA_1",
+            "PPA_1pp",
+            "PPA_2",
+            "PPAer",
+            "PPAm",
+            "PPAn",
+            "R_IDP_h",
+            "R_IDPh",
+            "R_IDPh_1",
+            "R_IDPm",
+            "R_PPA",
+            "R_PPA_1",
+            "R_PPA_1pp",
+            "R_PPA_2",
+            "R_PPAer"
+          ],
+          "tp": [
+            "IDP_h",
+            "IDPh",
+            "IDPh_1",
+            "IDPm",
+            "PPA",
+            "PPAer",
+            "PPAm",
+            "PPAn",
+            "R_IDP_h",
+            "R_IDPh",
+            "R_IDPh_1",
+            "R_IDPm",
+            "R_PPA",
+            "R_PPAer",
+            "R_PPAm",
+            "R_PPAn",
+            "R_r0009",
+            "r0009"
+          ],
+          "fp_count": 6,
+          "fn_count": 0
+        },
+        {
+          "kegg": "R00086",
+          "mnx_id": "MNXR153054",
+          "ec": "2.3.1.193|2.7.1|2.7.1.1|2.7.1.2|2.7.11.24|3.1.3|3.1.3.1|3.1.3.2|3.1.3.29|3.1.4|3.4.21.53|3.4.24|3.6|3.6.1|3.6.1.-|3.6.1.15|3.6.1.3|3.6.1.5|3.6.1.8|3.6.2.1|3.6.3|3.6.3.1|3.6.3.10|3.6.3.11|3.6.3.12|3.6.3.14|3.6.3.15|3.6.3.16|3.6.3.17|3.6.3.18|3.6.3.19|3.6.3.2|3.6.3.20|3.6.3.21|3.6.3.22|3.6.3.23|3.6.3.24|3.6.3.25|3.6.3.26|3.6.3.27|3.6.3.28|3.6.3.29|3.6.3.3|3.6.3.30|3.6.3.31|3.6.3.32|3.6.3.33|3.6.3.34|3.6.3.35|3.6.3.36|3.6.3.37|3.6.3.38|3.6.3.39|3.6.3.4|3.6.3.40|3.6.3.41|3.6.3.42|3.6.3.43|3.6.3.44|3.6.3.46|3.6.3.47|3.6.3.48|3.6.3.49|3.6.3.5|3.6.3.50|3.6.3.51|3.6.3.52|3.6.3.53|3.6.3.54|3.6.3.55|3.6.3.6|3.6.3.7|3.6.3.8|3.6.3.9|3.6.4|3.6.4.1|3.6.4.10|3.6.4.11|3.6.4.12|3.6.4.13|3.6.4.2|3.6.4.3|3.6.4.4|3.6.4.5|3.6.4.6|3.6.4.7|3.6.4.8|3.6.4.9|5.6.1.1|5.6.1.7|5.6.1.8|5.6.1.c|5.6.1.d|5.6.1.f|5.6.1.g|5.6.2.3|5.6.2.4|7.1.2.1|7.1.2.2|7.3.2.a|7.3.2.f|7.5.2.h|7.5.2.j|7.5.2.l|7.6.2.1|7.6.2.2|7.6.2.c|7.6.2.f",
+          "true_bigg": [
+            "ATPM",
+            "ATPM_h",
+            "ATPPHm",
+            "NTP1",
+            "R_ATPM",
+            "R_ATPM_h",
+            "R_ATPPHm",
+            "R_NTP1"
+          ],
+          "predicted_bigg": [
+            "3PEPTabcpp",
+            "ADOCBLabc",
+            "ADOCBLabcpp",
+            "ALAALAabcpp",
+            "ALAGLUabcpp",
+            "ALAabc",
+            "ALAabcpp",
+            "ARBabc",
+            "ARBabcpp",
+            "ARGabc",
+            "ARGabcpp",
+            "ASNabc",
+            "ASNabcpp",
+            "ASO3t8pp",
+            "ASPabc",
+            "ASPabcpp",
+            "ATPM",
+            "ATPM_h",
+            "ATPPHm",
+            "ATPS"
+          ],
+          "tp": [
+            "ATPM",
+            "ATPM_h",
+            "ATPPHm",
+            "NTP1",
+            "R_ATPM",
+            "R_ATPM_h",
+            "R_ATPPHm",
+            "R_NTP1"
+          ],
+          "fp_count": 350,
+          "fn_count": 0
+        }
+      ],
+      "wrong_only": [],
+      "miss": []
+    }
+  },
+  {
+    "mode": "inclusive_top1",
+    "exclude_source_mnx": false,
+    "prediction_policy": "top1",
+    "threshold": 0.5,
+    "sources": 1711,
+    "reaction_level": {
+      "exact": 0,
+      "clean_hit": 1707,
+      "mixed_hit": 0,
+      "wrong_only": 4,
+      "miss": 0,
+      "recovered_any": 1707,
+      "recovered_any_rate": 0.9976621858562245,
+      "wrong_only_rate": 0.0023378141437755697,
+      "miss_rate": 0.0
+    },
+    "label_level_confusion_matrix": {
+      "tp": 1707,
+      "fp": 4,
+      "fn": 4757,
+      "tn": 22065432
+    },
+    "label_level_metrics": {
+      "precision": 0.9976621858562245,
+      "recall": 0.26407797029702973,
+      "specificity": 0.9999998187210078,
+      "f1": 0.4176146788990826
+    },
+    "prediction_size": {
+      "min": 1,
+      "median": 1,
+      "p90": 1,
+      "max": 1
+    },
+    "true_size": {
+      "min": 2,
+      "median": 4,
+      "p90": 6,
+      "max": 18
+    },
+    "examples": {
+      "exact": [],
+      "clean_hit": [
+        {
+          "kegg": "R00253",
+          "mnx_id": "MNXR100024",
+          "ec": "6.3.1.2",
+          "true_bigg": [
+            "GALh",
+            "GALm",
+            "GLNS",
+            "GLNS_1",
+            "R_GALh",
+            "R_GALm",
+            "R_GLNS",
+            "R_GLNS_1"
+          ],
+          "predicted_bigg": [
+            "GALh"
+          ],
+          "tp": [
+            "GALh"
+          ],
+          "fp_count": 0,
+          "fn_count": 7
+        },
+        {
+          "kegg": "R00256",
+          "mnx_id": "MNXR100030",
+          "ec": "1.4.1.13|1.4.1.14|1.4.7.1|2.4.2|2.4.2.14|2.6.1.85|3.5.1.2|3.5.1.38|4.3.1|4.3.3.6|6.3.4.2|6.3.5.2|6.3.5.4|6.3.5.5|6.3.5.7",
+          "true_bigg": [
+            "GAM",
+            "GLUN",
+            "GLUN_1",
+            "GLUNm",
+            "GLUNpp",
+            "R_GAM",
+            "R_GLUN",
+            "R_GLUN_1",
+            "R_GLUNm",
+            "R_GLUNpp"
+          ],
+          "predicted_bigg": [
+            "GAM"
+          ],
+          "tp": [
+            "GAM"
+          ],
+          "fp_count": 0,
+          "fn_count": 9
+        },
+        {
+          "kegg": "R01333",
+          "mnx_id": "MNXR100060",
+          "ec": "1.2.1|1.2.1.19|1.2.1.21|1.2.1.3|1.2.1.4|1.2.1.5|1.2.1.69",
+          "true_bigg": [
+            "GCALDD",
+            "GCALDDm",
+            "R_GCALDD",
+            "R_GCALDDm"
+          ],
+          "predicted_bigg": [
+            "GCALDD"
+          ],
+          "tp": [
+            "GCALDD"
+          ],
+          "fp_count": 0,
+          "fn_count": 3
+        },
+        {
+          "kegg": "R03824",
+          "mnx_id": "MNXR100063",
+          "ec": "5.5.1.19",
+          "true_bigg": [
+            "GCATENEC",
+            "LCYB",
+            "LYCBC2_h",
+            "R_GCATENEC",
+            "R_LCYB",
+            "R_LYCBC2_h"
+          ],
+          "predicted_bigg": [
+            "GCATENEC"
+          ],
+          "tp": [
+            "GCATENEC"
+          ],
+          "fp_count": 0,
+          "fn_count": 5
+        },
+        {
+          "kegg": "R01698",
+          "mnx_id": "MNXR100066",
+          "ec": "1.6.2.6|1.8.1|1.8.1.4",
+          "true_bigg": [
+            "GCC2cm",
+            "PDHcr",
+            "PDHe3hr",
+            "R_GCC2cm",
+            "R_PDHcr",
+            "R_PDHe3hr"
+          ],
+          "predicted_bigg": [
+            "GCC2cm"
+          ],
+          "tp": [
+            "GCC2cm"
+          ],
+          "fp_count": 0,
+          "fn_count": 5
+        }
+      ],
+      "mixed_hit": [],
+      "wrong_only": [
+        {
+          "kegg": "R01710",
+          "mnx_id": "MNXR103367",
+          "ec": "1.4.3|1.4.3.5",
+          "true_bigg": [
+            "PYDXO_1",
+            "R_PYDXO_1"
+          ],
+          "predicted_bigg": [
+            "PYDXO"
+          ],
+          "tp": [],
+          "fp_count": 1,
+          "fn_count": 2
+        },
+        {
+          "kegg": "R00031",
+          "mnx_id": "MNXR104991",
+          "ec": "1.10.3.1|1.14.18.1",
+          "true_bigg": [
+            "R_TYRDOPO",
+            "TYRDOPO"
+          ],
+          "predicted_bigg": [
+            "HMR_6729"
+          ],
+          "tp": [],
+          "fp_count": 1,
+          "fn_count": 2
+        },
+        {
+          "kegg": "R00086",
+          "mnx_id": "MNXR153054",
+          "ec": "2.3.1.193|2.7.1|2.7.1.1|2.7.1.2|2.7.11.24|3.1.3|3.1.3.1|3.1.3.2|3.1.3.29|3.1.4|3.4.21.53|3.4.24|3.6|3.6.1|3.6.1.-|3.6.1.15|3.6.1.3|3.6.1.5|3.6.1.8|3.6.2.1|3.6.3|3.6.3.1|3.6.3.10|3.6.3.11|3.6.3.12|3.6.3.14|3.6.3.15|3.6.3.16|3.6.3.17|3.6.3.18|3.6.3.19|3.6.3.2|3.6.3.20|3.6.3.21|3.6.3.22|3.6.3.23|3.6.3.24|3.6.3.25|3.6.3.26|3.6.3.27|3.6.3.28|3.6.3.29|3.6.3.3|3.6.3.30|3.6.3.31|3.6.3.32|3.6.3.33|3.6.3.34|3.6.3.35|3.6.3.36|3.6.3.37|3.6.3.38|3.6.3.39|3.6.3.4|3.6.3.40|3.6.3.41|3.6.3.42|3.6.3.43|3.6.3.44|3.6.3.46|3.6.3.47|3.6.3.48|3.6.3.49|3.6.3.5|3.6.3.50|3.6.3.51|3.6.3.52|3.6.3.53|3.6.3.54|3.6.3.55|3.6.3.6|3.6.3.7|3.6.3.8|3.6.3.9|3.6.4|3.6.4.1|3.6.4.10|3.6.4.11|3.6.4.12|3.6.4.13|3.6.4.2|3.6.4.3|3.6.4.4|3.6.4.5|3.6.4.6|3.6.4.7|3.6.4.8|3.6.4.9|5.6.1.1|5.6.1.7|5.6.1.8|5.6.1.c|5.6.1.d|5.6.1.f|5.6.1.g|5.6.2.3|5.6.2.4|7.1.2.1|7.1.2.2|7.3.2.a|7.3.2.f|7.5.2.h|7.5.2.j|7.5.2.l|7.6.2.1|7.6.2.2|7.6.2.c|7.6.2.f",
+          "true_bigg": [
+            "ATPM",
+            "ATPM_h",
+            "ATPPHm",
+            "NTP1",
+            "R_ATPM",
+            "R_ATPM_h",
+            "R_ATPPHm",
+            "R_NTP1"
+          ],
+          "predicted_bigg": [
+            "3PEPTabcpp"
+          ],
+          "tp": [],
+          "fp_count": 1,
+          "fn_count": 8
+        },
+        {
+          "kegg": "R00124#2",
+          "mnx_id": "MNXR96123",
+          "ec": "2.7.4.6",
+          "true_bigg": [
+            "ATP1ter",
+            "ATPt",
+            "ATPt_h",
+            "ATPtg",
+            "ATPtm",
+            "R_ATP1ter",
+            "R_ATPt",
+            "R_ATPt_h",
+            "R_ATPtg",
+            "R_ATPtm",
+            "R_r0859",
+            "R_r0860",
+            "r0859",
+            "r0860"
+          ],
+          "predicted_bigg": [
+            "ATDGDm"
+          ],
+          "tp": [],
+          "fp_count": 1,
+          "fn_count": 14
+        }
+      ],
+      "miss": []
+    }
+  },
+  {
+    "mode": "leave_one_mnx_out_all",
+    "exclude_source_mnx": true,
+    "prediction_policy": "all",
+    "threshold": 0.5,
+    "sources": 1711,
+    "reaction_level": {
+      "exact": 0,
+      "clean_hit": 0,
+      "mixed_hit": 0,
+      "wrong_only": 1148,
+      "miss": 563,
+      "recovered_any": 0,
+      "recovered_any_rate": 0.0,
+      "wrong_only_rate": 0.6709526592635885,
+      "miss_rate": 0.32904734073641145
+    },
+    "label_level_confusion_matrix": {
+      "tp": 0,
+      "fp": 39280,
+      "fn": 6464,
+      "tn": 22026156
+    },
+    "label_level_metrics": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "specificity": 0.9982198402968335,
+      "f1": 0.0
+    },
+    "prediction_size": {
+      "min": 0,
+      "median": 6,
+      "p90": 76,
+      "max": 522
+    },
+    "true_size": {
+      "min": 2,
+      "median": 4,
+      "p90": 6,
+      "max": 18
+    },
+    "examples": {
+      "exact": [],
+      "clean_hit": [],
+      "mixed_hit": [],
+      "wrong_only": [
+        {
+          "kegg": "R00253",
+          "mnx_id": "MNXR100024",
+          "ec": "6.3.1.2",
+          "true_bigg": [
+            "GALh",
+            "GALm",
+            "GLNS",
+            "GLNS_1",
+            "R_GALh",
+            "R_GALm",
+            "R_GLNS",
+            "R_GLNS_1"
+          ],
+          "predicted_bigg": [
+            "GLNSP1",
+            "GLNSP2",
+            "GLNSP3",
+            "R_GLNSP1",
+            "R_GLNSP2",
+            "R_GLNSP3"
+          ],
+          "tp": [],
+          "fp_count": 6,
+          "fn_count": 8
+        },
+        {
+          "kegg": "R00256",
+          "mnx_id": "MNXR100030",
+          "ec": "1.4.1.13|1.4.1.14|1.4.7.1|2.4.2|2.4.2.14|2.6.1.85|3.5.1.2|3.5.1.38|4.3.1|4.3.3.6|6.3.4.2|6.3.5.2|6.3.5.4|6.3.5.5|6.3.5.7",
+          "true_bigg": [
+            "GAM",
+            "GLUN",
+            "GLUN_1",
+            "GLUNm",
+            "GLUNpp",
+            "R_GAM",
+            "R_GLUN",
+            "R_GLUN_1",
+            "R_GLUNm",
+            "R_GLUNpp"
+          ],
+          "predicted_bigg": [
+            "6TXAN5MPAML",
+            "ASNS1",
+            "CBPS",
+            "CBPS_1",
+            "CBPSn",
+            "CTPS2",
+            "CTPS2n",
+            "GDH",
+            "GDH1",
+            "GDH_nadp",
+            "GDHm",
+            "GLNTRAT",
+            "GLUDxi",
+            "GLUDy",
+            "GLUDy_1",
+            "GLUDym",
+            "GLUPRT",
+            "GMPS2",
+            "GMPS_glu_m",
+            "HCGALm"
+          ],
+          "tp": [],
+          "fp_count": 96,
+          "fn_count": 10
+        },
+        {
+          "kegg": "R01333",
+          "mnx_id": "MNXR100060",
+          "ec": "1.2.1|1.2.1.19|1.2.1.21|1.2.1.3|1.2.1.4|1.2.1.5|1.2.1.69",
+          "true_bigg": [
+            "GCALDD",
+            "GCALDDm",
+            "R_GCALDD",
+            "R_GCALDDm"
+          ],
+          "predicted_bigg": [
+            "34DHALDD",
+            "34DHXMANDACOX",
+            "3M4HDXPAC",
+            "3MBZDH",
+            "3MOX4HOXPGALDOX",
+            "4HALDD",
+            "4HALDD_1",
+            "4HGLSD",
+            "4HGLSDm",
+            "4MBZDH",
+            "5HOXINDACTOX",
+            "5HOXINDACTOXm",
+            "ABUTD",
+            "ABUTDm",
+            "ALDD1",
+            "ALDD10",
+            "ALDD11",
+            "ALDD12",
+            "ALDD14",
+            "ALDD16"
+          ],
+          "tp": [],
+          "fp_count": 154,
+          "fn_count": 4
+        },
+        {
+          "kegg": "R03824",
+          "mnx_id": "MNXR100063",
+          "ec": "5.5.1.19",
+          "true_bigg": [
+            "GCATENEC",
+            "LCYB",
+            "LYCBC2_h",
+            "R_GCATENEC",
+            "R_LCYB",
+            "R_LYCBC2_h"
+          ],
+          "predicted_bigg": [
+            "LCYG",
+            "LYCOPC",
+            "R_LCYG",
+            "R_LYCOPC"
+          ],
+          "tp": [],
+          "fp_count": 4,
+          "fn_count": 6
+        },
+        {
+          "kegg": "R03177",
+          "mnx_id": "MNXR100083",
+          "ec": "1.2.1.3|1.2.1.54",
+          "true_bigg": [
+            "GDBTALDH",
+            "R_GDBTALDH"
+          ],
+          "predicted_bigg": [
+            "34DHALDD",
+            "34DHXMANDACOX",
+            "3MBZDH",
+            "4MBZDH",
+            "5HOXINDACTOX",
+            "5HOXINDACTOXm",
+            "ABUTD",
+            "ABUTDm",
+            "ALDD1",
+            "ALDD10",
+            "ALDD12",
+            "ALDD16",
+            "ALDD19xr",
+            "ALDD20x",
+            "ALDD20xm",
+            "ALDD2x",
+            "ALDD2xm",
+            "ALDD3",
+            "ALDD4",
+            "ALDD4x"
+          ],
+          "tp": [],
+          "fp_count": 128,
+          "fn_count": 2
+        }
+      ],
+      "miss": [
+        {
+          "kegg": "R01698",
+          "mnx_id": "MNXR100066",
+          "ec": "1.6.2.6|1.8.1|1.8.1.4",
+          "true_bigg": [
+            "GCC2cm",
+            "PDHcr",
+            "PDHe3hr",
+            "R_GCC2cm",
+            "R_PDHcr",
+            "R_PDHe3hr"
+          ],
+          "predicted_bigg": [],
+          "tp": [],
+          "fp_count": 0,
+          "fn_count": 6
+        },
+        {
+          "kegg": "R00894",
+          "mnx_id": "MNXR100074",
+          "ec": "6.3.2.2",
+          "true_bigg": [
+            "GCL",
+            "GLUCYS",
+            "R_GCL",
+            "R_GLUCYS"
+          ],
+          "predicted_bigg": [],
+          "tp": [],
+          "fp_count": 0,
+          "fn_count": 4
+        },
+        {
+          "kegg": "R03409",
+          "mnx_id": "MNXR100099",
+          "ec": "3.6.1.11|3.6.1.40",
+          "true_bigg": [
+            "GDTP",
+            "GTPDPDP",
+            "R_GDTP",
+            "R_GTPDPDP"
+          ],
+          "predicted_bigg": [],
+          "tp": [],
+          "fp_count": 0,
+          "fn_count": 4
+        },
+        {
+          "kegg": "R07419",
+          "mnx_id": "MNXR100114",
+          "ec": "3.5.1.94",
+          "true_bigg": [
+            "GGGABAH",
+            "R_GGGABAH"
+          ],
+          "predicted_bigg": [],
+          "tp": [],
+          "fp_count": 0,
+          "fn_count": 2
+        },
+        {
+          "kegg": "R04158",
+          "mnx_id": "MNXR100116",
+          "ec": "2.5.1.41",
+          "true_bigg": [
+            "GGGPS",
+            "R_GGGPS"
+          ],
+          "predicted_bigg": [],
+          "tp": [],
+          "fp_count": 0,
+          "fn_count": 2
+        }
+      ]
+    }
+  },
+  {
+    "mode": "leave_one_mnx_out_best_ties",
+    "exclude_source_mnx": true,
+    "prediction_policy": "best_ties",
+    "threshold": 0.5,
+    "sources": 1711,
+    "reaction_level": {
+      "exact": 0,
+      "clean_hit": 0,
+      "mixed_hit": 0,
+      "wrong_only": 1148,
+      "miss": 563,
+      "recovered_any": 0,
+      "recovered_any_rate": 0.0,
+      "wrong_only_rate": 0.6709526592635885,
+      "miss_rate": 0.32904734073641145
+    },
+    "label_level_confusion_matrix": {
+      "tp": 0,
+      "fp": 28648,
+      "fn": 6464,
+      "tn": 22036788
+    },
+    "label_level_metrics": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "specificity": 0.9987016798580368,
+      "f1": 0.0
+    },
+    "prediction_size": {
+      "min": 0,
+      "median": 4,
+      "p90": 56,
+      "max": 350
+    },
+    "true_size": {
+      "min": 2,
+      "median": 4,
+      "p90": 6,
+      "max": 18
+    },
+    "examples": {
+      "exact": [],
+      "clean_hit": [],
+      "mixed_hit": [],
+      "wrong_only": [
+        {
+          "kegg": "R00253",
+          "mnx_id": "MNXR100024",
+          "ec": "6.3.1.2",
+          "true_bigg": [
+            "GALh",
+            "GALm",
+            "GLNS",
+            "GLNS_1",
+            "R_GALh",
+            "R_GALm",
+            "R_GLNS",
+            "R_GLNS_1"
+          ],
+          "predicted_bigg": [
+            "GLNSP1",
+            "GLNSP2",
+            "GLNSP3",
+            "R_GLNSP1",
+            "R_GLNSP2",
+            "R_GLNSP3"
+          ],
+          "tp": [],
+          "fp_count": 6,
+          "fn_count": 8
+        },
+        {
+          "kegg": "R00256",
+          "mnx_id": "MNXR100030",
+          "ec": "1.4.1.13|1.4.1.14|1.4.7.1|2.4.2|2.4.2.14|2.6.1.85|3.5.1.2|3.5.1.38|4.3.1|4.3.3.6|6.3.4.2|6.3.5.2|6.3.5.4|6.3.5.5|6.3.5.7",
+          "true_bigg": [
+            "GAM",
+            "GLUN",
+            "GLUN_1",
+            "GLUNm",
+            "GLUNpp",
+            "R_GAM",
+            "R_GLUN",
+            "R_GLUN_1",
+            "R_GLUNm",
+            "R_GLUNpp"
+          ],
+          "predicted_bigg": [
+            "6TXAN5MPAML",
+            "ASNS1",
+            "CBPS",
+            "CBPS_1",
+            "CBPSn",
+            "CTPS2",
+            "CTPS2n",
+            "GDH",
+            "GDH1",
+            "GDH_nadp",
+            "GDHm",
+            "GLNTRAT",
+            "GLUDxi",
+            "GLUDy",
+            "GLUDy_1",
+            "GLUDym",
+            "GLUPRT",
+            "GMPS2",
+            "GMPS_glu_m",
+            "HCGALm"
+          ],
+          "tp": [],
+          "fp_count": 46,
+          "fn_count": 10
+        },
+        {
+          "kegg": "R01333",
+          "mnx_id": "MNXR100060",
+          "ec": "1.2.1|1.2.1.19|1.2.1.21|1.2.1.3|1.2.1.4|1.2.1.5|1.2.1.69",
+          "true_bigg": [
+            "GCALDD",
+            "GCALDDm",
+            "R_GCALDD",
+            "R_GCALDDm"
+          ],
+          "predicted_bigg": [
+            "34DHALDD",
+            "34DHXMANDACOX",
+            "3M4HDXPAC",
+            "3MBZDH",
+            "3MOX4HOXPGALDOX",
+            "4HALDD",
+            "4HALDD_1",
+            "4HGLSD",
+            "4HGLSDm",
+            "4MBZDH",
+            "5HOXINDACTOX",
+            "5HOXINDACTOXm",
+            "ABUTD",
+            "ABUTDm",
+            "ALDD1",
+            "ALDD10",
+            "ALDD11",
+            "ALDD12",
+            "ALDD14",
+            "ALDD16"
+          ],
+          "tp": [],
+          "fp_count": 144,
+          "fn_count": 4
+        },
+        {
+          "kegg": "R03824",
+          "mnx_id": "MNXR100063",
+          "ec": "5.5.1.19",
+          "true_bigg": [
+            "GCATENEC",
+            "LCYB",
+            "LYCBC2_h",
+            "R_GCATENEC",
+            "R_LCYB",
+            "R_LYCBC2_h"
+          ],
+          "predicted_bigg": [
+            "LCYG",
+            "LYCOPC",
+            "R_LCYG",
+            "R_LYCOPC"
+          ],
+          "tp": [],
+          "fp_count": 4,
+          "fn_count": 6
+        },
+        {
+          "kegg": "R03177",
+          "mnx_id": "MNXR100083",
+          "ec": "1.2.1.3|1.2.1.54",
+          "true_bigg": [
+            "GDBTALDH",
+            "R_GDBTALDH"
+          ],
+          "predicted_bigg": [
+            "34DHALDD",
+            "34DHXMANDACOX",
+            "3MBZDH",
+            "4MBZDH",
+            "5HOXINDACTOX",
+            "5HOXINDACTOXm",
+            "ABUTD",
+            "ABUTDm",
+            "ALDD1",
+            "ALDD10",
+            "ALDD12",
+            "ALDD16",
+            "ALDD19xr",
+            "ALDD20x",
+            "ALDD20xm",
+            "ALDD2x",
+            "ALDD2xm",
+            "ALDD3",
+            "ALDD4",
+            "ALDD4x"
+          ],
+          "tp": [],
+          "fp_count": 118,
+          "fn_count": 2
+        }
+      ],
+      "miss": [
+        {
+          "kegg": "R01698",
+          "mnx_id": "MNXR100066",
+          "ec": "1.6.2.6|1.8.1|1.8.1.4",
+          "true_bigg": [
+            "GCC2cm",
+            "PDHcr",
+            "PDHe3hr",
+            "R_GCC2cm",
+            "R_PDHcr",
+            "R_PDHe3hr"
+          ],
+          "predicted_bigg": [],
+          "tp": [],
+          "fp_count": 0,
+          "fn_count": 6
+        },
+        {
+          "kegg": "R00894",
+          "mnx_id": "MNXR100074",
+          "ec": "6.3.2.2",
+          "true_bigg": [
+            "GCL",
+            "GLUCYS",
+            "R_GCL",
+            "R_GLUCYS"
+          ],
+          "predicted_bigg": [],
+          "tp": [],
+          "fp_count": 0,
+          "fn_count": 4
+        },
+        {
+          "kegg": "R03409",
+          "mnx_id": "MNXR100099",
+          "ec": "3.6.1.11|3.6.1.40",
+          "true_bigg": [
+            "GDTP",
+            "GTPDPDP",
+            "R_GDTP",
+            "R_GTPDPDP"
+          ],
+          "predicted_bigg": [],
+          "tp": [],
+          "fp_count": 0,
+          "fn_count": 4
+        },
+        {
+          "kegg": "R07419",
+          "mnx_id": "MNXR100114",
+          "ec": "3.5.1.94",
+          "true_bigg": [
+            "GGGABAH",
+            "R_GGGABAH"
+          ],
+          "predicted_bigg": [],
+          "tp": [],
+          "fp_count": 0,
+          "fn_count": 2
+        },
+        {
+          "kegg": "R04158",
+          "mnx_id": "MNXR100116",
+          "ec": "2.5.1.41",
+          "true_bigg": [
+            "GGGPS",
+            "R_GGGPS"
+          ],
+          "predicted_bigg": [],
+          "tp": [],
+          "fp_count": 0,
+          "fn_count": 2
+        }
+      ]
+    }
+  },
+  {
+    "mode": "leave_one_mnx_out_top1",
+    "exclude_source_mnx": true,
+    "prediction_policy": "top1",
+    "threshold": 0.5,
+    "sources": 1711,
+    "reaction_level": {
+      "exact": 0,
+      "clean_hit": 0,
+      "mixed_hit": 0,
+      "wrong_only": 1148,
+      "miss": 563,
+      "recovered_any": 0,
+      "recovered_any_rate": 0.0,
+      "wrong_only_rate": 0.6709526592635885,
+      "miss_rate": 0.32904734073641145
+    },
+    "label_level_confusion_matrix": {
+      "tp": 0,
+      "fp": 1148,
+      "fn": 6464,
+      "tn": 22064288
+    },
+    "label_level_metrics": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "specificity": 0.9999479729292455,
+      "f1": 0.0
+    },
+    "prediction_size": {
+      "min": 0,
+      "median": 1,
+      "p90": 1,
+      "max": 1
+    },
+    "true_size": {
+      "min": 2,
+      "median": 4,
+      "p90": 6,
+      "max": 18
+    },
+    "examples": {
+      "exact": [],
+      "clean_hit": [],
+      "mixed_hit": [],
+      "wrong_only": [
+        {
+          "kegg": "R00253",
+          "mnx_id": "MNXR100024",
+          "ec": "6.3.1.2",
+          "true_bigg": [
+            "GALh",
+            "GALm",
+            "GLNS",
+            "GLNS_1",
+            "R_GALh",
+            "R_GALm",
+            "R_GLNS",
+            "R_GLNS_1"
+          ],
+          "predicted_bigg": [
+            "GLNSP1"
+          ],
+          "tp": [],
+          "fp_count": 1,
+          "fn_count": 8
+        },
+        {
+          "kegg": "R00256",
+          "mnx_id": "MNXR100030",
+          "ec": "1.4.1.13|1.4.1.14|1.4.7.1|2.4.2|2.4.2.14|2.6.1.85|3.5.1.2|3.5.1.38|4.3.1|4.3.3.6|6.3.4.2|6.3.5.2|6.3.5.4|6.3.5.5|6.3.5.7",
+          "true_bigg": [
+            "GAM",
+            "GLUN",
+            "GLUN_1",
+            "GLUNm",
+            "GLUNpp",
+            "R_GAM",
+            "R_GLUN",
+            "R_GLUN_1",
+            "R_GLUNm",
+            "R_GLUNpp"
+          ],
+          "predicted_bigg": [
+            "6TXAN5MPAML"
+          ],
+          "tp": [],
+          "fp_count": 1,
+          "fn_count": 10
+        },
+        {
+          "kegg": "R01333",
+          "mnx_id": "MNXR100060",
+          "ec": "1.2.1|1.2.1.19|1.2.1.21|1.2.1.3|1.2.1.4|1.2.1.5|1.2.1.69",
+          "true_bigg": [
+            "GCALDD",
+            "GCALDDm",
+            "R_GCALDD",
+            "R_GCALDDm"
+          ],
+          "predicted_bigg": [
+            "34DHALDD"
+          ],
+          "tp": [],
+          "fp_count": 1,
+          "fn_count": 4
+        },
+        {
+          "kegg": "R03824",
+          "mnx_id": "MNXR100063",
+          "ec": "5.5.1.19",
+          "true_bigg": [
+            "GCATENEC",
+            "LCYB",
+            "LYCBC2_h",
+            "R_GCATENEC",
+            "R_LCYB",
+            "R_LYCBC2_h"
+          ],
+          "predicted_bigg": [
+            "LCYG"
+          ],
+          "tp": [],
+          "fp_count": 1,
+          "fn_count": 6
+        },
+        {
+          "kegg": "R03177",
+          "mnx_id": "MNXR100083",
+          "ec": "1.2.1.3|1.2.1.54",
+          "true_bigg": [
+            "GDBTALDH",
+            "R_GDBTALDH"
+          ],
+          "predicted_bigg": [
+            "34DHALDD"
+          ],
+          "tp": [],
+          "fp_count": 1,
+          "fn_count": 2
+        }
+      ],
+      "miss": [
+        {
+          "kegg": "R01698",
+          "mnx_id": "MNXR100066",
+          "ec": "1.6.2.6|1.8.1|1.8.1.4",
+          "true_bigg": [
+            "GCC2cm",
+            "PDHcr",
+            "PDHe3hr",
+            "R_GCC2cm",
+            "R_PDHcr",
+            "R_PDHe3hr"
+          ],
+          "predicted_bigg": [],
+          "tp": [],
+          "fp_count": 0,
+          "fn_count": 6
+        },
+        {
+          "kegg": "R00894",
+          "mnx_id": "MNXR100074",
+          "ec": "6.3.2.2",
+          "true_bigg": [
+            "GCL",
+            "GLUCYS",
+            "R_GCL",
+            "R_GLUCYS"
+          ],
+          "predicted_bigg": [],
+          "tp": [],
+          "fp_count": 0,
+          "fn_count": 4
+        },
+        {
+          "kegg": "R03409",
+          "mnx_id": "MNXR100099",
+          "ec": "3.6.1.11|3.6.1.40",
+          "true_bigg": [
+            "GDTP",
+            "GTPDPDP",
+            "R_GDTP",
+            "R_GTPDPDP"
+          ],
+          "predicted_bigg": [],
+          "tp": [],
+          "fp_count": 0,
+          "fn_count": 4
+        },
+        {
+          "kegg": "R07419",
+          "mnx_id": "MNXR100114",
+          "ec": "3.5.1.94",
+          "true_bigg": [
+            "GGGABAH",
+            "R_GGGABAH"
+          ],
+          "predicted_bigg": [],
+          "tp": [],
+          "fp_count": 0,
+          "fn_count": 2
+        },
+        {
+          "kegg": "R04158",
+          "mnx_id": "MNXR100116",
+          "ec": "2.5.1.41",
+          "true_bigg": [
+            "GGGPS",
+            "R_GGGPS"
+          ],
+          "predicted_bigg": [],
+          "tp": [],
+          "fp_count": 0,
+          "fn_count": 2
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,1031 @@
+{
+  "pathway": "map00020",
+  "source_dir": "results\\figure_03\\map00020",
+  "fragments": {
+    "cs_pdh_por_aconitase": {
+      "label": "CS / PDH / POR / aconitase fragment",
+      "requested_reactions": [
+        "CS",
+        "PDHam1h",
+        "POR_syn",
+        "ACLS3",
+        "ACONTa",
+        "ACONTb"
+      ],
+      "reaction_aliases": {
+        "CS": [
+          "CS",
+          "R00351"
+        ],
+        "ACONTa": [
+          "ACN_a_m",
+          "ACONTa",
+          "ACONTa_1",
+          "R01325"
+        ],
+        "ACONTb": [
+          "ACN_b_m",
+          "ACONTb",
+          "ACONTb_1",
+          "R01900"
+        ],
+        "PDHam1h": [
+          "ACLSa",
+          "PDHam1h",
+          "PDHam1hi",
+          "PDHam1m",
+          "R00014"
+        ],
+        "ACLS3": [
+          "ACLS3",
+          "ACLSa",
+          "PDHam1h",
+          "PDHam1hi",
+          "PDHam1m",
+          "R00014"
+        ],
+        "POR_syn": [
+          "POR_syn",
+          "PYRShi",
+          "R01196"
+        ]
+      },
+      "layout": {
+        "crop_box": {
+          "min_x": 1083.3269570939833,
+          "max_x": 3435.711061149462,
+          "min_y": 479.54373663765114,
+          "max_y": 1783.493361691916
+        },
+        "dx": -1003.3269570939833,
+        "dy": -399.54373663765114,
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 2512.3841040554785,
+          "height": 1463.949625054265
+        }
+      },
+      "models": {
+        "gapseq": {
+          "requested_to_reactions": {
+            "CS": [
+              {
+                "reaction_json_id": "14",
+                "name": "R00351",
+                "bigg_id": "CS"
+              }
+            ],
+            "PDHam1h": [
+              {
+                "reaction_json_id": "17",
+                "name": "R00014",
+                "bigg_id": "PDHam1hi"
+              }
+            ],
+            "POR_syn": [
+              {
+                "reaction_json_id": "27",
+                "name": "R01196",
+                "bigg_id": "rxn05940_c0"
+              }
+            ],
+            "ACLS3": [
+              {
+                "reaction_json_id": "17",
+                "name": "R00014",
+                "bigg_id": "PDHam1hi"
+              }
+            ],
+            "ACONTa": [
+              {
+                "reaction_json_id": "13",
+                "name": "R01325",
+                "bigg_id": "ACONTa"
+              }
+            ],
+            "ACONTb": [
+              {
+                "reaction_json_id": "12",
+                "name": "R01900",
+                "bigg_id": "ACONTb"
+              }
+            ]
+          },
+          "found_requested_reactions": [
+            "CS",
+            "PDHam1h",
+            "POR_syn",
+            "ACLS3",
+            "ACONTa",
+            "ACONTb"
+          ],
+          "missing_requested_reactions": [],
+          "retained_reactions": [
+            {
+              "reaction_json_id": "12",
+              "ids": [
+                "ACONTb",
+                "R01900"
+              ]
+            },
+            {
+              "reaction_json_id": "13",
+              "ids": [
+                "ACONTa",
+                "R01325"
+              ]
+            },
+            {
+              "reaction_json_id": "14",
+              "ids": [
+                "CS",
+                "R00351"
+              ]
+            },
+            {
+              "reaction_json_id": "17",
+              "ids": [
+                "PDHam1hi",
+                "R00014"
+              ]
+            },
+            {
+              "reaction_json_id": "27",
+              "ids": [
+                "R01196",
+                "rxn05940_c0"
+              ]
+            }
+          ],
+          "validation": {
+            "nodes": 37,
+            "reactions": 5,
+            "segments": 36,
+            "missing_description_keys": [],
+            "missing_model_keys": [],
+            "non_string_node_ids": [],
+            "non_string_reaction_ids": [],
+            "non_string_segment_ids": [],
+            "duplicate_segment_ids": [],
+            "bad_segment_refs": []
+          },
+          "fluxes": {
+            "solution_status": "optimal",
+            "objective_value": 0.36441784289723095,
+            "reaction_count": 4,
+            "matches": [
+              {
+                "map_reaction_ids": [
+                  "ACONTb",
+                  "R01900"
+                ],
+                "map_reaction_id": "ACONTb",
+                "model_reaction_id": "rxn01388_c0",
+                "flux": 0.0
+              },
+              {
+                "map_reaction_ids": [
+                  "ACONTa",
+                  "R01325"
+                ],
+                "map_reaction_id": "ACONTa",
+                "model_reaction_id": "rxn00974_c0",
+                "flux": 0.0
+              },
+              {
+                "map_reaction_ids": [
+                  "CS",
+                  "R00351"
+                ],
+                "map_reaction_id": "CS",
+                "model_reaction_id": "rxn00256_c0",
+                "flux": 0.0
+              },
+              {
+                "map_reaction_ids": [
+                  "PDHam1hi",
+                  "R00014"
+                ],
+                "map_reaction_id": "PDHam1hi",
+                "model_reaction_id": "rxn00011_c0",
+                "flux": 0.0
+              },
+              {
+                "map_reaction_ids": [
+                  "R01196",
+                  "rxn05940_c0"
+                ],
+                "map_reaction_id": "rxn05940_c0",
+                "model_reaction_id": null,
+                "flux": null
+              }
+            ]
+          }
+        },
+        "modelseed": {
+          "requested_to_reactions": {
+            "CS": [
+              {
+                "reaction_json_id": "14",
+                "name": "R00351",
+                "bigg_id": "rxn00256_c0"
+              }
+            ],
+            "PDHam1h": [
+              {
+                "reaction_json_id": "17",
+                "name": "R00014",
+                "bigg_id": "rxn00011_c0"
+              }
+            ],
+            "POR_syn": [],
+            "ACLS3": [
+              {
+                "reaction_json_id": "17",
+                "name": "R00014",
+                "bigg_id": "rxn00011_c0"
+              }
+            ],
+            "ACONTa": [
+              {
+                "reaction_json_id": "13",
+                "name": "R01325",
+                "bigg_id": "rxn00974_c0"
+              }
+            ],
+            "ACONTb": [
+              {
+                "reaction_json_id": "12",
+                "name": "R01900",
+                "bigg_id": "rxn01388_c0"
+              }
+            ]
+          },
+          "found_requested_reactions": [
+            "CS",
+            "PDHam1h",
+            "ACLS3",
+            "ACONTa",
+            "ACONTb"
+          ],
+          "missing_requested_reactions": [
+            "POR_syn"
+          ],
+          "retained_reactions": [
+            {
+              "reaction_json_id": "12",
+              "ids": [
+                "R01900",
+                "rxn01388_c0"
+              ]
+            },
+            {
+              "reaction_json_id": "13",
+              "ids": [
+                "R01325",
+                "rxn00974_c0"
+              ]
+            },
+            {
+              "reaction_json_id": "14",
+              "ids": [
+                "R00351",
+                "rxn00256_c0"
+              ]
+            },
+            {
+              "reaction_json_id": "17",
+              "ids": [
+                "R00014",
+                "rxn00011_c0"
+              ]
+            }
+          ],
+          "validation": {
+            "nodes": 37,
+            "reactions": 4,
+            "segments": 35,
+            "missing_description_keys": [],
+            "missing_model_keys": [],
+            "non_string_node_ids": [],
+            "non_string_reaction_ids": [],
+            "non_string_segment_ids": [],
+            "duplicate_segment_ids": [],
+            "bad_segment_refs": []
+          },
+          "fluxes": {
+            "solution_status": "optimal",
+            "objective_value": 0.27526073954662356,
+            "reaction_count": 4,
+            "matches": [
+              {
+                "map_reaction_ids": [
+                  "ACN_b_m",
+                  "R01900",
+                  "rxn01388_c0"
+                ],
+                "map_reaction_id": "rxn01388_c0",
+                "model_reaction_id": "rxn01388_c0",
+                "flux": -0.7812775080776039
+              },
+              {
+                "map_reaction_ids": [
+                  "ACN_a_m",
+                  "R01325",
+                  "rxn00974_c0"
+                ],
+                "map_reaction_id": "rxn00974_c0",
+                "model_reaction_id": "rxn00974_c0",
+                "flux": 0.7812775080776038
+              },
+              {
+                "map_reaction_ids": [
+                  "CS",
+                  "R00351",
+                  "rxn00256_c0"
+                ],
+                "map_reaction_id": "rxn00256_c0",
+                "model_reaction_id": "rxn00256_c0",
+                "flux": 0.0
+              },
+              {
+                "map_reaction_ids": [
+                  "ACLSa",
+                  "R00014",
+                  "rxn00011_c0"
+                ],
+                "map_reaction_id": "rxn00011_c0",
+                "model_reaction_id": "rxn00011_c0",
+                "flux": 0.0
+              }
+            ]
+          }
+        },
+        "reconstructor": {
+          "requested_to_reactions": {
+            "CS": [
+              {
+                "reaction_json_id": "14",
+                "name": "R00351",
+                "bigg_id": "rxn34204_c"
+              }
+            ],
+            "PDHam1h": [
+              {
+                "reaction_json_id": "17",
+                "name": "R00014",
+                "bigg_id": "rxn31361_c"
+              }
+            ],
+            "POR_syn": [
+              {
+                "reaction_json_id": "27",
+                "name": "R01196",
+                "bigg_id": "rxn35453_c"
+              }
+            ],
+            "ACLS3": [
+              {
+                "reaction_json_id": "17",
+                "name": "R00014",
+                "bigg_id": "rxn31361_c"
+              }
+            ],
+            "ACONTa": [
+              {
+                "reaction_json_id": "13",
+                "name": "R01325",
+                "bigg_id": "rxn33231_c"
+              }
+            ],
+            "ACONTb": [
+              {
+                "reaction_json_id": "12",
+                "name": "R01900",
+                "bigg_id": "rxn34304_c"
+              }
+            ]
+          },
+          "found_requested_reactions": [
+            "CS",
+            "PDHam1h",
+            "POR_syn",
+            "ACLS3",
+            "ACONTa",
+            "ACONTb"
+          ],
+          "missing_requested_reactions": [],
+          "retained_reactions": [
+            {
+              "reaction_json_id": "12",
+              "ids": [
+                "R01900",
+                "rxn34304_c"
+              ]
+            },
+            {
+              "reaction_json_id": "13",
+              "ids": [
+                "R01325",
+                "rxn33231_c"
+              ]
+            },
+            {
+              "reaction_json_id": "14",
+              "ids": [
+                "R00351",
+                "rxn34204_c"
+              ]
+            },
+            {
+              "reaction_json_id": "17",
+              "ids": [
+                "R00014",
+                "rxn31361_c"
+              ]
+            },
+            {
+              "reaction_json_id": "27",
+              "ids": [
+                "R01196",
+                "rxn35453_c"
+              ]
+            }
+          ],
+          "validation": {
+            "nodes": 35,
+            "reactions": 5,
+            "segments": 34,
+            "missing_description_keys": [],
+            "missing_model_keys": [],
+            "non_string_node_ids": [],
+            "non_string_reaction_ids": [],
+            "non_string_segment_ids": [],
+            "duplicate_segment_ids": [],
+            "bad_segment_refs": []
+          },
+          "fluxes": {
+            "solution_status": "optimal",
+            "objective_value": 545.416564628316,
+            "reaction_count": 5,
+            "matches": [
+              {
+                "map_reaction_ids": [
+                  "ACN_b_m",
+                  "R01900",
+                  "rxn34304_c"
+                ],
+                "map_reaction_id": "rxn34304_c",
+                "model_reaction_id": "rxn34304_c",
+                "flux": 0.0
+              },
+              {
+                "map_reaction_ids": [
+                  "ACN_a_m",
+                  "R01325",
+                  "rxn33231_c"
+                ],
+                "map_reaction_id": "rxn33231_c",
+                "model_reaction_id": "rxn33231_c",
+                "flux": 0.0
+              },
+              {
+                "map_reaction_ids": [
+                  "CS",
+                  "R00351",
+                  "rxn34204_c"
+                ],
+                "map_reaction_id": "rxn34204_c",
+                "model_reaction_id": "rxn34204_c",
+                "flux": 25.483205133913497
+              },
+              {
+                "map_reaction_ids": [
+                  "ACLSa",
+                  "R00014",
+                  "rxn31361_c"
+                ],
+                "map_reaction_id": "rxn31361_c",
+                "model_reaction_id": "rxn31361_c",
+                "flux": 0.0
+              },
+              {
+                "map_reaction_ids": [
+                  "POR_syn",
+                  "R01196",
+                  "rxn35453_c"
+                ],
+                "map_reaction_id": "rxn35453_c",
+                "model_reaction_id": "rxn35453_c",
+                "flux": 1000.0
+              }
+            ]
+          }
+        }
+      }
+    },
+    "aconitase_icd_osucc": {
+      "label": "Aconitase / ICD / OSUCC fragment",
+      "requested_reactions": [
+        "ACONTb",
+        "ICDHx",
+        "r0422",
+        "r0082",
+        "ICITRED",
+        "OSUCCL"
+      ],
+      "reaction_aliases": {
+        "ACONTb": [
+          "ACN_b_m",
+          "ACONTb",
+          "ACONTb_1",
+          "R01900"
+        ],
+        "ICDHx": [
+          "ICDHx",
+          "ICDHxm",
+          "R00709"
+        ],
+        "r0422": [
+          "ICITRED",
+          "R01899",
+          "r0422",
+          "r0423",
+          "r0424"
+        ],
+        "r0082": [
+          "OSUCCL",
+          "R00268",
+          "r0082",
+          "r0083",
+          "r0084"
+        ],
+        "ICITRED": [
+          "ICITRED",
+          "R01899",
+          "r0422",
+          "r0423",
+          "r0424"
+        ],
+        "OSUCCL": [
+          "OSUCCL",
+          "R00268",
+          "r0082",
+          "r0083",
+          "r0084"
+        ]
+      },
+      "layout": {
+        "crop_box": {
+          "min_x": 2588.3269570939833,
+          "max_x": 3855.711061149462,
+          "min_y": 1416.9319351112435,
+          "max_y": 2802.749840930152
+        },
+        "dx": -2508.3269570939833,
+        "dy": -1336.9319351112435,
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 1427.3841040554785,
+          "height": 1545.8179058189085
+        }
+      },
+      "models": {
+        "gapseq": {
+          "requested_to_reactions": {
+            "ACONTb": [
+              {
+                "reaction_json_id": "12",
+                "name": "R01900",
+                "bigg_id": "ACONTb"
+              }
+            ],
+            "ICDHx": [
+              {
+                "reaction_json_id": "8",
+                "name": "R00709",
+                "bigg_id": "ICDHx"
+              }
+            ],
+            "r0422": [
+              {
+                "reaction_json_id": "9",
+                "name": "R01899",
+                "bigg_id": "r0422"
+              }
+            ],
+            "r0082": [
+              {
+                "reaction_json_id": "7",
+                "name": "R00268",
+                "bigg_id": "r0082"
+              }
+            ],
+            "ICITRED": [
+              {
+                "reaction_json_id": "9",
+                "name": "R01899",
+                "bigg_id": "r0422"
+              }
+            ],
+            "OSUCCL": [
+              {
+                "reaction_json_id": "7",
+                "name": "R00268",
+                "bigg_id": "r0082"
+              }
+            ]
+          },
+          "found_requested_reactions": [
+            "ACONTb",
+            "ICDHx",
+            "r0422",
+            "r0082",
+            "ICITRED",
+            "OSUCCL"
+          ],
+          "missing_requested_reactions": [],
+          "retained_reactions": [
+            {
+              "reaction_json_id": "7",
+              "ids": [
+                "R00268",
+                "r0082"
+              ]
+            },
+            {
+              "reaction_json_id": "8",
+              "ids": [
+                "ICDHx",
+                "R00709"
+              ]
+            },
+            {
+              "reaction_json_id": "9",
+              "ids": [
+                "R01899",
+                "r0422"
+              ]
+            },
+            {
+              "reaction_json_id": "12",
+              "ids": [
+                "ACONTb",
+                "R01900"
+              ]
+            }
+          ],
+          "validation": {
+            "nodes": 25,
+            "reactions": 4,
+            "segments": 25,
+            "missing_description_keys": [],
+            "missing_model_keys": [],
+            "non_string_node_ids": [],
+            "non_string_reaction_ids": [],
+            "non_string_segment_ids": [],
+            "duplicate_segment_ids": [],
+            "bad_segment_refs": []
+          },
+          "fluxes": {
+            "solution_status": "optimal",
+            "objective_value": 0.36441784289723095,
+            "reaction_count": 4,
+            "matches": [
+              {
+                "map_reaction_ids": [
+                  "R00268",
+                  "r0082"
+                ],
+                "map_reaction_id": "r0082",
+                "model_reaction_id": "rxn00199_c0",
+                "flux": 0.0
+              },
+              {
+                "map_reaction_ids": [
+                  "ICDHx",
+                  "R00709"
+                ],
+                "map_reaction_id": "ICDHx",
+                "model_reaction_id": "rxn00505_c0",
+                "flux": 0.0
+              },
+              {
+                "map_reaction_ids": [
+                  "R01899",
+                  "r0422"
+                ],
+                "map_reaction_id": "r0422",
+                "model_reaction_id": "rxn01387_c0",
+                "flux": 0.0
+              },
+              {
+                "map_reaction_ids": [
+                  "ACONTb",
+                  "R01900"
+                ],
+                "map_reaction_id": "ACONTb",
+                "model_reaction_id": "rxn01388_c0",
+                "flux": 0.0
+              }
+            ]
+          }
+        },
+        "modelseed": {
+          "requested_to_reactions": {
+            "ACONTb": [
+              {
+                "reaction_json_id": "12",
+                "name": "R01900",
+                "bigg_id": "rxn01388_c0"
+              }
+            ],
+            "ICDHx": [],
+            "r0422": [
+              {
+                "reaction_json_id": "9",
+                "name": "R01899",
+                "bigg_id": "rxn01387_c0"
+              }
+            ],
+            "r0082": [
+              {
+                "reaction_json_id": "7",
+                "name": "R00268",
+                "bigg_id": "rxn00199_c0"
+              }
+            ],
+            "ICITRED": [
+              {
+                "reaction_json_id": "9",
+                "name": "R01899",
+                "bigg_id": "rxn01387_c0"
+              }
+            ],
+            "OSUCCL": [
+              {
+                "reaction_json_id": "7",
+                "name": "R00268",
+                "bigg_id": "rxn00199_c0"
+              }
+            ]
+          },
+          "found_requested_reactions": [
+            "ACONTb",
+            "r0422",
+            "r0082",
+            "ICITRED",
+            "OSUCCL"
+          ],
+          "missing_requested_reactions": [
+            "ICDHx"
+          ],
+          "retained_reactions": [
+            {
+              "reaction_json_id": "7",
+              "ids": [
+                "R00268",
+                "rxn00199_c0"
+              ]
+            },
+            {
+              "reaction_json_id": "9",
+              "ids": [
+                "R01899",
+                "rxn01387_c0"
+              ]
+            },
+            {
+              "reaction_json_id": "12",
+              "ids": [
+                "R01900",
+                "rxn01388_c0"
+              ]
+            }
+          ],
+          "validation": {
+            "nodes": 25,
+            "reactions": 3,
+            "segments": 24,
+            "missing_description_keys": [],
+            "missing_model_keys": [],
+            "non_string_node_ids": [],
+            "non_string_reaction_ids": [],
+            "non_string_segment_ids": [],
+            "duplicate_segment_ids": [],
+            "bad_segment_refs": []
+          },
+          "fluxes": {
+            "solution_status": "optimal",
+            "objective_value": 0.27526073954662356,
+            "reaction_count": 3,
+            "matches": [
+              {
+                "map_reaction_ids": [
+                  "OSUCCL",
+                  "R00268",
+                  "rxn00199_c0"
+                ],
+                "map_reaction_id": "rxn00199_c0",
+                "model_reaction_id": "rxn00199_c0",
+                "flux": 0.0
+              },
+              {
+                "map_reaction_ids": [
+                  "ICITRED",
+                  "R01899",
+                  "rxn01387_c0"
+                ],
+                "map_reaction_id": "rxn01387_c0",
+                "model_reaction_id": "rxn01387_c0",
+                "flux": 0.0
+              },
+              {
+                "map_reaction_ids": [
+                  "ACN_b_m",
+                  "R01900",
+                  "rxn01388_c0"
+                ],
+                "map_reaction_id": "rxn01388_c0",
+                "model_reaction_id": "rxn01388_c0",
+                "flux": -0.7812775080776039
+              }
+            ]
+          }
+        },
+        "reconstructor": {
+          "requested_to_reactions": {
+            "ACONTb": [
+              {
+                "reaction_json_id": "12",
+                "name": "R01900",
+                "bigg_id": "rxn34304_c"
+              }
+            ],
+            "ICDHx": [],
+            "r0422": [
+              {
+                "reaction_json_id": "9",
+                "name": "R01899",
+                "bigg_id": "rxn32171_c"
+              }
+            ],
+            "r0082": [
+              {
+                "reaction_json_id": "7",
+                "name": "R00268",
+                "bigg_id": "rxn25051_c"
+              }
+            ],
+            "ICITRED": [
+              {
+                "reaction_json_id": "9",
+                "name": "R01899",
+                "bigg_id": "rxn32171_c"
+              }
+            ],
+            "OSUCCL": [
+              {
+                "reaction_json_id": "7",
+                "name": "R00268",
+                "bigg_id": "rxn25051_c"
+              }
+            ]
+          },
+          "found_requested_reactions": [
+            "ACONTb",
+            "r0422",
+            "r0082",
+            "ICITRED",
+            "OSUCCL"
+          ],
+          "missing_requested_reactions": [
+            "ICDHx"
+          ],
+          "retained_reactions": [
+            {
+              "reaction_json_id": "7",
+              "ids": [
+                "R00268",
+                "rxn25051_c"
+              ]
+            },
+            {
+              "reaction_json_id": "9",
+              "ids": [
+                "R01899",
+                "rxn32171_c"
+              ]
+            },
+            {
+              "reaction_json_id": "12",
+              "ids": [
+                "R01900",
+                "rxn34304_c"
+              ]
+            }
+          ],
+          "validation": {
+            "nodes": 19,
+            "reactions": 3,
+            "segments": 18,
+            "missing_description_keys": [],
+            "missing_model_keys": [],
+            "non_string_node_ids": [],
+            "non_string_reaction_ids": [],
+            "non_string_segment_ids": [],
+            "duplicate_segment_ids": [],
+            "bad_segment_refs": []
+          },
+          "fluxes": {
+            "solution_status": "optimal",
+            "objective_value": 545.416564628316,
+            "reaction_count": 3,
+            "matches": [
+              {
+                "map_reaction_ids": [
+                  "OSUCCL",
+                  "R00268",
+                  "rxn25051_c"
+                ],
+                "map_reaction_id": "rxn25051_c",
+                "model_reaction_id": "rxn25051_c",
+                "flux": 0.0
+              },
+              {
+                "map_reaction_ids": [
+                  "ICITRED",
+                  "R01899",
+                  "rxn32171_c"
+                ],
+                "map_reaction_id": "rxn32171_c",
+                "model_reaction_id": "rxn32171_c",
+                "flux": 0.0
+              },
+              {
+                "map_reaction_ids": [
+                  "ACN_b_m",
+                  "R01900",
+                  "rxn34304_c"
+                ],
+                "map_reaction_id": "rxn34304_c",
+                "model_reaction_id": "rxn34304_c",
+                "flux": 0.0
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "outputs": {
+    "cs_pdh_por_aconitase": {
+      "gapseq": {
+        "json": "results\\figure_03\\map00020\\selected_reaction_fragments\\cs_pdh_por_aconitase\\gapseq_map00020_cs_pdh_por_aconitase.json",
+        "html": "results\\figure_03\\map00020\\selected_reaction_fragments\\cs_pdh_por_aconitase\\gapseq_map00020_cs_pdh_por_aconitase.html",
+        "flux_map_json": "results\\figure_03\\map00020\\selected_reaction_fragments\\cs_pdh_por_aconitase\\gapseq_map00020_cs_pdh_por_aconitase_flux_map.json",
+        "flux_json": "results\\figure_03\\map00020\\selected_reaction_fragments\\cs_pdh_por_aconitase\\gapseq_map00020_cs_pdh_por_aconitase_fluxes.json",
+        "flux_html": "results\\figure_03\\map00020\\selected_reaction_fragments\\cs_pdh_por_aconitase\\gapseq_map00020_cs_pdh_por_aconitase_with_fluxes.html"
+      },
+      "modelseed": {
+        "json": "results\\figure_03\\map00020\\selected_reaction_fragments\\cs_pdh_por_aconitase\\modelseed_map00020_cs_pdh_por_aconitase.json",
+        "html": "results\\figure_03\\map00020\\selected_reaction_fragments\\cs_pdh_por_aconitase\\modelseed_map00020_cs_pdh_por_aconitase.html",
+        "flux_map_json": "results\\figure_03\\map00020\\selected_reaction_fragments\\cs_pdh_por_aconitase\\modelseed_map00020_cs_pdh_por_aconitase_flux_map.json",
+        "flux_json": "results\\figure_03\\map00020\\selected_reaction_fragments\\cs_pdh_por_aconitase\\modelseed_map00020_cs_pdh_por_aconitase_fluxes.json",
+        "flux_html": "results\\figure_03\\map00020\\selected_reaction_fragments\\cs_pdh_por_aconitase\\modelseed_map00020_cs_pdh_por_aconitase_with_fluxes.html"
+      },
+      "reconstructor": {
+        "json": "results\\figure_03\\map00020\\selected_reaction_fragments\\cs_pdh_por_aconitase\\reconstructor_map00020_cs_pdh_por_aconitase.json",
+        "html": "results\\figure_03\\map00020\\selected_reaction_fragments\\cs_pdh_por_aconitase\\reconstructor_map00020_cs_pdh_por_aconitase.html",
+        "flux_map_json": "results\\figure_03\\map00020\\selected_reaction_fragments\\cs_pdh_por_aconitase\\reconstructor_map00020_cs_pdh_por_aconitase_flux_map.json",
+        "flux_json": "results\\figure_03\\map00020\\selected_reaction_fragments\\cs_pdh_por_aconitase\\reconstructor_map00020_cs_pdh_por_aconitase_fluxes.json",
+        "flux_html": "results\\figure_03\\map00020\\selected_reaction_fragments\\cs_pdh_por_aconitase\\reconstructor_map00020_cs_pdh_por_aconitase_with_fluxes.html"
+      }
+    },
+    "aconitase_icd_osucc": {
+      "gapseq": {
+        "json": "results\\figure_03\\map00020\\selected_reaction_fragments\\aconitase_icd_osucc\\gapseq_map00020_aconitase_icd_osucc.json",
+        "html": "results\\figure_03\\map00020\\selected_reaction_fragments\\aconitase_icd_osucc\\gapseq_map00020_aconitase_icd_osucc.html",
+        "flux_map_json": "results\\figure_03\\map00020\\selected_reaction_fragments\\aconitase_icd_osucc\\gapseq_map00020_aconitase_icd_osucc_flux_map.json",
+        "flux_json": "results\\figure_03\\map00020\\selected_reaction_fragments\\aconitase_icd_osucc\\gapseq_map00020_aconitase_icd_osucc_fluxes.json",
+        "flux_html": "results\\figure_03\\map00020\\selected_reaction_fragments\\aconitase_icd_osucc\\gapseq_map00020_aconitase_icd_osucc_with_fluxes.html"
+      },
+      "modelseed": {
+        "json": "results\\figure_03\\map00020\\selected_reaction_fragments\\aconitase_icd_osucc\\modelseed_map00020_aconitase_icd_osucc.json",
+        "html": "results\\figure_03\\map00020\\selected_reaction_fragments\\aconitase_icd_osucc\\modelseed_map00020_aconitase_icd_osucc.html",
+        "flux_map_json": "results\\figure_03\\map00020\\selected_reaction_fragments\\aconitase_icd_osucc\\modelseed_map00020_aconitase_icd_osucc_flux_map.json",
+        "flux_json": "results\\figure_03\\map00020\\selected_reaction_fragments\\aconitase_icd_osucc\\modelseed_map00020_aconitase_icd_osucc_fluxes.json",
+        "flux_html": "results\\figure_03\\map00020\\selected_reaction_fragments\\aconitase_icd_osucc\\modelseed_map00020_aconitase_icd_osucc_with_fluxes.html"
+      },
+      "reconstructor": {
+        "json": "results\\figure_03\\map00020\\selected_reaction_fragments\\aconitase_icd_osucc\\reconstructor_map00020_aconitase_icd_osucc.json",
+        "html": "results\\figure_03\\map00020\\selected_reaction_fragments\\aconitase_icd_osucc\\reconstructor_map00020_aconitase_icd_osucc.html",
+        "flux_map_json": "results\\figure_03\\map00020\\selected_reaction_fragments\\aconitase_icd_osucc\\reconstructor_map00020_aconitase_icd_osucc_flux_map.json",
+        "flux_json": "results\\figure_03\\map00020\\selected_reaction_fragments\\aconitase_icd_osucc\\reconstructor_map00020_aconitase_icd_osucc_fluxes.json",
+        "flux_html": "results\\figure_03\\map00020\\selected_reaction_fragments\\aconitase_icd_osucc\\reconstructor_map00020_aconitase_icd_osucc_with_fluxes.html"
+      }
+    }
+  }
+}

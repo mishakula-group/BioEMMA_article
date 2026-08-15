@@ -1,0 +1,59 @@
+organism,model_id,pathway,pathway_title,compartment,build_sec,mapped_reactions,nodes,segments
+Saccharomyces cerevisiae,iMM904,rn00010,Glycolysis / Gluconeogenesis,c,1.3336905000032857,21,142,142
+Saccharomyces cerevisiae,iMM904,rn00010,Glycolysis / Gluconeogenesis,m,1.199020299995027,9,84,79
+Saccharomyces cerevisiae,iMM904,rn00010,Glycolysis / Gluconeogenesis,x,1.1340972000034526,1,11,8
+Saccharomyces cerevisiae,iMM904,rn00020,Citrate cycle (TCA cycle),c,1.1013873999982025,8,59,54
+Saccharomyces cerevisiae,iMM904,rn00020,Citrate cycle (TCA cycle),m,1.0143080000052578,13,100,98
+Saccharomyces cerevisiae,iMM904,rn00020,Citrate cycle (TCA cycle),x,0.9268160999999964,3,26,22
+Saccharomyces cerevisiae,iMM904,rn00620,Pyruvate metabolism,c,1.7259009999979753,26,194,198
+Saccharomyces cerevisiae,iMM904,rn00620,Pyruvate metabolism,m,1.3419292999969912,21,166,164
+Saccharomyces cerevisiae,iMM904,rn00620,Pyruvate metabolism,x,1.201021499997296,7,57,56
+Saccharomyces cerevisiae,iMM904,rn00630,Glyoxylate and dicarboxylate metabolism,c,1.8468645999964792,24,186,176
+Saccharomyces cerevisiae,iMM904,rn00630,Glyoxylate and dicarboxylate metabolism,m,1.5056659999972908,13,117,100
+Saccharomyces cerevisiae,iMM904,rn00630,Glyoxylate and dicarboxylate metabolism,x,1.4453672999952687,6,52,42
+Saccharomyces cerevisiae,iMM904,rn00071,Fatty acid degradation,c,1.4766775999960373,4,40,30
+Saccharomyces cerevisiae,iMM904,rn00071,Fatty acid degradation,m,1.194241899996996,4,35,30
+Saccharomyces cerevisiae,iMM904,rn00071,Fatty acid degradation,x,1.1520304000005126,14,88,88
+Saccharomyces cerevisiae,iMM904,rn00290,"Valine, leucine and isoleucine biosynthesis",c,1.1034744999997201,10,66,61
+Saccharomyces cerevisiae,iMM904,rn00290,"Valine, leucine and isoleucine biosynthesis",m,0.9781034000043292,13,86,82
+Saccharomyces cerevisiae,iMM904,rn00290,"Valine, leucine and isoleucine biosynthesis",x,1.0269770999948378,1,11,8
+Mus musculus,iMM1415,rn00020,Citrate cycle (TCA cycle),c,1.5300597999957972,7,52,47
+Mus musculus,iMM1415,rn00020,Citrate cycle (TCA cycle),m,1.2307958000019426,14,105,104
+Mus musculus,iMM1415,rn00620,Pyruvate metabolism,c,2.6107615000000806,25,187,190
+Mus musculus,iMM1415,rn00620,Pyruvate metabolism,m,1.975050299995928,23,178,178
+Mus musculus,iMM1415,rn00630,Glyoxylate and dicarboxylate metabolism,c,2.9963979000021936,24,185,171
+Mus musculus,iMM1415,rn00630,Glyoxylate and dicarboxylate metabolism,m,2.364717299999029,20,141,127
+Mus musculus,iMM1415,rn00630,Glyoxylate and dicarboxylate metabolism,x,2.046312400001625,6,48,33
+Mus musculus,iMM1415,rn00280,"Valine, leucine and isoleucine degradation",c,2.197896800003946,10,71,64
+Mus musculus,iMM1415,rn00280,"Valine, leucine and isoleucine degradation",m,1.3467415000050096,28,171,171
+Mus musculus,iMM1415,rn00100,Steroid biosynthesis,c,2.640682499994,1,19,9
+Mus musculus,iMM1415,rn00100,Steroid biosynthesis,r,2.0126133000012487,12,94,83
+Mus musculus,iMM1415,rn00100,Steroid biosynthesis,m,2.147826799999166,3,31,27
+Homo sapiens,Recon3D,rn00020,Citrate cycle (TCA cycle),c,2.5707544999968377,8,57,52
+Homo sapiens,Recon3D,rn00020,Citrate cycle (TCA cycle),m,1.9075851000015973,17,119,122
+Homo sapiens,Recon3D,rn00020,Citrate cycle (TCA cycle),x,1.9945689000014681,4,32,27
+Homo sapiens,Recon3D,rn00620,Pyruvate metabolism,c,5.111667099998158,27,187,191
+Homo sapiens,Recon3D,rn00620,Pyruvate metabolism,m,3.333488000003854,22,173,171
+Homo sapiens,Recon3D,rn00620,Pyruvate metabolism,x,3.258065900001384,6,45,39
+Homo sapiens,Recon3D,rn00071,Fatty acid degradation,c,4.532347200001823,7,76,55
+Homo sapiens,Recon3D,rn00071,Fatty acid degradation,m,2.3272330000036163,33,205,212
+Homo sapiens,Recon3D,rn00071,Fatty acid degradation,x,2.398628299997654,23,142,143
+Homo sapiens,Recon3D,rn00071,Fatty acid degradation,r,3.3829677000030642,4,40,32
+Homo sapiens,Recon3D,rn00100,Steroid biosynthesis,c,4.618205999999191,20,157,146
+Homo sapiens,Recon3D,rn00100,Steroid biosynthesis,r,3.399207499998738,19,143,135
+Homo sapiens,Recon3D,rn00100,Steroid biosynthesis,m,3.672375300004205,3,30,27
+Homo sapiens,Recon3D,rn00240,Pyrimidine metabolism,c,6.568111500004306,60,403,419
+Homo sapiens,Recon3D,rn00240,Pyrimidine metabolism,m,4.613886099999945,21,157,148
+Homo sapiens,Recon3D,rn00240,Pyrimidine metabolism,n,3.8453089999966323,13,88,83
+Homo sapiens,Recon3D,rn00280,"Valine, leucine and isoleucine degradation",c,3.879266500000085,11,86,75
+Homo sapiens,Recon3D,rn00280,"Valine, leucine and isoleucine degradation",m,2.38715830000001,32,201,205
+Homo sapiens,Recon3D,rn00280,"Valine, leucine and isoleucine degradation",x,2.7395542999947793,6,42,41
+Homo sapiens,Recon3D,rn00480,Glutathione metabolism,c,4.194524000005913,21,139,148
+Homo sapiens,Recon3D,rn00480,Glutathione metabolism,m,2.9400461000041105,5,38,35
+Homo sapiens,Recon3D,rn00480,Glutathione metabolism,e,3.8340859999952954,5,42,34
+Homo sapiens,Recon3D,rn00564,Glycerophospholipid metabolism,c,6.1427850000036415,21,142,143
+Homo sapiens,Recon3D,rn00564,Glycerophospholipid metabolism,r,4.276865400002862,4,43,35
+Homo sapiens,Recon3D,rn00564,Glycerophospholipid metabolism,m,4.2204805000001215,4,36,30
+Homo sapiens,Recon3D,rn00564,Glycerophospholipid metabolism,e,5.643275900001754,4,42,31
+Homo sapiens,Recon3D,rn00670,One carbon pool by folate,c,3.5971024000027683,28,174,189
+Homo sapiens,Recon3D,rn00670,One carbon pool by folate,m,2.5671770999979344,13,93,87

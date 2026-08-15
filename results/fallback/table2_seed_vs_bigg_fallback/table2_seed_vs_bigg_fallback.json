@@ -1,0 +1,394 @@
+{
+  "changed_rows": [
+    {
+      "row": "Mapped reactions",
+      "map00010": {
+        "bigg_fallback": "51/56 (91.1%)",
+        "seed_fallback": "53/56 (94.6%)",
+        "changed": true
+      },
+      "map00020": {
+        "bigg_fallback": "28/29 (96.6%)",
+        "seed_fallback": "28/29 (96.6%)",
+        "changed": false
+      },
+      "map00030": {
+        "bigg_fallback": "56/59 (94.9%)",
+        "seed_fallback": "59/59 (100.0%)",
+        "changed": true
+      }
+    },
+    {
+      "row": "Retained in gapseq, n (% of KEGG map)",
+      "map00010": {
+        "bigg_fallback": "32 (57.1%)",
+        "seed_fallback": "32 (57.1%)",
+        "changed": false
+      },
+      "map00020": {
+        "bigg_fallback": "23 (79.3%)",
+        "seed_fallback": "24 (82.8%)",
+        "changed": true
+      },
+      "map00030": {
+        "bigg_fallback": "38 (64.4%)",
+        "seed_fallback": "39 (66.1%)",
+        "changed": true
+      }
+    },
+    {
+      "row": "Retained in ModelSEED, n (% of KEGG map)",
+      "map00010": {
+        "bigg_fallback": "18 (32.1%)",
+        "seed_fallback": "21 (37.5%)",
+        "changed": true
+      },
+      "map00020": {
+        "bigg_fallback": "11 (37.9%)",
+        "seed_fallback": "18 (62.1%)",
+        "changed": true
+      },
+      "map00030": {
+        "bigg_fallback": "23 (39.0%)",
+        "seed_fallback": "23 (39.0%)",
+        "changed": false
+      }
+    },
+    {
+      "row": "Retained in Reconstructor, n (% of KEGG map)",
+      "map00010": {
+        "bigg_fallback": "28 (50.0%)",
+        "seed_fallback": "32 (57.1%)",
+        "changed": true
+      },
+      "map00020": {
+        "bigg_fallback": "14 (48.3%)",
+        "seed_fallback": "21 (72.4%)",
+        "changed": true
+      },
+      "map00030": {
+        "bigg_fallback": "26 (44.1%)",
+        "seed_fallback": "26 (44.1%)",
+        "changed": false
+      }
+    },
+    {
+      "row": "Reactions shared by all three models",
+      "map00010": {
+        "bigg_fallback": "16",
+        "seed_fallback": "19",
+        "changed": true
+      },
+      "map00020": {
+        "bigg_fallback": "11",
+        "seed_fallback": "18",
+        "changed": true
+      },
+      "map00030": {
+        "bigg_fallback": "20",
+        "seed_fallback": "20",
+        "changed": false
+      }
+    },
+    {
+      "row": "Model-specific reactions",
+      "map00010": {
+        "bigg_fallback": "16",
+        "seed_fallback": "14",
+        "changed": true
+      },
+      "map00020": {
+        "bigg_fallback": "15",
+        "seed_fallback": "9",
+        "changed": true
+      },
+      "map00030": {
+        "bigg_fallback": "15",
+        "seed_fallback": "16",
+        "changed": true
+      }
+    },
+    {
+      "row": "Matched to SEED",
+      "map00010": {
+        "bigg_fallback": "47",
+        "seed_fallback": "53",
+        "changed": true
+      },
+      "map00020": {
+        "bigg_fallback": "21",
+        "seed_fallback": "28",
+        "changed": true
+      },
+      "map00030": {
+        "bigg_fallback": "55",
+        "seed_fallback": "59",
+        "changed": true
+      }
+    },
+    {
+      "row": "Matched to both SEED and BiGG",
+      "map00010": {
+        "bigg_fallback": "42",
+        "seed_fallback": "46",
+        "changed": true
+      },
+      "map00020": {
+        "bigg_fallback": "21",
+        "seed_fallback": "28",
+        "changed": true
+      },
+      "map00030": {
+        "bigg_fallback": "43",
+        "seed_fallback": "44",
+        "changed": true
+      }
+    },
+    {
+      "row": "Matched to either SEED or BiGG",
+      "map00010": {
+        "bigg_fallback": "51",
+        "seed_fallback": "53",
+        "changed": true
+      },
+      "map00020": {
+        "bigg_fallback": "28",
+        "seed_fallback": "28",
+        "changed": false
+      },
+      "map00030": {
+        "bigg_fallback": "56",
+        "seed_fallback": "59",
+        "changed": true
+      }
+    },
+    {
+      "row": "Unmatched to SEED or BiGG",
+      "map00010": {
+        "bigg_fallback": "5",
+        "seed_fallback": "3",
+        "changed": true
+      },
+      "map00020": {
+        "bigg_fallback": "1",
+        "seed_fallback": "1",
+        "changed": false
+      },
+      "map00030": {
+        "bigg_fallback": "3",
+        "seed_fallback": "0",
+        "changed": true
+      }
+    }
+  ],
+  "list_diffs": {
+    "map00010": {
+      "bigg_mapped": {
+        "base_count": 46,
+        "seed_count": 46,
+        "added": [],
+        "removed": []
+      },
+      "seed_mapped": {
+        "base_count": 47,
+        "seed_count": 53,
+        "added": [
+          "R02569",
+          "R03270",
+          "R05198",
+          "R07618",
+          "R09127",
+          "R09479"
+        ],
+        "removed": []
+      },
+      "both_bigg_and_seed": {
+        "base_count": 42,
+        "seed_count": 46,
+        "added": [
+          "R02569",
+          "R03270",
+          "R05198",
+          "R07618"
+        ],
+        "removed": []
+      },
+      "either_bigg_or_seed": {
+        "base_count": 51,
+        "seed_count": 53,
+        "added": [
+          "R09127",
+          "R09479"
+        ],
+        "removed": []
+      },
+      "unmapped_to_bigg_or_seed": {
+        "base_count": 5,
+        "seed_count": 3,
+        "added": [],
+        "removed": [
+          "R09127",
+          "R09479"
+        ]
+      },
+      "drawable_seed_mapped": {
+        "base_count": 47,
+        "seed_count": 53,
+        "added": [
+          "R02569",
+          "R03270",
+          "R05198",
+          "R07618",
+          "R09127",
+          "R09479"
+        ],
+        "removed": []
+      },
+      "drawable_either": {
+        "base_count": 51,
+        "seed_count": 53,
+        "added": [
+          "R09127",
+          "R09479"
+        ],
+        "removed": []
+      }
+    },
+    "map00020": {
+      "bigg_mapped": {
+        "base_count": 28,
+        "seed_count": 28,
+        "added": [],
+        "removed": []
+      },
+      "seed_mapped": {
+        "base_count": 21,
+        "seed_count": 28,
+        "added": [
+          "R00361",
+          "R02164",
+          "R02569",
+          "R02570",
+          "R03270",
+          "R03316",
+          "R07618"
+        ],
+        "removed": []
+      },
+      "both_bigg_and_seed": {
+        "base_count": 21,
+        "seed_count": 28,
+        "added": [
+          "R00361",
+          "R02164",
+          "R02569",
+          "R02570",
+          "R03270",
+          "R03316",
+          "R07618"
+        ],
+        "removed": []
+      },
+      "either_bigg_or_seed": {
+        "base_count": 28,
+        "seed_count": 28,
+        "added": [],
+        "removed": []
+      },
+      "unmapped_to_bigg_or_seed": {
+        "base_count": 1,
+        "seed_count": 1,
+        "added": [],
+        "removed": []
+      },
+      "drawable_seed_mapped": {
+        "base_count": 21,
+        "seed_count": 28,
+        "added": [
+          "R00361",
+          "R02164",
+          "R02569",
+          "R02570",
+          "R03270",
+          "R03316",
+          "R07618"
+        ],
+        "removed": []
+      },
+      "drawable_either": {
+        "base_count": 28,
+        "seed_count": 28,
+        "added": [],
+        "removed": []
+      }
+    },
+    "map00030": {
+      "bigg_mapped": {
+        "base_count": 44,
+        "seed_count": 44,
+        "added": [],
+        "removed": []
+      },
+      "seed_mapped": {
+        "base_count": 55,
+        "seed_count": 59,
+        "added": [
+          "R00305",
+          "R06620",
+          "R10324",
+          "R10907"
+        ],
+        "removed": []
+      },
+      "both_bigg_and_seed": {
+        "base_count": 43,
+        "seed_count": 44,
+        "added": [
+          "R10907"
+        ],
+        "removed": []
+      },
+      "either_bigg_or_seed": {
+        "base_count": 56,
+        "seed_count": 59,
+        "added": [
+          "R00305",
+          "R06620",
+          "R10324"
+        ],
+        "removed": []
+      },
+      "unmapped_to_bigg_or_seed": {
+        "base_count": 3,
+        "seed_count": 0,
+        "added": [],
+        "removed": [
+          "R00305",
+          "R06620",
+          "R10324"
+        ]
+      },
+      "drawable_seed_mapped": {
+        "base_count": 54,
+        "seed_count": 58,
+        "added": [
+          "R00305",
+          "R06620",
+          "R10324",
+          "R10907"
+        ],
+        "removed": []
+      },
+      "drawable_either": {
+        "base_count": 55,
+        "seed_count": 58,
+        "added": [
+          "R00305",
+          "R06620",
+          "R10324"
+        ],
+        "removed": []
+      }
+    }
+  }
+}

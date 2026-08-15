@@ -1,0 +1,21 @@
+bigg_id	organism	reaction_count	metabolite_count	gene_count	domain_classification	classification_reason
+iAB_RBC_283	Homo sapiens	469	342	346	eukaryote_excluded	organism starts with Homo
+iAM_Pb448	Plasmodium berghei	1067	903	448	eukaryote_excluded	organism starts with Plasmodium
+iAM_Pc455	Plasmodium cynomolgi strain B	1074	907	455	eukaryote_excluded	organism starts with Plasmodium
+iAM_Pf480	Plasmodium falciparum 3D7	1083	909	480	eukaryote_excluded	organism starts with Plasmodium
+iAM_Pk459	Plasmodium knowlesi strain H	1079	909	459	eukaryote_excluded	organism starts with Plasmodium
+iAM_Pv461	Plasmodium vivax Sal-1	1078	909	461	eukaryote_excluded	organism starts with Plasmodium
+iAT_PLT_636	Homo sapiens	1008	738	636	eukaryote_excluded	organism starts with Homo
+iCHOv1	Cricetulus griseus	6663	4456	1766	eukaryote_excluded	organism starts with Cricetulus
+iCHOv1_DG44	Cricetulus griseus	3942	2751	1184	eukaryote_excluded	organism starts with Cricetulus
+iIS312	Trypanosoma cruzi Dm28c	519	606	312	eukaryote_excluded	organism starts with Trypanosoma
+iIS312_Amastigote	Trypanosoma cruzi Dm28c	519	606	312	eukaryote_excluded	organism starts with Trypanosoma
+iIS312_Epimastigote	Trypanosoma cruzi Dm28c	519	606	312	eukaryote_excluded	organism starts with Trypanosoma
+iIS312_Trypomastigote	Trypanosoma cruzi Dm28c	520	606	312	eukaryote_excluded	organism starts with Trypanosoma
+iLB1027_lipid	Phaeodactylum tricornutum CCAP 1055/1	4456	2172	1027	eukaryote_excluded	organism starts with Phaeodactylum
+iMM1415	Mus musculus	3726	2775	1375	eukaryote_excluded	organism starts with Mus
+iMM904	Saccharomyces cerevisiae S288C	1577	1226	905	eukaryote_excluded	organism starts with Saccharomyces
+iND750	Saccharomyces cerevisiae S288C	1266	1059	750	eukaryote_excluded	organism starts with Saccharomyces
+iRC1080	Chlamydomonas reinhardtii	2191	1706	1086	eukaryote_excluded	organism starts with Chlamydomonas
+RECON1	Homo sapiens	3741	2766	1905	eukaryote_excluded	organism starts with Homo
+Recon3D	Homo sapiens	10600	5835	2248	eukaryote_excluded	organism starts with Homo
