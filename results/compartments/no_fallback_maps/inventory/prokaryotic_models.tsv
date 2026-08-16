@@ -1,0 +1,6 @@
+bigg_id	organism	reaction_count	metabolite_count	gene_count	domain_classification	classification_reason
+iMM904	Saccharomyces cerevisiae S288C	1577	1226	905	eukaryote_selected	same eukaryotic models used in the article
+iMM1415	Mus musculus	3726	2775	1375	eukaryote_selected	same eukaryotic models used in the article
+Recon3D	Homo sapiens	10600	5835	2248	eukaryote_selected	same eukaryotic models used in the article
+
+

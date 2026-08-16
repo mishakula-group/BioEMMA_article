@@ -86,10 +86,11 @@ Current submitted export names:
 - Table S3, model-diversity evaluation summaries, retained-reaction counts,
   Jaccard values, prokaryotic maps, eukaryotic maps, compartment maps, flux
   tables, and timing files: `../jaccard/`, `../prokaryote_maps/`,
-  `../eukaryote_maps/`, `../compartments/index.json`,
+  `../compartments/no_fallback_maps/`, `../compartments/index.json`,
   `../compartments/index.html`, and `../compartments/timing.csv`.
 
 The EC-fallback validation materials remain in `../fallback/`.
 
 Rendered article/MDPI supplementary images may be exported from these
 HTML/SVG/PNG materials. Summary-only scratch files are intentionally not kept.
+

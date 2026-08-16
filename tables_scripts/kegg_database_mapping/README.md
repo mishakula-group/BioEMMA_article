@@ -16,3 +16,4 @@ Run from the repository root:
 
 Outputs are written to `results/table_02_kegg_database_mapping/`. That results
 path is kept because it is cited directly in the article.
+

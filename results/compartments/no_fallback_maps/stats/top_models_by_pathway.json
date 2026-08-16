@@ -1,0 +1,125 @@
+[
+  {
+    "pathway": "map00010",
+    "rank": 1,
+    "bigg_id": "Recon3D",
+    "organism": "Homo sapiens",
+    "matched_reactions": 17,
+    "kegg_reactions": 56,
+    "reaction_retention_percent": 30.36,
+    "map_html": "results\\compartments\\no_fallback_maps\\maps\\map00010\\Recon3D\\Recon3D_map00010_map.html"
+  },
+  {
+    "pathway": "map00010",
+    "rank": 2,
+    "bigg_id": "iMM1415",
+    "organism": "Mus musculus",
+    "matched_reactions": 16,
+    "kegg_reactions": 56,
+    "reaction_retention_percent": 28.57,
+    "map_html": "results\\compartments\\no_fallback_maps\\maps\\map00010\\iMM1415\\iMM1415_map00010_map.html"
+  },
+  {
+    "pathway": "map00010",
+    "rank": 3,
+    "bigg_id": "iMM904",
+    "organism": "Saccharomyces cerevisiae S288C",
+    "matched_reactions": 15,
+    "kegg_reactions": 56,
+    "reaction_retention_percent": 26.79,
+    "map_html": "results\\compartments\\no_fallback_maps\\maps\\map00010\\iMM904\\iMM904_map00010_map.html"
+  },
+  {
+    "pathway": "map00020",
+    "rank": 1,
+    "bigg_id": "Recon3D",
+    "organism": "Homo sapiens",
+    "matched_reactions": 13,
+    "kegg_reactions": 29,
+    "reaction_retention_percent": 44.83,
+    "map_html": "results\\compartments\\no_fallback_maps\\maps\\map00020\\Recon3D\\Recon3D_map00020_map.html"
+  },
+  {
+    "pathway": "map00020",
+    "rank": 2,
+    "bigg_id": "iMM1415",
+    "organism": "Mus musculus",
+    "matched_reactions": 9,
+    "kegg_reactions": 29,
+    "reaction_retention_percent": 31.03,
+    "map_html": "results\\compartments\\no_fallback_maps\\maps\\map00020\\iMM1415\\iMM1415_map00020_map.html"
+  },
+  {
+    "pathway": "map00020",
+    "rank": 3,
+    "bigg_id": "iMM904",
+    "organism": "Saccharomyces cerevisiae S288C",
+    "matched_reactions": 7,
+    "kegg_reactions": 29,
+    "reaction_retention_percent": 24.14,
+    "map_html": "results\\compartments\\no_fallback_maps\\maps\\map00020\\iMM904\\iMM904_map00020_map.html"
+  },
+  {
+    "pathway": "map00030",
+    "rank": 1,
+    "bigg_id": "Recon3D",
+    "organism": "Homo sapiens",
+    "matched_reactions": 15,
+    "kegg_reactions": 58,
+    "reaction_retention_percent": 25.86,
+    "map_html": "results\\compartments\\no_fallback_maps\\maps\\map00030\\Recon3D\\Recon3D_map00030_map.html"
+  },
+  {
+    "pathway": "map00030",
+    "rank": 2,
+    "bigg_id": "iMM1415",
+    "organism": "Mus musculus",
+    "matched_reactions": 13,
+    "kegg_reactions": 58,
+    "reaction_retention_percent": 22.41,
+    "map_html": "results\\compartments\\no_fallback_maps\\maps\\map00030\\iMM1415\\iMM1415_map00030_map.html"
+  },
+  {
+    "pathway": "map00030",
+    "rank": 3,
+    "bigg_id": "iMM904",
+    "organism": "Saccharomyces cerevisiae S288C",
+    "matched_reactions": 11,
+    "kegg_reactions": 58,
+    "reaction_retention_percent": 18.97,
+    "map_html": "results\\compartments\\no_fallback_maps\\maps\\map00030\\iMM904\\iMM904_map00030_map.html"
+  },
+  {
+    "pathway": "map00680",
+    "rank": 1,
+    "bigg_id": "Recon3D",
+    "organism": "Homo sapiens",
+    "matched_reactions": 19,
+    "kegg_reactions": 104,
+    "reaction_retention_percent": 18.27,
+    "map_html": "results\\compartments\\no_fallback_maps\\maps\\map00680\\Recon3D\\Recon3D_map00680_map.html"
+  },
+  {
+    "pathway": "map00680",
+    "rank": 2,
+    "bigg_id": "iMM1415",
+    "organism": "Mus musculus",
+    "matched_reactions": 15,
+    "kegg_reactions": 104,
+    "reaction_retention_percent": 14.42,
+    "map_html": "results\\compartments\\no_fallback_maps\\maps\\map00680\\iMM1415\\iMM1415_map00680_map.html"
+  },
+  {
+    "pathway": "map00680",
+    "rank": 3,
+    "bigg_id": "iMM904",
+    "organism": "Saccharomyces cerevisiae S288C",
+    "matched_reactions": 14,
+    "kegg_reactions": 104,
+    "reaction_retention_percent": 13.46,
+    "map_html": "results\\compartments\\no_fallback_maps\\maps\\map00680\\iMM904\\iMM904_map00680_map.html"
+  }
+]
+
+
+

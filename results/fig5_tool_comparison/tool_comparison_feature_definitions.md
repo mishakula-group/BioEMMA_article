@@ -21,3 +21,4 @@ The evaluated features were defined as follows:
 - Automatic map generation: the ability to automatically construct a visual metabolic map or graph from model, pathway, reaction, or flux input without manual placement of every reaction. Full support indicates a documented automatic layout or map-generation workflow. Limited support indicates that automatic generation is available only within a restricted model database, pathway set, or template-driven workflow. Tools that primarily load or edit existing maps manually were not counted as supporting automatic map generation.
 
 - Native Escher-compatible JSON output: the ability to produce or save map files in the Escher map JSON format, preserving the layout and reaction/metabolite mapping needed for downstream use in Escher-compatible viewers. Full support indicates direct Escher-compatible JSON output. Other JSON exports were not counted unless they followed the Escher map schema.
+

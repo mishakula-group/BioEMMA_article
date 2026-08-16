@@ -26,7 +26,7 @@ The list below follows the article numbering.
 - Figure 6 and Supplementary Figures S11-S14: `results/figure_03/map00020/`.
   This path is kept because it is cited directly in the article.
 - Additional model-diversity materials for Supplementary Table S3:
-  `results/jaccard/`, `results/prokaryote_maps/`, `results/eukaryote_maps/`,
+  `results/jaccard/`, `results/prokaryote_maps/`, `results/compartments/no_fallback_maps/`,
   and `results/compartments/`.
 - EC-fallback validation materials retained for provenance:
   `results/fallback/`.
@@ -63,3 +63,4 @@ that should be visible to readers are copied into `results/`.
 
 Rebuild commands are documented only in the README next to the relevant script
 or workflow.
+

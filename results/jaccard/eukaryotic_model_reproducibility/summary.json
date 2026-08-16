@@ -1,5 +1,5 @@
 {
-  "source_output_root": "results\\eukaryote_maps",
+  "source_output_root": "results\\compartments\\no_fallback_maps",
   "output_dir": "results\\jaccard\\eukaryotic_model_reproducibility",
   "scope": "eukaryotes",
   "excluded_models": [],
@@ -214,6 +214,7 @@
     "all_models_reaction_frequency_by_pathway.tsv"
   ]
 }
+
 
 
 

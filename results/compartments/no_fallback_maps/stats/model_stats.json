@@ -1,0 +1,47 @@
+[
+  {
+    "bigg_id": "Recon3D",
+    "organism": "Homo sapiens",
+    "successful_pathways": 4,
+    "mean_reaction_retention_percent": 29.83,
+    "map00010_matched_reactions": 17,
+    "map00010_reaction_retention_percent": 30.36,
+    "map00020_matched_reactions": 13,
+    "map00020_reaction_retention_percent": 44.83,
+    "map00030_matched_reactions": 15,
+    "map00030_reaction_retention_percent": 25.86,
+    "map00680_matched_reactions": 19,
+    "map00680_reaction_retention_percent": 18.27
+  },
+  {
+    "bigg_id": "iMM1415",
+    "organism": "Mus musculus",
+    "successful_pathways": 4,
+    "mean_reaction_retention_percent": 24.11,
+    "map00010_matched_reactions": 16,
+    "map00010_reaction_retention_percent": 28.57,
+    "map00020_matched_reactions": 9,
+    "map00020_reaction_retention_percent": 31.03,
+    "map00030_matched_reactions": 13,
+    "map00030_reaction_retention_percent": 22.41,
+    "map00680_matched_reactions": 15,
+    "map00680_reaction_retention_percent": 14.42
+  },
+  {
+    "bigg_id": "iMM904",
+    "organism": "Saccharomyces cerevisiae S288C",
+    "successful_pathways": 4,
+    "mean_reaction_retention_percent": 20.84,
+    "map00010_matched_reactions": 15,
+    "map00010_reaction_retention_percent": 26.79,
+    "map00020_matched_reactions": 7,
+    "map00020_reaction_retention_percent": 24.14,
+    "map00030_matched_reactions": 11,
+    "map00030_reaction_retention_percent": 18.97,
+    "map00680_matched_reactions": 14,
+    "map00680_reaction_retention_percent": 13.46
+  }
+]
+
+
+

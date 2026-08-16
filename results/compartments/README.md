@@ -12,6 +12,9 @@ Key files:
   summaries.
 - `yeast_iMM904/`, `mouse_iMM1415/`, and `human_Recon3D/` - model-specific
   pathway maps, compartment submaps, flux tables, and per-pathway summaries.
+- `no_fallback_maps/` - no-fallback whole-model BioEMMA maps and map-generation
+  statistics for the same three eukaryotic models, used for the eukaryotic
+  Jaccard comparison.
 
 The maps can be regenerated with `scripts/build_compartment_maps.py`. Pass
 `--source-root` or set `BIOEMMA_COMPARTMENT_SOURCE_ROOT` to the folder

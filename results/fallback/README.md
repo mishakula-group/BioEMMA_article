@@ -22,3 +22,4 @@ Key files:
 
 The compact fallback summary can be rebuilt with
 `scripts/build_fallback_summary.py`.
+

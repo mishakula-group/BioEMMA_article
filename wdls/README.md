@@ -40,3 +40,4 @@ uses the first column of `M9_vit_aa.csv` with `_e` appended to each compound ID.
 
 Cromwell working directories and generated folders named `outputs/` are ignored
 by git. Curated outputs that are used by the article are copied into `results/`.
+

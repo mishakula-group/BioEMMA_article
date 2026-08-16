@@ -25,3 +25,4 @@ These are issues surfaced while preparing the rn00010 / e_coli_core article figu
 ## Is Cropping Useful In BioEMMA?
 
 Yes, probably, if it is implemented as reproducible submap extraction rather than manual figure cropping. It would help for article figures, notebooks, debugging model/pathway overlap, and teaching examples. The default should avoid silently changing biological content: return the retained and discarded reactions, explain why each was kept/removed, and validate the resulting Escher map.
+

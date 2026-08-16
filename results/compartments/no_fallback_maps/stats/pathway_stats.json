@@ -1,0 +1,65 @@
+[
+  {
+    "pathway": "map00010",
+    "pathway_rn": "rn00010",
+    "pathway_label": "Glycolysis / gluconeogenesis",
+    "models_attempted": 3,
+    "models_successful": 3,
+    "models_failed": 0,
+    "models_with_zero_matched_reactions": 0,
+    "mean_reaction_retention_percent": 28.57,
+    "median_reaction_retention_percent": 28.57,
+    "min_reaction_retention_percent": 26.79,
+    "max_reaction_retention_percent": 30.36,
+    "mean_matched_reactions": 16.0,
+    "median_matched_reactions": 16
+  },
+  {
+    "pathway": "map00020",
+    "pathway_rn": "rn00020",
+    "pathway_label": "Citrate cycle (TCA cycle)",
+    "models_attempted": 3,
+    "models_successful": 3,
+    "models_failed": 0,
+    "models_with_zero_matched_reactions": 0,
+    "mean_reaction_retention_percent": 33.33,
+    "median_reaction_retention_percent": 31.03,
+    "min_reaction_retention_percent": 24.14,
+    "max_reaction_retention_percent": 44.83,
+    "mean_matched_reactions": 9.67,
+    "median_matched_reactions": 9
+  },
+  {
+    "pathway": "map00030",
+    "pathway_rn": "rn00030",
+    "pathway_label": "Pentose phosphate pathway",
+    "models_attempted": 3,
+    "models_successful": 3,
+    "models_failed": 0,
+    "models_with_zero_matched_reactions": 0,
+    "mean_reaction_retention_percent": 22.41,
+    "median_reaction_retention_percent": 22.41,
+    "min_reaction_retention_percent": 18.97,
+    "max_reaction_retention_percent": 25.86,
+    "mean_matched_reactions": 13.0,
+    "median_matched_reactions": 13
+  },
+  {
+    "pathway": "map00680",
+    "pathway_rn": "rn00680",
+    "pathway_label": "Methane metabolism / C1 metabolism",
+    "models_attempted": 3,
+    "models_successful": 3,
+    "models_failed": 0,
+    "models_with_zero_matched_reactions": 0,
+    "mean_reaction_retention_percent": 15.38,
+    "median_reaction_retention_percent": 14.42,
+    "min_reaction_retention_percent": 13.46,
+    "max_reaction_retention_percent": 18.27,
+    "mean_matched_reactions": 16.0,
+    "median_matched_reactions": 15
+  }
+]
+
+
+

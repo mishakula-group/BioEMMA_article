@@ -40,3 +40,4 @@ models:
 
 Curated outputs are stored in `results/figure_03/map00020/`. That results path
 is kept because it is cited directly in the article.
+

@@ -10,3 +10,4 @@ requests>=2.31
 matplotlib>=3.8
 networkx>=3.0
 sammi==0.1.7
+

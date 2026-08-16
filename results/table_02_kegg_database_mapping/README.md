@@ -13,3 +13,4 @@ Files:
 The table includes the 153 KEGG pathways from `../../data/kegg_pathways.tsv`
 that contain at least one KEGG reaction. It does not download KGML files from
 KEGG during generation.
+

@@ -1,6 +1,6 @@
 # Eukaryotic Reaction Reproducibility Metrics
 
-Source maps: `results\eukaryote_maps`
+Source maps: `results\compartments\no_fallback_maps`
 Models: 3 selected BiGG eukaryotic models: `iMM904`, `iMM1415`, and `Recon3D`.
 
 Jaccard is calculated over KEGG reaction IDs that are actually present in each generated Escher JSON map.
@@ -15,6 +15,7 @@ Files:
 - `all_models_reaction_frequency_by_pathway.tsv`: core/variable reaction frequency across selected models.
 - `all_models_mapping_metrics_by_model_pathway.tsv`: original BioEMMA mapping metrics subset for these models.
 - `all_models_mapping_metric_summary_by_pathway.tsv`: mapping metric summary by pathway.
+
 
 
 

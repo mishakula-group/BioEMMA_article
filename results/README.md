@@ -38,11 +38,9 @@ The source scripts and reproducible inputs remain in `figures_scripts/`,
   for the Jaccard analysis: 352 Escher HTML/JSON maps for 88 prokaryotic models
   across `map00010`, `map00020`, `map00030`, and `map00680`, with batch
   statistics and cached KEGG KGML files.
-- `eukaryote_maps/` - no-fallback BioEMMA maps for `iMM904`, `iMM1415`, and
-  `Recon3D` across the same four pathways, used for the eukaryotic Jaccard
-  comparison.
 - `compartments/` - compartment-specific eukaryotic maps and timing summaries
-  for `iMM904`, `iMM1415`, and `Recon3D`.
+  for `iMM904`, `iMM1415`, and `Recon3D`, plus the no-fallback eukaryotic
+  BioEMMA maps used for the eukaryotic Jaccard comparison.
 
 ## Provenance
 
@@ -54,7 +52,8 @@ The source scripts and reproducible inputs remain in `figures_scripts/`,
   `figure_03/map00020/source_models/`.
 - The three-reconstructor pipeline run parameters and retained intermediate
   outputs are stored in `../pipeline_three_reconstructors_outputs/`.
-- The Jaccard, prokaryote-map, eukaryote-map, and compartment-map materials
+- The Jaccard, prokaryote-map, and compartment-map materials
   support the additional model-diversity evaluation added during revision.
 - The fallback materials remain in the repository as validation/provenance
   files.
+

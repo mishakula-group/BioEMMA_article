@@ -38,3 +38,4 @@ Notes:
 - KGML for `map00030` contains one reaction without coordinates (`R06837`). It is counted in KEGG and mapped totals but cannot be retained on a drawable BioEMMA map.
 - Detailed shared and model-specific reaction lists are written to `reaction_details.txt` and `reaction_details.json`.
 - The KEGG-to-database split is written to `kegg_mapping_by_database.tsv` and `kegg_mapping_by_database.json`.
+

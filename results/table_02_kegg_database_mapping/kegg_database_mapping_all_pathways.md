@@ -161,3 +161,4 @@ No KEGG downloads are performed by this table build.
 
 `Either` is the number of KEGG reactions mapped to at least one supported database identifier: SEED or BiGG.
 It is a union, not `SEED + BiGG`.
+

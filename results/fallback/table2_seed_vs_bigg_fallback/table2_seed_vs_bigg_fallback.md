@@ -34,3 +34,4 @@
 | map00030 | unmapped_to_bigg_or_seed | 3 | 0 | - | R00305, R06620, R10324 |
 | map00030 | drawable_seed_mapped | 54 | 58 | R00305, R06620, R10324, R10907 | - |
 | map00030 | drawable_either | 55 | 58 | R00305, R06620, R10324 | - |
+

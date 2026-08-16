@@ -36,3 +36,4 @@ The strict leave-one-MNX-out result is a conservative stress test: once the
 source MNX record is removed, the true alias usually disappears with it. The
 article-map comparison in `../../map_nochange_evidence/` showed `0` changed
 Escher maps and `0` changed flux JSON files after adding SEED fallback.
+

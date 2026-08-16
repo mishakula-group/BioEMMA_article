@@ -1,0 +1,16 @@
+pathway	rank	bigg_id	organism	matched_reactions	kegg_reactions	reaction_retention_percent	map_html
+map00010	1	Recon3D	Homo sapiens	17	56	30.36	results\compartments\no_fallback_maps\maps\map00010\Recon3D\Recon3D_map00010_map.html
+map00010	2	iMM1415	Mus musculus	16	56	28.57	results\compartments\no_fallback_maps\maps\map00010\iMM1415\iMM1415_map00010_map.html
+map00010	3	iMM904	Saccharomyces cerevisiae S288C	15	56	26.79	results\compartments\no_fallback_maps\maps\map00010\iMM904\iMM904_map00010_map.html
+map00020	1	Recon3D	Homo sapiens	13	29	44.83	results\compartments\no_fallback_maps\maps\map00020\Recon3D\Recon3D_map00020_map.html
+map00020	2	iMM1415	Mus musculus	9	29	31.03	results\compartments\no_fallback_maps\maps\map00020\iMM1415\iMM1415_map00020_map.html
+map00020	3	iMM904	Saccharomyces cerevisiae S288C	7	29	24.14	results\compartments\no_fallback_maps\maps\map00020\iMM904\iMM904_map00020_map.html
+map00030	1	Recon3D	Homo sapiens	15	58	25.86	results\compartments\no_fallback_maps\maps\map00030\Recon3D\Recon3D_map00030_map.html
+map00030	2	iMM1415	Mus musculus	13	58	22.41	results\compartments\no_fallback_maps\maps\map00030\iMM1415\iMM1415_map00030_map.html
+map00030	3	iMM904	Saccharomyces cerevisiae S288C	11	58	18.97	results\compartments\no_fallback_maps\maps\map00030\iMM904\iMM904_map00030_map.html
+map00680	1	Recon3D	Homo sapiens	19	104	18.27	results\compartments\no_fallback_maps\maps\map00680\Recon3D\Recon3D_map00680_map.html
+map00680	2	iMM1415	Mus musculus	15	104	14.42	results\compartments\no_fallback_maps\maps\map00680\iMM1415\iMM1415_map00680_map.html
+map00680	3	iMM904	Saccharomyces cerevisiae S288C	14	104	13.46	results\compartments\no_fallback_maps\maps\map00680\iMM904\iMM904_map00680_map.html
+
+
+

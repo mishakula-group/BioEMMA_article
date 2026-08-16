@@ -37,3 +37,4 @@ BioEMMA 0.4.2 keeps the BiGG EC fallback from 0.4.1 and adds a separate SEED EC 
 - Therefore article maps were copied from the 0.4.1 bundle instead of regenerated here.
 
 Source evidence is in `map_nochange_evidence/regen_comparison.md`.
+

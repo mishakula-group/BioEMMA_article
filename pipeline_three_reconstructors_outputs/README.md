@@ -58,3 +58,4 @@ The curated BioEMMA maps and flux overlays used for the article are in:
 
 The source model copies used for the Figure 6 and Supplementary S11-S14 maps are
 also stored under `../results/figure_03/map00020/source_models/`.
+

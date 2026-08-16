@@ -83,3 +83,4 @@ Compared current resources with BiGG EC fallback against temporary resources wit
 |---|---:|---:|---:|---:|---:|
 | Metabolism | 152 | 7980 | +1189 | +784 | -784 |
 | Genetic Information Processing | 1 | 32 | +31 | +5 | -5 |
+

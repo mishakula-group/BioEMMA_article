@@ -16,3 +16,4 @@ provide context for Figure 5 and do not change the support-level scoring matrix.
 | Escher | Web-based tool for building, viewing, and sharing visualizations of metabolic pathways; it supports maps built from genome-scale metabolic models and visualization of reaction, gene, and metabolite data. | https://escher.readthedocs.io/en/latest/ |
 | NAViFluX | Visualization-centric web-browser tool that unifies native pathway/subsystem map generation, interactive model refinement, pathway merging, flux analyses, topology analyses, enrichment analyses, and data overlay within network views. | https://doi.org/10.1093/bioinformatics/btag191 |
 | BioEMMA | Python library for building Escher-compatible metabolic maps from KEGG pathway layouts and genome-scale metabolic models, including KGML parsing, BiGG/SEED identifier conversion, Escher JSON output, flux data, summaries, and reproducible output folders. | https://pypi.org/project/bioemma/ |
+

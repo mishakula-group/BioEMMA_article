@@ -16,3 +16,4 @@ Run the shared preparation script from the repository root:
 ```powershell
 .\.venv\Scripts\python.exe scripts\prepare_external_tool_inputs.py --skip-optional
 ```
+
