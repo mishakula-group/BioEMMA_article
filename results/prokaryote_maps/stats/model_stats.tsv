@@ -1,89 +1,92 @@
 bigg_id	organism	successful_pathways	mean_reaction_retention_percent	map00010_matched_reactions	map00010_reaction_retention_percent	map00020_matched_reactions	map00020_reaction_retention_percent	map00030_matched_reactions	map00030_reaction_retention_percent	map00680_matched_reactions	map00680_reaction_retention_percent
-STM_v1_0	Salmonella enterica subsp. enterica serovar Typhimurium str. LT2	4	58.75	41	73.21	22	75.86	32	55.17	32	30.77
-e_coli_core	Escherichia coli str. K-12 substr. MG1655	4	39.78	26	46.43	20	68.97	17	29.31	15	14.42
-iAF1260	Escherichia coli str. K-12 substr. MG1655	4	58.93	40	71.43	22	75.86	34	58.62	31	29.81
-iAF1260b	Escherichia coli str. K-12 substr. MG1655	4	58.93	40	71.43	22	75.86	34	58.62	31	29.81
-iAF692	Methanosarcina barkeri str. Fusaro	4	41.02	33	58.93	10	34.48	17	29.31	43	41.35
-iAF987	Geobacter metallireducens GS-15	4	50.34	33	58.93	22	75.86	23	39.66	28	26.92
-iAPECO1_1312	Escherichia coli APEC O1	4	60.48	41	73.21	23	79.31	34	58.62	32	30.77
-iB21_1397	Escherichia coli BL21(DE3)	4	60.05	41	73.21	23	79.31	33	56.9	32	30.77
-iBWG_1329	Escherichia coli BW2952	4	60.48	41	73.21	23	79.31	34	58.62	32	30.77
-iCN718	Acinetobacter baumannii AYE	4	46.67	28	50.0	21	72.41	20	34.48	31	29.81
-iCN900	Clostridioides difficile 630	4	60.3	42	75.0	23	79.31	32	55.17	33	31.73
-iE2348C_1286	Escherichia coli O127:H6 str. E2348/69	4	60.05	41	73.21	23	79.31	33	56.9	32	30.77
-iEC042_1314	Escherichia coli 042	4	60.48	41	73.21	23	79.31	34	58.62	32	30.77
-iEC1344_C	Escherichia coli C	4	59.38	41	73.21	22	75.86	34	58.62	31	29.81
-iEC1349_Crooks	Escherichia coli ATCC 8739	4	59.17	40	71.43	22	75.86	34	58.62	32	30.77
-iEC1356_Bl21DE3	Escherichia coli BL21(DE3)	4	58.95	41	73.21	22	75.86	33	56.9	31	29.81
-iEC1364_W	Escherichia coli W	4	59.38	41	73.21	22	75.86	34	58.62	31	29.81
-iEC1368_DH5a	Escherichia coli DH5[alpha]	4	59.38	41	73.21	22	75.86	34	58.62	31	29.81
-iEC1372_W3110	Escherichia coli str. K-12 substr. W3110	4	58.93	40	71.43	22	75.86	34	58.62	31	29.81
-iEC55989_1330	Escherichia coli 55989	4	60.48	41	73.21	23	79.31	34	58.62	32	30.77
-iECABU_c1320	Escherichia coli ABU 83972	4	60.48	41	73.21	23	79.31	34	58.62	32	30.77
-iECBD_1354	Escherichia coli 'BL21-Gold(DE3)pLysS AG'	4	60.05	41	73.21	23	79.31	33	56.9	32	30.77
-iECB_1328	Escherichia coli B str. REL606	4	60.48	41	73.21	23	79.31	34	58.62	32	30.77
-iECDH10B_1368	Escherichia coli str. K-12 substr. DH10B	4	60.48	41	73.21	23	79.31	34	58.62	32	30.77
-iECDH1ME8569_1439	Escherichia coli DH1	4	60.48	41	73.21	23	79.31	34	58.62	32	30.77
-iECD_1391	Escherichia coli BL21(DE3)	4	60.05	41	73.21	23	79.31	33	56.9	32	30.77
-iECED1_1282	Escherichia coli ED1a	4	60.48	41	73.21	23	79.31	34	58.62	32	30.77
-iECH74115_1262	Escherichia coli O157:H7 str. EC4115	4	59.81	41	73.21	23	79.31	33	56.9	31	29.81
-iECIAI1_1343	Escherichia coli IAI1	4	60.48	41	73.21	23	79.31	34	58.62	32	30.77
-iECIAI39_1322	Escherichia coli IAI39	4	60.48	41	73.21	23	79.31	34	58.62	32	30.77
-iECNA114_1301	Escherichia coli NA114	4	60.48	41	73.21	23	79.31	34	58.62	32	30.77
-iECO103_1326	Escherichia coli O103:H2 str. 12009	4	60.48	41	73.21	23	79.31	34	58.62	32	30.77
-iECO111_1330	Escherichia coli O111:H- str. 11128	4	60.48	41	73.21	23	79.31	34	58.62	32	30.77
-iECO26_1355	Escherichia coli O26:H11 str. 11368	4	60.48	41	73.21	23	79.31	34	58.62	32	30.77
-iECOK1_1307	Escherichia coli IHE3034	4	60.48	41	73.21	23	79.31	34	58.62	32	30.77
-iECP_1309	Escherichia coli 536	4	60.48	41	73.21	23	79.31	34	58.62	32	30.77
-iECS88_1305	Escherichia coli S88	4	60.48	41	73.21	23	79.31	34	58.62	32	30.77
-iECSE_1348	Escherichia coli SE11	4	60.48	41	73.21	23	79.31	34	58.62	32	30.77
-iECSF_1327	Escherichia coli SE15	4	60.48	41	73.21	23	79.31	34	58.62	32	30.77
-iECSP_1301	Escherichia coli O157:H7 str. TW14359	4	60.05	41	73.21	23	79.31	33	56.9	32	30.77
-iECUMN_1333	Escherichia coli UMN026	4	60.48	41	73.21	23	79.31	34	58.62	32	30.77
-iECW_1372	Escherichia coli W	4	60.48	41	73.21	23	79.31	34	58.62	32	30.77
-iECs_1301	Escherichia coli O157:H7 str. Sakai	4	60.05	41	73.21	23	79.31	33	56.9	32	30.77
-iEK1008	Mycobacterium tuberculosis H37Rv	4	53.14	34	60.71	22	75.86	24	41.38	36	34.62
-iEKO11_1354	Escherichia coli KO11FL	4	59.62	41	73.21	23	79.31	32	55.17	32	30.77
-iETEC_1333	Escherichia coli ETEC H10407	4	60.48	41	73.21	23	79.31	34	58.62	32	30.77
-iEcDH1_1363	Escherichia coli DH1	4	60.48	41	73.21	23	79.31	34	58.62	32	30.77
-iEcE24377_1341	Escherichia coli O139:H28 str. E24377A	4	60.48	41	73.21	23	79.31	34	58.62	32	30.77
-iEcHS_1320	Escherichia coli HS	4	60.48	41	73.21	23	79.31	34	58.62	32	30.77
-iEcSMS35_1347	Escherichia coli SMS-3-5	4	60.48	41	73.21	23	79.31	34	58.62	32	30.77
-iEcolC_1368	Escherichia coli ATCC 8739	4	60.48	41	73.21	23	79.31	34	58.62	32	30.77
-iG2583_1286	Escherichia coli O55:H7 str. CB9615	4	59.81	41	73.21	23	79.31	33	56.9	31	29.81
-iHN637	Clostridium ljungdahlii DSM 13528	4	41.67	30	53.57	13	44.83	24	41.38	28	26.92
-iIT341	Helicobacter pylori 26695	4	32.48	24	42.86	9	31.03	23	39.66	17	16.35
-iJB785	Synechococcus elongatus PCC 7942	4	39.27	29	51.79	12	41.38	22	37.93	27	25.96
-iJN1463	Pseudomonas putida KT2440	4	55.17	32	57.14	22	75.86	33	56.9	32	30.77
-iJN678	Synechocystis sp. PCC 6803	4	44.93	30	53.57	16	55.17	25	43.1	29	27.88
-iJN746	Pseudomonas putida KT2440	4	50.71	29	51.79	19	65.52	34	58.62	28	26.92
-iJO1366	Escherichia coli str. K-12 substr. MG1655	4	58.93	40	71.43	22	75.86	34	58.62	31	29.81
-iJR904	Escherichia coli str. K-12 substr. MG1655	4	56.0	37	66.07	22	75.86	32	55.17	28	26.92
-iLF82_1304	Escherichia coli LF82	4	60.48	41	73.21	23	79.31	34	58.62	32	30.77
-iLJ478	Thermotoga maritima MSB8	4	41.47	26	46.43	13	44.83	31	53.45	22	21.15
-iML1515	Escherichia coli str. K-12 substr. MG1655	4	58.93	40	71.43	22	75.86	34	58.62	31	29.81
-iNF517	Lactococcus lactis subsp. cremoris MG1363	4	40.18	30	53.57	13	44.83	25	43.1	20	19.23
-iNJ661	Mycobacterium tuberculosis H37Rv	4	50.18	35	62.5	20	68.97	24	41.38	29	27.88
-iNRG857_1313	Escherichia coli O83:H1 str. NRG 857C	4	60.48	41	73.21	23	79.31	34	58.62	32	30.77
-iPC815	Yersinia pestis CO92	4	53.18	34	60.71	20	68.97	32	55.17	29	27.88
-iSB619	Staphylococcus aureus subsp. aureus N315	4	53.65	36	64.29	23	79.31	25	43.1	29	27.88
-iSBO_1134	Shigella boydii Sb227	4	58.67	39	69.64	23	79.31	33	56.9	30	28.85
-iSDY_1059	Shigella dysenteriae Sd197	4	56.49	37	66.07	22	75.86	32	55.17	30	28.85
-iSFV_1184	Shigella flexneri 5 str. 8401	4	59.81	41	73.21	23	79.31	33	56.9	31	29.81
-iSF_1195	Shigella flexneri 2a str. 301	4	58.67	39	69.64	23	79.31	33	56.9	30	28.85
-iSFxv_1172	Shigella flexneri 2002017	4	57.78	37	66.07	23	79.31	33	56.9	30	28.85
-iSSON_1240	Shigella sonnei Ss046	4	60.24	41	73.21	23	79.31	34	58.62	31	29.81
-iS_1188	Shigella flexneri 2a str. 2457T	4	58.67	39	69.64	23	79.31	33	56.9	30	28.85
-iSbBS512_1146	Shigella boydii CDC 3083-94	4	59.38	41	73.21	23	79.31	32	55.17	31	29.81
-iSynCJ816	Synechocystis sp. PCC 6803	4	45.61	30	53.57	16	55.17	26	44.83	30	28.85
-iUMN146_1321	Escherichia coli UM146	4	60.48	41	73.21	23	79.31	34	58.62	32	30.77
-iUMNK88_1353	Escherichia coli UMNK88	4	60.48	41	73.21	23	79.31	34	58.62	32	30.77
-iUTI89_1310	Escherichia coli UTI89	4	60.48	41	73.21	23	79.31	34	58.62	32	30.77
-iWFL_1372	Escherichia coli W	4	60.48	41	73.21	23	79.31	34	58.62	32	30.77
-iY75_1357	Escherichia coli str. K-12 substr. W3110	4	60.48	41	73.21	23	79.31	34	58.62	32	30.77
-iYL1228	Klebsiella pneumoniae subsp. pneumoniae MGH 78578	4	59.2	39	69.64	22	75.86	34	58.62	34	32.69
-iYO844	Bacillus subtilis subsp. subtilis str. 168	4	53.59	36	64.29	21	72.41	30	51.72	27	25.96
-iYS1720	Salmonella pan-reactome	4	58.75	41	73.21	22	75.86	32	55.17	32	30.77
-iYS854	Staphylococcus aureus subsp. aureus USA300_TCH1516	4	51.68	36	64.29	20	68.97	27	46.55	28	26.92
-iZ_1308	Escherichia coli O157:H7 str. EDL933	4	60.05	41	73.21	23	79.31	33	56.9	32	30.77
-ic_1306	Escherichia coli CFT073	4	60.48	41	73.21	23	79.31	34	58.62	32	30.77
+STM_v1_0	Salmonella enterica subsp. enterica serovar Typhimurium str. LT2	4	26.39	14	25.0	7	24.14	21	36.21	21	20.19
+e_coli_core	Escherichia coli str. K-12 substr. MG1655	4	17.68	12	21.43	7	24.14	9	15.52	10	9.62
+iAF1260	Escherichia coli str. K-12 substr. MG1655	4	27.26	15	26.79	7	24.14	22	37.93	21	20.19
+iAF1260b	Escherichia coli str. K-12 substr. MG1655	4	27.26	15	26.79	7	24.14	22	37.93	21	20.19
+iAF692	Methanosarcina barkeri str. Fusaro	4	21.91	15	26.79	4	13.79	10	17.24	31	29.81
+iAF987	Geobacter metallireducens GS-15	4	25.64	16	28.57	11	37.93	12	20.69	16	15.38
+iAPECO1_1312	Escherichia coli APEC O1	4	26.39	14	25.0	7	24.14	21	36.21	21	20.19
+iB21_1397	Escherichia coli BL21(DE3)	4	26.4	15	26.79	7	24.14	20	34.48	21	20.19
+iBWG_1329	Escherichia coli BW2952	4	26.83	15	26.79	7	24.14	21	36.21	21	20.19
+iCN718	Acinetobacter baumannii AYE	4	22.83	17	30.36	7	24.14	13	22.41	15	14.42
+iCN900	Clostridioides difficile 630	4	33.41	22	39.29	11	37.93	21	36.21	21	20.19
+iE2348C_1286	Escherichia coli O127:H6 str. E2348/69	4	26.39	14	25.0	7	24.14	21	36.21	21	20.19
+iEC042_1314	Escherichia coli 042	4	27.26	15	26.79	7	24.14	22	37.93	21	20.19
+iEC1344_C	Escherichia coli C	4	27.26	15	26.79	7	24.14	22	37.93	21	20.19
+iEC1349_Crooks	Escherichia coli ATCC 8739	4	27.5	15	26.79	7	24.14	22	37.93	22	21.15
+iEC1356_Bl21DE3	Escherichia coli BL21(DE3)	4	26.83	15	26.79	7	24.14	21	36.21	21	20.19
+iEC1364_W	Escherichia coli W	4	27.26	15	26.79	7	24.14	22	37.93	21	20.19
+iEC1368_DH5a	Escherichia coli DH5[alpha]	4	27.26	15	26.79	7	24.14	22	37.93	21	20.19
+iEC1372_W3110	Escherichia coli str. K-12 substr. W3110	4	27.26	15	26.79	7	24.14	22	37.93	21	20.19
+iEC55989_1330	Escherichia coli 55989	4	27.26	15	26.79	7	24.14	22	37.93	21	20.19
+iECABU_c1320	Escherichia coli ABU 83972	4	26.82	14	25.0	7	24.14	22	37.93	21	20.19
+iECBD_1354	Escherichia coli 'BL21-Gold(DE3)pLysS AG'	4	26.4	15	26.79	7	24.14	20	34.48	21	20.19
+iECB_1328	Escherichia coli B str. REL606	4	26.83	15	26.79	7	24.14	21	36.21	21	20.19
+iECDH10B_1368	Escherichia coli str. K-12 substr. DH10B	4	26.83	15	26.79	7	24.14	21	36.21	21	20.19
+iECDH1ME8569_1439	Escherichia coli DH1	4	26.83	15	26.79	7	24.14	21	36.21	21	20.19
+iECD_1391	Escherichia coli BL21(DE3)	4	26.4	15	26.79	7	24.14	20	34.48	21	20.19
+iECED1_1282	Escherichia coli ED1a	4	26.82	14	25.0	7	24.14	22	37.93	21	20.19
+iECH74115_1262	Escherichia coli O157:H7 str. EC4115	4	26.59	15	26.79	7	24.14	21	36.21	20	19.23
+iECIAI1_1343	Escherichia coli IAI1	4	26.83	15	26.79	7	24.14	21	36.21	21	20.19
+iECIAI39_1322	Escherichia coli IAI39	4	26.83	15	26.79	7	24.14	21	36.21	21	20.19
+iECNA114_1301	Escherichia coli NA114	4	27.26	15	26.79	7	24.14	22	37.93	21	20.19
+iECO103_1326	Escherichia coli O103:H2 str. 12009	4	26.83	15	26.79	7	24.14	21	36.21	21	20.19
+iECO111_1330	Escherichia coli O111:H- str. 11128	4	26.83	15	26.79	7	24.14	21	36.21	21	20.19
+iECO26_1355	Escherichia coli O26:H11 str. 11368	4	26.83	15	26.79	7	24.14	21	36.21	21	20.19
+iECOK1_1307	Escherichia coli IHE3034	4	26.39	14	25.0	7	24.14	21	36.21	21	20.19
+iECP_1309	Escherichia coli 536	4	26.82	14	25.0	7	24.14	22	37.93	21	20.19
+iECS88_1305	Escherichia coli S88	4	26.39	14	25.0	7	24.14	21	36.21	21	20.19
+iECSE_1348	Escherichia coli SE11	4	26.83	15	26.79	7	24.14	21	36.21	21	20.19
+iECSF_1327	Escherichia coli SE15	4	26.82	14	25.0	7	24.14	22	37.93	21	20.19
+iECSP_1301	Escherichia coli O157:H7 str. TW14359	4	26.83	15	26.79	7	24.14	21	36.21	21	20.19
+iECUMN_1333	Escherichia coli UMN026	4	26.83	15	26.79	7	24.14	21	36.21	21	20.19
+iECW_1372	Escherichia coli W	4	26.83	15	26.79	7	24.14	21	36.21	21	20.19
+iECs_1301	Escherichia coli O157:H7 str. Sakai	4	26.83	15	26.79	7	24.14	21	36.21	21	20.19
+iEK1008	Mycobacterium tuberculosis H37Rv	4	23.62	15	26.79	7	24.14	13	22.41	22	21.15
+iEKO11_1354	Escherichia coli KO11FL	4	26.4	15	26.79	7	24.14	20	34.48	21	20.19
+iETEC_1333	Escherichia coli ETEC H10407	4	27.26	15	26.79	7	24.14	22	37.93	21	20.19
+iEcDH1_1363	Escherichia coli DH1	4	26.83	15	26.79	7	24.14	21	36.21	21	20.19
+iEcE24377_1341	Escherichia coli O139:H28 str. E24377A	4	26.83	15	26.79	7	24.14	21	36.21	21	20.19
+iEcHS_1320	Escherichia coli HS	4	26.83	15	26.79	7	24.14	21	36.21	21	20.19
+iEcSMS35_1347	Escherichia coli SMS-3-5	4	26.83	15	26.79	7	24.14	21	36.21	21	20.19
+iEcolC_1368	Escherichia coli ATCC 8739	4	26.83	15	26.79	7	24.14	21	36.21	21	20.19
+iG2583_1286	Escherichia coli O55:H7 str. CB9615	4	26.59	15	26.79	7	24.14	21	36.21	20	19.23
+iHN637	Clostridium ljungdahlii DSM 13528	4	22.29	13	23.21	8	27.59	15	25.86	13	12.5
+iIT341	Helicobacter pylori 26695	4	14.68	10	17.86	2	6.9	13	22.41	12	11.54
+iJB785	Synechococcus elongatus PCC 7942	4	17.42	14	25.0	3	10.34	11	18.97	16	15.38
+iJN1463	Pseudomonas putida KT2440	4	27.02	15	26.79	8	27.59	20	34.48	20	19.23
+iJN678	Synechocystis sp. PCC 6803	4	22.21	17	30.36	5	17.24	15	25.86	16	15.38
+iJN746	Pseudomonas putida KT2440	4	23.43	12	21.43	7	24.14	19	32.76	16	15.38
+iJO1366	Escherichia coli str. K-12 substr. MG1655	4	26.83	15	26.79	7	24.14	21	36.21	21	20.19
+iJR904	Escherichia coli str. K-12 substr. MG1655	4	22.39	13	23.21	5	17.24	19	32.76	17	16.35
+iLF82_1304	Escherichia coli LF82	4	26.83	15	26.79	7	24.14	21	36.21	21	20.19
+iLJ478	Thermotoga maritima MSB8	4	22.05	13	23.21	5	17.24	21	36.21	12	11.54
+iML1515	Escherichia coli str. K-12 substr. MG1655	4	26.39	14	25.0	7	24.14	21	36.21	21	20.19
+iNF517	Lactococcus lactis subsp. cremoris MG1363	4	16.18	11	19.64	2	6.9	16	27.59	11	10.58
+iNJ661	Mycobacterium tuberculosis H37Rv	4	21.75	15	26.79	7	24.14	12	20.69	16	15.38
+iNRG857_1313	Escherichia coli O83:H1 str. NRG 857C	4	26.83	15	26.79	7	24.14	21	36.21	21	20.19
+iPC815	Yersinia pestis CO92	4	25.91	14	25.0	7	24.14	21	36.21	19	18.27
+iSB619	Staphylococcus aureus subsp. aureus N315	4	21.98	14	25.0	6	20.69	15	25.86	17	16.35
+iSBO_1134	Shigella boydii Sb227	4	25.66	14	25.0	7	24.14	21	36.21	18	17.31
+iSDY_1059	Shigella dysenteriae Sd197	4	24.79	13	23.21	7	24.14	20	34.48	18	17.31
+iSFV_1184	Shigella flexneri 5 str. 8401	4	25.92	15	26.79	7	24.14	20	34.48	19	18.27
+iSF_1195	Shigella flexneri 2a str. 301	4	24.99	14	25.0	7	24.14	20	34.48	17	16.35
+iSFxv_1172	Shigella flexneri 2002017	4	24.99	14	25.0	7	24.14	20	34.48	17	16.35
+iSSON_1240	Shigella sonnei Ss046	4	26.14	14	25.0	7	24.14	21	36.21	20	19.23
+iS_1188	Shigella flexneri 2a str. 2457T	4	24.99	14	25.0	7	24.14	20	34.48	17	16.35
+iSbBS512_1146	Shigella boydii CDC 3083-94	4	26.16	15	26.79	7	24.14	20	34.48	20	19.23
+iSynCJ816	Synechocystis sp. PCC 6803	4	25.3	18	32.14	7	24.14	16	27.59	18	17.31
+iUMN146_1321	Escherichia coli UM146	4	26.39	14	25.0	7	24.14	21	36.21	21	20.19
+iUMNK88_1353	Escherichia coli UMNK88	4	26.83	15	26.79	7	24.14	21	36.21	21	20.19
+iUTI89_1310	Escherichia coli UTI89	4	26.39	14	25.0	7	24.14	21	36.21	21	20.19
+iWFL_1372	Escherichia coli W	4	26.83	15	26.79	7	24.14	21	36.21	21	20.19
+iY75_1357	Escherichia coli str. K-12 substr. W3110	4	26.83	15	26.79	7	24.14	21	36.21	21	20.19
+iYL1228	Klebsiella pneumoniae subsp. pneumoniae MGH 78578	4	27.26	15	26.79	7	24.14	22	37.93	21	20.19
+iYO844	Bacillus subtilis subsp. subtilis str. 168	4	23.92	16	28.57	6	20.69	18	31.03	16	15.38
+iYS1720	Salmonella pan-reactome	4	26.39	14	25.0	7	24.14	21	36.21	21	20.19
+iYS854	Staphylococcus aureus subsp. aureus USA300_TCH1516	4	26.93	16	28.57	9	31.03	19	32.76	16	15.38
+iZ_1308	Escherichia coli O157:H7 str. EDL933	4	26.83	15	26.79	7	24.14	21	36.21	21	20.19
+ic_1306	Escherichia coli CFT073	4	26.82	14	25.0	7	24.14	22	37.93	21	20.19
+
+
+

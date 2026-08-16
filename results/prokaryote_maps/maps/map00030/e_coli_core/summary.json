@@ -37,9 +37,9 @@
         "percent": 100.0
       },
       "BIGG": {
-        "mapped": 44,
-        "unmapped": 14,
-        "percent": 75.9
+        "mapped": 26,
+        "unmapped": 32,
+        "percent": 44.8
       },
       "SEED": {
         "mapped": 54,
@@ -49,9 +49,9 @@
     }
   },
   "escher": {
-    "nodes": 101,
-    "reactions": 17,
-    "segments": 106,
+    "nodes": 52,
+    "reactions": 9,
+    "segments": 51,
     "missing_description_keys": [],
     "missing_model_keys": [],
     "non_string_node_ids": [],
@@ -121,25 +121,25 @@
       {
         "name": "model_reaction_filter",
         "counts": {
-          "total_elements": 179,
-          "nodes": 88,
+          "total_elements": 113,
+          "nodes": 64,
           "primary_metabolites": 37,
           "secondary_metabolites": 0,
-          "reaction_nodes": 17,
-          "multimarkers": 34,
-          "reactions": 17,
-          "segments": 74
+          "reaction_nodes": 9,
+          "multimarkers": 18,
+          "reactions": 9,
+          "segments": 40
         },
         "change": {
           "total_elements": {
             "added": 0,
-            "removed": 330,
-            "delta": -330
+            "removed": 396,
+            "delta": -396
           },
           "nodes": {
             "added": 0,
-            "removed": 123,
-            "delta": -123
+            "removed": 147,
+            "delta": -147
           },
           "primary_metabolites": {
             "added": 0,
@@ -153,23 +153,23 @@
           },
           "reaction_nodes": {
             "added": 0,
-            "removed": 41,
-            "delta": -41
+            "removed": 49,
+            "delta": -49
           },
           "multimarkers": {
             "added": 0,
-            "removed": 82,
-            "delta": -82
+            "removed": 98,
+            "delta": -98
           },
           "reactions": {
             "added": 0,
-            "removed": 41,
-            "delta": -41
+            "removed": 49,
+            "delta": -49
           },
           "segments": {
             "added": 0,
-            "removed": 166,
-            "delta": -166
+            "removed": 200,
+            "delta": -200
           }
         },
         "description": "Removed KEGG reactions that were not matched to the COBRA model."
@@ -177,30 +177,30 @@
       {
         "name": "model_metabolite_filter",
         "counts": {
-          "total_elements": 160,
-          "nodes": 69,
-          "primary_metabolites": 18,
+          "total_elements": 90,
+          "nodes": 41,
+          "primary_metabolites": 14,
           "secondary_metabolites": 0,
-          "reaction_nodes": 17,
-          "multimarkers": 34,
-          "reactions": 17,
-          "segments": 74
+          "reaction_nodes": 9,
+          "multimarkers": 18,
+          "reactions": 9,
+          "segments": 40
         },
         "change": {
           "total_elements": {
             "added": 0,
-            "removed": 19,
-            "delta": -19
+            "removed": 23,
+            "delta": -23
           },
           "nodes": {
             "added": 0,
-            "removed": 19,
-            "delta": -19
+            "removed": 23,
+            "delta": -23
           },
           "primary_metabolites": {
             "added": 0,
-            "removed": 19,
-            "delta": -19
+            "removed": 23,
+            "delta": -23
           },
           "secondary_metabolites": {
             "added": 0,
@@ -233,25 +233,25 @@
       {
         "name": "secondary_metabolite_addition",
         "counts": {
-          "total_elements": 224,
-          "nodes": 101,
-          "primary_metabolites": 18,
-          "secondary_metabolites": 32,
-          "reaction_nodes": 17,
-          "multimarkers": 34,
-          "reactions": 17,
-          "segments": 106
+          "total_elements": 112,
+          "nodes": 52,
+          "primary_metabolites": 14,
+          "secondary_metabolites": 11,
+          "reaction_nodes": 9,
+          "multimarkers": 18,
+          "reactions": 9,
+          "segments": 51
         },
         "change": {
           "total_elements": {
-            "added": 64,
+            "added": 22,
             "removed": 0,
-            "delta": 64
+            "delta": 22
           },
           "nodes": {
-            "added": 32,
+            "added": 11,
             "removed": 0,
-            "delta": 32
+            "delta": 11
           },
           "primary_metabolites": {
             "added": 0,
@@ -259,9 +259,9 @@
             "delta": 0
           },
           "secondary_metabolites": {
-            "added": 32,
+            "added": 11,
             "removed": 0,
-            "delta": 32
+            "delta": 11
           },
           "reaction_nodes": {
             "added": 0,
@@ -279,9 +279,9 @@
             "delta": 0
           },
           "segments": {
-            "added": 32,
+            "added": 11,
             "removed": 0,
-            "delta": 32
+            "delta": 11
           }
         },
         "description": "Added non-primary COBRA metabolites attached to matched reactions."
@@ -289,14 +289,14 @@
       {
         "name": "final_layout",
         "counts": {
-          "total_elements": 224,
-          "nodes": 101,
-          "primary_metabolites": 18,
-          "secondary_metabolites": 32,
-          "reaction_nodes": 17,
-          "multimarkers": 34,
-          "reactions": 17,
-          "segments": 106
+          "total_elements": 112,
+          "nodes": 52,
+          "primary_metabolites": 14,
+          "secondary_metabolites": 11,
+          "reaction_nodes": 9,
+          "multimarkers": 18,
+          "reactions": 9,
+          "segments": 51
         },
         "change": {
           "total_elements": {
@@ -346,22 +346,9 @@
     "model_matching": {
       "matched_metabolites": 14,
       "unmatched_metabolites": 23,
-      "matched_reactions": 17,
-      "unmatched_reactions": 41,
-      "compartment_filter": null,
-      "use_fallback_matching": true,
-      "reaction_match_methods": {
-        "bigg": 6,
-        "bigg_ec_fallback": 4,
-        "ec": 4,
-        "kegg": 1,
-        "rhea": 2
-      }
+      "matched_reactions": 9,
+      "unmatched_reactions": 49
     }
-  },
-  "compartment_filter": null,
-  "reaction_matching_options": {
-    "use_fallback_matching": true
   },
   "has_fluxes": false,
   "visualization_options": {
@@ -391,11 +378,11 @@
     "metabolite_id_compartments": true
   },
   "paths": {
-    "map_json": "results/prokaryote_maps/maps/map00030/e_coli_core/e_coli_core_map00030_map.json",
-    "map_html": "results/prokaryote_maps/maps/map00030/e_coli_core/e_coli_core_map00030_map.html",
-    "summary_json": "results/prokaryote_maps/maps/map00030/e_coli_core/summary.json",
-    "model_xml": "http://bigg.ucsd.edu/static/models/e_coli_core.xml",
-    "kgml": "results/prokaryote_maps/kegg_kgml/rn00030.drawable.kgml"
+    "map_json": "C:\\Users\\HONOR\\Desktop\\sirius_repo\\bioemma_article_materials\\article_materials_repo\\BioEMMA_article\\outputs\\bigg_prokaryote_bioemma\\maps\\map00030\\e_coli_core\\e_coli_core_map00030_map.json",
+    "map_html": "C:\\Users\\HONOR\\Desktop\\sirius_repo\\bioemma_article_materials\\article_materials_repo\\BioEMMA_article\\outputs\\bigg_prokaryote_bioemma\\maps\\map00030\\e_coli_core\\e_coli_core_map00030_map.html",
+    "summary_json": "C:\\Users\\HONOR\\Desktop\\sirius_repo\\bioemma_article_materials\\article_materials_repo\\BioEMMA_article\\outputs\\bigg_prokaryote_bioemma\\maps\\map00030\\e_coli_core\\summary.json",
+    "model_xml": "C:\\Users\\HONOR\\Desktop\\sirius_repo\\bioemma_article_materials\\article_materials_repo\\BioEMMA_article\\outputs\\bigg_prokaryote_bioemma\\models\\e_coli_core.xml",
+    "kgml": "C:\\Users\\HONOR\\Desktop\\sirius_repo\\bioemma_article_materials\\article_materials_repo\\BioEMMA_article\\outputs\\bigg_prokaryote_bioemma\\kegg_kgml\\rn00030.drawable.kgml"
   },
   "bigg_batch": {
     "bigg_id": "e_coli_core",
@@ -411,18 +398,18 @@
     "database": "BIGG",
     "include_kegg_only": false,
     "secondary_metabolite_bigg_normalization": {
-      "secondary_nodes_seen": 32,
+      "secondary_nodes_seen": 11,
       "secondary_nodes_converted": 0,
-      "reaction_metabolites_seen": 72,
+      "reaction_metabolites_seen": 33,
       "reaction_metabolites_converted": 0
     },
     "invalid_segment_cleanup": {
-      "segments_seen": 106,
+      "segments_seen": 51,
       "segments_removed": 0
     },
     "kgml_sanitization": {
-      "source_kgml": "results/prokaryote_maps/kegg_kgml/rn00030.kgml",
-      "drawable_kgml": "results/prokaryote_maps/kegg_kgml/rn00030.drawable.kgml",
+      "source_kgml": "C:\\Users\\HONOR\\Desktop\\sirius_repo\\bioemma_article_materials\\article_materials_repo\\BioEMMA_article\\outputs\\bigg_prokaryote_bioemma\\kegg_kgml\\rn00030.kgml",
+      "drawable_kgml": "C:\\Users\\HONOR\\Desktop\\sirius_repo\\bioemma_article_materials\\article_materials_repo\\BioEMMA_article\\outputs\\bigg_prokaryote_bioemma\\kegg_kgml\\rn00030.drawable.kgml",
       "removed_reaction_entries": [
         {
           "entry_id": "91",
@@ -440,3 +427,5 @@
     }
   }
 }
+
+

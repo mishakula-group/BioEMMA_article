@@ -7,12 +7,12 @@
     "models_successful": 88,
     "models_failed": 0,
     "models_with_zero_matched_reactions": 0,
-    "mean_reaction_retention_percent": 68.89,
-    "median_reaction_retention_percent": 73.21,
-    "min_reaction_retention_percent": 42.86,
-    "max_reaction_retention_percent": 75.0,
-    "mean_matched_reactions": 38.58,
-    "median_matched_reactions": 41.0
+    "mean_reaction_retention_percent": 26.22,
+    "median_reaction_retention_percent": 26.79,
+    "min_reaction_retention_percent": 17.86,
+    "max_reaction_retention_percent": 39.29,
+    "mean_matched_reactions": 14.68,
+    "median_matched_reactions": 15.0
   },
   {
     "pathway": "map00020",
@@ -22,12 +22,12 @@
     "models_successful": 88,
     "models_failed": 0,
     "models_with_zero_matched_reactions": 0,
-    "mean_reaction_retention_percent": 74.61,
-    "median_reaction_retention_percent": 79.31,
-    "min_reaction_retention_percent": 31.03,
-    "max_reaction_retention_percent": 79.31,
-    "mean_matched_reactions": 21.64,
-    "median_matched_reactions": 23.0
+    "mean_reaction_retention_percent": 23.63,
+    "median_reaction_retention_percent": 24.14,
+    "min_reaction_retention_percent": 6.9,
+    "max_reaction_retention_percent": 37.93,
+    "mean_matched_reactions": 6.85,
+    "median_matched_reactions": 7.0
   },
   {
     "pathway": "map00030",
@@ -37,12 +37,12 @@
     "models_successful": 88,
     "models_failed": 0,
     "models_with_zero_matched_reactions": 0,
-    "mean_reaction_retention_percent": 54.84,
-    "median_reaction_retention_percent": 58.62,
-    "min_reaction_retention_percent": 29.31,
-    "max_reaction_retention_percent": 58.62,
-    "mean_matched_reactions": 31.81,
-    "median_matched_reactions": 34.0
+    "mean_reaction_retention_percent": 34.13,
+    "median_reaction_retention_percent": 36.21,
+    "min_reaction_retention_percent": 15.52,
+    "max_reaction_retention_percent": 37.93,
+    "mean_matched_reactions": 19.8,
+    "median_matched_reactions": 21.0
   },
   {
     "pathway": "map00680",
@@ -52,11 +52,14 @@
     "models_successful": 88,
     "models_failed": 0,
     "models_with_zero_matched_reactions": 0,
-    "mean_reaction_retention_percent": 29.62,
-    "median_reaction_retention_percent": 30.77,
-    "min_reaction_retention_percent": 14.42,
-    "max_reaction_retention_percent": 41.35,
-    "mean_matched_reactions": 30.81,
-    "median_matched_reactions": 32.0
+    "mean_reaction_retention_percent": 18.95,
+    "median_reaction_retention_percent": 20.19,
+    "min_reaction_retention_percent": 9.62,
+    "max_reaction_retention_percent": 29.81,
+    "mean_matched_reactions": 19.7,
+    "median_matched_reactions": 21.0
   }
 ]
+
+
+

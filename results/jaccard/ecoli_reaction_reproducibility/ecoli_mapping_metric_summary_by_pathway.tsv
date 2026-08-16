@@ -1,5 +1,8 @@
 pathway	pathway_rn	pathway_label	model_count	mean_matched_reactions	median_matched_reactions	min_matched_reactions	max_matched_reactions	mean_reaction_retention_percent	median_reaction_retention_percent	min_reaction_retention_percent	max_reaction_retention_percent
-map00010	rn00010	Glycolysis / gluconeogenesis	57	40.82	41.0	37	41	72.9	73.21	66.07	73.21
-map00020	rn00020	Citrate cycle (TCA cycle)	57	22.81	23.0	22	23	78.64	79.31	75.86	79.31
-map00030	rn00030	Pentose phosphate pathway	57	33.75	34.0	32	34	58.2	58.62	55.17	58.62
-map00680	rn00680	Methane metabolism / C1 metabolism	57	31.74	32.0	28	32	30.52	30.77	26.92	30.77
+map00010	rn00010	Glycolysis / gluconeogenesis	57	14.75	15.0	13	15	26.35	26.79	23.21	26.79
+map00020	rn00020	Citrate cycle (TCA cycle)	57	6.96	7.0	5	7	24.02	24.14	17.24	24.14
+map00030	rn00030	Pentose phosphate pathway	57	21.18	21.0	19	22	36.51	36.21	32.76	37.93
+map00680	rn00680	Methane metabolism / C1 metabolism	57	20.91	21.0	17	22	20.11	20.19	16.35	21.15
+
+
+

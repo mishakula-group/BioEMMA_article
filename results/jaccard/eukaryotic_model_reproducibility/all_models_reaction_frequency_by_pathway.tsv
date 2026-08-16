@@ -1,0 +1,70 @@
+pathway	pathway_rn	pathway_label	kegg_reaction_id	present_model_count	absent_model_count	frequency_percent	status	model_reaction_ids_observed	present_models	absent_models
+map00010	rn00010	Glycolysis / gluconeogenesis	R00200	3	0	100.0	core	PYK	Recon3D|iMM1415|iMM904	
+map00010	rn00010	Glycolysis / gluconeogenesis	R00235	3	0	100.0	core	ACS	Recon3D|iMM1415|iMM904	
+map00010	rn00010	Glycolysis / gluconeogenesis	R00341	1	2	33.33	variable	PPCK	iMM904	Recon3D|iMM1415
+map00010	rn00010	Glycolysis / gluconeogenesis	R00431	2	1	66.67	variable	PEPCK_re	Recon3D|iMM1415	iMM904
+map00010	rn00010	Glycolysis / gluconeogenesis	R00658	3	0	100.0	core	ENO	Recon3D|iMM1415|iMM904	
+map00010	rn00010	Glycolysis / gluconeogenesis	R00703	2	1	66.67	variable	LDH_L|LDH_Lm	Recon3D|iMM1415	iMM904
+map00010	rn00010	Glycolysis / gluconeogenesis	R00710	3	0	100.0	core	ALDD2x|ALDD2xm	Recon3D|iMM1415|iMM904	
+map00010	rn00010	Glycolysis / gluconeogenesis	R00711	3	0	100.0	core	ALDD2y	Recon3D|iMM1415|iMM904	
+map00010	rn00010	Glycolysis / gluconeogenesis	R00746	2	1	66.67	variable	ALCD2y	Recon3D|iMM1415	iMM904
+map00010	rn00010	Glycolysis / gluconeogenesis	R00754	2	1	66.67	variable	ALCD2x	Recon3D|iMM904	iMM1415
+map00010	rn00010	Glycolysis / gluconeogenesis	R00756	3	0	100.0	core	PFK	Recon3D|iMM1415|iMM904	
+map00010	rn00010	Glycolysis / gluconeogenesis	R00762	3	0	100.0	core	FBP	Recon3D|iMM1415|iMM904	
+map00010	rn00010	Glycolysis / gluconeogenesis	R01015	3	0	100.0	core	TPI	Recon3D|iMM1415|iMM904	
+map00010	rn00010	Glycolysis / gluconeogenesis	R01061	3	0	100.0	core	GAPD	Recon3D|iMM1415|iMM904	
+map00010	rn00010	Glycolysis / gluconeogenesis	R01068	3	0	100.0	core	FBA	Recon3D|iMM1415|iMM904	
+map00010	rn00010	Glycolysis / gluconeogenesis	R01512	3	0	100.0	core	PGK	Recon3D|iMM1415|iMM904	
+map00010	rn00010	Glycolysis / gluconeogenesis	R01518	3	0	100.0	core	PGM	Recon3D|iMM1415|iMM904	
+map00010	rn00010	Glycolysis / gluconeogenesis	R01662	3	0	100.0	core	DPGM	Recon3D|iMM1415|iMM904	
+map00020	rn00020	Citrate cycle (TCA cycle)	R00268	1	2	33.33	variable	r0083	Recon3D	iMM1415|iMM904
+map00020	rn00020	Citrate cycle (TCA cycle)	R00341	1	2	33.33	variable	PPCK	iMM904	Recon3D|iMM1415
+map00020	rn00020	Citrate cycle (TCA cycle)	R00342	3	0	100.0	core	MDH|MDHp	Recon3D|iMM1415|iMM904	
+map00020	rn00020	Citrate cycle (TCA cycle)	R00344	3	0	100.0	core	PC|PCm	Recon3D|iMM1415|iMM904	
+map00020	rn00020	Citrate cycle (TCA cycle)	R00351	3	0	100.0	core	CSm	Recon3D|iMM1415|iMM904	
+map00020	rn00020	Citrate cycle (TCA cycle)	R00352	2	1	66.67	variable	ACITL	Recon3D|iMM1415	iMM904
+map00020	rn00020	Citrate cycle (TCA cycle)	R00405	3	0	100.0	core	SUCOASm	Recon3D|iMM1415|iMM904	
+map00020	rn00020	Citrate cycle (TCA cycle)	R00431	2	1	66.67	variable	PEPCK_re	Recon3D|iMM1415	iMM904
+map00020	rn00020	Citrate cycle (TCA cycle)	R00432	2	1	66.67	variable	SUCOAS1m	Recon3D|iMM1415	iMM904
+map00020	rn00020	Citrate cycle (TCA cycle)	R00709	3	0	100.0	core	ICDHxm	Recon3D|iMM1415|iMM904	
+map00020	rn00020	Citrate cycle (TCA cycle)	R01082	3	0	100.0	core	FUM	Recon3D|iMM1415|iMM904	
+map00020	rn00020	Citrate cycle (TCA cycle)	R01325	1	2	33.33	variable	r0317	Recon3D	iMM1415|iMM904
+map00020	rn00020	Citrate cycle (TCA cycle)	R01899	1	2	33.33	variable	r0422	Recon3D	iMM1415|iMM904
+map00020	rn00020	Citrate cycle (TCA cycle)	R01900	1	2	33.33	variable	r0426	Recon3D	iMM1415|iMM904
+map00030	rn00030	Pentose phosphate pathway	R00756	3	0	100.0	core	PFK	Recon3D|iMM1415|iMM904	
+map00030	rn00030	Pentose phosphate pathway	R00762	3	0	100.0	core	FBP	Recon3D|iMM1415|iMM904	
+map00030	rn00030	Pentose phosphate pathway	R01049	3	0	100.0	core	PRPPS	Recon3D|iMM1415|iMM904	
+map00030	rn00030	Pentose phosphate pathway	R01051	3	0	100.0	core	RBK	Recon3D|iMM1415|iMM904	
+map00030	rn00030	Pentose phosphate pathway	R01056	3	0	100.0	core	RPI|r0249	Recon3D|iMM1415|iMM904	
+map00030	rn00030	Pentose phosphate pathway	R01057	3	0	100.0	core	PPM	Recon3D|iMM1415|iMM904	
+map00030	rn00030	Pentose phosphate pathway	R01066	2	1	66.67	variable	DRPA	Recon3D|iMM1415	iMM904
+map00030	rn00030	Pentose phosphate pathway	R01068	3	0	100.0	core	FBA	Recon3D|iMM1415|iMM904	
+map00030	rn00030	Pentose phosphate pathway	R01528	3	0	100.0	core	GND|GNDer	Recon3D|iMM1415|iMM904	
+map00030	rn00030	Pentose phosphate pathway	R01529	3	0	100.0	core	RPE	Recon3D|iMM1415|iMM904	
+map00030	rn00030	Pentose phosphate pathway	R01737	1	2	33.33	variable	GNK	Recon3D	iMM1415|iMM904
+map00030	rn00030	Pentose phosphate pathway	R02035	3	0	100.0	core	PGL|PGLer	Recon3D|iMM1415|iMM904	
+map00030	rn00030	Pentose phosphate pathway	R02749	1	2	33.33	variable	PPM2	Recon3D	iMM1415|iMM904
+map00030	rn00030	Pentose phosphate pathway	R02750	3	0	100.0	core	DRBK	Recon3D|iMM1415|iMM904	
+map00030	rn00030	Pentose phosphate pathway	R08572	2	1	66.67	variable	GLYCK2	Recon3D|iMM1415	iMM904
+map00680	rn00680	Methane metabolism / C1 metabolism	R00235	3	0	100.0	core	ACS	Recon3D|iMM1415|iMM904	
+map00680	rn00680	Methane metabolism / C1 metabolism	R00342	3	0	100.0	core	MDH|MDHp	Recon3D|iMM1415|iMM904	
+map00680	rn00680	Methane metabolism / C1 metabolism	R00519	3	0	100.0	core	FDH	Recon3D|iMM1415|iMM904	
+map00680	rn00680	Methane metabolism / C1 metabolism	R00527	3	0	100.0	core	SFGTHi	Recon3D|iMM1415|iMM904	
+map00680	rn00680	Methane metabolism / C1 metabolism	R00582	3	0	100.0	core	PSP_L	Recon3D|iMM1415|iMM904	
+map00680	rn00680	Methane metabolism / C1 metabolism	R00605	1	2	33.33	variable	ALCD1	Recon3D	iMM1415|iMM904
+map00680	rn00680	Methane metabolism / C1 metabolism	R00658	3	0	100.0	core	ENO	Recon3D|iMM1415|iMM904	
+map00680	rn00680	Methane metabolism / C1 metabolism	R00736	2	1	66.67	variable	TYRCBOX	Recon3D|iMM1415	iMM904
+map00680	rn00680	Methane metabolism / C1 metabolism	R00756	3	0	100.0	core	PFK	Recon3D|iMM1415|iMM904	
+map00680	rn00680	Methane metabolism / C1 metabolism	R00762	3	0	100.0	core	FBP	Recon3D|iMM1415|iMM904	
+map00680	rn00680	Methane metabolism / C1 metabolism	R00945	3	0	100.0	core	GHMT2r|GHMT2rm	Recon3D|iMM1415|iMM904	
+map00680	rn00680	Methane metabolism / C1 metabolism	R01011	2	1	66.67	variable	DHAK|HMR_7755	Recon3D|iMM904	iMM1415
+map00680	rn00680	Methane metabolism / C1 metabolism	R01068	3	0	100.0	core	FBA	Recon3D|iMM1415|iMM904	
+map00680	rn00680	Methane metabolism / C1 metabolism	R01513	3	0	100.0	core	PGCD	Recon3D|iMM1415|iMM904	
+map00680	rn00680	Methane metabolism / C1 metabolism	R01518	3	0	100.0	core	PGM	Recon3D|iMM1415|iMM904	
+map00680	rn00680	Methane metabolism / C1 metabolism	R04173	3	0	100.0	core	PSERT	Recon3D|iMM1415|iMM904	
+map00680	rn00680	Methane metabolism / C1 metabolism	R06982	1	2	33.33	variable	r1377	Recon3D	iMM1415|iMM904
+map00680	rn00680	Methane metabolism / C1 metabolism	R06983	1	2	33.33	variable	r1378	Recon3D	iMM1415|iMM904
+map00680	rn00680	Methane metabolism / C1 metabolism	R08572	2	1	66.67	variable	GLYCK2	Recon3D|iMM1415	iMM904
+
+
+

@@ -1,0 +1,8 @@
+pathway	pathway_rn	pathway_label	model_count	pair_count	identical_pair_count	identical_pair_percent	mean_jaccard	median_jaccard	min_jaccard	max_jaccard	mean_reaction_count	median_reaction_count	min_reaction_count	max_reaction_count	union_reaction_count	core_reaction_count	variable_reaction_count	core_reactions	variable_reactions
+map00010	rn00010	Glycolysis / gluconeogenesis	3	3	0	0.0	0.8137	0.7778	0.7222	0.9412	16.0	16.0	15	17	18	13	5	R00200|R00235|R00658|R00710|R00711|R00756|R00762|R01015|R01061|R01068|R01512|R01518|R01662	R00341|R00431|R00703|R00746|R00754
+map00020	rn00020	Citrate cycle (TCA cycle)	3	3	0	0.0	0.5736	0.6	0.4286	0.6923	9.67	9.0	7	13	14	6	8	R00342|R00344|R00351|R00405|R00709|R01082	R00268|R00341|R00352|R00431|R00432|R01325|R01899|R01900
+map00030	rn00030	Pentose phosphate pathway	3	3	0	0.0	0.8154	0.8462	0.7333	0.8667	13.0	13.0	11	15	15	11	4	R00756|R00762|R01049|R01051|R01056|R01057|R01068|R01528|R01529|R02035|R02750	R01066|R01737|R02749|R08572
+map00680	rn00680	Methane metabolism / C1 metabolism	3	3	0	0.0	0.7796	0.7895	0.7368	0.8125	16.0	15.0	14	19	19	13	6	R00235|R00342|R00519|R00527|R00582|R00658|R00756|R00762|R00945|R01068|R01513|R01518|R04173	R00605|R00736|R01011|R06982|R06983|R08572
+
+
+

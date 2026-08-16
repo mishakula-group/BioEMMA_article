@@ -1,6 +1,6 @@
 {
-  "source_kgml": "results/prokaryote_maps/kegg_kgml/rn00030.kgml",
-  "drawable_kgml": "results/prokaryote_maps/kegg_kgml/rn00030.drawable.kgml",
+  "source_kgml": "C:\\Users\\HONOR\\Desktop\\sirius_repo\\bioemma_article_materials\\article_materials_repo\\BioEMMA_article\\outputs\\bigg_prokaryote_bioemma\\kegg_kgml\\rn00030.kgml",
+  "drawable_kgml": "C:\\Users\\HONOR\\Desktop\\sirius_repo\\bioemma_article_materials\\article_materials_repo\\BioEMMA_article\\outputs\\bigg_prokaryote_bioemma\\kegg_kgml\\rn00030.drawable.kgml",
   "removed_reaction_entries": [
     {
       "entry_id": "91",
@@ -16,3 +16,5 @@
     "R06837"
   ]
 }
+
+
