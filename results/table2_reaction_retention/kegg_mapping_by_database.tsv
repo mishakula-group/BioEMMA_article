@@ -1,4 +1,4 @@
 pathway	kegg_reactions	bigg_mapped	seed_mapped	both_bigg_and_seed	either_bigg_or_seed	unmapped_to_bigg_or_seed	drawable_reactions	drawable_bigg_mapped	drawable_seed_mapped	drawable_either
-map00010	56	46	53	46	53	3	56	46	53	53
-map00020	29	28	28	28	28	1	29	28	28	28
-map00030	59	44	59	44	59	0	58	44	58	58
+map00010	56	30	47	30	47	9	56	30	47	47
+map00020	29	20	21	20	21	8	29	20	21	21
+map00030	59	26	55	26	55	4	58	26	54	54

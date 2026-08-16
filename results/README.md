@@ -29,13 +29,18 @@ The source scripts and reproducible inputs remain in `figures_scripts/`,
   artifacts for SAMMI, Fluxer, CAVE, MetExplore V2, NetworkX/Grohar baselines,
   and the Fluxer input model.
 - `fallback/` - BioEMMA 0.4.2 BiGG and ModelSEED/SEED EC-fallback validation,
-  resource coverage, and article-map no-change evidence.
-- `jaccard/` - prokaryotic model reproducibility and pairwise Jaccard metrics
-  for E. coli and broader BiGG prokaryotic model sets.
-- `prokaryote_maps/` - full BiGG prokaryote BioEMMA batch used as the source
+  resource coverage, and article-map no-change evidence. These files are
+  retained for provenance.
+- `jaccard/` - no-fallback reaction-set reproducibility and pairwise Jaccard
+  metrics for E. coli, broader BiGG prokaryotic model sets, and the selected
+  eukaryotic models.
+- `prokaryote_maps/` - no-fallback full BiGG prokaryote BioEMMA batch used as the source
   for the Jaccard analysis: 352 Escher HTML/JSON maps for 88 prokaryotic models
   across `map00010`, `map00020`, `map00030`, and `map00680`, with batch
   statistics and cached KEGG KGML files.
+- `eukaryote_maps/` - no-fallback BioEMMA maps for `iMM904`, `iMM1415`, and
+  `Recon3D` across the same four pathways, used for the eukaryotic Jaccard
+  comparison.
 - `compartments/` - compartment-specific eukaryotic maps and timing summaries
   for `iMM904`, `iMM1415`, and `Recon3D`.
 
@@ -49,5 +54,7 @@ The source scripts and reproducible inputs remain in `figures_scripts/`,
   `figure_03/map00020/source_models/`.
 - The three-reconstructor pipeline run parameters and retained intermediate
   outputs are stored in `../pipeline_three_reconstructors_outputs/`.
-- The fallback, Jaccard, prokaryote-map, and compartment-map materials support
-  the additional model-diversity evaluation added during revision.
+- The Jaccard, prokaryote-map, eukaryote-map, and compartment-map materials
+  support the additional model-diversity evaluation added during revision.
+- The fallback materials remain in the repository as validation/provenance
+  files.

@@ -9,8 +9,8 @@ external visualization tool comparison.
 - `tool_comparison.html` - HTML table generated from the same matrix data.
 - `tool_comparison_feature_definitions.md` - feature definitions used to score
   the matrix.
-- `supplementary_table_s2_tool_descriptions.md` and
-  `supplementary_table_s2_tool_descriptions.tsv` - source-based brief
+- `supplementary_table_s1_tool_descriptions.md` and
+  `supplementary_table_s1_tool_descriptions.tsv` - source-based brief
   descriptions of the compared tools and the primary sources used for those
   descriptions.
 

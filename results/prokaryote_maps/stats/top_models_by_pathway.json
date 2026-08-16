@@ -4,599 +4,602 @@
     "rank": 1,
     "bigg_id": "iCN900",
     "organism": "Clostridioides difficile 630",
-    "matched_reactions": 42,
+    "matched_reactions": 22,
     "kegg_reactions": 56,
-    "reaction_retention_percent": 75.0,
-    "map_html": "results\\prokaryote_maps\\maps\\map00010\\iCN900\\iCN900_map00010_map.html"
+    "reaction_retention_percent": 39.29,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00010\\iCN900\\iCN900_map00010_map.html"
   },
   {
     "pathway": "map00010",
     "rank": 2,
-    "bigg_id": "iAPECO1_1312",
-    "organism": "Escherichia coli APEC O1",
-    "matched_reactions": 41,
+    "bigg_id": "iSynCJ816",
+    "organism": "Synechocystis sp. PCC 6803",
+    "matched_reactions": 18,
     "kegg_reactions": 56,
-    "reaction_retention_percent": 73.21,
-    "map_html": "results\\prokaryote_maps\\maps\\map00010\\iAPECO1_1312\\iAPECO1_1312_map00010_map.html"
+    "reaction_retention_percent": 32.14,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00010\\iSynCJ816\\iSynCJ816_map00010_map.html"
   },
   {
     "pathway": "map00010",
     "rank": 3,
-    "bigg_id": "iB21_1397",
-    "organism": "Escherichia coli BL21(DE3)",
-    "matched_reactions": 41,
+    "bigg_id": "iCN718",
+    "organism": "Acinetobacter baumannii AYE",
+    "matched_reactions": 17,
     "kegg_reactions": 56,
-    "reaction_retention_percent": 73.21,
-    "map_html": "results\\prokaryote_maps\\maps\\map00010\\iB21_1397\\iB21_1397_map00010_map.html"
+    "reaction_retention_percent": 30.36,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00010\\iCN718\\iCN718_map00010_map.html"
   },
   {
     "pathway": "map00010",
     "rank": 4,
-    "bigg_id": "iBWG_1329",
-    "organism": "Escherichia coli BW2952",
-    "matched_reactions": 41,
+    "bigg_id": "iJN678",
+    "organism": "Synechocystis sp. PCC 6803",
+    "matched_reactions": 17,
     "kegg_reactions": 56,
-    "reaction_retention_percent": 73.21,
-    "map_html": "results\\prokaryote_maps\\maps\\map00010\\iBWG_1329\\iBWG_1329_map00010_map.html"
+    "reaction_retention_percent": 30.36,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00010\\iJN678\\iJN678_map00010_map.html"
   },
   {
     "pathway": "map00010",
     "rank": 5,
-    "bigg_id": "ic_1306",
-    "organism": "Escherichia coli CFT073",
-    "matched_reactions": 41,
+    "bigg_id": "iAF987",
+    "organism": "Geobacter metallireducens GS-15",
+    "matched_reactions": 16,
     "kegg_reactions": 56,
-    "reaction_retention_percent": 73.21,
-    "map_html": "results\\prokaryote_maps\\maps\\map00010\\ic_1306\\ic_1306_map00010_map.html"
+    "reaction_retention_percent": 28.57,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00010\\iAF987\\iAF987_map00010_map.html"
   },
   {
     "pathway": "map00010",
     "rank": 6,
-    "bigg_id": "iE2348C_1286",
-    "organism": "Escherichia coli O127:H6 str. E2348/69",
-    "matched_reactions": 41,
+    "bigg_id": "iYO844",
+    "organism": "Bacillus subtilis subsp. subtilis str. 168",
+    "matched_reactions": 16,
     "kegg_reactions": 56,
-    "reaction_retention_percent": 73.21,
-    "map_html": "results\\prokaryote_maps\\maps\\map00010\\iE2348C_1286\\iE2348C_1286_map00010_map.html"
+    "reaction_retention_percent": 28.57,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00010\\iYO844\\iYO844_map00010_map.html"
   },
   {
     "pathway": "map00010",
     "rank": 7,
-    "bigg_id": "iEC042_1314",
-    "organism": "Escherichia coli 042",
-    "matched_reactions": 41,
+    "bigg_id": "iYS854",
+    "organism": "Staphylococcus aureus subsp. aureus USA300_TCH1516",
+    "matched_reactions": 16,
     "kegg_reactions": 56,
-    "reaction_retention_percent": 73.21,
-    "map_html": "results\\prokaryote_maps\\maps\\map00010\\iEC042_1314\\iEC042_1314_map00010_map.html"
+    "reaction_retention_percent": 28.57,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00010\\iYS854\\iYS854_map00010_map.html"
   },
   {
     "pathway": "map00010",
     "rank": 8,
-    "bigg_id": "iEC1344_C",
-    "organism": "Escherichia coli C",
-    "matched_reactions": 41,
+    "bigg_id": "iAF1260",
+    "organism": "Escherichia coli str. K-12 substr. MG1655",
+    "matched_reactions": 15,
     "kegg_reactions": 56,
-    "reaction_retention_percent": 73.21,
-    "map_html": "results\\prokaryote_maps\\maps\\map00010\\iEC1344_C\\iEC1344_C_map00010_map.html"
+    "reaction_retention_percent": 26.79,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00010\\iAF1260\\iAF1260_map00010_map.html"
   },
   {
     "pathway": "map00010",
     "rank": 9,
-    "bigg_id": "iEC1356_Bl21DE3",
-    "organism": "Escherichia coli BL21(DE3)",
-    "matched_reactions": 41,
+    "bigg_id": "iAF1260b",
+    "organism": "Escherichia coli str. K-12 substr. MG1655",
+    "matched_reactions": 15,
     "kegg_reactions": 56,
-    "reaction_retention_percent": 73.21,
-    "map_html": "results\\prokaryote_maps\\maps\\map00010\\iEC1356_Bl21DE3\\iEC1356_Bl21DE3_map00010_map.html"
+    "reaction_retention_percent": 26.79,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00010\\iAF1260b\\iAF1260b_map00010_map.html"
   },
   {
     "pathway": "map00010",
     "rank": 10,
-    "bigg_id": "iEC1364_W",
-    "organism": "Escherichia coli W",
-    "matched_reactions": 41,
+    "bigg_id": "iAF692",
+    "organism": "Methanosarcina barkeri str. Fusaro",
+    "matched_reactions": 15,
     "kegg_reactions": 56,
-    "reaction_retention_percent": 73.21,
-    "map_html": "results\\prokaryote_maps\\maps\\map00010\\iEC1364_W\\iEC1364_W_map00010_map.html"
+    "reaction_retention_percent": 26.79,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00010\\iAF692\\iAF692_map00010_map.html"
   },
   {
     "pathway": "map00010",
     "rank": 11,
-    "bigg_id": "iEC1368_DH5a",
-    "organism": "Escherichia coli DH5[alpha]",
-    "matched_reactions": 41,
+    "bigg_id": "iB21_1397",
+    "organism": "Escherichia coli BL21(DE3)",
+    "matched_reactions": 15,
     "kegg_reactions": 56,
-    "reaction_retention_percent": 73.21,
-    "map_html": "results\\prokaryote_maps\\maps\\map00010\\iEC1368_DH5a\\iEC1368_DH5a_map00010_map.html"
+    "reaction_retention_percent": 26.79,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00010\\iB21_1397\\iB21_1397_map00010_map.html"
   },
   {
     "pathway": "map00010",
     "rank": 12,
-    "bigg_id": "iEC55989_1330",
-    "organism": "Escherichia coli 55989",
-    "matched_reactions": 41,
+    "bigg_id": "iBWG_1329",
+    "organism": "Escherichia coli BW2952",
+    "matched_reactions": 15,
     "kegg_reactions": 56,
-    "reaction_retention_percent": 73.21,
-    "map_html": "results\\prokaryote_maps\\maps\\map00010\\iEC55989_1330\\iEC55989_1330_map00010_map.html"
+    "reaction_retention_percent": 26.79,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00010\\iBWG_1329\\iBWG_1329_map00010_map.html"
   },
   {
     "pathway": "map00010",
     "rank": 13,
-    "bigg_id": "iECABU_c1320",
-    "organism": "Escherichia coli ABU 83972",
-    "matched_reactions": 41,
+    "bigg_id": "iEC042_1314",
+    "organism": "Escherichia coli 042",
+    "matched_reactions": 15,
     "kegg_reactions": 56,
-    "reaction_retention_percent": 73.21,
-    "map_html": "results\\prokaryote_maps\\maps\\map00010\\iECABU_c1320\\iECABU_c1320_map00010_map.html"
+    "reaction_retention_percent": 26.79,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00010\\iEC042_1314\\iEC042_1314_map00010_map.html"
   },
   {
     "pathway": "map00010",
     "rank": 14,
-    "bigg_id": "iECB_1328",
-    "organism": "Escherichia coli B str. REL606",
-    "matched_reactions": 41,
+    "bigg_id": "iEC1344_C",
+    "organism": "Escherichia coli C",
+    "matched_reactions": 15,
     "kegg_reactions": 56,
-    "reaction_retention_percent": 73.21,
-    "map_html": "results\\prokaryote_maps\\maps\\map00010\\iECB_1328\\iECB_1328_map00010_map.html"
+    "reaction_retention_percent": 26.79,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00010\\iEC1344_C\\iEC1344_C_map00010_map.html"
   },
   {
     "pathway": "map00010",
     "rank": 15,
-    "bigg_id": "iECBD_1354",
-    "organism": "Escherichia coli 'BL21-Gold(DE3)pLysS AG'",
-    "matched_reactions": 41,
+    "bigg_id": "iEC1349_Crooks",
+    "organism": "Escherichia coli ATCC 8739",
+    "matched_reactions": 15,
     "kegg_reactions": 56,
-    "reaction_retention_percent": 73.21,
-    "map_html": "results\\prokaryote_maps\\maps\\map00010\\iECBD_1354\\iECBD_1354_map00010_map.html"
+    "reaction_retention_percent": 26.79,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00010\\iEC1349_Crooks\\iEC1349_Crooks_map00010_map.html"
   },
   {
     "pathway": "map00020",
     "rank": 1,
-    "bigg_id": "iAPECO1_1312",
-    "organism": "Escherichia coli APEC O1",
-    "matched_reactions": 23,
+    "bigg_id": "iAF987",
+    "organism": "Geobacter metallireducens GS-15",
+    "matched_reactions": 11,
     "kegg_reactions": 29,
-    "reaction_retention_percent": 79.31,
-    "map_html": "results\\prokaryote_maps\\maps\\map00020\\iAPECO1_1312\\iAPECO1_1312_map00020_map.html"
+    "reaction_retention_percent": 37.93,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00020\\iAF987\\iAF987_map00020_map.html"
   },
   {
     "pathway": "map00020",
     "rank": 2,
-    "bigg_id": "iB21_1397",
-    "organism": "Escherichia coli BL21(DE3)",
-    "matched_reactions": 23,
+    "bigg_id": "iCN900",
+    "organism": "Clostridioides difficile 630",
+    "matched_reactions": 11,
     "kegg_reactions": 29,
-    "reaction_retention_percent": 79.31,
-    "map_html": "results\\prokaryote_maps\\maps\\map00020\\iB21_1397\\iB21_1397_map00020_map.html"
+    "reaction_retention_percent": 37.93,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00020\\iCN900\\iCN900_map00020_map.html"
   },
   {
     "pathway": "map00020",
     "rank": 3,
-    "bigg_id": "iBWG_1329",
-    "organism": "Escherichia coli BW2952",
-    "matched_reactions": 23,
+    "bigg_id": "iYS854",
+    "organism": "Staphylococcus aureus subsp. aureus USA300_TCH1516",
+    "matched_reactions": 9,
     "kegg_reactions": 29,
-    "reaction_retention_percent": 79.31,
-    "map_html": "results\\prokaryote_maps\\maps\\map00020\\iBWG_1329\\iBWG_1329_map00020_map.html"
+    "reaction_retention_percent": 31.03,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00020\\iYS854\\iYS854_map00020_map.html"
   },
   {
     "pathway": "map00020",
     "rank": 4,
-    "bigg_id": "ic_1306",
-    "organism": "Escherichia coli CFT073",
-    "matched_reactions": 23,
+    "bigg_id": "iHN637",
+    "organism": "Clostridium ljungdahlii DSM 13528",
+    "matched_reactions": 8,
     "kegg_reactions": 29,
-    "reaction_retention_percent": 79.31,
-    "map_html": "results\\prokaryote_maps\\maps\\map00020\\ic_1306\\ic_1306_map00020_map.html"
+    "reaction_retention_percent": 27.59,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00020\\iHN637\\iHN637_map00020_map.html"
   },
   {
     "pathway": "map00020",
     "rank": 5,
-    "bigg_id": "iCN900",
-    "organism": "Clostridioides difficile 630",
-    "matched_reactions": 23,
+    "bigg_id": "iJN1463",
+    "organism": "Pseudomonas putida KT2440",
+    "matched_reactions": 8,
     "kegg_reactions": 29,
-    "reaction_retention_percent": 79.31,
-    "map_html": "results\\prokaryote_maps\\maps\\map00020\\iCN900\\iCN900_map00020_map.html"
+    "reaction_retention_percent": 27.59,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00020\\iJN1463\\iJN1463_map00020_map.html"
   },
   {
     "pathway": "map00020",
     "rank": 6,
-    "bigg_id": "iE2348C_1286",
-    "organism": "Escherichia coli O127:H6 str. E2348/69",
-    "matched_reactions": 23,
+    "bigg_id": "e_coli_core",
+    "organism": "Escherichia coli str. K-12 substr. MG1655",
+    "matched_reactions": 7,
     "kegg_reactions": 29,
-    "reaction_retention_percent": 79.31,
-    "map_html": "results\\prokaryote_maps\\maps\\map00020\\iE2348C_1286\\iE2348C_1286_map00020_map.html"
+    "reaction_retention_percent": 24.14,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00020\\e_coli_core\\e_coli_core_map00020_map.html"
   },
   {
     "pathway": "map00020",
     "rank": 7,
-    "bigg_id": "iEC042_1314",
-    "organism": "Escherichia coli 042",
-    "matched_reactions": 23,
+    "bigg_id": "iAF1260",
+    "organism": "Escherichia coli str. K-12 substr. MG1655",
+    "matched_reactions": 7,
     "kegg_reactions": 29,
-    "reaction_retention_percent": 79.31,
-    "map_html": "results\\prokaryote_maps\\maps\\map00020\\iEC042_1314\\iEC042_1314_map00020_map.html"
+    "reaction_retention_percent": 24.14,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00020\\iAF1260\\iAF1260_map00020_map.html"
   },
   {
     "pathway": "map00020",
     "rank": 8,
-    "bigg_id": "iEC55989_1330",
-    "organism": "Escherichia coli 55989",
-    "matched_reactions": 23,
+    "bigg_id": "iAF1260b",
+    "organism": "Escherichia coli str. K-12 substr. MG1655",
+    "matched_reactions": 7,
     "kegg_reactions": 29,
-    "reaction_retention_percent": 79.31,
-    "map_html": "results\\prokaryote_maps\\maps\\map00020\\iEC55989_1330\\iEC55989_1330_map00020_map.html"
+    "reaction_retention_percent": 24.14,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00020\\iAF1260b\\iAF1260b_map00020_map.html"
   },
   {
     "pathway": "map00020",
     "rank": 9,
-    "bigg_id": "iECABU_c1320",
-    "organism": "Escherichia coli ABU 83972",
-    "matched_reactions": 23,
+    "bigg_id": "iAPECO1_1312",
+    "organism": "Escherichia coli APEC O1",
+    "matched_reactions": 7,
     "kegg_reactions": 29,
-    "reaction_retention_percent": 79.31,
-    "map_html": "results\\prokaryote_maps\\maps\\map00020\\iECABU_c1320\\iECABU_c1320_map00020_map.html"
+    "reaction_retention_percent": 24.14,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00020\\iAPECO1_1312\\iAPECO1_1312_map00020_map.html"
   },
   {
     "pathway": "map00020",
     "rank": 10,
-    "bigg_id": "iECB_1328",
-    "organism": "Escherichia coli B str. REL606",
-    "matched_reactions": 23,
+    "bigg_id": "iB21_1397",
+    "organism": "Escherichia coli BL21(DE3)",
+    "matched_reactions": 7,
     "kegg_reactions": 29,
-    "reaction_retention_percent": 79.31,
-    "map_html": "results\\prokaryote_maps\\maps\\map00020\\iECB_1328\\iECB_1328_map00020_map.html"
+    "reaction_retention_percent": 24.14,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00020\\iB21_1397\\iB21_1397_map00020_map.html"
   },
   {
     "pathway": "map00020",
     "rank": 11,
-    "bigg_id": "iECBD_1354",
-    "organism": "Escherichia coli 'BL21-Gold(DE3)pLysS AG'",
-    "matched_reactions": 23,
+    "bigg_id": "iBWG_1329",
+    "organism": "Escherichia coli BW2952",
+    "matched_reactions": 7,
     "kegg_reactions": 29,
-    "reaction_retention_percent": 79.31,
-    "map_html": "results\\prokaryote_maps\\maps\\map00020\\iECBD_1354\\iECBD_1354_map00020_map.html"
+    "reaction_retention_percent": 24.14,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00020\\iBWG_1329\\iBWG_1329_map00020_map.html"
   },
   {
     "pathway": "map00020",
     "rank": 12,
-    "bigg_id": "iECD_1391",
-    "organism": "Escherichia coli BL21(DE3)",
-    "matched_reactions": 23,
+    "bigg_id": "ic_1306",
+    "organism": "Escherichia coli CFT073",
+    "matched_reactions": 7,
     "kegg_reactions": 29,
-    "reaction_retention_percent": 79.31,
-    "map_html": "results\\prokaryote_maps\\maps\\map00020\\iECD_1391\\iECD_1391_map00020_map.html"
+    "reaction_retention_percent": 24.14,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00020\\ic_1306\\ic_1306_map00020_map.html"
   },
   {
     "pathway": "map00020",
     "rank": 13,
-    "bigg_id": "iECDH10B_1368",
-    "organism": "Escherichia coli str. K-12 substr. DH10B",
-    "matched_reactions": 23,
+    "bigg_id": "iCN718",
+    "organism": "Acinetobacter baumannii AYE",
+    "matched_reactions": 7,
     "kegg_reactions": 29,
-    "reaction_retention_percent": 79.31,
-    "map_html": "results\\prokaryote_maps\\maps\\map00020\\iECDH10B_1368\\iECDH10B_1368_map00020_map.html"
+    "reaction_retention_percent": 24.14,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00020\\iCN718\\iCN718_map00020_map.html"
   },
   {
     "pathway": "map00020",
     "rank": 14,
-    "bigg_id": "iEcDH1_1363",
-    "organism": "Escherichia coli DH1",
-    "matched_reactions": 23,
+    "bigg_id": "iE2348C_1286",
+    "organism": "Escherichia coli O127:H6 str. E2348/69",
+    "matched_reactions": 7,
     "kegg_reactions": 29,
-    "reaction_retention_percent": 79.31,
-    "map_html": "results\\prokaryote_maps\\maps\\map00020\\iEcDH1_1363\\iEcDH1_1363_map00020_map.html"
+    "reaction_retention_percent": 24.14,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00020\\iE2348C_1286\\iE2348C_1286_map00020_map.html"
   },
   {
     "pathway": "map00020",
     "rank": 15,
-    "bigg_id": "iECDH1ME8569_1439",
-    "organism": "Escherichia coli DH1",
-    "matched_reactions": 23,
+    "bigg_id": "iEC042_1314",
+    "organism": "Escherichia coli 042",
+    "matched_reactions": 7,
     "kegg_reactions": 29,
-    "reaction_retention_percent": 79.31,
-    "map_html": "results\\prokaryote_maps\\maps\\map00020\\iECDH1ME8569_1439\\iECDH1ME8569_1439_map00020_map.html"
+    "reaction_retention_percent": 24.14,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00020\\iEC042_1314\\iEC042_1314_map00020_map.html"
   },
   {
     "pathway": "map00030",
     "rank": 1,
     "bigg_id": "iAF1260",
     "organism": "Escherichia coli str. K-12 substr. MG1655",
-    "matched_reactions": 34,
+    "matched_reactions": 22,
     "kegg_reactions": 58,
-    "reaction_retention_percent": 58.62,
-    "map_html": "results\\prokaryote_maps\\maps\\map00030\\iAF1260\\iAF1260_map00030_map.html"
+    "reaction_retention_percent": 37.93,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00030\\iAF1260\\iAF1260_map00030_map.html"
   },
   {
     "pathway": "map00030",
     "rank": 2,
     "bigg_id": "iAF1260b",
     "organism": "Escherichia coli str. K-12 substr. MG1655",
-    "matched_reactions": 34,
+    "matched_reactions": 22,
     "kegg_reactions": 58,
-    "reaction_retention_percent": 58.62,
-    "map_html": "results\\prokaryote_maps\\maps\\map00030\\iAF1260b\\iAF1260b_map00030_map.html"
+    "reaction_retention_percent": 37.93,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00030\\iAF1260b\\iAF1260b_map00030_map.html"
   },
   {
     "pathway": "map00030",
     "rank": 3,
-    "bigg_id": "iAPECO1_1312",
-    "organism": "Escherichia coli APEC O1",
-    "matched_reactions": 34,
+    "bigg_id": "ic_1306",
+    "organism": "Escherichia coli CFT073",
+    "matched_reactions": 22,
     "kegg_reactions": 58,
-    "reaction_retention_percent": 58.62,
-    "map_html": "results\\prokaryote_maps\\maps\\map00030\\iAPECO1_1312\\iAPECO1_1312_map00030_map.html"
+    "reaction_retention_percent": 37.93,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00030\\ic_1306\\ic_1306_map00030_map.html"
   },
   {
     "pathway": "map00030",
     "rank": 4,
-    "bigg_id": "iBWG_1329",
-    "organism": "Escherichia coli BW2952",
-    "matched_reactions": 34,
+    "bigg_id": "iEC042_1314",
+    "organism": "Escherichia coli 042",
+    "matched_reactions": 22,
     "kegg_reactions": 58,
-    "reaction_retention_percent": 58.62,
-    "map_html": "results\\prokaryote_maps\\maps\\map00030\\iBWG_1329\\iBWG_1329_map00030_map.html"
+    "reaction_retention_percent": 37.93,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00030\\iEC042_1314\\iEC042_1314_map00030_map.html"
   },
   {
     "pathway": "map00030",
     "rank": 5,
-    "bigg_id": "ic_1306",
-    "organism": "Escherichia coli CFT073",
-    "matched_reactions": 34,
+    "bigg_id": "iEC1344_C",
+    "organism": "Escherichia coli C",
+    "matched_reactions": 22,
     "kegg_reactions": 58,
-    "reaction_retention_percent": 58.62,
-    "map_html": "results\\prokaryote_maps\\maps\\map00030\\ic_1306\\ic_1306_map00030_map.html"
+    "reaction_retention_percent": 37.93,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00030\\iEC1344_C\\iEC1344_C_map00030_map.html"
   },
   {
     "pathway": "map00030",
     "rank": 6,
-    "bigg_id": "iEC042_1314",
-    "organism": "Escherichia coli 042",
-    "matched_reactions": 34,
+    "bigg_id": "iEC1349_Crooks",
+    "organism": "Escherichia coli ATCC 8739",
+    "matched_reactions": 22,
     "kegg_reactions": 58,
-    "reaction_retention_percent": 58.62,
-    "map_html": "results\\prokaryote_maps\\maps\\map00030\\iEC042_1314\\iEC042_1314_map00030_map.html"
+    "reaction_retention_percent": 37.93,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00030\\iEC1349_Crooks\\iEC1349_Crooks_map00030_map.html"
   },
   {
     "pathway": "map00030",
     "rank": 7,
-    "bigg_id": "iEC1344_C",
-    "organism": "Escherichia coli C",
-    "matched_reactions": 34,
+    "bigg_id": "iEC1364_W",
+    "organism": "Escherichia coli W",
+    "matched_reactions": 22,
     "kegg_reactions": 58,
-    "reaction_retention_percent": 58.62,
-    "map_html": "results\\prokaryote_maps\\maps\\map00030\\iEC1344_C\\iEC1344_C_map00030_map.html"
+    "reaction_retention_percent": 37.93,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00030\\iEC1364_W\\iEC1364_W_map00030_map.html"
   },
   {
     "pathway": "map00030",
     "rank": 8,
-    "bigg_id": "iEC1349_Crooks",
-    "organism": "Escherichia coli ATCC 8739",
-    "matched_reactions": 34,
+    "bigg_id": "iEC1368_DH5a",
+    "organism": "Escherichia coli DH5[alpha]",
+    "matched_reactions": 22,
     "kegg_reactions": 58,
-    "reaction_retention_percent": 58.62,
-    "map_html": "results\\prokaryote_maps\\maps\\map00030\\iEC1349_Crooks\\iEC1349_Crooks_map00030_map.html"
+    "reaction_retention_percent": 37.93,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00030\\iEC1368_DH5a\\iEC1368_DH5a_map00030_map.html"
   },
   {
     "pathway": "map00030",
     "rank": 9,
-    "bigg_id": "iEC1364_W",
-    "organism": "Escherichia coli W",
-    "matched_reactions": 34,
+    "bigg_id": "iEC1372_W3110",
+    "organism": "Escherichia coli str. K-12 substr. W3110",
+    "matched_reactions": 22,
     "kegg_reactions": 58,
-    "reaction_retention_percent": 58.62,
-    "map_html": "results\\prokaryote_maps\\maps\\map00030\\iEC1364_W\\iEC1364_W_map00030_map.html"
+    "reaction_retention_percent": 37.93,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00030\\iEC1372_W3110\\iEC1372_W3110_map00030_map.html"
   },
   {
     "pathway": "map00030",
     "rank": 10,
-    "bigg_id": "iEC1368_DH5a",
-    "organism": "Escherichia coli DH5[alpha]",
-    "matched_reactions": 34,
+    "bigg_id": "iEC55989_1330",
+    "organism": "Escherichia coli 55989",
+    "matched_reactions": 22,
     "kegg_reactions": 58,
-    "reaction_retention_percent": 58.62,
-    "map_html": "results\\prokaryote_maps\\maps\\map00030\\iEC1368_DH5a\\iEC1368_DH5a_map00030_map.html"
+    "reaction_retention_percent": 37.93,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00030\\iEC55989_1330\\iEC55989_1330_map00030_map.html"
   },
   {
     "pathway": "map00030",
     "rank": 11,
-    "bigg_id": "iEC1372_W3110",
-    "organism": "Escherichia coli str. K-12 substr. W3110",
-    "matched_reactions": 34,
+    "bigg_id": "iECABU_c1320",
+    "organism": "Escherichia coli ABU 83972",
+    "matched_reactions": 22,
     "kegg_reactions": 58,
-    "reaction_retention_percent": 58.62,
-    "map_html": "results\\prokaryote_maps\\maps\\map00030\\iEC1372_W3110\\iEC1372_W3110_map00030_map.html"
+    "reaction_retention_percent": 37.93,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00030\\iECABU_c1320\\iECABU_c1320_map00030_map.html"
   },
   {
     "pathway": "map00030",
     "rank": 12,
-    "bigg_id": "iEC55989_1330",
-    "organism": "Escherichia coli 55989",
-    "matched_reactions": 34,
+    "bigg_id": "iECED1_1282",
+    "organism": "Escherichia coli ED1a",
+    "matched_reactions": 22,
     "kegg_reactions": 58,
-    "reaction_retention_percent": 58.62,
-    "map_html": "results\\prokaryote_maps\\maps\\map00030\\iEC55989_1330\\iEC55989_1330_map00030_map.html"
+    "reaction_retention_percent": 37.93,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00030\\iECED1_1282\\iECED1_1282_map00030_map.html"
   },
   {
     "pathway": "map00030",
     "rank": 13,
-    "bigg_id": "iECABU_c1320",
-    "organism": "Escherichia coli ABU 83972",
-    "matched_reactions": 34,
+    "bigg_id": "iECNA114_1301",
+    "organism": "Escherichia coli NA114",
+    "matched_reactions": 22,
     "kegg_reactions": 58,
-    "reaction_retention_percent": 58.62,
-    "map_html": "results\\prokaryote_maps\\maps\\map00030\\iECABU_c1320\\iECABU_c1320_map00030_map.html"
+    "reaction_retention_percent": 37.93,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00030\\iECNA114_1301\\iECNA114_1301_map00030_map.html"
   },
   {
     "pathway": "map00030",
     "rank": 14,
-    "bigg_id": "iECB_1328",
-    "organism": "Escherichia coli B str. REL606",
-    "matched_reactions": 34,
+    "bigg_id": "iECP_1309",
+    "organism": "Escherichia coli 536",
+    "matched_reactions": 22,
     "kegg_reactions": 58,
-    "reaction_retention_percent": 58.62,
-    "map_html": "results\\prokaryote_maps\\maps\\map00030\\iECB_1328\\iECB_1328_map00030_map.html"
+    "reaction_retention_percent": 37.93,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00030\\iECP_1309\\iECP_1309_map00030_map.html"
   },
   {
     "pathway": "map00030",
     "rank": 15,
-    "bigg_id": "iECDH10B_1368",
-    "organism": "Escherichia coli str. K-12 substr. DH10B",
-    "matched_reactions": 34,
+    "bigg_id": "iECSF_1327",
+    "organism": "Escherichia coli SE15",
+    "matched_reactions": 22,
     "kegg_reactions": 58,
-    "reaction_retention_percent": 58.62,
-    "map_html": "results\\prokaryote_maps\\maps\\map00030\\iECDH10B_1368\\iECDH10B_1368_map00030_map.html"
+    "reaction_retention_percent": 37.93,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00030\\iECSF_1327\\iECSF_1327_map00030_map.html"
   },
   {
     "pathway": "map00680",
     "rank": 1,
     "bigg_id": "iAF692",
     "organism": "Methanosarcina barkeri str. Fusaro",
-    "matched_reactions": 43,
+    "matched_reactions": 31,
     "kegg_reactions": 104,
-    "reaction_retention_percent": 41.35,
-    "map_html": "results\\prokaryote_maps\\maps\\map00680\\iAF692\\iAF692_map00680_map.html"
+    "reaction_retention_percent": 29.81,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00680\\iAF692\\iAF692_map00680_map.html"
   },
   {
     "pathway": "map00680",
     "rank": 2,
-    "bigg_id": "iEK1008",
-    "organism": "Mycobacterium tuberculosis H37Rv",
-    "matched_reactions": 36,
+    "bigg_id": "iEC1349_Crooks",
+    "organism": "Escherichia coli ATCC 8739",
+    "matched_reactions": 22,
     "kegg_reactions": 104,
-    "reaction_retention_percent": 34.62,
-    "map_html": "results\\prokaryote_maps\\maps\\map00680\\iEK1008\\iEK1008_map00680_map.html"
+    "reaction_retention_percent": 21.15,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00680\\iEC1349_Crooks\\iEC1349_Crooks_map00680_map.html"
   },
   {
     "pathway": "map00680",
     "rank": 3,
-    "bigg_id": "iYL1228",
-    "organism": "Klebsiella pneumoniae subsp. pneumoniae MGH 78578",
-    "matched_reactions": 34,
+    "bigg_id": "iEK1008",
+    "organism": "Mycobacterium tuberculosis H37Rv",
+    "matched_reactions": 22,
     "kegg_reactions": 104,
-    "reaction_retention_percent": 32.69,
-    "map_html": "results\\prokaryote_maps\\maps\\map00680\\iYL1228\\iYL1228_map00680_map.html"
+    "reaction_retention_percent": 21.15,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00680\\iEK1008\\iEK1008_map00680_map.html"
   },
   {
     "pathway": "map00680",
     "rank": 4,
-    "bigg_id": "iCN900",
-    "organism": "Clostridioides difficile 630",
-    "matched_reactions": 33,
+    "bigg_id": "iAF1260",
+    "organism": "Escherichia coli str. K-12 substr. MG1655",
+    "matched_reactions": 21,
     "kegg_reactions": 104,
-    "reaction_retention_percent": 31.73,
-    "map_html": "results\\prokaryote_maps\\maps\\map00680\\iCN900\\iCN900_map00680_map.html"
+    "reaction_retention_percent": 20.19,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00680\\iAF1260\\iAF1260_map00680_map.html"
   },
   {
     "pathway": "map00680",
     "rank": 5,
-    "bigg_id": "iAPECO1_1312",
-    "organism": "Escherichia coli APEC O1",
-    "matched_reactions": 32,
+    "bigg_id": "iAF1260b",
+    "organism": "Escherichia coli str. K-12 substr. MG1655",
+    "matched_reactions": 21,
     "kegg_reactions": 104,
-    "reaction_retention_percent": 30.77,
-    "map_html": "results\\prokaryote_maps\\maps\\map00680\\iAPECO1_1312\\iAPECO1_1312_map00680_map.html"
+    "reaction_retention_percent": 20.19,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00680\\iAF1260b\\iAF1260b_map00680_map.html"
   },
   {
     "pathway": "map00680",
     "rank": 6,
-    "bigg_id": "iB21_1397",
-    "organism": "Escherichia coli BL21(DE3)",
-    "matched_reactions": 32,
+    "bigg_id": "iAPECO1_1312",
+    "organism": "Escherichia coli APEC O1",
+    "matched_reactions": 21,
     "kegg_reactions": 104,
-    "reaction_retention_percent": 30.77,
-    "map_html": "results\\prokaryote_maps\\maps\\map00680\\iB21_1397\\iB21_1397_map00680_map.html"
+    "reaction_retention_percent": 20.19,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00680\\iAPECO1_1312\\iAPECO1_1312_map00680_map.html"
   },
   {
     "pathway": "map00680",
     "rank": 7,
-    "bigg_id": "iBWG_1329",
-    "organism": "Escherichia coli BW2952",
-    "matched_reactions": 32,
+    "bigg_id": "iB21_1397",
+    "organism": "Escherichia coli BL21(DE3)",
+    "matched_reactions": 21,
     "kegg_reactions": 104,
-    "reaction_retention_percent": 30.77,
-    "map_html": "results\\prokaryote_maps\\maps\\map00680\\iBWG_1329\\iBWG_1329_map00680_map.html"
+    "reaction_retention_percent": 20.19,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00680\\iB21_1397\\iB21_1397_map00680_map.html"
   },
   {
     "pathway": "map00680",
     "rank": 8,
-    "bigg_id": "ic_1306",
-    "organism": "Escherichia coli CFT073",
-    "matched_reactions": 32,
+    "bigg_id": "iBWG_1329",
+    "organism": "Escherichia coli BW2952",
+    "matched_reactions": 21,
     "kegg_reactions": 104,
-    "reaction_retention_percent": 30.77,
-    "map_html": "results\\prokaryote_maps\\maps\\map00680\\ic_1306\\ic_1306_map00680_map.html"
+    "reaction_retention_percent": 20.19,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00680\\iBWG_1329\\iBWG_1329_map00680_map.html"
   },
   {
     "pathway": "map00680",
     "rank": 9,
-    "bigg_id": "iE2348C_1286",
-    "organism": "Escherichia coli O127:H6 str. E2348/69",
-    "matched_reactions": 32,
+    "bigg_id": "ic_1306",
+    "organism": "Escherichia coli CFT073",
+    "matched_reactions": 21,
     "kegg_reactions": 104,
-    "reaction_retention_percent": 30.77,
-    "map_html": "results\\prokaryote_maps\\maps\\map00680\\iE2348C_1286\\iE2348C_1286_map00680_map.html"
+    "reaction_retention_percent": 20.19,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00680\\ic_1306\\ic_1306_map00680_map.html"
   },
   {
     "pathway": "map00680",
     "rank": 10,
-    "bigg_id": "iEC042_1314",
-    "organism": "Escherichia coli 042",
-    "matched_reactions": 32,
+    "bigg_id": "iCN900",
+    "organism": "Clostridioides difficile 630",
+    "matched_reactions": 21,
     "kegg_reactions": 104,
-    "reaction_retention_percent": 30.77,
-    "map_html": "results\\prokaryote_maps\\maps\\map00680\\iEC042_1314\\iEC042_1314_map00680_map.html"
+    "reaction_retention_percent": 20.19,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00680\\iCN900\\iCN900_map00680_map.html"
   },
   {
     "pathway": "map00680",
     "rank": 11,
-    "bigg_id": "iEC1349_Crooks",
-    "organism": "Escherichia coli ATCC 8739",
-    "matched_reactions": 32,
+    "bigg_id": "iE2348C_1286",
+    "organism": "Escherichia coli O127:H6 str. E2348/69",
+    "matched_reactions": 21,
     "kegg_reactions": 104,
-    "reaction_retention_percent": 30.77,
-    "map_html": "results\\prokaryote_maps\\maps\\map00680\\iEC1349_Crooks\\iEC1349_Crooks_map00680_map.html"
+    "reaction_retention_percent": 20.19,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00680\\iE2348C_1286\\iE2348C_1286_map00680_map.html"
   },
   {
     "pathway": "map00680",
     "rank": 12,
-    "bigg_id": "iEC55989_1330",
-    "organism": "Escherichia coli 55989",
-    "matched_reactions": 32,
+    "bigg_id": "iEC042_1314",
+    "organism": "Escherichia coli 042",
+    "matched_reactions": 21,
     "kegg_reactions": 104,
-    "reaction_retention_percent": 30.77,
-    "map_html": "results\\prokaryote_maps\\maps\\map00680\\iEC55989_1330\\iEC55989_1330_map00680_map.html"
+    "reaction_retention_percent": 20.19,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00680\\iEC042_1314\\iEC042_1314_map00680_map.html"
   },
   {
     "pathway": "map00680",
     "rank": 13,
-    "bigg_id": "iECABU_c1320",
-    "organism": "Escherichia coli ABU 83972",
-    "matched_reactions": 32,
+    "bigg_id": "iEC1344_C",
+    "organism": "Escherichia coli C",
+    "matched_reactions": 21,
     "kegg_reactions": 104,
-    "reaction_retention_percent": 30.77,
-    "map_html": "results\\prokaryote_maps\\maps\\map00680\\iECABU_c1320\\iECABU_c1320_map00680_map.html"
+    "reaction_retention_percent": 20.19,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00680\\iEC1344_C\\iEC1344_C_map00680_map.html"
   },
   {
     "pathway": "map00680",
     "rank": 14,
-    "bigg_id": "iECB_1328",
-    "organism": "Escherichia coli B str. REL606",
-    "matched_reactions": 32,
+    "bigg_id": "iEC1356_Bl21DE3",
+    "organism": "Escherichia coli BL21(DE3)",
+    "matched_reactions": 21,
     "kegg_reactions": 104,
-    "reaction_retention_percent": 30.77,
-    "map_html": "results\\prokaryote_maps\\maps\\map00680\\iECB_1328\\iECB_1328_map00680_map.html"
+    "reaction_retention_percent": 20.19,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00680\\iEC1356_Bl21DE3\\iEC1356_Bl21DE3_map00680_map.html"
   },
   {
     "pathway": "map00680",
     "rank": 15,
-    "bigg_id": "iECBD_1354",
-    "organism": "Escherichia coli 'BL21-Gold(DE3)pLysS AG'",
-    "matched_reactions": 32,
+    "bigg_id": "iEC1364_W",
+    "organism": "Escherichia coli W",
+    "matched_reactions": 21,
     "kegg_reactions": 104,
-    "reaction_retention_percent": 30.77,
-    "map_html": "results\\prokaryote_maps\\maps\\map00680\\iECBD_1354\\iECBD_1354_map00680_map.html"
+    "reaction_retention_percent": 20.19,
+    "map_html": "outputs\\bigg_prokaryote_bioemma\\maps\\map00680\\iEC1364_W\\iEC1364_W_map00680_map.html"
   }
 ]
+
+
+

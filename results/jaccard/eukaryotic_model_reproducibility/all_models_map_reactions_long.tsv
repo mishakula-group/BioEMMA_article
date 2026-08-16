@@ -1,0 +1,168 @@
+pathway	pathway_rn	pathway_label	model_id	organism	reaction_node_id	kegg_reaction_id	model_reaction_id	metabolite_count	metabolite_bigg_ids	map_json
+map00010	rn00010	Glycolysis / gluconeogenesis	Recon3D	Homo sapiens	11	R00200	PYK	5	adp|atp|h|pep|pyr	results\eukaryote_maps\maps\map00010\Recon3D\Recon3D_map00010_map.json
+map00010	rn00010	Glycolysis / gluconeogenesis	Recon3D	Homo sapiens	45	R00235	ACS	6	ac|accoa|amp|atp|coa|ppi	results\eukaryote_maps\maps\map00010\Recon3D\Recon3D_map00010_map.json
+map00010	rn00010	Glycolysis / gluconeogenesis	Recon3D	Homo sapiens	35	R00431	PEPCK_re	5	co2|gdp|gtp|oaa|pep	results\eukaryote_maps\maps\map00010\Recon3D\Recon3D_map00010_map.json
+map00010	rn00010	Glycolysis / gluconeogenesis	Recon3D	Homo sapiens	12	R00658	ENO	3	2pg|h2o|pep	results\eukaryote_maps\maps\map00010\Recon3D\Recon3D_map00010_map.json
+map00010	rn00010	Glycolysis / gluconeogenesis	Recon3D	Homo sapiens	10	R00703	LDH_L	5	h|lac__L|nad|nadh|pyr	results\eukaryote_maps\maps\map00010\Recon3D\Recon3D_map00010_map.json
+map00010	rn00010	Glycolysis / gluconeogenesis	Recon3D	Homo sapiens	1	R00710	ALDD2xm	6	ac|acald|h|h2o|nad|nadh	results\eukaryote_maps\maps\map00010\Recon3D\Recon3D_map00010_map.json
+map00010	rn00010	Glycolysis / gluconeogenesis	Recon3D	Homo sapiens	3	R00711	ALDD2y	6	ac|acald|h|h2o|nadp|nadph	results\eukaryote_maps\maps\map00010\Recon3D\Recon3D_map00010_map.json
+map00010	rn00010	Glycolysis / gluconeogenesis	Recon3D	Homo sapiens	5	R00746	ALCD2y	5	acald|etoh|h|nadp|nadph	results\eukaryote_maps\maps\map00010\Recon3D\Recon3D_map00010_map.json
+map00010	rn00010	Glycolysis / gluconeogenesis	Recon3D	Homo sapiens	6	R00754	ALCD2x	5	acald|etoh|h|nad|nadh	results\eukaryote_maps\maps\map00010\Recon3D\Recon3D_map00010_map.json
+map00010	rn00010	Glycolysis / gluconeogenesis	Recon3D	Homo sapiens	16	R00756	PFK	5	adp|atp|f6p|fdp|h	results\eukaryote_maps\maps\map00010\Recon3D\Recon3D_map00010_map.json
+map00010	rn00010	Glycolysis / gluconeogenesis	Recon3D	Homo sapiens	17	R00762	FBP	4	f6p|fdp|h2o|pi	results\eukaryote_maps\maps\map00010\Recon3D\Recon3D_map00010_map.json
+map00010	rn00010	Glycolysis / gluconeogenesis	Recon3D	Homo sapiens	15	R01015	TPI	2	dhap	results\eukaryote_maps\maps\map00010\Recon3D\Recon3D_map00010_map.json
+map00010	rn00010	Glycolysis / gluconeogenesis	Recon3D	Homo sapiens	14	R01061	GAPD	6	13dpg|h|nad|nadh|pi	results\eukaryote_maps\maps\map00010\Recon3D\Recon3D_map00010_map.json
+map00010	rn00010	Glycolysis / gluconeogenesis	Recon3D	Homo sapiens	0	R01068	FBA	3	dhap|fdp	results\eukaryote_maps\maps\map00010\Recon3D\Recon3D_map00010_map.json
+map00010	rn00010	Glycolysis / gluconeogenesis	Recon3D	Homo sapiens	28	R01512	PGK	4	13dpg|3pg|adp|atp	results\eukaryote_maps\maps\map00010\Recon3D\Recon3D_map00010_map.json
+map00010	rn00010	Glycolysis / gluconeogenesis	Recon3D	Homo sapiens	13	R01518	PGM	2	2pg|3pg	results\eukaryote_maps\maps\map00010\Recon3D\Recon3D_map00010_map.json
+map00010	rn00010	Glycolysis / gluconeogenesis	Recon3D	Homo sapiens	44	R01662	DPGM	3	13dpg|23dpg|h	results\eukaryote_maps\maps\map00010\Recon3D\Recon3D_map00010_map.json
+map00010	rn00010	Glycolysis / gluconeogenesis	iMM1415	Mus musculus	11	R00200	PYK	5	adp|atp|h|pep|pyr	results\eukaryote_maps\maps\map00010\iMM1415\iMM1415_map00010_map.json
+map00010	rn00010	Glycolysis / gluconeogenesis	iMM1415	Mus musculus	45	R00235	ACS	6	ac|accoa|amp|atp|coa|ppi	results\eukaryote_maps\maps\map00010\iMM1415\iMM1415_map00010_map.json
+map00010	rn00010	Glycolysis / gluconeogenesis	iMM1415	Mus musculus	35	R00431	PEPCK_re	5	co2|gdp|gtp|oaa|pep	results\eukaryote_maps\maps\map00010\iMM1415\iMM1415_map00010_map.json
+map00010	rn00010	Glycolysis / gluconeogenesis	iMM1415	Mus musculus	12	R00658	ENO	3	2pg|h2o|pep	results\eukaryote_maps\maps\map00010\iMM1415\iMM1415_map00010_map.json
+map00010	rn00010	Glycolysis / gluconeogenesis	iMM1415	Mus musculus	10	R00703	LDH_Lm	5	h|lac__L|nad|nadh|pyr	results\eukaryote_maps\maps\map00010\iMM1415\iMM1415_map00010_map.json
+map00010	rn00010	Glycolysis / gluconeogenesis	iMM1415	Mus musculus	1	R00710	ALDD2x	6	ac|acald|h|h2o|nad|nadh	results\eukaryote_maps\maps\map00010\iMM1415\iMM1415_map00010_map.json
+map00010	rn00010	Glycolysis / gluconeogenesis	iMM1415	Mus musculus	3	R00711	ALDD2y	6	ac|acald|h|h2o|nadp|nadph	results\eukaryote_maps\maps\map00010\iMM1415\iMM1415_map00010_map.json
+map00010	rn00010	Glycolysis / gluconeogenesis	iMM1415	Mus musculus	5	R00746	ALCD2y	5	acald|etoh|h|nadp|nadph	results\eukaryote_maps\maps\map00010\iMM1415\iMM1415_map00010_map.json
+map00010	rn00010	Glycolysis / gluconeogenesis	iMM1415	Mus musculus	16	R00756	PFK	5	adp|atp|f6p|fdp|h	results\eukaryote_maps\maps\map00010\iMM1415\iMM1415_map00010_map.json
+map00010	rn00010	Glycolysis / gluconeogenesis	iMM1415	Mus musculus	17	R00762	FBP	4	f6p|fdp|h2o|pi	results\eukaryote_maps\maps\map00010\iMM1415\iMM1415_map00010_map.json
+map00010	rn00010	Glycolysis / gluconeogenesis	iMM1415	Mus musculus	15	R01015	TPI	2	dhap	results\eukaryote_maps\maps\map00010\iMM1415\iMM1415_map00010_map.json
+map00010	rn00010	Glycolysis / gluconeogenesis	iMM1415	Mus musculus	14	R01061	GAPD	6	13dpg|h|nad|nadh|pi	results\eukaryote_maps\maps\map00010\iMM1415\iMM1415_map00010_map.json
+map00010	rn00010	Glycolysis / gluconeogenesis	iMM1415	Mus musculus	0	R01068	FBA	3	dhap|fdp	results\eukaryote_maps\maps\map00010\iMM1415\iMM1415_map00010_map.json
+map00010	rn00010	Glycolysis / gluconeogenesis	iMM1415	Mus musculus	28	R01512	PGK	4	13dpg|3pg|adp|atp	results\eukaryote_maps\maps\map00010\iMM1415\iMM1415_map00010_map.json
+map00010	rn00010	Glycolysis / gluconeogenesis	iMM1415	Mus musculus	13	R01518	PGM	2	2pg|3pg	results\eukaryote_maps\maps\map00010\iMM1415\iMM1415_map00010_map.json
+map00010	rn00010	Glycolysis / gluconeogenesis	iMM1415	Mus musculus	44	R01662	DPGM	3	13dpg|23dpg|h	results\eukaryote_maps\maps\map00010\iMM1415\iMM1415_map00010_map.json
+map00010	rn00010	Glycolysis / gluconeogenesis	iMM904	Saccharomyces cerevisiae S288C	11	R00200	PYK	5	adp|atp|h|pep|pyr	results\eukaryote_maps\maps\map00010\iMM904\iMM904_map00010_map.json
+map00010	rn00010	Glycolysis / gluconeogenesis	iMM904	Saccharomyces cerevisiae S288C	45	R00235	ACS	6	ac|accoa|amp|atp|coa|ppi	results\eukaryote_maps\maps\map00010\iMM904\iMM904_map00010_map.json
+map00010	rn00010	Glycolysis / gluconeogenesis	iMM904	Saccharomyces cerevisiae S288C	38	R00341	PPCK	5	adp|atp|co2|oaa|pep	results\eukaryote_maps\maps\map00010\iMM904\iMM904_map00010_map.json
+map00010	rn00010	Glycolysis / gluconeogenesis	iMM904	Saccharomyces cerevisiae S288C	12	R00658	ENO	3	2pg|h2o|pep	results\eukaryote_maps\maps\map00010\iMM904\iMM904_map00010_map.json
+map00010	rn00010	Glycolysis / gluconeogenesis	iMM904	Saccharomyces cerevisiae S288C	1	R00710	ALDD2xm	6	ac|acald|h|h2o|nad|nadh	results\eukaryote_maps\maps\map00010\iMM904\iMM904_map00010_map.json
+map00010	rn00010	Glycolysis / gluconeogenesis	iMM904	Saccharomyces cerevisiae S288C	3	R00711	ALDD2y	6	ac|acald|h|h2o|nadp|nadph	results\eukaryote_maps\maps\map00010\iMM904\iMM904_map00010_map.json
+map00010	rn00010	Glycolysis / gluconeogenesis	iMM904	Saccharomyces cerevisiae S288C	6	R00754	ALCD2x	5	acald|etoh|h|nad|nadh	results\eukaryote_maps\maps\map00010\iMM904\iMM904_map00010_map.json
+map00010	rn00010	Glycolysis / gluconeogenesis	iMM904	Saccharomyces cerevisiae S288C	16	R00756	PFK	5	adp|atp|f6p|fdp|h	results\eukaryote_maps\maps\map00010\iMM904\iMM904_map00010_map.json
+map00010	rn00010	Glycolysis / gluconeogenesis	iMM904	Saccharomyces cerevisiae S288C	17	R00762	FBP	4	f6p|fdp|h2o|pi	results\eukaryote_maps\maps\map00010\iMM904\iMM904_map00010_map.json
+map00010	rn00010	Glycolysis / gluconeogenesis	iMM904	Saccharomyces cerevisiae S288C	15	R01015	TPI	2	dhap	results\eukaryote_maps\maps\map00010\iMM904\iMM904_map00010_map.json
+map00010	rn00010	Glycolysis / gluconeogenesis	iMM904	Saccharomyces cerevisiae S288C	14	R01061	GAPD	6	13dpg|h|nad|nadh|pi	results\eukaryote_maps\maps\map00010\iMM904\iMM904_map00010_map.json
+map00010	rn00010	Glycolysis / gluconeogenesis	iMM904	Saccharomyces cerevisiae S288C	0	R01068	FBA	3	dhap|fdp	results\eukaryote_maps\maps\map00010\iMM904\iMM904_map00010_map.json
+map00010	rn00010	Glycolysis / gluconeogenesis	iMM904	Saccharomyces cerevisiae S288C	28	R01512	PGK	4	13dpg|3pg|adp|atp	results\eukaryote_maps\maps\map00010\iMM904\iMM904_map00010_map.json
+map00010	rn00010	Glycolysis / gluconeogenesis	iMM904	Saccharomyces cerevisiae S288C	13	R01518	PGM	2	2pg|3pg	results\eukaryote_maps\maps\map00010\iMM904\iMM904_map00010_map.json
+map00010	rn00010	Glycolysis / gluconeogenesis	iMM904	Saccharomyces cerevisiae S288C	44	R01662	DPGM	3	13dpg|23dpg|h	results\eukaryote_maps\maps\map00010\iMM904\iMM904_map00010_map.json
+map00020	rn00020	Citrate cycle (TCA cycle)	Recon3D	Homo sapiens	7	R00268	r0083	4	HC01434|akg|co2|h	results\eukaryote_maps\maps\map00020\Recon3D\Recon3D_map00020_map.json
+map00020	rn00020	Citrate cycle (TCA cycle)	Recon3D	Homo sapiens	15	R00342	MDHp	5	h|mal__L|nad|nadh|oaa	results\eukaryote_maps\maps\map00020\Recon3D\Recon3D_map00020_map.json
+map00020	rn00020	Citrate cycle (TCA cycle)	Recon3D	Homo sapiens	16	R00344	PCm	7	adp|atp|h|hco3|oaa|pi|pyr	results\eukaryote_maps\maps\map00020\Recon3D\Recon3D_map00020_map.json
+map00020	rn00020	Citrate cycle (TCA cycle)	Recon3D	Homo sapiens	14	R00351	CSm	6	accoa|cit|coa|h|h2o|oaa	results\eukaryote_maps\maps\map00020\Recon3D\Recon3D_map00020_map.json
+map00020	rn00020	Citrate cycle (TCA cycle)	Recon3D	Homo sapiens	10	R00352	ACITL	7	accoa|adp|atp|cit|coa|oaa|pi	results\eukaryote_maps\maps\map00020\Recon3D\Recon3D_map00020_map.json
+map00020	rn00020	Citrate cycle (TCA cycle)	Recon3D	Homo sapiens	4	R00405	SUCOASm	6	adp|atp|coa|pi|succ|succoa	results\eukaryote_maps\maps\map00020\Recon3D\Recon3D_map00020_map.json
+map00020	rn00020	Citrate cycle (TCA cycle)	Recon3D	Homo sapiens	21	R00431	PEPCK_re	5	co2|gdp|gtp|oaa|pep	results\eukaryote_maps\maps\map00020\Recon3D\Recon3D_map00020_map.json
+map00020	rn00020	Citrate cycle (TCA cycle)	Recon3D	Homo sapiens	5	R00432	SUCOAS1m	6	coa|gdp|gtp|pi|succ|succoa	results\eukaryote_maps\maps\map00020\Recon3D\Recon3D_map00020_map.json
+map00020	rn00020	Citrate cycle (TCA cycle)	Recon3D	Homo sapiens	8	R00709	ICDHxm	5	akg|co2|icit|nad|nadh	results\eukaryote_maps\maps\map00020\Recon3D\Recon3D_map00020_map.json
+map00020	rn00020	Citrate cycle (TCA cycle)	Recon3D	Homo sapiens	11	R01082	FUM	3	fum|h2o|mal__L	results\eukaryote_maps\maps\map00020\Recon3D\Recon3D_map00020_map.json
+map00020	rn00020	Citrate cycle (TCA cycle)	Recon3D	Homo sapiens	13	R01325	r0317	3	HC00342|cit|h2o	results\eukaryote_maps\maps\map00020\Recon3D\Recon3D_map00020_map.json
+map00020	rn00020	Citrate cycle (TCA cycle)	Recon3D	Homo sapiens	9	R01899	r0422	5	HC01434|h|icit|nadp|nadph	results\eukaryote_maps\maps\map00020\Recon3D\Recon3D_map00020_map.json
+map00020	rn00020	Citrate cycle (TCA cycle)	Recon3D	Homo sapiens	12	R01900	r0426	3	HC00342|h2o|icit	results\eukaryote_maps\maps\map00020\Recon3D\Recon3D_map00020_map.json
+map00020	rn00020	Citrate cycle (TCA cycle)	iMM1415	Mus musculus	15	R00342	MDH	5	h|mal__L|nad|nadh|oaa	results\eukaryote_maps\maps\map00020\iMM1415\iMM1415_map00020_map.json
+map00020	rn00020	Citrate cycle (TCA cycle)	iMM1415	Mus musculus	16	R00344	PCm	7	adp|atp|h|hco3|oaa|pi|pyr	results\eukaryote_maps\maps\map00020\iMM1415\iMM1415_map00020_map.json
+map00020	rn00020	Citrate cycle (TCA cycle)	iMM1415	Mus musculus	14	R00351	CSm	6	accoa|cit|coa|h|h2o|oaa	results\eukaryote_maps\maps\map00020\iMM1415\iMM1415_map00020_map.json
+map00020	rn00020	Citrate cycle (TCA cycle)	iMM1415	Mus musculus	10	R00352	ACITL	7	accoa|adp|atp|cit|coa|oaa|pi	results\eukaryote_maps\maps\map00020\iMM1415\iMM1415_map00020_map.json
+map00020	rn00020	Citrate cycle (TCA cycle)	iMM1415	Mus musculus	4	R00405	SUCOASm	6	adp|atp|coa|pi|succ|succoa	results\eukaryote_maps\maps\map00020\iMM1415\iMM1415_map00020_map.json
+map00020	rn00020	Citrate cycle (TCA cycle)	iMM1415	Mus musculus	21	R00431	PEPCK_re	5	co2|gdp|gtp|oaa|pep	results\eukaryote_maps\maps\map00020\iMM1415\iMM1415_map00020_map.json
+map00020	rn00020	Citrate cycle (TCA cycle)	iMM1415	Mus musculus	5	R00432	SUCOAS1m	6	coa|gdp|gtp|pi|succ|succoa	results\eukaryote_maps\maps\map00020\iMM1415\iMM1415_map00020_map.json
+map00020	rn00020	Citrate cycle (TCA cycle)	iMM1415	Mus musculus	8	R00709	ICDHxm	5	akg|co2|icit|nad|nadh	results\eukaryote_maps\maps\map00020\iMM1415\iMM1415_map00020_map.json
+map00020	rn00020	Citrate cycle (TCA cycle)	iMM1415	Mus musculus	11	R01082	FUM	3	fum|h2o|mal__L	results\eukaryote_maps\maps\map00020\iMM1415\iMM1415_map00020_map.json
+map00020	rn00020	Citrate cycle (TCA cycle)	iMM904	Saccharomyces cerevisiae S288C	20	R00341	PPCK	5	adp|atp|co2|oaa|pep	results\eukaryote_maps\maps\map00020\iMM904\iMM904_map00020_map.json
+map00020	rn00020	Citrate cycle (TCA cycle)	iMM904	Saccharomyces cerevisiae S288C	15	R00342	MDH	5	h|mal__L|nad|nadh|oaa	results\eukaryote_maps\maps\map00020\iMM904\iMM904_map00020_map.json
+map00020	rn00020	Citrate cycle (TCA cycle)	iMM904	Saccharomyces cerevisiae S288C	16	R00344	PC	7	adp|atp|h|hco3|oaa|pi|pyr	results\eukaryote_maps\maps\map00020\iMM904\iMM904_map00020_map.json
+map00020	rn00020	Citrate cycle (TCA cycle)	iMM904	Saccharomyces cerevisiae S288C	14	R00351	CSm	6	accoa|cit|coa|h|h2o|oaa	results\eukaryote_maps\maps\map00020\iMM904\iMM904_map00020_map.json
+map00020	rn00020	Citrate cycle (TCA cycle)	iMM904	Saccharomyces cerevisiae S288C	4	R00405	SUCOASm	6	adp|atp|coa|pi|succ|succoa	results\eukaryote_maps\maps\map00020\iMM904\iMM904_map00020_map.json
+map00020	rn00020	Citrate cycle (TCA cycle)	iMM904	Saccharomyces cerevisiae S288C	8	R00709	ICDHxm	5	akg|co2|icit|nad|nadh	results\eukaryote_maps\maps\map00020\iMM904\iMM904_map00020_map.json
+map00020	rn00020	Citrate cycle (TCA cycle)	iMM904	Saccharomyces cerevisiae S288C	11	R01082	FUM	3	fum|h2o|mal__L	results\eukaryote_maps\maps\map00020\iMM904\iMM904_map00020_map.json
+map00030	rn00030	Pentose phosphate pathway	Recon3D	Homo sapiens	14	R00756	PFK	5	adp|atp|f6p|fdp|h	results\eukaryote_maps\maps\map00030\Recon3D\Recon3D_map00030_map.json
+map00030	rn00030	Pentose phosphate pathway	Recon3D	Homo sapiens	15	R00762	FBP	4	f6p|fdp|h2o|pi	results\eukaryote_maps\maps\map00030\Recon3D\Recon3D_map00030_map.json
+map00030	rn00030	Pentose phosphate pathway	Recon3D	Homo sapiens	6	R01049	PRPPS	5	amp|atp|h|prpp|r5p	results\eukaryote_maps\maps\map00030\Recon3D\Recon3D_map00030_map.json
+map00030	rn00030	Pentose phosphate pathway	Recon3D	Homo sapiens	8	R01051	RBK	5	adp|atp|h|r5p|rib__D	results\eukaryote_maps\maps\map00030\Recon3D\Recon3D_map00030_map.json
+map00030	rn00030	Pentose phosphate pathway	Recon3D	Homo sapiens	10	R01056	r0249	2	r5p|ru5p__D	results\eukaryote_maps\maps\map00030\Recon3D\Recon3D_map00030_map.json
+map00030	rn00030	Pentose phosphate pathway	Recon3D	Homo sapiens	7	R01057	PPM	2	r1p|r5p	results\eukaryote_maps\maps\map00030\Recon3D\Recon3D_map00030_map.json
+map00030	rn00030	Pentose phosphate pathway	Recon3D	Homo sapiens	5	R01066	DRPA	3	2dr5p|acald	results\eukaryote_maps\maps\map00030\Recon3D\Recon3D_map00030_map.json
+map00030	rn00030	Pentose phosphate pathway	Recon3D	Homo sapiens	13	R01068	FBA	3	dhap|fdp	results\eukaryote_maps\maps\map00030\Recon3D\Recon3D_map00030_map.json
+map00030	rn00030	Pentose phosphate pathway	Recon3D	Homo sapiens	20	R01528	GNDer	5	6pgc|co2|nadp|nadph|ru5p__D	results\eukaryote_maps\maps\map00030\Recon3D\Recon3D_map00030_map.json
+map00030	rn00030	Pentose phosphate pathway	Recon3D	Homo sapiens	11	R01529	RPE	2	ru5p__D|xu5p__D	results\eukaryote_maps\maps\map00030\Recon3D\Recon3D_map00030_map.json
+map00030	rn00030	Pentose phosphate pathway	Recon3D	Homo sapiens	26	R01737	GNK	5	6pgc|adp|atp|glcn|h	results\eukaryote_maps\maps\map00030\Recon3D\Recon3D_map00030_map.json
+map00030	rn00030	Pentose phosphate pathway	Recon3D	Homo sapiens	21	R02035	PGLer	4	6pgc|6pgl|h|h2o	results\eukaryote_maps\maps\map00030\Recon3D\Recon3D_map00030_map.json
+map00030	rn00030	Pentose phosphate pathway	Recon3D	Homo sapiens	4	R02749	PPM2	2	2dr1p|2dr5p	results\eukaryote_maps\maps\map00030\Recon3D\Recon3D_map00030_map.json
+map00030	rn00030	Pentose phosphate pathway	Recon3D	Homo sapiens	3	R02750	DRBK	5	2dr5p|adp|atp|drib|h	results\eukaryote_maps\maps\map00030\Recon3D\Recon3D_map00030_map.json
+map00030	rn00030	Pentose phosphate pathway	Recon3D	Homo sapiens	38	R08572	GLYCK2	5	2pg|adp|atp|glyc__R|h	results\eukaryote_maps\maps\map00030\Recon3D\Recon3D_map00030_map.json
+map00030	rn00030	Pentose phosphate pathway	iMM1415	Mus musculus	14	R00756	PFK	5	adp|atp|f6p|fdp|h	results\eukaryote_maps\maps\map00030\iMM1415\iMM1415_map00030_map.json
+map00030	rn00030	Pentose phosphate pathway	iMM1415	Mus musculus	15	R00762	FBP	4	f6p|fdp|h2o|pi	results\eukaryote_maps\maps\map00030\iMM1415\iMM1415_map00030_map.json
+map00030	rn00030	Pentose phosphate pathway	iMM1415	Mus musculus	6	R01049	PRPPS	5	amp|atp|h|prpp|r5p	results\eukaryote_maps\maps\map00030\iMM1415\iMM1415_map00030_map.json
+map00030	rn00030	Pentose phosphate pathway	iMM1415	Mus musculus	8	R01051	RBK	5	adp|atp|h|r5p|rib__D	results\eukaryote_maps\maps\map00030\iMM1415\iMM1415_map00030_map.json
+map00030	rn00030	Pentose phosphate pathway	iMM1415	Mus musculus	10	R01056	RPI	2	r5p|ru5p__D	results\eukaryote_maps\maps\map00030\iMM1415\iMM1415_map00030_map.json
+map00030	rn00030	Pentose phosphate pathway	iMM1415	Mus musculus	7	R01057	PPM	2	r1p|r5p	results\eukaryote_maps\maps\map00030\iMM1415\iMM1415_map00030_map.json
+map00030	rn00030	Pentose phosphate pathway	iMM1415	Mus musculus	5	R01066	DRPA	3	2dr5p|acald	results\eukaryote_maps\maps\map00030\iMM1415\iMM1415_map00030_map.json
+map00030	rn00030	Pentose phosphate pathway	iMM1415	Mus musculus	13	R01068	FBA	3	dhap|fdp	results\eukaryote_maps\maps\map00030\iMM1415\iMM1415_map00030_map.json
+map00030	rn00030	Pentose phosphate pathway	iMM1415	Mus musculus	20	R01528	GND	5	6pgc|co2|nadp|nadph|ru5p__D	results\eukaryote_maps\maps\map00030\iMM1415\iMM1415_map00030_map.json
+map00030	rn00030	Pentose phosphate pathway	iMM1415	Mus musculus	11	R01529	RPE	2	ru5p__D|xu5p__D	results\eukaryote_maps\maps\map00030\iMM1415\iMM1415_map00030_map.json
+map00030	rn00030	Pentose phosphate pathway	iMM1415	Mus musculus	21	R02035	PGL	4	6pgc|6pgl|h|h2o	results\eukaryote_maps\maps\map00030\iMM1415\iMM1415_map00030_map.json
+map00030	rn00030	Pentose phosphate pathway	iMM1415	Mus musculus	3	R02750	DRBK	5	2dr5p|adp|atp|drib|h	results\eukaryote_maps\maps\map00030\iMM1415\iMM1415_map00030_map.json
+map00030	rn00030	Pentose phosphate pathway	iMM1415	Mus musculus	38	R08572	GLYCK2	5	2pg|adp|atp|glyc__R|h	results\eukaryote_maps\maps\map00030\iMM1415\iMM1415_map00030_map.json
+map00030	rn00030	Pentose phosphate pathway	iMM904	Saccharomyces cerevisiae S288C	14	R00756	PFK	5	adp|atp|f6p|fdp|h	results\eukaryote_maps\maps\map00030\iMM904\iMM904_map00030_map.json
+map00030	rn00030	Pentose phosphate pathway	iMM904	Saccharomyces cerevisiae S288C	15	R00762	FBP	4	f6p|fdp|h2o|pi	results\eukaryote_maps\maps\map00030\iMM904\iMM904_map00030_map.json
+map00030	rn00030	Pentose phosphate pathway	iMM904	Saccharomyces cerevisiae S288C	6	R01049	PRPPS	5	amp|atp|h|prpp|r5p	results\eukaryote_maps\maps\map00030\iMM904\iMM904_map00030_map.json
+map00030	rn00030	Pentose phosphate pathway	iMM904	Saccharomyces cerevisiae S288C	8	R01051	RBK	5	adp|atp|h|r5p|rib__D	results\eukaryote_maps\maps\map00030\iMM904\iMM904_map00030_map.json
+map00030	rn00030	Pentose phosphate pathway	iMM904	Saccharomyces cerevisiae S288C	10	R01056	RPI	2	r5p|ru5p__D	results\eukaryote_maps\maps\map00030\iMM904\iMM904_map00030_map.json
+map00030	rn00030	Pentose phosphate pathway	iMM904	Saccharomyces cerevisiae S288C	7	R01057	PPM	2	r1p|r5p	results\eukaryote_maps\maps\map00030\iMM904\iMM904_map00030_map.json
+map00030	rn00030	Pentose phosphate pathway	iMM904	Saccharomyces cerevisiae S288C	13	R01068	FBA	3	dhap|fdp	results\eukaryote_maps\maps\map00030\iMM904\iMM904_map00030_map.json
+map00030	rn00030	Pentose phosphate pathway	iMM904	Saccharomyces cerevisiae S288C	20	R01528	GND	5	6pgc|co2|nadp|nadph|ru5p__D	results\eukaryote_maps\maps\map00030\iMM904\iMM904_map00030_map.json
+map00030	rn00030	Pentose phosphate pathway	iMM904	Saccharomyces cerevisiae S288C	11	R01529	RPE	2	ru5p__D|xu5p__D	results\eukaryote_maps\maps\map00030\iMM904\iMM904_map00030_map.json
+map00030	rn00030	Pentose phosphate pathway	iMM904	Saccharomyces cerevisiae S288C	21	R02035	PGL	4	6pgc|6pgl|h|h2o	results\eukaryote_maps\maps\map00030\iMM904\iMM904_map00030_map.json
+map00030	rn00030	Pentose phosphate pathway	iMM904	Saccharomyces cerevisiae S288C	3	R02750	DRBK	5	2dr5p|adp|atp|drib|h	results\eukaryote_maps\maps\map00030\iMM904\iMM904_map00030_map.json
+map00680	rn00680	Methane metabolism / C1 metabolism	Recon3D	Homo sapiens	64	R00235	ACS	6	ac|accoa|amp|atp|coa|ppi	results\eukaryote_maps\maps\map00680\Recon3D\Recon3D_map00680_map.json
+map00680	rn00680	Methane metabolism / C1 metabolism	Recon3D	Homo sapiens	53	R00342	MDHp	5	h|mal__L|nad|nadh|oaa	results\eukaryote_maps\maps\map00680\Recon3D\Recon3D_map00680_map.json
+map00680	rn00680	Methane metabolism / C1 metabolism	Recon3D	Homo sapiens	6	R00519	FDH	4	co2|for|nad|nadh	results\eukaryote_maps\maps\map00680\Recon3D\Recon3D_map00680_map.json
+map00680	rn00680	Methane metabolism / C1 metabolism	Recon3D	Homo sapiens	29	R00527	SFGTHi	5	Sfglutth|for|gthrd|h|h2o	results\eukaryote_maps\maps\map00680\Recon3D\Recon3D_map00680_map.json
+map00680	rn00680	Methane metabolism / C1 metabolism	Recon3D	Homo sapiens	46	R00582	PSP_L	4	h2o|pi|pser|ser__L	results\eukaryote_maps\maps\map00680\Recon3D\Recon3D_map00680_map.json
+map00680	rn00680	Methane metabolism / C1 metabolism	Recon3D	Homo sapiens	4	R00605	ALCD1	5	fald|h|meoh|nad|nadh	results\eukaryote_maps\maps\map00680\Recon3D\Recon3D_map00680_map.json
+map00680	rn00680	Methane metabolism / C1 metabolism	Recon3D	Homo sapiens	42	R00658	ENO	3	2pg|h2o|pep	results\eukaryote_maps\maps\map00680\Recon3D\Recon3D_map00680_map.json
+map00680	rn00680	Methane metabolism / C1 metabolism	Recon3D	Homo sapiens	84	R00736	TYRCBOX	3	h|tym|tyr__L	results\eukaryote_maps\maps\map00680\Recon3D\Recon3D_map00680_map.json
+map00680	rn00680	Methane metabolism / C1 metabolism	Recon3D	Homo sapiens	55	R00756	PFK	5	adp|atp|f6p|fdp|h	results\eukaryote_maps\maps\map00680\Recon3D\Recon3D_map00680_map.json
+map00680	rn00680	Methane metabolism / C1 metabolism	Recon3D	Homo sapiens	54	R00762	FBP	4	f6p|fdp|h2o|pi	results\eukaryote_maps\maps\map00680\Recon3D\Recon3D_map00680_map.json
+map00680	rn00680	Methane metabolism / C1 metabolism	Recon3D	Homo sapiens	61	R00945	GHMT2rm	5	gly|h2o|mlthf|ser__L|thf	results\eukaryote_maps\maps\map00680\Recon3D\Recon3D_map00680_map.json
+map00680	rn00680	Methane metabolism / C1 metabolism	Recon3D	Homo sapiens	60	R01011	HMR_7755	5	adp|atp|dha|dhap|h	results\eukaryote_maps\maps\map00680\Recon3D\Recon3D_map00680_map.json
+map00680	rn00680	Methane metabolism / C1 metabolism	Recon3D	Homo sapiens	58	R01068	FBA	3	dhap|fdp	results\eukaryote_maps\maps\map00680\Recon3D\Recon3D_map00680_map.json
+map00680	rn00680	Methane metabolism / C1 metabolism	Recon3D	Homo sapiens	44	R01513	PGCD	5	3pg|3php|h|nad|nadh	results\eukaryote_maps\maps\map00680\Recon3D\Recon3D_map00680_map.json
+map00680	rn00680	Methane metabolism / C1 metabolism	Recon3D	Homo sapiens	43	R01518	PGM	2	2pg|3pg	results\eukaryote_maps\maps\map00680\Recon3D\Recon3D_map00680_map.json
+map00680	rn00680	Methane metabolism / C1 metabolism	Recon3D	Homo sapiens	45	R04173	PSERT	4	3php|akg|glu__L|pser	results\eukaryote_maps\maps\map00680\Recon3D\Recon3D_map00680_map.json
+map00680	rn00680	Methane metabolism / C1 metabolism	Recon3D	Homo sapiens	31	R06982	r1377	3	HC02121|fald|gthrd	results\eukaryote_maps\maps\map00680\Recon3D\Recon3D_map00680_map.json
+map00680	rn00680	Methane metabolism / C1 metabolism	Recon3D	Homo sapiens	30	R06983	r1378	5	HC02121|Sfglutth|h|nad|nadh	results\eukaryote_maps\maps\map00680\Recon3D\Recon3D_map00680_map.json
+map00680	rn00680	Methane metabolism / C1 metabolism	Recon3D	Homo sapiens	52	R08572	GLYCK2	5	2pg|adp|atp|glyc__R|h	results\eukaryote_maps\maps\map00680\Recon3D\Recon3D_map00680_map.json
+map00680	rn00680	Methane metabolism / C1 metabolism	iMM1415	Mus musculus	64	R00235	ACS	6	ac|accoa|amp|atp|coa|ppi	results\eukaryote_maps\maps\map00680\iMM1415\iMM1415_map00680_map.json
+map00680	rn00680	Methane metabolism / C1 metabolism	iMM1415	Mus musculus	53	R00342	MDH	5	h|mal__L|nad|nadh|oaa	results\eukaryote_maps\maps\map00680\iMM1415\iMM1415_map00680_map.json
+map00680	rn00680	Methane metabolism / C1 metabolism	iMM1415	Mus musculus	6	R00519	FDH	4	co2|for|nad|nadh	results\eukaryote_maps\maps\map00680\iMM1415\iMM1415_map00680_map.json
+map00680	rn00680	Methane metabolism / C1 metabolism	iMM1415	Mus musculus	29	R00527	SFGTHi	5	Sfglutth|for|gthrd|h|h2o	results\eukaryote_maps\maps\map00680\iMM1415\iMM1415_map00680_map.json
+map00680	rn00680	Methane metabolism / C1 metabolism	iMM1415	Mus musculus	46	R00582	PSP_L	4	h2o|pi|pser|ser__L	results\eukaryote_maps\maps\map00680\iMM1415\iMM1415_map00680_map.json
+map00680	rn00680	Methane metabolism / C1 metabolism	iMM1415	Mus musculus	42	R00658	ENO	3	2pg|h2o|pep	results\eukaryote_maps\maps\map00680\iMM1415\iMM1415_map00680_map.json
+map00680	rn00680	Methane metabolism / C1 metabolism	iMM1415	Mus musculus	84	R00736	TYRCBOX	3	h|tym|tyr__L	results\eukaryote_maps\maps\map00680\iMM1415\iMM1415_map00680_map.json
+map00680	rn00680	Methane metabolism / C1 metabolism	iMM1415	Mus musculus	55	R00756	PFK	5	adp|atp|f6p|fdp|h	results\eukaryote_maps\maps\map00680\iMM1415\iMM1415_map00680_map.json
+map00680	rn00680	Methane metabolism / C1 metabolism	iMM1415	Mus musculus	54	R00762	FBP	4	f6p|fdp|h2o|pi	results\eukaryote_maps\maps\map00680\iMM1415\iMM1415_map00680_map.json
+map00680	rn00680	Methane metabolism / C1 metabolism	iMM1415	Mus musculus	61	R00945	GHMT2r	5	gly|h2o|mlthf|ser__L|thf	results\eukaryote_maps\maps\map00680\iMM1415\iMM1415_map00680_map.json
+map00680	rn00680	Methane metabolism / C1 metabolism	iMM1415	Mus musculus	58	R01068	FBA	3	dhap|fdp	results\eukaryote_maps\maps\map00680\iMM1415\iMM1415_map00680_map.json
+map00680	rn00680	Methane metabolism / C1 metabolism	iMM1415	Mus musculus	44	R01513	PGCD	5	3pg|3php|h|nad|nadh	results\eukaryote_maps\maps\map00680\iMM1415\iMM1415_map00680_map.json
+map00680	rn00680	Methane metabolism / C1 metabolism	iMM1415	Mus musculus	43	R01518	PGM	2	2pg|3pg	results\eukaryote_maps\maps\map00680\iMM1415\iMM1415_map00680_map.json
+map00680	rn00680	Methane metabolism / C1 metabolism	iMM1415	Mus musculus	45	R04173	PSERT	4	3php|akg|glu__L|pser	results\eukaryote_maps\maps\map00680\iMM1415\iMM1415_map00680_map.json
+map00680	rn00680	Methane metabolism / C1 metabolism	iMM1415	Mus musculus	52	R08572	GLYCK2	5	2pg|adp|atp|glyc__R|h	results\eukaryote_maps\maps\map00680\iMM1415\iMM1415_map00680_map.json
+map00680	rn00680	Methane metabolism / C1 metabolism	iMM904	Saccharomyces cerevisiae S288C	64	R00235	ACS	6	ac|accoa|amp|atp|coa|ppi	results\eukaryote_maps\maps\map00680\iMM904\iMM904_map00680_map.json
+map00680	rn00680	Methane metabolism / C1 metabolism	iMM904	Saccharomyces cerevisiae S288C	53	R00342	MDH	5	h|mal__L|nad|nadh|oaa	results\eukaryote_maps\maps\map00680\iMM904\iMM904_map00680_map.json
+map00680	rn00680	Methane metabolism / C1 metabolism	iMM904	Saccharomyces cerevisiae S288C	6	R00519	FDH	4	co2|for|nad|nadh	results\eukaryote_maps\maps\map00680\iMM904\iMM904_map00680_map.json
+map00680	rn00680	Methane metabolism / C1 metabolism	iMM904	Saccharomyces cerevisiae S288C	29	R00527	SFGTHi	5	Sfglutth|for|gthrd|h|h2o	results\eukaryote_maps\maps\map00680\iMM904\iMM904_map00680_map.json
+map00680	rn00680	Methane metabolism / C1 metabolism	iMM904	Saccharomyces cerevisiae S288C	46	R00582	PSP_L	4	h2o|pi|pser|ser__L	results\eukaryote_maps\maps\map00680\iMM904\iMM904_map00680_map.json
+map00680	rn00680	Methane metabolism / C1 metabolism	iMM904	Saccharomyces cerevisiae S288C	42	R00658	ENO	3	2pg|h2o|pep	results\eukaryote_maps\maps\map00680\iMM904\iMM904_map00680_map.json
+map00680	rn00680	Methane metabolism / C1 metabolism	iMM904	Saccharomyces cerevisiae S288C	55	R00756	PFK	5	adp|atp|f6p|fdp|h	results\eukaryote_maps\maps\map00680\iMM904\iMM904_map00680_map.json
+map00680	rn00680	Methane metabolism / C1 metabolism	iMM904	Saccharomyces cerevisiae S288C	54	R00762	FBP	4	f6p|fdp|h2o|pi	results\eukaryote_maps\maps\map00680\iMM904\iMM904_map00680_map.json
+map00680	rn00680	Methane metabolism / C1 metabolism	iMM904	Saccharomyces cerevisiae S288C	61	R00945	GHMT2r	5	gly|h2o|mlthf|ser__L|thf	results\eukaryote_maps\maps\map00680\iMM904\iMM904_map00680_map.json
+map00680	rn00680	Methane metabolism / C1 metabolism	iMM904	Saccharomyces cerevisiae S288C	60	R01011	DHAK	5	adp|atp|dha|dhap|h	results\eukaryote_maps\maps\map00680\iMM904\iMM904_map00680_map.json
+map00680	rn00680	Methane metabolism / C1 metabolism	iMM904	Saccharomyces cerevisiae S288C	58	R01068	FBA	3	dhap|fdp	results\eukaryote_maps\maps\map00680\iMM904\iMM904_map00680_map.json
+map00680	rn00680	Methane metabolism / C1 metabolism	iMM904	Saccharomyces cerevisiae S288C	44	R01513	PGCD	5	3pg|3php|h|nad|nadh	results\eukaryote_maps\maps\map00680\iMM904\iMM904_map00680_map.json
+map00680	rn00680	Methane metabolism / C1 metabolism	iMM904	Saccharomyces cerevisiae S288C	43	R01518	PGM	2	2pg|3pg	results\eukaryote_maps\maps\map00680\iMM904\iMM904_map00680_map.json
+map00680	rn00680	Methane metabolism / C1 metabolism	iMM904	Saccharomyces cerevisiae S288C	45	R04173	PSERT	4	3php|akg|glu__L|pser	results\eukaryote_maps\maps\map00680\iMM904\iMM904_map00680_map.json
+
+
+

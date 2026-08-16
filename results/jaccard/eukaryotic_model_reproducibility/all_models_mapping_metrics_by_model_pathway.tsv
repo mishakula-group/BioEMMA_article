@@ -1,0 +1,16 @@
+pathway	pathway_rn	pathway_label	model_id	organism	status	model_reactions	model_metabolites	kegg_reactions	kgml_reactions_omitted	matched_reactions	unmatched_reactions	reaction_retention_percent	matched_metabolites	unmatched_metabolites	metabolite_retention_percent	map_json	summary_json
+map00010	rn00010	Glycolysis / gluconeogenesis	iMM904	Saccharomyces cerevisiae S288C	built	1577	1226	56		15	41	26.79	20	11	64.52	results\eukaryote_maps\maps\map00010\iMM904\iMM904_map00010_map.json	results\eukaryote_maps\maps\map00010\iMM904\summary.json
+map00020	rn00020	Citrate cycle (TCA cycle)	iMM904	Saccharomyces cerevisiae S288C	built	1577	1226	29		7	22	24.14	12	8	60.0	results\eukaryote_maps\maps\map00020\iMM904\iMM904_map00020_map.json	results\eukaryote_maps\maps\map00020\iMM904\summary.json
+map00030	rn00030	Pentose phosphate pathway	iMM904	Saccharomyces cerevisiae S288C	built	1577	1226	58	R06837	11	47	18.97	22	15	59.46	results\eukaryote_maps\maps\map00030\iMM904\iMM904_map00030_map.json	results\eukaryote_maps\maps\map00030\iMM904\summary.json
+map00680	rn00680	Methane metabolism / C1 metabolism	iMM904	Saccharomyces cerevisiae S288C	built	1577	1226	104	R08323, R08328, R10397	14	90	13.46	29	57	33.72	results\eukaryote_maps\maps\map00680\iMM904\iMM904_map00680_map.json	results\eukaryote_maps\maps\map00680\iMM904\summary.json
+map00010	rn00010	Glycolysis / gluconeogenesis	iMM1415	Mus musculus	built	3726	2775	56		16	40	28.57	19	12	61.29	results\eukaryote_maps\maps\map00010\iMM1415\iMM1415_map00010_map.json	results\eukaryote_maps\maps\map00010\iMM1415\summary.json
+map00020	rn00020	Citrate cycle (TCA cycle)	iMM1415	Mus musculus	built	3726	2775	29		9	20	31.03	12	8	60.0	results\eukaryote_maps\maps\map00020\iMM1415\iMM1415_map00020_map.json	results\eukaryote_maps\maps\map00020\iMM1415\summary.json
+map00030	rn00030	Pentose phosphate pathway	iMM1415	Mus musculus	built	3726	2775	58	R06837	13	45	22.41	22	15	59.46	results\eukaryote_maps\maps\map00030\iMM1415\iMM1415_map00030_map.json	results\eukaryote_maps\maps\map00030\iMM1415\summary.json
+map00680	rn00680	Methane metabolism / C1 metabolism	iMM1415	Mus musculus	built	3726	2775	104	R08323, R08328, R10397	15	89	14.42	35	51	40.7	results\eukaryote_maps\maps\map00680\iMM1415\iMM1415_map00680_map.json	results\eukaryote_maps\maps\map00680\iMM1415\summary.json
+map00010	rn00010	Glycolysis / gluconeogenesis	Recon3D	Homo sapiens	built	10600	5835	56		17	39	30.36	20	11	64.52	results\eukaryote_maps\maps\map00010\Recon3D\Recon3D_map00010_map.json	results\eukaryote_maps\maps\map00010\Recon3D\summary.json
+map00020	rn00020	Citrate cycle (TCA cycle)	Recon3D	Homo sapiens	built	10600	5835	29		13	16	44.83	14	6	70.0	results\eukaryote_maps\maps\map00020\Recon3D\Recon3D_map00020_map.json	results\eukaryote_maps\maps\map00020\Recon3D\summary.json
+map00030	rn00030	Pentose phosphate pathway	Recon3D	Homo sapiens	built	10600	5835	58	R06837	15	43	25.86	24	13	64.86	results\eukaryote_maps\maps\map00030\Recon3D\Recon3D_map00030_map.json	results\eukaryote_maps\maps\map00030\Recon3D\summary.json
+map00680	rn00680	Methane metabolism / C1 metabolism	Recon3D	Homo sapiens	built	10600	5835	104	R08323, R08328, R10397	19	85	18.27	36	50	41.86	results\eukaryote_maps\maps\map00680\Recon3D\Recon3D_map00680_map.json	results\eukaryote_maps\maps\map00680\Recon3D\summary.json
+
+
+

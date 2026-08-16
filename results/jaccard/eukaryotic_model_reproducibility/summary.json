@@ -1,0 +1,221 @@
+{
+  "source_output_root": "results\\eukaryote_maps",
+  "output_dir": "results\\jaccard\\eukaryotic_model_reproducibility",
+  "scope": "eukaryotes",
+  "excluded_models": [],
+  "model_count": 3,
+  "models": {
+    "Recon3D": {
+      "bigg_id": "Recon3D",
+      "organism": "Homo sapiens",
+      "reaction_count": "10600",
+      "metabolite_count": "5835",
+      "gene_count": "2248",
+      "domain_classification": "eukaryote_selected",
+      "classification_reason": "same eukaryotic models used in the article"
+    },
+    "iMM1415": {
+      "bigg_id": "iMM1415",
+      "organism": "Mus musculus",
+      "reaction_count": "3726",
+      "metabolite_count": "2775",
+      "gene_count": "1375",
+      "domain_classification": "eukaryote_selected",
+      "classification_reason": "same eukaryotic models used in the article"
+    },
+    "iMM904": {
+      "bigg_id": "iMM904",
+      "organism": "Saccharomyces cerevisiae S288C",
+      "reaction_count": "1577",
+      "metabolite_count": "1226",
+      "gene_count": "905",
+      "domain_classification": "eukaryote_selected",
+      "classification_reason": "same eukaryotic models used in the article"
+    }
+  },
+  "pathways": {
+    "map00010": {
+      "pathway": "map00010",
+      "pathway_rn": "rn00010",
+      "pathway_label": "Glycolysis / gluconeogenesis"
+    },
+    "map00020": {
+      "pathway": "map00020",
+      "pathway_rn": "rn00020",
+      "pathway_label": "Citrate cycle (TCA cycle)"
+    },
+    "map00030": {
+      "pathway": "map00030",
+      "pathway_rn": "rn00030",
+      "pathway_label": "Pentose phosphate pathway"
+    },
+    "map00680": {
+      "pathway": "map00680",
+      "pathway_rn": "rn00680",
+      "pathway_label": "Methane metabolism / C1 metabolism"
+    }
+  },
+  "jaccard_summary_by_pathway": [
+    {
+      "pathway": "map00010",
+      "pathway_rn": "rn00010",
+      "pathway_label": "Glycolysis / gluconeogenesis",
+      "model_count": 3,
+      "pair_count": 3,
+      "identical_pair_count": 0,
+      "identical_pair_percent": 0.0,
+      "mean_jaccard": "0.8137",
+      "median_jaccard": "0.7778",
+      "min_jaccard": "0.7222",
+      "max_jaccard": "0.9412",
+      "mean_reaction_count": "16.0",
+      "median_reaction_count": "16.0",
+      "min_reaction_count": 15,
+      "max_reaction_count": 17,
+      "union_reaction_count": 18,
+      "core_reaction_count": 13,
+      "variable_reaction_count": 5,
+      "core_reactions": "R00200|R00235|R00658|R00710|R00711|R00756|R00762|R01015|R01061|R01068|R01512|R01518|R01662",
+      "variable_reactions": "R00341|R00431|R00703|R00746|R00754"
+    },
+    {
+      "pathway": "map00020",
+      "pathway_rn": "rn00020",
+      "pathway_label": "Citrate cycle (TCA cycle)",
+      "model_count": 3,
+      "pair_count": 3,
+      "identical_pair_count": 0,
+      "identical_pair_percent": 0.0,
+      "mean_jaccard": "0.5736",
+      "median_jaccard": "0.6",
+      "min_jaccard": "0.4286",
+      "max_jaccard": "0.6923",
+      "mean_reaction_count": "9.67",
+      "median_reaction_count": "9.0",
+      "min_reaction_count": 7,
+      "max_reaction_count": 13,
+      "union_reaction_count": 14,
+      "core_reaction_count": 6,
+      "variable_reaction_count": 8,
+      "core_reactions": "R00342|R00344|R00351|R00405|R00709|R01082",
+      "variable_reactions": "R00268|R00341|R00352|R00431|R00432|R01325|R01899|R01900"
+    },
+    {
+      "pathway": "map00030",
+      "pathway_rn": "rn00030",
+      "pathway_label": "Pentose phosphate pathway",
+      "model_count": 3,
+      "pair_count": 3,
+      "identical_pair_count": 0,
+      "identical_pair_percent": 0.0,
+      "mean_jaccard": "0.8154",
+      "median_jaccard": "0.8462",
+      "min_jaccard": "0.7333",
+      "max_jaccard": "0.8667",
+      "mean_reaction_count": "13.0",
+      "median_reaction_count": "13.0",
+      "min_reaction_count": 11,
+      "max_reaction_count": 15,
+      "union_reaction_count": 15,
+      "core_reaction_count": 11,
+      "variable_reaction_count": 4,
+      "core_reactions": "R00756|R00762|R01049|R01051|R01056|R01057|R01068|R01528|R01529|R02035|R02750",
+      "variable_reactions": "R01066|R01737|R02749|R08572"
+    },
+    {
+      "pathway": "map00680",
+      "pathway_rn": "rn00680",
+      "pathway_label": "Methane metabolism / C1 metabolism",
+      "model_count": 3,
+      "pair_count": 3,
+      "identical_pair_count": 0,
+      "identical_pair_percent": 0.0,
+      "mean_jaccard": "0.7796",
+      "median_jaccard": "0.7895",
+      "min_jaccard": "0.7368",
+      "max_jaccard": "0.8125",
+      "mean_reaction_count": "16.0",
+      "median_reaction_count": "15.0",
+      "min_reaction_count": 14,
+      "max_reaction_count": 19,
+      "union_reaction_count": 19,
+      "core_reaction_count": 13,
+      "variable_reaction_count": 6,
+      "core_reactions": "R00235|R00342|R00519|R00527|R00582|R00658|R00756|R00762|R00945|R01068|R01513|R01518|R04173",
+      "variable_reactions": "R00605|R00736|R01011|R06982|R06983|R08572"
+    }
+  ],
+  "mapping_metric_summary_by_pathway": [
+    {
+      "pathway": "map00010",
+      "pathway_rn": "rn00010",
+      "pathway_label": "Glycolysis / gluconeogenesis",
+      "model_count": 3,
+      "mean_matched_reactions": "16.0",
+      "median_matched_reactions": "16.0",
+      "min_matched_reactions": 15,
+      "max_matched_reactions": 17,
+      "mean_reaction_retention_percent": "28.57",
+      "median_reaction_retention_percent": "28.57",
+      "min_reaction_retention_percent": "26.79",
+      "max_reaction_retention_percent": "30.36"
+    },
+    {
+      "pathway": "map00020",
+      "pathway_rn": "rn00020",
+      "pathway_label": "Citrate cycle (TCA cycle)",
+      "model_count": 3,
+      "mean_matched_reactions": "9.67",
+      "median_matched_reactions": "9.0",
+      "min_matched_reactions": 7,
+      "max_matched_reactions": 13,
+      "mean_reaction_retention_percent": "33.33",
+      "median_reaction_retention_percent": "31.03",
+      "min_reaction_retention_percent": "24.14",
+      "max_reaction_retention_percent": "44.83"
+    },
+    {
+      "pathway": "map00030",
+      "pathway_rn": "rn00030",
+      "pathway_label": "Pentose phosphate pathway",
+      "model_count": 3,
+      "mean_matched_reactions": "13.0",
+      "median_matched_reactions": "13.0",
+      "min_matched_reactions": 11,
+      "max_matched_reactions": 15,
+      "mean_reaction_retention_percent": "22.41",
+      "median_reaction_retention_percent": "22.41",
+      "min_reaction_retention_percent": "18.97",
+      "max_reaction_retention_percent": "25.86"
+    },
+    {
+      "pathway": "map00680",
+      "pathway_rn": "rn00680",
+      "pathway_label": "Methane metabolism / C1 metabolism",
+      "model_count": 3,
+      "mean_matched_reactions": "16.0",
+      "median_matched_reactions": "15.0",
+      "min_matched_reactions": 14,
+      "max_matched_reactions": 19,
+      "mean_reaction_retention_percent": "15.38",
+      "median_reaction_retention_percent": "14.42",
+      "min_reaction_retention_percent": "13.46",
+      "max_reaction_retention_percent": "18.27"
+    }
+  ],
+  "files": [
+    "all_models_jaccard_summary_by_pathway.tsv",
+    "all_models_map_reaction_counts.tsv",
+    "all_models_map_reactions_long.tsv",
+    "all_models_mapping_metric_summary_by_pathway.tsv",
+    "all_models_mapping_metrics_by_model_pathway.tsv",
+    "all_models_pairwise_jaccard.tsv",
+    "all_models_pairwise_reaction_differences.tsv",
+    "all_models_reaction_frequency_by_pathway.tsv"
+  ]
+}
+
+
+
+
+

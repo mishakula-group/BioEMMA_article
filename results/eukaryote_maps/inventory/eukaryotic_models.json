@@ -1,0 +1,30 @@
+[
+  {
+    "bigg_id": "iMM904",
+    "organism": "Saccharomyces cerevisiae S288C",
+    "reaction_count": "1577",
+    "metabolite_count": "1226",
+    "gene_count": "905",
+    "domain_classification": "eukaryote_selected",
+    "classification_reason": "same eukaryotic models used in the article"
+  },
+  {
+    "bigg_id": "iMM1415",
+    "organism": "Mus musculus",
+    "reaction_count": "3726",
+    "metabolite_count": "2775",
+    "gene_count": "1375",
+    "domain_classification": "eukaryote_selected",
+    "classification_reason": "same eukaryotic models used in the article"
+  },
+  {
+    "bigg_id": "Recon3D",
+    "organism": "Homo sapiens",
+    "reaction_count": "10600",
+    "metabolite_count": "5835",
+    "gene_count": "2248",
+    "domain_classification": "eukaryote_selected",
+    "classification_reason": "same eukaryotic models used in the article"
+  }
+]
+

@@ -27,7 +27,9 @@ DETAILS_JSON_PATH = OUTPUT_DIR / "reaction_details.json"
 DATABASE_MAPPING_TSV_PATH = OUTPUT_DIR / "kegg_mapping_by_database.tsv"
 DATABASE_MAPPING_JSON_PATH = OUTPUT_DIR / "kegg_mapping_by_database.json"
 KGML_CACHE_DIR = TABLE_DIR / "kgml_cache"
-COBRA_CACHE_DIR = TABLE_DIR / ".cobra_cache"
+COBRA_CACHE_DIR = Path(
+    os.environ.get("BIOEMMA_COBRA_CACHE_DIR", str(TABLE_DIR / ".cobra_cache"))
+)
 
 
 def configure_cobra_cache() -> None:
@@ -139,13 +141,21 @@ def model_reaction_annotations(model) -> list[dict[str, set[str]]]:
     return annotations
 
 
+def supported_mapping_ids(mapping) -> tuple[set[str], set[str]]:
+    if not mapping:
+        return set(), set()
+
+    bigg_ids = set() if mapping.is_bigg_ec_fallback else set(mapping.bigg_all)
+    seed_ids = set() if mapping.is_seed_ec_fallback else set(mapping.seed_all)
+    return bigg_ids, seed_ids
+
+
 def retained_reactions(model_annotations, kegg_reactions, reaction_mapper) -> list[str]:
     retained = []
     for reaction in kegg_reactions:
         mapping = reaction_mapper.get(reaction)
         kegg_ids = {reaction}
-        bigg_ids = set(mapping.bigg_all) if mapping else set()
-        seed_ids = set(mapping.seed_all) if mapping else set()
+        bigg_ids, seed_ids = supported_mapping_ids(mapping)
 
         for annotation in model_annotations:
             if (
@@ -166,7 +176,8 @@ def mapped_reactions(reactions: list[str], reaction_mapper) -> list[str]:
     mapped = []
     for reaction in reactions:
         mapping = reaction_mapper.get(reaction)
-        if mapping and (mapping.bigg or mapping.seed):
+        bigg_ids, seed_ids = supported_mapping_ids(mapping)
+        if mapping and (bigg_ids or seed_ids):
             mapped.append(reaction)
     return mapped
 
@@ -178,8 +189,9 @@ def database_mapping_split(reactions: list[str], reaction_mapper) -> dict[str, l
 
     for reaction in reactions:
         mapping = reaction_mapper.get(reaction)
-        has_bigg = bool(mapping and set(mapping.bigg_all))
-        has_seed = bool(mapping and set(mapping.seed_all))
+        bigg_ids, seed_ids = supported_mapping_ids(mapping)
+        has_bigg = bool(bigg_ids)
+        has_seed = bool(seed_ids)
         if has_bigg:
             bigg.append(reaction)
         if has_seed:
@@ -363,7 +375,8 @@ def write_readme(rows: list[list[str]], results: dict[str, dict]) -> None:
             "Notes:",
             "",
             "- Mapped reactions are KEGG map reactions for which BioEMMA/MetaNetX provides at least one supported BiGG or SEED identifier.",
-            "- Retained reactions are mapped KEGG reactions that can be matched to the corresponding SBML reconstruction through KEGG, BiGG, or SEED annotations and remain in the model-filtered map.",
+            "- EC-number-only fallback aliases are excluded from the BiGG/SEED mapping and retention counts.",
+            "- Retained reactions are mapped KEGG reactions that can be matched to the corresponding SBML reconstruction through KEGG, non-fallback BiGG, or non-fallback SEED annotations and remain in the model-filtered map.",
             "- BioEMMA normalizes `map00010` to `rn00010` internally; the table keeps the user-facing `map00010` label.",
             "- KGML for `map00030` contains one reaction without coordinates (`R06837`). It is counted in KEGG and mapped totals but cannot be retained on a drawable BioEMMA map.",
             "- Detailed shared and model-specific reaction lists are written to `reaction_details.txt` and `reaction_details.json`.",
